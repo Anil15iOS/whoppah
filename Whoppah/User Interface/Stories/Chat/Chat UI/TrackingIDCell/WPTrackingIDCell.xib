@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WPTrackingIDCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UNK-lw-9NE">
+                        <rect key="frame" x="16" y="56" width="34" height="34"/>
+                        <color key="backgroundColor" name="smoke"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="BXX-dF-Dvc"/>
+                            <constraint firstAttribute="height" constant="34" id="P4l-wd-4MR"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1R-aO-SgL">
+                        <rect key="frame" x="58" y="0.0" width="256" height="90"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NBh-D3-r5e">
+                                <rect key="frame" x="154.5" y="9.5" width="93.5" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONDERWEG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTk-DX-JNB">
+                                        <rect key="frame" x="12" y="5" width="69.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="track_in_on_the_way_label"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90588235294117647" green="0.59999999999999998" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="LTk-DX-JNB" firstAttribute="centerX" secondItem="NBh-D3-r5e" secondAttribute="centerX" id="Bvu-03-5ok"/>
+                                    <constraint firstItem="LTk-DX-JNB" firstAttribute="centerY" secondItem="NBh-D3-r5e" secondAttribute="centerY" id="gGO-ey-dcO"/>
+                                    <constraint firstAttribute="trailing" secondItem="LTk-DX-JNB" secondAttribute="trailing" constant="12" id="ghi-S2-cQg"/>
+                                    <constraint firstItem="LTk-DX-JNB" firstAttribute="leading" secondItem="NBh-D3-r5e" secondAttribute="leading" constant="12" id="h3K-zw-YCq"/>
+                                    <constraint firstAttribute="height" constant="24" id="scL-OM-wdk"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verzending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pa3-iZ-G8K">
+                                <rect key="frame" x="8" y="12" width="79.5" height="19"/>
+                                <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="16"/>
+                                <color key="textColor" name="space"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="track_id_title"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Sxz-iL-2gL">
+                                <rect key="frame" x="8" y="39" width="240" height="16.5"/>
+                                <subviews>
+                                    <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="B9z-uj-6no">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="4"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track and tracenummer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kc9-Ya-4aY">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="steel"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="track_id_track_number_title"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="897487265536" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKj-TK-bIy">
+                                                <rect key="frame" x="0.0" y="4" width="240" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="space"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="x7v-3d-55s">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="16.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Via courier service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ieu-qr-Y1o">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="16.5"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="steel"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="track_id_track_courier"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ZUP-9q-Wvi">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="4"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Returns code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFj-yG-fuv">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="steel"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="track_id_return_number_title"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="897487265536" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcf-LW-Iyi">
+                                                <rect key="frame" x="0.0" y="4" width="240" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="space"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="B9z-uj-6no" secondAttribute="trailing" id="2ld-1g-26e"/>
+                                    <constraint firstItem="ZUP-9q-Wvi" firstAttribute="leading" secondItem="Sxz-iL-2gL" secondAttribute="leading" id="DJF-9O-gzg"/>
+                                    <constraint firstItem="B9z-uj-6no" firstAttribute="leading" secondItem="Sxz-iL-2gL" secondAttribute="leading" id="Xnx-Q9-wwh"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZUP-9q-Wvi" secondAttribute="trailing" id="yce-Ti-8Ea"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sxz-iL-2gL" firstAttribute="top" secondItem="pa3-iZ-G8K" secondAttribute="bottom" constant="8" id="3JD-GC-Pp5"/>
+                            <constraint firstItem="Sxz-iL-2gL" firstAttribute="leading" secondItem="S1R-aO-SgL" secondAttribute="leading" constant="8" id="9xh-Y8-lOV"/>
+                            <constraint firstAttribute="trailing" secondItem="NBh-D3-r5e" secondAttribute="trailing" constant="8" id="JGt-pM-gpd"/>
+                            <constraint firstAttribute="trailing" secondItem="Sxz-iL-2gL" secondAttribute="trailing" constant="8" id="OSj-r6-1d9"/>
+                            <constraint firstItem="pa3-iZ-G8K" firstAttribute="top" secondItem="S1R-aO-SgL" secondAttribute="top" constant="12" id="g1V-aL-VMc"/>
+                            <constraint firstItem="NBh-D3-r5e" firstAttribute="centerY" secondItem="pa3-iZ-G8K" secondAttribute="centerY" id="rdz-71-W5A"/>
+                            <constraint firstItem="pa3-iZ-G8K" firstAttribute="leading" secondItem="S1R-aO-SgL" secondAttribute="leading" constant="8" id="s3K-0Z-sT7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="S1R-aO-SgL" secondAttribute="trailing" constant="16" id="3uJ-ZB-dZ0"/>
+                <constraint firstItem="S1R-aO-SgL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="DYw-Ot-sYj"/>
+                <constraint firstItem="UNK-lw-9NE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="LgD-iw-OKz"/>
+                <constraint firstItem="S1R-aO-SgL" firstAttribute="leading" secondItem="UNK-lw-9NE" secondAttribute="trailing" constant="8" id="PP5-4Z-DZf"/>
+                <constraint firstAttribute="bottom" secondItem="UNK-lw-9NE" secondAttribute="bottom" id="tR6-fF-nbB"/>
+                <constraint firstAttribute="bottom" secondItem="S1R-aO-SgL" secondAttribute="bottom" id="unK-Gn-5XT"/>
+            </constraints>
+            <size key="customSize" width="330" height="218"/>
+            <connections>
+                <outlet property="avatarView" destination="UNK-lw-9NE" id="PIV-WO-Ika"/>
+                <outlet property="bubbleView" destination="S1R-aO-SgL" id="Zwc-qf-pWd"/>
+                <outlet property="courierView" destination="x7v-3d-55s" id="hlb-cN-ake"/>
+                <outlet property="returnNumberLabel" destination="tcf-LW-Iyi" id="iuE-xs-Rl3"/>
+                <outlet property="returnNumberTitleLabel" destination="iFj-yG-fuv" id="0NU-Ww-ABk"/>
+                <outlet property="returnNumberView" destination="ZUP-9q-Wvi" id="2xX-oQ-hwq"/>
+                <outlet property="statusBackgroundView" destination="NBh-D3-r5e" id="XZs-jl-Xw8"/>
+                <outlet property="statusLabel" destination="LTk-DX-JNB" id="8KO-bZ-Rtg"/>
+                <outlet property="trackNumberLabel" destination="fKj-TK-bIy" id="aDm-cf-Ch3"/>
+                <outlet property="trackNumberTitleLabel" destination="kc9-Ya-4aY" id="c0p-ff-aqk"/>
+                <outlet property="trackNumberView" destination="B9z-uj-6no" id="UIy-9Q-Itu"/>
+            </connections>
+            <point key="canvasLocation" x="361.60000000000002" y="219.04047976011995"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="smoke">
+            <color red="0.91764705882352937" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="space">
+            <color red="0.27843137254901962" green="0.29411764705882354" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="steel">
+            <color red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

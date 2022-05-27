@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilterMaterialCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="126" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zp5-sh-Pb0">
+                        <rect key="frame" x="0.0" y="9" width="64" height="32"/>
+                        <color key="backgroundColor" name="Shiny Blue"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rv-E1-YtZ">
+                        <rect key="frame" x="16" y="17" width="32" height="16"/>
+                        <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1rv-E1-YtZ" firstAttribute="top" secondItem="Zp5-sh-Pb0" secondAttribute="top" constant="8" id="1Ss-ds-FuH"/>
+                <constraint firstItem="1rv-E1-YtZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="4yZ-Eq-Hal"/>
+                <constraint firstItem="1rv-E1-YtZ" firstAttribute="bottom" secondItem="Zp5-sh-Pb0" secondAttribute="bottom" constant="-8" id="AyR-va-miG"/>
+                <constraint firstItem="1rv-E1-YtZ" firstAttribute="leading" secondItem="Zp5-sh-Pb0" secondAttribute="leading" constant="16" id="PL5-Q6-Bl7"/>
+                <constraint firstItem="1rv-E1-YtZ" firstAttribute="trailing" secondItem="Zp5-sh-Pb0" secondAttribute="trailing" constant="-16" id="XP4-cO-9FS"/>
+                <constraint firstItem="1rv-E1-YtZ" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="g1C-vp-d2h"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1rv-E1-YtZ" secondAttribute="trailing" constant="16" id="nRI-BD-shK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="126" height="50"/>
+            <connections>
+                <outlet property="nameLabel" destination="1rv-E1-YtZ" id="aKv-fs-y1x"/>
+                <outlet property="selectionView" destination="Zp5-sh-Pb0" id="M1S-Is-f5a"/>
+            </connections>
+            <point key="canvasLocation" x="113.59999999999999" y="48.575712143928037"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Shiny Blue">
+            <color red="0.23529411764705882" green="0.4823529411764706" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

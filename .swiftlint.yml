@@ -1,0 +1,89 @@
+disabled_rules:
+  - trailing_whitespace
+  - force_cast
+  - nesting
+  - identifier_name
+  - notification_center_detachment
+  - unused_setter_value
+  - valid_ibinspectable
+
+opt_in_rules: 
+  - empty_count
+
+included:
+  - Whoppah
+
+excluded:
+  - Carthage
+  - Pods
+  - "Whoppah/WhoppahCore/WhoppahCore/Logic/IBANTools/*"
+  - "Whoppah/User Interface/Views/DDDropdown/src/DropDown.swift"
+  - "Whoppah/User Interface/Views/DDDropdown/helpers/DDUIView+Extension.swift"
+  - "Whoppah/User Interface/Views/CollectionView/Layouts/RAReorderableLayout.swift"
+  - "Whoppah/User Interface/Views/CollectionView/Layouts/PinterestLayout.swift"
+  - "Whoppah/WhoppahCore/WhoppahCore/Generated/*"
+  
+analyzer_rules:
+  - explicit_self
+
+cyclomatic_complexity:
+  ignores_case_statements: true
+  warning: 25
+  error: 40
+
+function_body_length:
+  warning: 120
+  error: 150
+  
+force_cast: warning
+
+force_try:
+  severity: warning
+  
+line_length: 200
+
+type_body_length:
+  - 600 # warning
+  - 700 # error
+  
+file_length:
+  warning: 1000
+  error: 2000
+  
+function_parameter_count:
+  warning: 10
+  error: 15
+  
+type_name:
+  min_length: 4 # only warning
+  max_length:
+    warning: 60
+    error: 80
+  excluded: 
+    - iPhone
+    - Ad
+    - Sex
+    - Tab
+    - Tag
+    - UI
+identifier_name:
+  min_length:
+    error: 1
+    
+  excluded:
+    - id
+    - ID
+    - rhs
+    - lhs
+    - now
+    - ad
+    - Ad
+    - url
+    - URL
+    - key
+    - tax
+    - vc
+    - x
+    - y
+    
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)

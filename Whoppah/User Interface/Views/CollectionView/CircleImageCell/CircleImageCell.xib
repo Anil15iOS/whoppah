@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CircleImageCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="91" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="91" height="112"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yip-Vb-XZP" customClass="RoundedImageView" customModule="Staging" customModuleProvider="target">
+                        <rect key="frame" x="8" y="0.0" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Yip-Vb-XZP" secondAttribute="height" multiplier="1:1" id="UdK-yY-qwa"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="radiusPercentage">
+                                <real key="value" value="50"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="27Q-fo-hdb">
+                        <rect key="frame" x="1" y="83" width="89" height="29"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                        <color key="textColor" name="black"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="27Q-fo-hdb" secondAttribute="trailing" constant="1" id="0Ha-Sz-FPm"/>
+                <constraint firstItem="Yip-Vb-XZP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="3Il-5A-2iq"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="27Q-fo-hdb" secondAttribute="bottom" id="4x8-Qt-lie"/>
+                <constraint firstItem="Yip-Vb-XZP" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" constant="-16" id="Xpv-rr-yYo"/>
+                <constraint firstItem="27Q-fo-hdb" firstAttribute="top" secondItem="Yip-Vb-XZP" secondAttribute="bottom" constant="8" id="fPA-fS-Si0"/>
+                <constraint firstItem="Yip-Vb-XZP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gdO-HI-YMQ"/>
+                <constraint firstItem="27Q-fo-hdb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="kc3-0r-fOT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="112" height="112"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imageView" destination="Yip-Vb-XZP" id="Bef-Wl-RzL"/>
+                <outlet property="nameLabel" destination="27Q-fo-hdb" id="lBL-zl-4MI"/>
+            </connections>
+            <point key="canvasLocation" x="103.2" y="15.292353823088456"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

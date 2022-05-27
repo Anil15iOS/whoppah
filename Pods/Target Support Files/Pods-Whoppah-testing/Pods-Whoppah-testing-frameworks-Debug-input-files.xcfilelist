@@ -1,0 +1,26 @@
+${PODS_ROOT}/Target Support Files/Pods-Whoppah-testing/Pods-Whoppah-testing-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework
+${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework
+${BUILT_PRODUCTS_DIR}/Cache/Cache.framework
+${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework
+${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework
+${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework
+${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/HGCircularSlider/HGCircularSlider.framework
+${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework
+${BUILT_PRODUCTS_DIR}/KafkaRefresh/KafkaRefresh.framework
+${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework
+${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
+${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework
+${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework
+${BUILT_PRODUCTS_DIR}/MessengerKit/MessengerKit.framework
+${BUILT_PRODUCTS_DIR}/OpalImagePicker/OpalImagePicker.framework
+${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework
+${BUILT_PRODUCTS_DIR}/RxAnimated/RxAnimated.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SquareMosaicLayout/SquareMosaicLayout.framework
+${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework
+${BUILT_PRODUCTS_DIR}/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework

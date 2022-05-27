@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectPhotoMediaCell" id="gTV-IL-0wX" customClass="SelectPhotoMediaCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyP-Tg-yNx">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-5N-11K">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbN-fL-ulY" customClass="RoundedView" customModule="Staging" customModuleProvider="target">
+                                <rect key="frame" x="4" y="110" width="16" height="16"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23S-wV-agi">
+                                        <rect key="frame" x="5" y="1" width="6" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" name="Shiny Blue"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="23S-wV-agi" firstAttribute="centerY" secondItem="YbN-fL-ulY" secondAttribute="centerY" id="Pqj-4h-K62"/>
+                                    <constraint firstAttribute="width" constant="16" id="aOf-Jl-Yh2"/>
+                                    <constraint firstAttribute="width" secondItem="YbN-fL-ulY" secondAttribute="height" multiplier="1:1" id="dtG-2X-P67"/>
+                                    <constraint firstItem="23S-wV-agi" firstAttribute="centerX" secondItem="YbN-fL-ulY" secondAttribute="centerX" id="iwE-l2-9O5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radiusPercentage">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="addDropShadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtV-Pc-CXI" customClass="RoundedButton" customModule="Staging" customModuleProvider="target">
+                                <rect key="frame" x="102" y="102" width="24" height="24"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rtV-Pc-CXI" secondAttribute="height" id="qfW-T9-WM4"/>
+                                    <constraint firstAttribute="width" constant="24" id="zHc-kw-Ho4"/>
+                                </constraints>
+                                <state key="normal" image="ic_pencil_circle"/>
+                                <connections>
+                                    <action selector="editAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="sR3-Va-Q5p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rtV-Pc-CXI" secondAttribute="bottom" constant="4" id="9e7-LS-itg"/>
+                            <constraint firstItem="FcU-5N-11K" firstAttribute="leading" secondItem="dyP-Tg-yNx" secondAttribute="leading" id="L2W-9k-gta"/>
+                            <constraint firstAttribute="bottom" secondItem="FcU-5N-11K" secondAttribute="bottom" id="O53-WC-F4p"/>
+                            <constraint firstAttribute="trailing" secondItem="FcU-5N-11K" secondAttribute="trailing" id="Pkq-xr-lDP"/>
+                            <constraint firstAttribute="bottom" secondItem="YbN-fL-ulY" secondAttribute="bottom" constant="4" id="bEo-e1-llD"/>
+                            <constraint firstItem="YbN-fL-ulY" firstAttribute="leading" secondItem="dyP-Tg-yNx" secondAttribute="leading" constant="4" id="pYT-a6-RFk"/>
+                            <constraint firstAttribute="trailing" secondItem="rtV-Pc-CXI" secondAttribute="trailing" constant="4" id="sce-ts-TXL"/>
+                            <constraint firstItem="FcU-5N-11K" firstAttribute="top" secondItem="dyP-Tg-yNx" secondAttribute="top" id="uzP-Wk-RxG"/>
+                            <constraint firstItem="rtV-Pc-CXI" firstAttribute="width" secondItem="rtV-Pc-CXI" secondAttribute="height" id="vGo-dM-w95"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgf-Cz-6uT" customClass="RoundedButton" customModule="Staging" customModuleProvider="target">
+                        <rect key="frame" x="102" y="4" width="24" height="24"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Wgf-Cz-6uT" secondAttribute="height" id="llh-md-Ti6"/>
+                            <constraint firstAttribute="width" constant="24" id="tsu-hu-R54"/>
+                        </constraints>
+                        <state key="normal" image="ic_trash_blue"/>
+                        <connections>
+                            <action selector="closeAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="BqN-Pv-oxL"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dyP-Tg-yNx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="E4t-z5-lhG"/>
+                <constraint firstItem="Wgf-Cz-6uT" firstAttribute="top" secondItem="dyP-Tg-yNx" secondAttribute="top" constant="4" id="TnN-MV-oLT"/>
+                <constraint firstItem="dyP-Tg-yNx" firstAttribute="trailing" secondItem="Wgf-Cz-6uT" secondAttribute="trailing" constant="4" id="iRz-MU-qYq"/>
+                <constraint firstAttribute="bottom" secondItem="dyP-Tg-yNx" secondAttribute="bottom" id="ks3-93-R4Q"/>
+                <constraint firstAttribute="trailing" secondItem="dyP-Tg-yNx" secondAttribute="trailing" id="laL-g3-Jgw"/>
+                <constraint firstItem="dyP-Tg-yNx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sMe-rt-qdS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="closeButton" destination="Wgf-Cz-6uT" id="WsB-Er-xuM"/>
+                <outlet property="containerView" destination="dyP-Tg-yNx" id="rbI-Pc-J4o"/>
+                <outlet property="mediaCountLabel" destination="23S-wV-agi" id="GmT-bN-tKx"/>
+                <outlet property="mediaCountView" destination="YbN-fL-ulY" id="QdL-O2-dX9"/>
+                <outlet property="photoView" destination="FcU-5N-11K" id="i8I-Ju-rVg"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="138.53073463268368"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_pencil_circle" width="24" height="24"/>
+        <image name="ic_trash_blue" width="24" height="24"/>
+        <namedColor name="Shiny Blue">
+            <color red="0.23529411764705882" green="0.4823529411764706" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

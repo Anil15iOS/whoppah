@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6C1E2B282E3C9600F39535 /* ExampleMetalBackgroundShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C1E2A282E3C9600F39535 /* ExampleMetalBackgroundShaderView.swift */; };
+		4CEB399827F4EA7B007FC353 /* WhoppahModel in Frameworks */ = {isa = PBXBuildFile; productRef = 4CEB399727F4EA7B007FC353 /* WhoppahModel */; };
+		4CEB399927F4EA7B007FC353 /* WhoppahModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 4CEB399727F4EA7B007FC353 /* WhoppahModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		955DAE4F276293E800611BB3 /* WhoppahUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 95BAB771273E341500BEAE0D /* WhoppahUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		95BAB772273E341500BEAE0D /* WhoppahUI in Frameworks */ = {isa = PBXBuildFile; productRef = 95BAB771273E341500BEAE0D /* WhoppahUI */; };
+		95F2282C273A3EF100B63EF7 /* WhoppahUIIntegrationTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2282B273A3EF100B63EF7 /* WhoppahUIIntegrationTestApp.swift */; };
+		95F2282E273A3EF100B63EF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2282D273A3EF100B63EF7 /* ContentView.swift */; };
+		95F22830273A3EF300B63EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F2282F273A3EF300B63EF7 /* Assets.xcassets */; };
+		95F22833273A3EF300B63EF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F22832273A3EF300B63EF7 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		955DAE50276293E800611BB3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4CEB399927F4EA7B007FC353 /* WhoppahModel in Embed Frameworks */,
+				955DAE4F276293E800611BB3 /* WhoppahUI in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C1E701827F4E9A800C3DB10 /* WhoppahModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WhoppahModel; path = ../../WhoppahModel; sourceTree = "<group>"; };
+		4C6C1E2A282E3C9600F39535 /* ExampleMetalBackgroundShaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMetalBackgroundShaderView.swift; sourceTree = "<group>"; };
+		950A7EB9273A41C00008D440 /* WhoppahUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WhoppahUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950A7EBD273A42AA0008D440 /* WhoppahUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WhoppahUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BAB770273E33F600BEAE0D /* WhoppahUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WhoppahUI; path = ../WhoppahUI; sourceTree = "<group>"; };
+		95F22828273A3EF100B63EF7 /* WhoppahUIIntegrationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoppahUIIntegrationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2282B273A3EF100B63EF7 /* WhoppahUIIntegrationTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoppahUIIntegrationTestApp.swift; sourceTree = "<group>"; };
+		95F2282D273A3EF100B63EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95F2282F273A3EF300B63EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F22832273A3EF300B63EF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F22825273A3EF100B63EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB399827F4EA7B007FC353 /* WhoppahModel in Frameworks */,
+				95BAB772273E341500BEAE0D /* WhoppahUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		950A7EB8273A41C00008D440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				950A7EBD273A42AA0008D440 /* WhoppahUI.framework */,
+				950A7EB9273A41C00008D440 /* WhoppahUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F2281F273A3EF100B63EF7 = {
+			isa = PBXGroup;
+			children = (
+				95F22840273A3F5500B63EF7 /* Packages */,
+				95F2282A273A3EF100B63EF7 /* WhoppahUIIntegrationTest */,
+				95F22829273A3EF100B63EF7 /* Products */,
+				950A7EB8273A41C00008D440 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95F22829273A3EF100B63EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F22828273A3EF100B63EF7 /* WhoppahUIIntegrationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F2282A273A3EF100B63EF7 /* WhoppahUIIntegrationTest */ = {
+			isa = PBXGroup;
+			children = (
+				95F2282B273A3EF100B63EF7 /* WhoppahUIIntegrationTestApp.swift */,
+				95F2282D273A3EF100B63EF7 /* ContentView.swift */,
+				95F2282F273A3EF300B63EF7 /* Assets.xcassets */,
+				95F22831273A3EF300B63EF7 /* Preview Content */,
+				4C6C1E2A282E3C9600F39535 /* ExampleMetalBackgroundShaderView.swift */,
+			);
+			path = WhoppahUIIntegrationTest;
+			sourceTree = "<group>";
+		};
+		95F22831273A3EF300B63EF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95F22832273A3EF300B63EF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95F22840273A3F5500B63EF7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				95BAB770273E33F600BEAE0D /* WhoppahUI */,
+				4C1E701827F4E9A800C3DB10 /* WhoppahModel */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F22827273A3EF100B63EF7 /* WhoppahUIIntegrationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F22836273A3EF300B63EF7 /* Build configuration list for PBXNativeTarget "WhoppahUIIntegrationTest" */;
+			buildPhases = (
+				95F22824273A3EF100B63EF7 /* Sources */,
+				95F22825273A3EF100B63EF7 /* Frameworks */,
+				95F22826273A3EF100B63EF7 /* Resources */,
+				955DAE50276293E800611BB3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhoppahUIIntegrationTest;
+			packageProductDependencies = (
+				95BAB771273E341500BEAE0D /* WhoppahUI */,
+				4CEB399727F4EA7B007FC353 /* WhoppahModel */,
+			);
+			productName = WhoppahUIIntegrationTest;
+			productReference = 95F22828273A3EF100B63EF7 /* WhoppahUIIntegrationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F22820273A3EF100B63EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					95F22827273A3EF100B63EF7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 95F22823273A3EF100B63EF7 /* Build configuration list for PBXProject "WhoppahUIIntegrationTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F2281F273A3EF100B63EF7;
+			productRefGroup = 95F22829273A3EF100B63EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F22827273A3EF100B63EF7 /* WhoppahUIIntegrationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F22826273A3EF100B63EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F22833273A3EF300B63EF7 /* Preview Assets.xcassets in Resources */,
+				95F22830273A3EF300B63EF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F22824273A3EF100B63EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2282E273A3EF100B63EF7 /* ContentView.swift in Sources */,
+				95F2282C273A3EF100B63EF7 /* WhoppahUIIntegrationTestApp.swift in Sources */,
+				4C6C1E2B282E3C9600F39535 /* ExampleMetalBackgroundShaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95F22834273A3EF300B63EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F22835273A3EF300B63EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F22837273A3EF300B63EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhoppahUIIntegrationTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HB6ZNH53D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoppah.whoppahui.WhoppahUIIntegrationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F22838273A3EF300B63EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhoppahUIIntegrationTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HB6ZNH53D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoppah.whoppahui.WhoppahUIIntegrationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F22823273A3EF100B63EF7 /* Build configuration list for PBXProject "WhoppahUIIntegrationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F22834273A3EF300B63EF7 /* Debug */,
+				95F22835273A3EF300B63EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F22836273A3EF300B63EF7 /* Build configuration list for PBXNativeTarget "WhoppahUIIntegrationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F22837273A3EF300B63EF7 /* Debug */,
+				95F22838273A3EF300B63EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CEB399727F4EA7B007FC353 /* WhoppahModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WhoppahModel;
+		};
+		95BAB771273E341500BEAE0D /* WhoppahUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WhoppahUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 95F22820273A3EF100B63EF7 /* Project object */;
+}

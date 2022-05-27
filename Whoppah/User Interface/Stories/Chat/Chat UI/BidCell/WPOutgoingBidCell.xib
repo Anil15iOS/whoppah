@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WPOutgoingBidCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="87"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="87"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="32b-ye-12J">
+                        <rect key="frame" x="99" y="0.0" width="240" height="87"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yAQ-12-kPa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="32"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cK-IW-nrB">
+                                        <rect key="frame" x="16" y="0.0" width="208" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="tFC-Za-UtM" customClass="WPBubble" customModule="Staging" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="32"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="gRO-Nu-BGG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5cK-IW-nrB" firstAttribute="leading" secondItem="yAQ-12-kPa" secondAttribute="leading" constant="16" id="H4n-2C-CdQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="tFC-Za-UtM" secondAttribute="trailing" id="asz-wM-FS3"/>
+                                    <constraint firstAttribute="trailing" secondItem="5cK-IW-nrB" secondAttribute="trailing" constant="16" id="cPd-bu-grC"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4PJ-Av-eEj">
+                                <rect key="frame" x="-70" y="32" width="310" height="55"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68T-8V-xRg">
+                                        <rect key="frame" x="0.0" y="0.0" width="310" height="0.0"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" id="K6m-GX-u1n"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpG-6S-Fea" customClass="SecondaryLargeButton" customModule="Staging" customModuleProvider="target">
+                                        <rect key="frame" x="70" y="8" width="170" height="39"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="3Cj-kB-NsF"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="-32" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="titleEdgeInsets" minX="32" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="New bid" image="chat-cell-new-icon">
+                                            <color key="titleColor" name="Shiny Blue"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-cell-order-incomplete-new-bid-button"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                <color key="value" name="Shiny Blue"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="newBidClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="uEa-Mo-iFO"/>
+                                        </connections>
+                                    </button>
+                                    <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjC-qa-HBX">
+                                        <rect key="frame" x="0.0" y="55" width="310" height="0.0"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" id="9TR-0h-UZz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="RpG-6S-Fea" firstAttribute="leading" secondItem="4PJ-Av-eEj" secondAttribute="leading" constant="70" id="6QX-JQ-ywx"/>
+                                    <constraint firstItem="gjC-qa-HBX" firstAttribute="leading" secondItem="4PJ-Av-eEj" secondAttribute="leading" id="7SH-Nc-N8T"/>
+                                    <constraint firstAttribute="trailing" secondItem="gjC-qa-HBX" secondAttribute="trailing" id="eBi-2f-f00"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4PJ-Av-eEj" secondAttribute="bottom" id="104-FC-97b"/>
+                            <constraint firstItem="4PJ-Av-eEj" firstAttribute="leading" secondItem="yAQ-12-kPa" secondAttribute="leading" constant="-70" id="L5M-8l-l34"/>
+                            <constraint firstItem="yAQ-12-kPa" firstAttribute="top" secondItem="32b-ye-12J" secondAttribute="top" id="cGq-ZB-vch"/>
+                            <constraint firstAttribute="trailing" secondItem="4PJ-Av-eEj" secondAttribute="trailing" id="hbg-fF-cmD"/>
+                            <constraint firstItem="yAQ-12-kPa" firstAttribute="leading" secondItem="32b-ye-12J" secondAttribute="leading" id="jOD-kc-5qS"/>
+                            <constraint firstAttribute="trailing" secondItem="yAQ-12-kPa" secondAttribute="trailing" id="r6D-Cw-Ktd"/>
+                            <constraint firstItem="4PJ-Av-eEj" firstAttribute="top" secondItem="yAQ-12-kPa" secondAttribute="bottom" id="uCJ-Sw-Yxy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="32b-ye-12J" secondAttribute="trailing" constant="16" id="4Iu-kr-gCS"/>
+                <constraint firstItem="32b-ye-12J" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GH8-8l-Tvb"/>
+                <constraint firstAttribute="bottom" secondItem="32b-ye-12J" secondAttribute="bottom" id="cKZ-eH-BEb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="355" height="116"/>
+            <connections>
+                <outlet property="bidButton" destination="RpG-6S-Fea" id="sId-aN-W5a"/>
+                <outlet property="bidStatusLabel" destination="5cK-IW-nrB" id="MJ7-oE-eAl"/>
+                <outlet property="bubble" destination="tFC-Za-UtM" id="trQ-Qf-pYM"/>
+                <outlet property="bubbleView" destination="32b-ye-12J" id="6vc-UH-TbP"/>
+                <outlet property="bubbleWidthConstraint" destination="gRO-Nu-BGG" id="I7x-rn-Wsj"/>
+                <outlet property="buttonView" destination="gjC-qa-HBX" id="D4H-yJ-gO5"/>
+                <outlet property="buttonViewHeight" destination="9TR-0h-UZz" id="zSv-iY-Y5Q"/>
+            </connections>
+            <point key="canvasLocation" x="269.60000000000002" y="213.64317841079463"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chat-cell-new-icon" width="16" height="16"/>
+        <namedColor name="Shiny Blue">
+            <color red="0.23529411764705882" green="0.4823529411764706" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

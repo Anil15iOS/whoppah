@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeBlock" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="allButton" destination="Yyc-dK-Zgd" id="TOM-nw-zKR"/>
+                <outlet property="blockTitle" destination="8Yo-UY-Qu7" id="cfH-8m-b4K"/>
+                <outlet property="collectionView" destination="n0v-0c-NJq" id="nhb-SA-WAX"/>
+                <outlet property="collectionViewHeight" destination="Ots-g7-oeu" id="y4w-NN-EZ9"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="E1v-X4-mZ9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="HomeBlock" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nieuwe Specials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yo-UY-Qu7">
+                    <rect key="frame" x="16" y="60" width="148.5" height="386"/>
+                    <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="20"/>
+                    <color key="textColor" name="black"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyc-dK-Zgd">
+                    <rect key="frame" x="319" y="244.5" width="79" height="17"/>
+                    <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="14"/>
+                    <state key="normal" title="Toon alles" image="ic_right_arrow">
+                        <color key="titleColor" name="orange"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="common_btn_show_all"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="248" verticalCompressionResistancePriority="250" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="n0v-0c-NJq">
+                    <rect key="frame" x="0.0" y="462" width="414" height="400"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="Ots-g7-oeu"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PAS-ge-in4">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Yyc-dK-Zgd" firstAttribute="centerY" secondItem="8Yo-UY-Qu7" secondAttribute="centerY" id="4Ir-sk-f09"/>
+                <constraint firstItem="n0v-0c-NJq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FNt-Qz-gVi"/>
+                <constraint firstItem="8Yo-UY-Qu7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="S6r-Gf-uju"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yyc-dK-Zgd" secondAttribute="trailing" constant="16" id="THv-bf-1Pm"/>
+                <constraint firstItem="n0v-0c-NJq" firstAttribute="top" secondItem="8Yo-UY-Qu7" secondAttribute="bottom" constant="16" id="TWs-my-6ze"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="n0v-0c-NJq" secondAttribute="bottom" id="hvl-h5-0d5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="n0v-0c-NJq" secondAttribute="trailing" id="ppq-4i-Qhb"/>
+                <constraint firstItem="8Yo-UY-Qu7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="ywM-dm-6FW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="114"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_right_arrow" width="16" height="16"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="orange">
+            <color red="0.88627450980392153" green="0.43529411764705883" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

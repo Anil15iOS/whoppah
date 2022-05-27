@@ -1,0 +1,9 @@
+We hebben van alles geoptimaliseerd! Hier de highlights:
+* Je kunt nu ook advertenties delen met anderen via deeplinks!
+* We ronden vanaf nu de berekening voor het minimumbod naar boven af
+* Het menu icoontje in de balk onderaan verandert nu van kleur
+* We tonen geen tussenstap meer als je op koop nu klikt om het kopen te vereenvoudigen
+* We tonen nu een invoerveld voor biedingen in de chat
+* We tonen de favorieten en bekeken teller met een kleine aanpassing in de achtergrond zodat je ze makkelijker kunt zien
+* We tonen niet meer de verkocht sectie in publieke profielen
+* Vanaf nu zie je eenvoudiger welke berichten gelezen of ongelezen zijn in chat of notificaties

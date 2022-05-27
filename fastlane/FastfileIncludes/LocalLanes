@@ -1,0 +1,11 @@
+platform :ios do
+	desc "[LOCAL] Build and run tests"
+	lane :local_test do
+	 	scan(
+			scheme: "Whoppah-testing",
+			output_types: 'junit',
+			output_files: 'junit.xml',
+			output_directory: './build/test_output/xctest',
+			include_simulator_logs: false)
+	end
+end

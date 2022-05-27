@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Q8i-oG-lcr" customClass="WPChatCollectionViewHeader" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hCP-Pb-Ls8">
+                    <rect key="frame" x="16" y="44" width="288" height="21.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-YP-MeC">
+                            <rect key="frame" x="141.5" y="0.0" width="5.5" height="13.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                            <color key="textColor" name="steel"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45A-B7-s0U">
+                            <rect key="frame" x="40" y="13.5" width="208" height="8"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="peV-Gj-nWS"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="45A-B7-s0U" secondAttribute="trailing" constant="40" id="qqw-vn-Y2p"/>
+                        <constraint firstItem="45A-B7-s0U" firstAttribute="leading" secondItem="hCP-Pb-Ls8" secondAttribute="leading" constant="40" id="x5B-88-6pm"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bx9-Wu-cuV">
+                    <rect key="frame" x="157.5" y="65.5" width="5.5" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                    <color key="textColor" name="steel"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="bx9-Wu-cuV" firstAttribute="top" secondItem="hCP-Pb-Ls8" secondAttribute="bottom" id="E4c-bV-ndz"/>
+                <constraint firstItem="bx9-Wu-cuV" firstAttribute="centerX" secondItem="sxg-UG-3JW" secondAttribute="centerX" id="MdC-pw-k8w"/>
+                <constraint firstItem="hCP-Pb-Ls8" firstAttribute="leading" secondItem="sxg-UG-3JW" secondAttribute="leading" constant="16" id="mmp-cL-nA2"/>
+                <constraint firstItem="sxg-UG-3JW" firstAttribute="trailing" secondItem="hCP-Pb-Ls8" secondAttribute="trailing" constant="16" id="uc1-F6-mGW"/>
+                <constraint firstItem="sxg-UG-3JW" firstAttribute="top" secondItem="hCP-Pb-Ls8" secondAttribute="top" id="w0K-yk-nrw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="sxg-UG-3JW"/>
+            <connections>
+                <outlet property="date" destination="bx9-Wu-cuV" id="SXh-Ks-15E"/>
+                <outlet property="stackView" destination="hCP-Pb-Ls8" id="hb7-b4-g7u"/>
+                <outlet property="title" destination="Ufd-YP-MeC" id="PI4-zB-bsh"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <namedColor name="steel">
+            <color red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="NotificationSettingsCell" customModule="Whoppah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whoppah updates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MnE-7b-NC4">
+                        <rect key="frame" x="16" y="16" width="144.5" height="22"/>
+                        <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="16"/>
+                        <color key="textColor" name="space"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Stuur mij notificaties over acties, nieuwe toepassingen en diensten op Whoppah." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vy-oy-prJ">
+                        <rect key="frame" x="16" y="42" width="229" height="50.5"/>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                        <color key="textColor" name="steel"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ck-aV-Z6e">
+                        <rect key="frame" x="253" y="16" width="53" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="CCa-Jt-wp3"/>
+                            <constraint firstAttribute="height" constant="31" id="UOG-IS-dSS"/>
+                        </constraints>
+                        <color key="onTintColor" name="orange"/>
+                        <connections>
+                            <action selector="switchAction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="0ES-sL-0d6"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1Ck-aV-Z6e" secondAttribute="trailing" constant="16" id="9Ci-MO-zBz"/>
+                    <constraint firstItem="2Vy-oy-prJ" firstAttribute="top" secondItem="MnE-7b-NC4" secondAttribute="bottom" constant="4" id="EXa-Ty-JVw"/>
+                    <constraint firstItem="MnE-7b-NC4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="M6B-ZT-fa5"/>
+                    <constraint firstItem="2Vy-oy-prJ" firstAttribute="leading" secondItem="MnE-7b-NC4" secondAttribute="leading" id="OuS-oE-aBR"/>
+                    <constraint firstItem="1Ck-aV-Z6e" firstAttribute="top" secondItem="MnE-7b-NC4" secondAttribute="top" id="tHg-0u-Lpk"/>
+                    <constraint firstItem="MnE-7b-NC4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="wfg-nT-YG3"/>
+                    <constraint firstItem="1Ck-aV-Z6e" firstAttribute="leading" secondItem="2Vy-oy-prJ" secondAttribute="trailing" constant="8" id="zdP-Xi-pYW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="2Vy-oy-prJ" id="XrZ-hq-wpt"/>
+                <outlet property="switch" destination="1Ck-aV-Z6e" id="Dng-Vr-fAp"/>
+                <outlet property="titleLabel" destination="MnE-7b-NC4" id="hS2-R0-obg"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="178.11094452773614"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="orange">
+            <color red="0.88627450980392153" green="0.43529411764705883" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="space">
+            <color red="0.27843137254901962" green="0.29411764705882354" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="steel">
+            <color red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

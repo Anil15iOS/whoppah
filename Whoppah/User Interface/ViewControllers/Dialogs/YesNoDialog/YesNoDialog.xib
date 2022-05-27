@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YesNoDialog" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="nMa-pz-do1" id="eDI-0m-6R5"/>
+                <outlet property="messageLabel" destination="0UK-0G-hn9" id="wiQ-mn-dII"/>
+                <outlet property="noButton" destination="7rD-by-Hz2" id="jhh-PY-rJb"/>
+                <outlet property="titleLabel" destination="wWr-Yc-k7M" id="6fy-p8-K74"/>
+                <outlet property="view" destination="iN0-l3-epB" id="XG2-aA-o9W"/>
+                <outlet property="yesButton" destination="a65-Hh-lUb" id="aeV-le-nqe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCX-H4-ehI">
+                    <rect key="frame" x="0.0" y="688" width="414" height="174"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMa-pz-do1">
+                            <rect key="frame" x="16" y="16" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="OEL-rM-Bpy"/>
+                                <constraint firstAttribute="width" constant="40" id="qsM-4S-n2g"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="12" maxX="12" maxY="0.0"/>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="JMd-6W-drR"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWr-Yc-k7M">
+                            <rect key="frame" x="16" y="27.5" width="382" height="16.5"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UK-0G-hn9">
+                            <rect key="frame" x="16" y="64" width="382" height="22"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rD-by-Hz2" customClass="SecondaryLargeButton" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="16" y="110" width="174.5" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="tIV-9C-Flv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <state key="normal" title="No"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="common_no_button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="noPressed:" destination="-1" eventType="touchUpInside" id="vLP-fw-VbH"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="274-FA-snT" userLabel="Divider Dummy View">
+                            <rect key="frame" x="206.5" y="110" width="1" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="fZO-JO-4lt"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a65-Hh-lUb" customClass="PrimaryLargeButton" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="223.5" y="110" width="174.5" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="VJ0-Qv-cys"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <state key="normal" title="Ja"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="common_yes_button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="yesPressed:" destination="-1" eventType="touchUpInside" id="GQZ-Q2-7ft"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="a65-Hh-lUb" firstAttribute="centerY" secondItem="7rD-by-Hz2" secondAttribute="centerY" id="01a-8o-tjt"/>
+                        <constraint firstItem="nMa-pz-do1" firstAttribute="top" secondItem="DCX-H4-ehI" secondAttribute="top" constant="16" id="2J8-4F-ZcL"/>
+                        <constraint firstItem="7rD-by-Hz2" firstAttribute="leading" secondItem="DCX-H4-ehI" secondAttribute="leading" constant="16" id="3JU-3f-jX2"/>
+                        <constraint firstItem="0UK-0G-hn9" firstAttribute="leading" secondItem="DCX-H4-ehI" secondAttribute="leading" constant="16" id="By6-Qz-pEP"/>
+                        <constraint firstItem="274-FA-snT" firstAttribute="height" secondItem="7rD-by-Hz2" secondAttribute="height" id="Dl1-Oj-RKv"/>
+                        <constraint firstItem="nMa-pz-do1" firstAttribute="leading" secondItem="DCX-H4-ehI" secondAttribute="leading" constant="16" id="Du1-Lq-4QH"/>
+                        <constraint firstItem="a65-Hh-lUb" firstAttribute="leading" secondItem="274-FA-snT" secondAttribute="trailing" constant="16" id="Ey5-2r-ahn"/>
+                        <constraint firstItem="0UK-0G-hn9" firstAttribute="bottom" secondItem="7rD-by-Hz2" secondAttribute="top" constant="-24" id="KJx-QQ-pi6"/>
+                        <constraint firstItem="wWr-Yc-k7M" firstAttribute="centerY" secondItem="nMa-pz-do1" secondAttribute="centerY" id="TYd-8H-fOD"/>
+                        <constraint firstAttribute="trailing" secondItem="a65-Hh-lUb" secondAttribute="trailing" constant="16" id="Tnz-AA-VUG"/>
+                        <constraint firstAttribute="trailing" secondItem="0UK-0G-hn9" secondAttribute="trailing" constant="16" id="VLa-sd-q6M"/>
+                        <constraint firstItem="wWr-Yc-k7M" firstAttribute="leading" secondItem="DCX-H4-ehI" secondAttribute="leading" constant="16" id="XQE-7Q-CY5"/>
+                        <constraint firstItem="0UK-0G-hn9" firstAttribute="top" secondItem="wWr-Yc-k7M" secondAttribute="bottom" constant="20" id="Y95-Kd-UHG"/>
+                        <constraint firstItem="274-FA-snT" firstAttribute="centerY" secondItem="7rD-by-Hz2" secondAttribute="centerY" id="bpA-pl-vMc"/>
+                        <constraint firstItem="7rD-by-Hz2" firstAttribute="trailing" secondItem="274-FA-snT" secondAttribute="leading" constant="-16" id="jRT-Nu-bv6"/>
+                        <constraint firstAttribute="trailing" secondItem="wWr-Yc-k7M" secondAttribute="trailing" constant="16" id="nGL-07-4HG"/>
+                        <constraint firstItem="274-FA-snT" firstAttribute="centerX" secondItem="DCX-H4-ehI" secondAttribute="centerX" id="yv9-d9-EyY"/>
+                        <constraint firstAttribute="bottom" secondItem="7rD-by-Hz2" secondAttribute="bottom" constant="16" id="zOu-es-70l"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="leading" secondItem="DCX-H4-ehI" secondAttribute="leading" id="4Df-CH-9NJ"/>
+                <constraint firstItem="DCX-H4-ehI" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="IYd-eF-zwL"/>
+                <constraint firstItem="DCX-H4-ehI" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Myk-0B-Smb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="DCX-H4-ehI" secondAttribute="bottom" id="vfx-lE-9Ee"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="132" y="107"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+    </resources>
+</document>

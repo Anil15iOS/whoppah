@@ -1,0 +1,5 @@
+app_identifier("com.whoppah.app") # The bundle identifier of your app
+apple_id("thomas@whoppah.com") # Your Apple email address
+
+itc_team_id("120002407") # App Store Connect Team ID
+team_id("5HB6ZNH53D") # Developer Portal Team ID

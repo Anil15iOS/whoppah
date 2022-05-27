@@ -1,0 +1,6 @@
+framework module Pods_WhoppahTests {
+  umbrella header "Pods-WhoppahTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

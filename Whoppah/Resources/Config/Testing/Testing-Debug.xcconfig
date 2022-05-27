@@ -1,0 +1,15 @@
+//
+//  Staging-Debug.xcconfig
+//  Whoppah
+//
+//  Created by Eddie Long on 11/12/2019.
+//  Copyright © 2019 Whoppah. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_NAME = Testing-Debug
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTesting
+
+#include "Pods/Target Support Files/Pods-Whoppah-testing/Pods-Whoppah-testing.debug.xcconfig"

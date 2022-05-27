@@ -1,0 +1,10 @@
+--swiftversion 5.1
+
+# Rules
+--commas inline
+
+# Files
+
+--exclude Whoppah/WhoppahCore/WhoppahCore/Generated
+--exclude Whoppah/WhoppahCore/WhoppahCore/Logic/IBANTools
+--exclude Pods

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilterControlCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="32"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="32"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gRx-TT-zf3">
+                        <rect key="frame" x="16" y="8" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="CRP-Fm-9aR"/>
+                            <constraint firstAttribute="height" constant="16" id="uwh-UD-sQy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INh-7n-sGD">
+                        <rect key="frame" x="40" y="8" width="111" height="16"/>
+                        <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="13"/>
+                        <color key="textColor" name="black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="INh-7n-sGD" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="4IX-kp-BeC"/>
+                <constraint firstItem="INh-7n-sGD" firstAttribute="leading" secondItem="gRx-TT-zf3" secondAttribute="trailing" constant="8" id="aYw-Yd-BEh"/>
+                <constraint firstItem="gRx-TT-zf3" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="fxI-T4-gxe"/>
+                <constraint firstAttribute="trailing" secondItem="INh-7n-sGD" secondAttribute="trailing" constant="16" id="ivT-wj-9VS"/>
+                <constraint firstItem="gRx-TT-zf3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="x2E-kx-jMZ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="167" height="50"/>
+            <connections>
+                <outlet property="iconView" destination="gRx-TT-zf3" id="QM9-0c-0VE"/>
+                <outlet property="nameLabel" destination="INh-7n-sGD" id="ehP-04-qDG"/>
+            </connections>
+            <point key="canvasLocation" x="231.19999999999999" y="131.33433283358323"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdAnnotationView" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="9Wi-2L-ClA" id="hY3-1h-Gss"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="oxP-Pm-KXP"/>
+                <outlet property="imageView" destination="pxt-83-XBQ" id="1UQ-TZ-sh4"/>
+                <outlet property="priceLabel" destination="Sg9-aR-ylB" id="3ME-k4-7NF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="40" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Wi-2L-ClA">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Union" translatesAutoresizingMaskIntoConstraints="NO" id="iKg-2C-9Gq">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="48"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pxt-83-XBQ">
+                            <rect key="frame" x="3" y="3" width="34" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="Is6-VN-Zkn"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sg9-aR-ylB">
+                            <rect key="frame" x="3" y="27" width="34" height="12"/>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="10"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="pxt-83-XBQ" secondAttribute="trailing" constant="3" id="26i-za-Bks"/>
+                        <constraint firstItem="Sg9-aR-ylB" firstAttribute="bottom" secondItem="pxt-83-XBQ" secondAttribute="bottom" id="F1O-Mo-Erv"/>
+                        <constraint firstAttribute="bottom" secondItem="iKg-2C-9Gq" secondAttribute="bottom" id="Qm9-GN-bff"/>
+                        <constraint firstItem="iKg-2C-9Gq" firstAttribute="leading" secondItem="9Wi-2L-ClA" secondAttribute="leading" id="Sxf-P3-4Mi"/>
+                        <constraint firstItem="pxt-83-XBQ" firstAttribute="leading" secondItem="9Wi-2L-ClA" secondAttribute="leading" constant="3" id="Uhe-Sr-N2V"/>
+                        <constraint firstItem="pxt-83-XBQ" firstAttribute="top" secondItem="9Wi-2L-ClA" secondAttribute="top" constant="3" id="iLV-ys-Kia"/>
+                        <constraint firstItem="Sg9-aR-ylB" firstAttribute="trailing" secondItem="pxt-83-XBQ" secondAttribute="trailing" id="mxB-ZA-UJS"/>
+                        <constraint firstAttribute="trailing" secondItem="iKg-2C-9Gq" secondAttribute="trailing" id="n3L-Fp-uJy"/>
+                        <constraint firstItem="iKg-2C-9Gq" firstAttribute="top" secondItem="9Wi-2L-ClA" secondAttribute="top" id="nPc-g2-gcY"/>
+                        <constraint firstItem="Sg9-aR-ylB" firstAttribute="leading" secondItem="pxt-83-XBQ" secondAttribute="leading" id="oIb-f0-3iZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9Wi-2L-ClA" secondAttribute="trailing" id="QSU-cm-ERX"/>
+                <constraint firstAttribute="bottom" secondItem="9Wi-2L-ClA" secondAttribute="bottom" id="ZWB-ld-svz"/>
+                <constraint firstItem="9Wi-2L-ClA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ozk-uG-mPH"/>
+                <constraint firstItem="9Wi-2L-ClA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qrp-UK-39E"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="-131.33433283358323"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Union" width="40" height="48.5"/>
+    </resources>
+</document>

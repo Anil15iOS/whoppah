@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>893420819731-8pjs8nrb1ibd9aes6sko6u9f86pof6bm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.893420819731-8pjs8nrb1ibd9aes6sko6u9f86pof6bm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>893420819731-bp5olsqtv1ooubfbl5kluei6qe7724g3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBVqNiMSUEayYNjRtFXkFQSfVfFBH4argA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>893420819731</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.whoppah.staging</string>
+	<key>PROJECT_ID</key>
+	<string>focus-blueprint-219909</string>
+	<key>STORAGE_BUCKET</key>
+	<string>focus-blueprint-219909.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:893420819731:ios:51421490ed14eb804a36e6</string>
+	<key>DATABASE_URL</key>
+	<string>https://focus-blueprint-219909.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+[submodule "gateway"]
+	path = gateway
+	url = git@github.com:whoppah/gateway.git
+[submodule "graphql-mobile"]
+	path = graphql-mobile
+	url = git@github.com:whoppah/graphql-mobile.git

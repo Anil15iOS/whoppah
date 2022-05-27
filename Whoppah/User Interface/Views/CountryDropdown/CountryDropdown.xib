@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountryDropdown" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="rfO-St-BDx"/>
+                <outlet property="countryStackView" destination="Cyv-dx-8en" id="L8X-aw-5UU"/>
+                <outlet property="countryTextfield" destination="SGA-jZ-LcV" id="x3k-Yb-czr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cyv-dx-8en">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SGA-jZ-LcV" customClass="WPTextField" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="ia2-Hl-58K"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_small_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="f09-9P-5SL">
+                    <rect key="frame" x="382" y="64" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="JQ5-sk-ZOZ"/>
+                        <constraint firstAttribute="width" constant="16" id="yd8-dW-JZV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="f09-9P-5SL" firstAttribute="centerY" secondItem="SGA-jZ-LcV" secondAttribute="centerY" id="EbC-xf-qtf"/>
+                <constraint firstItem="Cyv-dx-8en" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Hb0-65-r8R"/>
+                <constraint firstItem="f09-9P-5SL" firstAttribute="trailing" secondItem="Cyv-dx-8en" secondAttribute="trailing" constant="-16" id="XR7-lG-WuU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Cyv-dx-8en" secondAttribute="trailing" id="Yta-x3-WoF"/>
+                <constraint firstItem="Cyv-dx-8en" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="kQU-Zc-CA3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_arrow_small_bottom" width="16" height="16"/>
+    </resources>
+</document>

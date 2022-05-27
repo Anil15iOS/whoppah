@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeleteAnADDialog" customModule="Whoppah" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="BXP-Bh-nmN" id="UYi-OA-gyf"/>
+                <outlet property="noButton" destination="4Xc-pw-MT7" id="Ld0-3H-tO4"/>
+                <outlet property="notSoldWithWhoppah" destination="DQx-GV-iJK" id="D3y-Cv-wHa"/>
+                <outlet property="notSoldWithWhoppahContainer" destination="leK-R4-pyq" id="7P2-Yt-xtY"/>
+                <outlet property="soldWithWhoppah" destination="aYd-Bf-Tjg" id="eAw-WZ-yXM"/>
+                <outlet property="soldWithWhoppahContainer" destination="iK8-Zg-2uu" id="jZM-bU-Rhm"/>
+                <outlet property="titleLabel" destination="8dY-xh-L4n" id="u72-a5-bTs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yesButton" destination="R73-vq-en4" id="He8-pB-etN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wpp-Nn-yef">
+                    <rect key="frame" x="0.0" y="586" width="414" height="276"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXP-Bh-nmN">
+                            <rect key="frame" x="8" y="16" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="1U4-8H-ZMw"/>
+                                <constraint firstAttribute="width" secondItem="BXP-Bh-nmN" secondAttribute="height" multiplier="1:1" id="DPg-IS-ZSr"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="12" maxX="12" maxY="0.0"/>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="D6n-3y-2ya"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERKOCHT VIA WHOPPAH?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dY-xh-L4n">
+                            <rect key="frame" x="16" y="4" width="382" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="wtj-Af-6ax"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="my_ad_delete_title"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ex4-66-32L" userLabel="Divider">
+                            <rect key="frame" x="0.0" y="68" width="414" height="1"/>
+                            <color key="backgroundColor" name="smoke"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="3Z3-7H-vxE"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iK8-Zg-2uu" userLabel="SoldContainer">
+                            <rect key="frame" x="16" y="68" width="382" height="64"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verkocht via Whoppah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctk-bw-JLU">
+                                    <rect key="frame" x="0.0" y="0.0" width="149" height="64"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="64" id="FiU-Q6-wjv"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                    <color key="textColor" name="space"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="my_ads_delete_sold_with_whoppah"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <view contentMode="scaleToFill" horizontalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="aYd-Bf-Tjg" customClass="RadioButton" customModule="Whoppah" customModuleProvider="target">
+                                    <rect key="frame" x="358" y="20" width="24" height="24"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="MEy-Kr-nc3"/>
+                                        <constraint firstAttribute="width" constant="24" id="zK2-Ai-04B"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDQ-vF-ZoT" userLabel="Divider">
+                                    <rect key="frame" x="-16" y="63" width="414" height="1"/>
+                                    <color key="backgroundColor" name="smoke"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="PxW-af-FdG"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="Ctk-bw-JLU" firstAttribute="leading" secondItem="iK8-Zg-2uu" secondAttribute="leading" id="25u-VG-gpO"/>
+                                <constraint firstItem="wDQ-vF-ZoT" firstAttribute="leading" secondItem="iK8-Zg-2uu" secondAttribute="leading" constant="-16" id="44l-T3-Vt5"/>
+                                <constraint firstItem="Ctk-bw-JLU" firstAttribute="height" secondItem="iK8-Zg-2uu" secondAttribute="height" id="4nD-cA-unA"/>
+                                <constraint firstItem="Ctk-bw-JLU" firstAttribute="centerY" secondItem="iK8-Zg-2uu" secondAttribute="centerY" id="6p5-IG-wPO"/>
+                                <constraint firstAttribute="trailing" secondItem="aYd-Bf-Tjg" secondAttribute="trailing" id="Hky-yb-zuN"/>
+                                <constraint firstAttribute="bottom" secondItem="wDQ-vF-ZoT" secondAttribute="bottom" id="RZi-Xh-4cd"/>
+                                <constraint firstItem="aYd-Bf-Tjg" firstAttribute="centerY" secondItem="iK8-Zg-2uu" secondAttribute="centerY" id="lsq-Ln-D8z"/>
+                                <constraint firstAttribute="height" constant="64" id="yee-Dx-UAK"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leK-R4-pyq" userLabel="NotSoldContainer">
+                            <rect key="frame" x="16" y="132" width="382" height="64"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niet verkocht via Whoppah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdV-9a-0wR">
+                                    <rect key="frame" x="0.0" y="0.0" width="178.5" height="64"/>
+                                    <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                    <color key="textColor" name="space"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="my_ads_delete_not_sold_with_whoppah"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <view contentMode="scaleToFill" horizontalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="DQx-GV-iJK" customClass="RadioButton" customModule="Whoppah" customModuleProvider="target">
+                                    <rect key="frame" x="358" y="20" width="24" height="24"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="OsP-8s-T79"/>
+                                        <constraint firstAttribute="width" constant="24" id="j7y-Vh-6nv"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaS-KG-jgG" userLabel="Divider">
+                                    <rect key="frame" x="-16" y="63" width="414" height="1"/>
+                                    <color key="backgroundColor" name="smoke"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="UCX-oe-6Zo"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="yaS-KG-jgG" secondAttribute="bottom" id="2Iv-6y-wzz"/>
+                                <constraint firstItem="UdV-9a-0wR" firstAttribute="height" secondItem="leK-R4-pyq" secondAttribute="height" id="6qf-wZ-ggP"/>
+                                <constraint firstItem="yaS-KG-jgG" firstAttribute="leading" secondItem="leK-R4-pyq" secondAttribute="leading" constant="-16" id="Jbh-Dz-YSU"/>
+                                <constraint firstItem="DQx-GV-iJK" firstAttribute="centerY" secondItem="leK-R4-pyq" secondAttribute="centerY" id="Nx6-GN-4o8"/>
+                                <constraint firstItem="UdV-9a-0wR" firstAttribute="leading" secondItem="leK-R4-pyq" secondAttribute="leading" id="UFd-dW-eYk"/>
+                                <constraint firstAttribute="trailing" secondItem="DQx-GV-iJK" secondAttribute="trailing" id="aQU-0k-IG6"/>
+                                <constraint firstAttribute="height" constant="64" id="m6h-Pa-wZq"/>
+                                <constraint firstItem="UdV-9a-0wR" firstAttribute="centerY" secondItem="leK-R4-pyq" secondAttribute="centerY" id="vBZ-2b-MH3"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xc-pw-MT7" customClass="SecondaryLargeButton" customModule="Whoppah" customModuleProvider="target">
+                            <rect key="frame" x="16" y="212" width="174.5" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="v5T-Zm-Gbh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="14"/>
+                            <state key="normal" title="Annuleren">
+                                <color key="titleColor" name="steel"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                    <color key="value" name="silver"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="my_ads_delete_ad_cancel"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="noAction:" destination="-1" eventType="touchUpInside" id="7di-Y8-1fZ"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SME-OD-PKR" userLabel="Dummy spacer">
+                            <rect key="frame" x="206.5" y="212" width="1" height="48"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="6EP-f0-7W0"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R73-vq-en4" customClass="PrimaryLargeButton" customModule="Whoppah" customModuleProvider="target">
+                            <rect key="frame" x="223.5" y="212" width="174.5" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="RW1-41-X9K"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="14"/>
+                            <state key="normal" title="Verwijderen">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="my_ads_delete_ad_remove_button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="yesAction:" destination="-1" eventType="touchUpInside" id="vxN-ou-SvY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="R73-vq-en4" secondAttribute="trailing" constant="16" id="10z-SL-pY3"/>
+                        <constraint firstItem="SME-OD-PKR" firstAttribute="centerY" secondItem="4Xc-pw-MT7" secondAttribute="centerY" id="248-f0-zAf"/>
+                        <constraint firstItem="SME-OD-PKR" firstAttribute="centerX" secondItem="wpp-Nn-yef" secondAttribute="centerX" id="2D8-dQ-pKZ"/>
+                        <constraint firstItem="4Xc-pw-MT7" firstAttribute="trailing" secondItem="SME-OD-PKR" secondAttribute="leading" constant="-16" id="3jZ-63-jcJ"/>
+                        <constraint firstItem="iK8-Zg-2uu" firstAttribute="top" secondItem="8dY-xh-L4n" secondAttribute="bottom" id="49l-KX-DDP"/>
+                        <constraint firstItem="4Xc-pw-MT7" firstAttribute="top" secondItem="leK-R4-pyq" secondAttribute="bottom" constant="16" id="4jO-zf-G66"/>
+                        <constraint firstItem="R73-vq-en4" firstAttribute="centerY" secondItem="4Xc-pw-MT7" secondAttribute="centerY" id="7d2-QM-kJj"/>
+                        <constraint firstAttribute="bottom" secondItem="4Xc-pw-MT7" secondAttribute="bottom" constant="16" id="8Ia-jx-iao"/>
+                        <constraint firstAttribute="trailing" secondItem="iK8-Zg-2uu" secondAttribute="trailing" constant="16" id="C8L-0P-MoW"/>
+                        <constraint firstAttribute="trailing" secondItem="yaS-KG-jgG" secondAttribute="trailing" id="CHd-NY-kdN"/>
+                        <constraint firstItem="SME-OD-PKR" firstAttribute="height" secondItem="4Xc-pw-MT7" secondAttribute="height" id="D4l-FQ-Utx"/>
+                        <constraint firstItem="BXP-Bh-nmN" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" constant="8" id="FEH-Lw-bpT"/>
+                        <constraint firstAttribute="trailing" secondItem="8dY-xh-L4n" secondAttribute="trailing" constant="16" id="QUa-wj-ck1"/>
+                        <constraint firstItem="Ex4-66-32L" firstAttribute="centerX" secondItem="wpp-Nn-yef" secondAttribute="centerX" id="W9v-JP-vMI"/>
+                        <constraint firstItem="leK-R4-pyq" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" constant="16" id="WAU-ME-wd7"/>
+                        <constraint firstItem="BXP-Bh-nmN" firstAttribute="top" secondItem="wpp-Nn-yef" secondAttribute="top" constant="16" id="Yg0-HC-vff"/>
+                        <constraint firstItem="R73-vq-en4" firstAttribute="leading" secondItem="SME-OD-PKR" secondAttribute="trailing" constant="16" id="b3m-Fj-ygc"/>
+                        <constraint firstItem="leK-R4-pyq" firstAttribute="top" secondItem="iK8-Zg-2uu" secondAttribute="bottom" id="cTo-9d-A2P"/>
+                        <constraint firstItem="8dY-xh-L4n" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" constant="16" id="eai-bW-2xm"/>
+                        <constraint firstAttribute="trailing" secondItem="wDQ-vF-ZoT" secondAttribute="trailing" id="lMw-iZ-zzE"/>
+                        <constraint firstItem="iK8-Zg-2uu" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" constant="16" id="mKe-Pi-cIS"/>
+                        <constraint firstItem="4Xc-pw-MT7" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" constant="16" id="mkl-Sy-7Ck"/>
+                        <constraint firstItem="Ex4-66-32L" firstAttribute="top" secondItem="8dY-xh-L4n" secondAttribute="bottom" id="p0a-Rs-KrT"/>
+                        <constraint firstAttribute="trailing" secondItem="leK-R4-pyq" secondAttribute="trailing" constant="16" id="pPY-Yr-UyE"/>
+                        <constraint firstItem="Ex4-66-32L" firstAttribute="width" secondItem="wpp-Nn-yef" secondAttribute="width" id="t7J-II-SaY"/>
+                        <constraint firstItem="yaS-KG-jgG" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" id="u78-cW-Tbb"/>
+                        <constraint firstItem="8dY-xh-L4n" firstAttribute="centerY" secondItem="BXP-Bh-nmN" secondAttribute="centerY" id="vUo-gc-DI5"/>
+                        <constraint firstItem="wDQ-vF-ZoT" firstAttribute="leading" secondItem="wpp-Nn-yef" secondAttribute="leading" id="xCc-sV-zbU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="wpp-Nn-yef" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GHJ-sx-fEy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wpp-Nn-yef" secondAttribute="trailing" id="QzF-OC-5B1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="wpp-Nn-yef" secondAttribute="bottom" id="xXC-Au-yaB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+        <namedColor name="silver">
+            <color red="0.80784313725490198" green="0.82745098039215681" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="smoke">
+            <color red="0.91764705882352937" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="space">
+            <color red="0.27843137254901962" green="0.29411764705882354" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="steel">
+            <color red="0.58823529411764708" green="0.62352941176470589" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

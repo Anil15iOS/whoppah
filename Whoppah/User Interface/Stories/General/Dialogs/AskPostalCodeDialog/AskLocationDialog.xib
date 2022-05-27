@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AskLocationDialog" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="hsY-31-QNU" id="ewK-id-XYZ"/>
+                <outlet property="countryDropdown" destination="Pbu-k9-lqL" id="OTu-tZ-fJl"/>
+                <outlet property="searchButton" destination="X9g-Hz-Cv6" id="lVF-35-GBk"/>
+                <outlet property="searchTextfield" destination="jcz-Hs-Nvw" id="ffr-8m-qcL"/>
+                <outlet property="titleLabel" destination="hSZ-0f-s3B" id="z8P-v4-oUg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhr-zg-T0a">
+                    <rect key="frame" x="0.0" y="500" width="375" height="278"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9g-Hz-Cv6" customClass="PrimaryLargeButton" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="16" y="214" width="343" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="86S-LS-bD8"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                            <state key="normal" title="Zoeken" image="ic_search"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="common_search"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="searchAction:" destination="-1" eventType="touchUpInside" id="0t9-yV-dQy"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waar wil je zoeken?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSZ-0f-s3B">
+                            <rect key="frame" x="134.33333333333334" y="24" width="106.33333333333334" height="14"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="12"/>
+                            <color key="textColor" name="black"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="search_ask_postcode_title"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Pbu-k9-lqL" customClass="CountryDropdown" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="16" y="54" width="343" height="56"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tjV-IC-vyI" customClass="WPTextField" customModule="Staging" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="56" id="a2b-4i-ayh"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                </textField>
+                            </subviews>
+                            <connections>
+                                <outlet property="countryTextfield" destination="tjV-IC-vyI" id="wyh-Y1-2Ns"/>
+                            </connections>
+                        </stackView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jcz-Hs-Nvw" customClass="WPTextField" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="16" y="126" width="343" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="aAk-xP-8mx"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="uAY-Tk-Y6d"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsY-31-QNU">
+                            <rect key="frame" x="24" y="24" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Nuz-Ht-Pw6"/>
+                                <constraint firstAttribute="height" constant="40" id="xgf-mZ-gEU"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="bSe-gg-Ovr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Pbu-k9-lqL" firstAttribute="top" secondItem="hSZ-0f-s3B" secondAttribute="bottom" constant="16" id="3sO-tM-Slq"/>
+                        <constraint firstItem="hSZ-0f-s3B" firstAttribute="centerX" secondItem="qhr-zg-T0a" secondAttribute="centerX" id="6HJ-ci-Osc"/>
+                        <constraint firstAttribute="trailing" secondItem="jcz-Hs-Nvw" secondAttribute="trailing" constant="16" id="6bt-KI-MLF"/>
+                        <constraint firstAttribute="bottom" secondItem="X9g-Hz-Cv6" secondAttribute="bottom" constant="16" id="C1N-Np-NeC"/>
+                        <constraint firstAttribute="trailing" secondItem="Pbu-k9-lqL" secondAttribute="trailing" constant="16" id="Efm-nB-BXM"/>
+                        <constraint firstItem="X9g-Hz-Cv6" firstAttribute="leading" secondItem="qhr-zg-T0a" secondAttribute="leading" constant="16" id="KdC-bR-4Aq"/>
+                        <constraint firstAttribute="trailing" secondItem="X9g-Hz-Cv6" secondAttribute="trailing" constant="16" id="M5D-kZ-KaZ"/>
+                        <constraint firstItem="hsY-31-QNU" firstAttribute="top" secondItem="qhr-zg-T0a" secondAttribute="top" constant="24" id="NPM-HB-ONX"/>
+                        <constraint firstItem="hSZ-0f-s3B" firstAttribute="top" secondItem="qhr-zg-T0a" secondAttribute="top" constant="24" id="Pfd-L0-lUh"/>
+                        <constraint firstItem="hsY-31-QNU" firstAttribute="leading" secondItem="qhr-zg-T0a" secondAttribute="leading" constant="24" id="coK-GU-PKw"/>
+                        <constraint firstItem="hSZ-0f-s3B" firstAttribute="centerX" secondItem="qhr-zg-T0a" secondAttribute="centerX" id="jfc-2s-9jG"/>
+                        <constraint firstItem="Pbu-k9-lqL" firstAttribute="leading" secondItem="qhr-zg-T0a" secondAttribute="leading" constant="16" id="lzO-d6-o7w"/>
+                        <constraint firstItem="jcz-Hs-Nvw" firstAttribute="top" secondItem="Pbu-k9-lqL" secondAttribute="bottom" constant="16" id="mqw-nE-RbJ"/>
+                        <constraint firstItem="jcz-Hs-Nvw" firstAttribute="leading" secondItem="qhr-zg-T0a" secondAttribute="leading" constant="16" id="yB5-me-O1Q"/>
+                        <constraint firstItem="X9g-Hz-Cv6" firstAttribute="top" secondItem="jcz-Hs-Nvw" secondAttribute="bottom" constant="32" id="ycv-DS-XFS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4NG-AN-CPo">
+                    <rect key="frame" x="0.0" y="778" width="375" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qhr-zg-T0a" secondAttribute="bottom" id="3Mu-4z-8cs"/>
+                <constraint firstAttribute="trailing" secondItem="4NG-AN-CPo" secondAttribute="trailing" id="AIi-VZ-w4R"/>
+                <constraint firstItem="qhr-zg-T0a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MRZ-dp-8g1"/>
+                <constraint firstAttribute="trailing" secondItem="qhr-zg-T0a" secondAttribute="trailing" id="T5c-Np-J1v"/>
+                <constraint firstItem="4NG-AN-CPo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Wfo-oE-xXl"/>
+                <constraint firstItem="4NG-AN-CPo" firstAttribute="top" secondItem="qhr-zg-T0a" secondAttribute="bottom" id="XS8-bC-lt6"/>
+                <constraint firstAttribute="bottom" secondItem="4NG-AN-CPo" secondAttribute="bottom" id="tGP-Lh-zge"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="153.69458128078819"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+        <image name="ic_search" width="16" height="16"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,2190 @@
+"auth_intro_btn_sign_up" = "Create an account";
+"auth_intro_btn_sign_in" = "Sign in";
+"auth_intro_btn_guest" = "Continue as a guest";
+"auth_sign_in_quick_sign_in" = "Log in quickly";
+"auth_sign_in_email" = "E-mail";
+"auth_sign_in_forgot_pass" = "Forgotten your password?";
+"auth_sign_in_btn_sign_up" = "Or create an account";
+"auth_sign_in_btn_sign_in" = "Login";
+"error_invalid_email" = "Invalid email";
+"auth_forgot_pass_email" = "Enter your e-mail address";
+"auth-forgot-pass-description" = "Forgot your password? No problem! We will send you a link with which you can easily set a new password.";
+"auth_forgot_pass_btn_proceed" = "Send";
+"auth_new_pass_title" = "Create a new password";
+"auth_new_pass_password" = "Choose your password";
+"auth_new_pass_password_repeat" = "Repeat your password";
+"auth_new_pass_rule1" = "Minimum 8 characters";
+"auth_new_pass_rule2" = "Minimum one digit";
+"auth_new_pass_rule3" = "At least one lowercase letter";
+"auth_new_pass_rule4" = "At least one capital letter";
+"auth_new_pass_btn_proceed" = "Send";
+"error_invalid_pass" = "Invalid password";
+"error_invalid_pass_repeat" = "Passwords do not match";
+"auth_new_pass_confirm_title" = "Whoppah!";
+"auth_new_pass_confirm_subtitle" = "Password changed";
+"auth_new_pass_confirm_description" = "Your password has been changed successfully.";
+"auth_new_pass_confirm_btn_sign_in" = "Log in";
+"common-next-step-button" = "Next step";
+"auth_sign_up2_password" = "Choose your password";
+"signup-agree-whoppah-terms" = "I agree to Whoppah's <a href=\"https://www.whoppah.com/terms.pdf\">terms of use</a> and <a href=\"https://www.whoppah.com/privacy-policy.pdf\">privacy policy</a>.";
+"auth_sign_up2_terms_part1" = "Read the";
+"auth_sign_up2_terms_part2" = "terms of use";
+"auth_sign_up2_terms_part3" = "and the";
+"auth_sign_up2_terms_part4" = "privacy policy";
+"auth_sign_up2_btn_sign_up" = "Create account";
+"set_profile_personal_username" = "Choose your profile name";
+"set_profile_merchant1_kvk" = "Chamber of Commerce number";
+"set_profile_merchant1_contact_info" = "Contact information";
+"set_profile_merchant1_contact_first_name" = "First Name";
+"set_profile_merchant1_contact_last_name" = "Last name";
+"set_profiel_merchant1_address_country" = "Country";
+"new-specials-title" = "New Specials";
+"shop-de-look-title" = "Shop the look";
+"main_home_shop_warranty_line1" = "Buying or selling?";
+"main_home_shop_warranty_line2" = "How Whoppah works";
+"shop_warranty_screen_title" = "Buy and sell on Whoppah.";
+"shop_warranty_to_sell" = "Selling";
+"shop_warranty_to_buy" = "Buying";
+"shop_warranty_cost" = "Cost";
+"main_favs_title" = "My favorites";
+"main_favs_empty_title" = "You have no favorites yet";
+"main_favs_empty_description" = "Save ads that you like by clicking on the heart and you'll find them in your favorites list.";
+"main_favs_empty_top_favs" = "Top favorites";
+"main_my_profile_my_ads" = "My ads";
+"main_my_profile_my_account" = "My account";
+"main_my_profile_my_ads_empty_title" = "Get started!";
+"main_my_profile_my_ads_empty_description" = "Place an ad and start selling.";
+"main_my_profile_my_asd_btn_create_ad" = "Place an advertisement";
+"main_my_profile_contacts" = "Contact details";
+"main_my_profile_account_settings" = "Account settings";
+"main_my_profile_payment" = "Payment";
+"main_my_profile_my_searches" = "My search requests";
+"main_my_profile_faq" = "Help and contact";
+"main_chats_title" = "Messages";
+"create_ad_camera_btn_save" = "Done";
+"create_ad_camera_tip_0" = "👋 Whoppah! Keep your item within the frame and provide a white background.";
+"create_ad_camera_tip_1" = "Great! 4 more photos please. Take photos from all sides.";
+"create_ad_camera_tip_2" = "Take a picture of the brand (label).";
+"create_ad_camera_tip_3" = "The more photos, the faster you sell! 5 minimum and 15 maximum.";
+"create_ad_camera_tip_4" = "Some traces of use? Take a picture of it.";
+"create_ad_camera_tip_5" = "👉 Make a video too!";
+"create_ad_camera_tip_5_video" = "Well done!";
+"create_ad_camera_tip_6" = "Take photos of the product detail.";
+"create_ad_camera_tip_7" = "Well done!";
+"create_ad_camera_tip_8" = "Whoppah!";
+"create_ad_camera_tip_9" = "Keep going!";
+"create_ad_camera_tip_10" = "Is the photo exposure good?";
+"create_ad_camera_tip_11" = "You can upload 5 more photos.";
+"create_ad_camera_tip_12" = "The more photos the better.";
+"create_ad_camera_tip_13" = "This is going to be a top advertisement.";
+"create_ad_camera_tip_14" = "Fantastic, keep going. You can upload one more photo.";
+"create_ad_camera_tip_15" = "Whoppah! 15 photos uploaded.";
+"create_ad_main_title" = "Title";
+"create_ad_main_description" = "Description";
+"create_ad_main_condition_title" = "Condition";
+"create_ad_main_condition_value_1" = "Good";
+"create_ad_main_condition_value_2" = "Very good";
+"create_ad_main_condition_value_3" = "Excellent";
+"create_ad_main_condition_value_d1" = "In good condition with slight traces of use, appropriate to the age of the item";
+"create_ad_main_material_title" = "Material";
+"create_ad_main_color_title" = "Colors";
+"create_ad_main_dimensions_title" = "Dimensions in cm";
+"create_ad_main_dim_width" = "Width";
+"create_ad_main_dim_height" = "Height";
+"create_ad_main_dim_depth" = "Depth";
+"create_ad_main_btn_save" = "Whoppah! Place advertisement";
+"create_ad_main_condition_value_d2" = "In a very good condition with minimal traces of use";
+"create_ad_main_condition_value_d3" = "Condition is as good as new without traces of use";
+"create_ad_main_warning_min_5_photos" = "Make sure you have at least 5 photos";
+"create_ad_select_cat_screen_title_category" = "Choose a category";
+"create_ad_select_cat_screen_title_product" = "Select a product";
+"create_ad_select_cat_screen_title_product_type" = "Choose a product type";
+"create_ad_select_brand_screen_title" = "Choose a brand";
+"create_ad_select_brand_input_brand" = "Brand";
+"create_ad_select_brand_btn_save" = "Save";
+"create_ad_select_style_screen_title" = "Choose a style";
+"create_ad_select_style_btn_save" = "Save";
+"create_ad_select_price_input_title" = "My price:";
+"create_ad_select_price_merchant_ask_price" = "Your asking price";
+"create_ad_select_price_merchant_fee" = "Whoppah Fee (%d%%)";
+"create_ad_select_price_merchant_vat_fee" = "VAT (%d%% of Fee)";
+"create_ad_select_price_merchant_receive" = "You receive";
+"create_ad_select_delivery_method_title" = "Delivery Method";
+"create_ad_select_delivery_method_pickup" = "Pickup only";
+"create_ad_select_delivery_method_delivery" = "Send only";
+"create_ad_select_delivery_method_both" = "The buyer can choose: pick up or send";
+"shipping-mailbox" = "Mailbox";
+"shipping-mailbox-description" = "Max. 38 x 26.5 x 3.2 cm (2 kg)";
+"shipping-standard" = "Standard package";
+"shipping-standard-description" = "Max. 100 x 50 x 50 cm (10 kg)";
+"shipping-registered" = "Standard registered";
+"shipping-registered-description" = "Max. 100 x 50 x 50 cm (10 kg)";
+"shipping-courier" = "Courier service";
+"shipping-courier-description" = "Courier picks up and brings insured to buyer";
+"create_ad_select_delivery_warning" = "The <b>shipping costs</b> are charged to the buyer and not you.";
+"create_ad_done_processing_title" = "Advertisement created 🎉";
+"create_ad_done_processing_subtitle" = "We will now curate your ad! You will receive a message from us within 1 working day.";
+"create_ad_done_processing_btn_create_ad" = "Create another advertisement";
+"create_ad_done_success_title" = "Ad updated  🎉";
+"create_ad_done_success_subtitle" = "Your changes have been saved. View the advertisement in My Account.";
+"create_ad_done_success_btn_view_ad" = "Go to my account";
+"common_btn_show_all" = "Show all";
+"ad_details_btn_buy_now" = "Buy now %@";
+"ad_details_max_bid" = "Highest bid: %@";
+"ad_details_member_since" = "Member since %@";
+"ad_details_distance_to" = "%d km away from you";
+"ad_details_delivery_pickup_price" = "Free";
+"ad_details_delivery_other_title" = "Pick up or delivery at home";
+"ad_details_delivery_other_description" = "You decide what suits you best";
+"ad_details_delivery_title" = "Pick up or delivery";
+"ad_details_location_title" = "Location";
+"ad_details_color_title" = "Colors";
+"ad_details_attr_title" = "Dimensions in cm";
+"ad_details_material_title" = "Material";
+"ad_details_brand_title" = "Brand / designer";
+"ad_details_condition_title" = "CONDITION";
+"ad_details_chat_title" = "Seller";
+"ad_details_chat_hint" = "Send the seller a chat message";
+"ad_details_bid_now" = "Bid";
+"ad_details_buynow_btn_buy" = "Yes! Buy now %@";
+"search_btn_map" = "Map";
+"search_btn_sort" = "Sort";
+"search_input_hint" = "What are you looking for?";
+"search_map_btn_refresh" = "Search in this area: %@";
+"search_results_empty_title" = "Whoops!";
+"search_results_empty_subtitle" = "We do not have this product yet.";
+"search_results_empty_description" = "Set up a search filter and we will let you know as soon as it is available.";
+"search_results_empty_btn_save" = "Save as search query";
+"search_filters_title_empty" = "Filter";
+"search_filters_title" = "Filter: %@";
+"search_filters_distance_km" = "%dkm";
+"search_filters_price_title" = "Price In Euros";
+"search_filters_price_from" = "From";
+"search_filters_price_to" = "To";
+"search_filters_distance_title" = "Distance";
+"search_filters_condition_title" = "Minimum condition";
+"search_filters_material_title" = "Material";
+"search_filters_color_title" = "Colors";
+"search_filters_save_title" = "We help you find it!";
+"search_filters_save_description" = "Set this filter as a search query and we will let you know if a suitable product is available.";
+"search_filters_btn_save" = "Save as search query";
+"search_sort_default" = "Newest first";
+"search_sort_price_lowest_first" = "Price - lowest first";
+"search_sort_price_highest_first" = "Price - highest first";
+"search_sort_distance_close_first" = "Distance - closest first";
+"search_sort_distance_far_first" = "Distance - furthest away first";
+"search_sort_date_newest_first" = "Date - newest first";
+"search_sort_date_oldest_first" = "Date - oldest first";
+"search_sort_title" = "Sorting";
+"search_ask_postcode_title" = "Where do you want to search?";
+"common_search" = "Search";
+"delete_button_title" = "Delete";
+"save_button_title" = "Save";
+"auth_sign_in_invalid_email" = "Invalid email address";
+"auth_sign_up_activate_dialog_title" = "Activate your account";
+"auth_sign_up_activate_dialog_message" = "Almost there. Go to your e-mail to activate your account.";
+"home_main_map_discover_your_area" = "Discover your area";
+"ad_details_attr_width_title" = "Width";
+"ad_details_attr_height_title" = "Height";
+"ad_details_attr_depth_title" = "Length";
+"ad_details_attr_measurement_centimetres" = "%.0f cm";
+"ad_details_ad_created_days_active" = "%d days";
+"ad_details_similar_items_title" = "Similar items";
+"category_menu_selection_navigation_title" = "Categories";
+"main_my_profile_my_ads_seller_title" = "Advertisements of %@";
+"main_my_profile_edit_username_title" = "Your profile stays active, no matter how often you change your username.";
+"main_my_profile_submit_button" = "Save";
+"main_my_profile_about_description_title" = "A short description about yourself";
+"main_my_profile_username_placeholder" = "Profile name";
+"main_my_profile_navigation_title" = "My profile";
+"main_my_profile_no_adverts_title" = "No ads yet.";
+"main_my_profile_user_no_active_ads_title" = "This user does not have any active ads at the moment.";
+"main_my_profile_current_user_no_adverts_title" = "Get started!";
+"main_my_profile_current_user_place_ad_title" = "Place an ad and start selling.";
+"merchant_profile_incomplete_dialog_title" = "WHOPPAH!";
+"merchant_profile_incomplete_dialog_subtitle" = "Only a few details are needed";
+"merchant_profile_incomplete_dialog_body" = "Before you move on, we first need your contact details. Please fill them out.";
+"merchant_profile_incomplete_dialog_ok_button" = "OK";
+"main_favs_count_title" = "%d found";
+"order-state-accepted" = "Paid";
+"repost_ad_dialog_body" = "Are you sure you would like to update your ad?";
+"repost_ad_dialog_title" = "Place again";
+"my_ads_ad_load_failure" = "Unable to load ad";
+"auction-state-expired" = "Expired";
+"product-state-rejected" = "To change";
+"auction-state-published" = "Active";
+"set_profile_merchant1_contact_email" = "Email";
+"set_profile_personal_contact_email" = "Email";
+"set_profile_personal_contact_phone" = "Phone number";
+"question_form_navigation_title" = "Ask a question";
+"question_form_text_field_placeholder" = "Ask a question";
+"question_form_character_count_label" = "%d / % d characters";
+"whoppah_terms_view_title" = "Terms & Conditions";
+"whoppah_privacy_policy_view_title" = "Privacy policy";
+"whoppah_privacy_policy_last_updated_date" = "Last updated %@";
+"whoppah_terms_last_updated_date" = "Last updated %@";
+"my_account_notification_settings_push_updates_notif_title" = "Whoppah updates";
+"my_account_notification_settings_push_updates_notif_body" = "Send push notifications regarding app events and new features and services on Whoppah.";
+"my_account_notification_settings_push_chat_notif_body" = "Send push notifications when I receive a new chat message.";
+"my_account_notification_settings_push_my_activities_notif_body" = "Send push notifications regarding My Whoppah activities such as my ads, sold and bought items.";
+"my_account_notification_settings_email_my_activities_body" = "Send emails regarding app events and new features and services on Whoppah";
+"my_account_notification_settings_push_my_activities_notif_title" = "My Whoppah";
+"my_account_notification_settings_push_chat_notif_title" = "Messages";
+"my_account_notification_settings_email_my_activities_title" = "Whoppah updates";
+"my_account_terms_title" = "Terms & Conditions";
+"my_account_privacy_policy_title" = "Privacy policy";
+"my_account_logout_title" = "Log out";
+"my_account_current_password_placeholder" = "Current password";
+"my_account_new_password_placeholder" = "Set new password";
+"my_account_reenter_new_password_placeholder" = "Repeat new password";
+"my_account_username_placeholder" = "Profile name";
+"my_subscriptions_search_field_placeholder" = "Looking for:";
+"set_profile_merchant1_company_info" = "Business information";
+"set_profile_merchant1_save_button" = "Save";
+"set_profile_merchant2_addresses_title" = "My address";
+"set_profile_merchant2_add_address_title" = "Add address";
+"view-bank-screen-title" = "Payment settings";
+"ar_welcome" = "👋 Hi! we are scanning for surfaces, please move around the room.";
+"ar_surface_detected" = "Tap to place the object";
+"ar_object_placed" = "You can move around the object by dragging. 👏";
+"ar_session_start_failure" = "The AR session failed.";
+"ar_session_continue_scanning" = "Continue scanning the surfaces until you have a solid square";
+"ar_restart_session" = "Restart Session";
+"ar_exit" = "Exit";
+"ar_tracking_unavailable" = "❗TRACKING UNAVAILABLE";
+"ar_tracking_limited_excessive_motion" = "⚠️ TRACKING LIMITED due to excessive motion";
+"ar_tracking_limited_excessive_motion_recommendation" = "Try slowing down your movement.";
+"ar_tracking_limited_low_detail" = "⚠️ TRACKING LIMITED due to low detail";
+"ar_tracking_limited_low_detail_recommendation" = "Try pointing at a flat surface with some detail and good lighting.";
+"ar_tracking_limited_relocalizing" = "⚠️ Recovering from interruption";
+"ar_tracking_limited_relocalizing_recommendation" = "Return to the location where you left off.";
+"ar_tracking_limited" = "⚠️ Limited";
+"ar_tracking_initializing" = "Initializing";
+"create_ad_camera_invalidreview_photo_nav_title" = "Image quality";
+"create_ad_camera_invalidreview_video_nav_title" = "Video is too short";
+"create_ad_camera_invalidreview_photo_subtitle" = "The quality is too low. Please select an image of minimum 0.72 MB, or take new picture.";
+"create_ad_camera_invalidreview_video_subtitle" = "Your video is too short. Upload a longer video to add to your ad.";
+"create_ad_camera_invalidreview_upload_new_photo_button" = "Upload a new image";
+"create_ad_camera_invalidreview_upload_new_video_button" = "Upload a new video";
+"create_ad_camera_invalidreview_title" = "Oh no!";
+"create_ad_camera_video_instruction_label" = "Tap the button to make a video";
+"create_ad_main_error_missing_title" = "Add a title";
+"create_ad_main_error_missing_style" = "Add a style";
+"create_ad_main_error_missing_price" = "Add a price to your product";
+"create_ad_main_error_missing_delivery" = "Add location and delivery method.";
+"create_ad_select_style_screen_max_styles_title" = "(Select max. %d)";
+"create_ad_select_price_screen_title_merchant" = "Your selling price";
+"create_ad_select_delivery_ad_public_address_info" = "We do not show the street name in the advertisement";
+"create_ad_select_delivery_method_nav_title" = "Pick up, send, or deliver";
+"create_ad_select_delivery_unable_find_location" = "We could not find your location.";
+"create_ad_select_delivery_add_product_location" = "Please add your product location";
+"create_ad_camera_mediareview_unable_load_video" = "Unable to load video with error %@";
+"create_ad_camera_tip_video_framing" = "Keep your item within the frame 👇";
+"my_account_forgot_password" = "Forgot your password?";
+"common_password_rule1" = "Minimum 8 characters";
+"common_password_rule2" = "Minimum one digit";
+"common_password_rule3" = "At least one lowercase letter";
+"common_password_rule4" = "At least one capital letter";
+"my_addresses_address_list_title" = "My address";
+"my_addresses_address_list_add" = "Add address";
+"help_missing_question_title" = "Can’t find your question? Email your question to support@whoppah.com!";
+"help_give_feedback_title" = "Give Whoppah feedback!";
+"help_give_feedback_description" = "Whoppah is there for you! We always welcome any input on how to improve.";
+"help_give_feedback_button" = "Send a message";
+"help_send_message_button" = "Send a message";
+"question_form_description1" = "Looking for something special? Ask us! We have a large network of art and interior sellers in all kinds of styles. ";
+"question_form_description2" = "These questions go to our stylist. For questions about Whoppah or the use of Whoppah, please contact our support team.";
+"question_form_send" = "Send";
+"my_subscriptions_description1" = "Looking for a specific item? Add a search request and we will let you know once the item is available.";
+"my_subscriptions_add_button" = "Add search request";
+"my_ad_repost_button" = "Place again";
+"my_ad_edit_button" = "Edit";
+"my_ad_status_label" = "Status";
+"my_ad_edit_label" = "Edit";
+"my_ad_deleted_label" = "Delete";
+"checkout_first_name_text_placeholder" = "First name";
+"checkout_last_name_text_placeholder" = "Last name";
+"chat_thread_type_message_placeholder" = "Send a message";
+"chat_thread_place_bid_placeholder" = "Place a (counter) bid...";
+"chat_thread_bid_button" = "Bid";
+"bid-state-accepted" = "Deal!";
+"bid-state-rejected" = "Declined";
+"chat_cell_buyer_will_pick_up" = "Will pick up";
+"chat_cell_payment_complete_merchant_fee" = "Whoppah Fee";
+"chat_cell_payment_complete_merchant_vat_fee" = "VAT (%d%% of Fee)";
+"chat-cell-order-confirm-buyer-title" = "Order Confirmation";
+"chat_cell_payment_complete_delivery_address" = "Delivery Address";
+"chat_cell_payment_complete_delivery_tip_seller" = "Send within 3 working days to:";
+"chat_cell_payment_complete_ad_price" = "Overall price";
+"chat_cell_payment_complete_transaction_fee" = "Service fee";
+"chat_cell_payment_delivery_cost" = "Shipping cost";
+"chat_cell_payment_total" = "To receive";
+"track_id_track_number_title" = "TRACK & TRACE";
+"track_in_on_the_way_label" = "ON THE WAY";
+"track_id_title" = "Shipment";
+"item_received_button" = "Received?";
+"payment_failed_title" = "Whoops!";
+"payment_failed_subtitle" = "Payment failed";
+"payment_failed_body" = "The payment was not successful. Try again or contact your bank.";
+"payment_failed_check_button" = "Check details";
+"bid_confirmation_accept_title" = "Are you sure you want to accept the offer of %@? Deal is deal!";
+"bid_confirmation_no_button" = "No";
+"bid_confirmation_accept_yes_button" = "Yes, accept";
+"payment_confirmed_title" = "Whoppah!";
+"payment_confirmed_subtitle" = "Your payment was successful";
+"payment_confirmed_body" = "The payment was successful.\
+Please let us know as soon as you have received or picked up your purchase in good condition so we can pay out to the seller.";
+"payment_confirmed_check_details_button" = "Check details";
+"track-code-tracking-number-placeholder" = "Fill in the Track & Trace code here";
+"track_code_provider_dpd" = "DPD";
+"track_code_provider_dhl" = "DHL";
+"track_code_provider_ups" = "UPS";
+"track_code_postnl_info" = "PostNL information";
+"track_code_postnl_trackcode_description" = "The PostNL Track & Trace code always starts with 3S.";
+"track_code_send_button" = "Send";
+"confirm_receipt_pickup_question_title" = "Were you able to pick up your purchase (in good condition)?";
+"confirm_receipt_delivery_question_title" = "Have you received your purchase (in good condition)?";
+"confirm_receipt_pickup_yes_button" = "Yes";
+"confirm_receipt_delivery_yes_button" = "Yes, received in good condition";
+"confirm_receipt_pickup_no_button" = "No, I could not pick it up within 7 days";
+"confirm_receipt_delivery_no_button" = "No, not received";
+"confirm_receipt_pickup_bad_quality" = "No, purchase does not match the description";
+"confirm_receipt_delivery_bad_quality" = "No, not received in good condition";
+"track_code_navigation_title" = "Status request";
+"transaction_feedback_title" = "Received?";
+"transaction_feedback_positive_title" = "Whoppah! Congratulations on your purchase!";
+"transaction_feedback_negative_title" = "Thank you for contacting us.";
+"transaction_feedback_positive_body" = "Keep a close eye on Whoppah for new rare gems";
+"transaction_feedback_negative_body" = "We are sad to hear you have not received your purchase (in good order). The Whoppah support team will contact you as soon as possible.";
+"search_filters_width" = "Width";
+"search_filters_height" = "Height";
+"search_filters_depth" = "Depth";
+"search_filters_width_placeholder" = "Width (cm)";
+"search_filters_height_placeholder" = "Height (cm)";
+"search_filters_depth_placeholder" = "Depth/Length (cm)";
+"search_filters_category" = "Category";
+"search_filters_brand" = "Brand";
+"search_filters_style" = "Style";
+"search_map_btn_refresh_empty" = "Search in this neighbourhood";
+"search_no_results_title" = "Whoops!";
+"search_no_results_subtitle" = "We don't have this product yet.";
+"search_no_results_reset_filters_button" = "Reset filters";
+"search_intro_title" = "Photo search";
+"search_intro_body" = "Looking for a specific couch, table or art piece? Take or upload a picture of it and we will let you know if this, or a similar item, is available on Whoppah.";
+"search_intro_bullet_1" = "• Take or upload a clear picture of the entire item.";
+"search_intro_bullet_2" = "• Don't see what you're looking for? Set a search query and we'll let you know when it's on Whoppah.";
+"search_info_upload_photo_button" = "Upload an image";
+"missing_permission_location_title" = "Oops, we need permission to use your location";
+"missing_permission_location_subtitle" = "Allow Whoppah to access the permission here.";
+"missing_permission_camera_title" = "We need access to the camera to take photos and videos.";
+"missing_permission_camera_subtitle" = "To allow your camera go to Settings > Whoppah > Switch the button to enable camera permissions";
+"profile_complete_title" = "Whoppah! Your account has been created";
+"profile_complete_merchant_subtitle" = "You can now start buying and selling.";
+"profile_complete_personal_subtitle" = "You can now start buying and selling.";
+"profile_complete_go_to_mywhoppah" = "Go to My Whoppah!";
+"my_ad_deleted_title" = "Your ad is deleted";
+"my_ad_deleted_place_ad_button" = "Place an ad";
+"ad_details_report_user" = "Report behaviour";
+"ad_details_report_product" = "Report product";
+"ad_details_default_share_text" = "I have seen a nice item on Whoppah";
+"report_product_inappropriate_content" = "Content is inappropriate";
+"report_product_spam" = "Spam";
+"report_product_incorrectly_classified" = "Incorrectly classified";
+"report_product_poor_photo_quality" = "Poor photo quality";
+"report_product_reason" = "Reason";
+"report_product_description" = "Description";
+"report_product_title" = "REPORT PRODUCT";
+"report_product_subtitle" = "We will dive into your report as soon as possible";
+"report_product_send" = "Send";
+"report_user_inappropriate_content" = "Inappropriate content";
+"report_user_unauthorized_advertising" = "Unauthorized advertising";
+"report_user_incorrectly_classified" = "Incorrectly classified";
+"report_user_poor_photo_quality" = "Poor photo quality";
+"report_user_reason" = "Reason";
+"report_user_description" = "Description";
+"report_user_title" = "REPORT BEHAVIOUR";
+"report_user_subtitle" = "We will dive into your report as soon as possible";
+"report_user_send" = "Send";
+"my_ad_delete_title" = "SOLD THROUGH WHOPPAH?";
+"my_ads_delete_sold_with_whoppah" = "Sold via Whoppah";
+"my_ads_delete_not_sold_with_whoppah" = "Not sold via Whoppah";
+"my_ads_delete_ad_cancel" = "Cancel";
+"my_ads_delete_ad_remove_button" = "Delete";
+"search_field_default_text" = "Search";
+"NSCameraUsageDescription" = "We need access to your camera so that you can upload photos";
+"NSLocationWhenInUseUsageDescription" = "We need access to your location so that we can search in your area";
+"NSPhotoLibraryUsageDescription" = "We need access to your photos and images so that you can upload them";
+"common_generic_error_message" = "Something went wrong, try again.";
+"add_address_button_title" = "Enter address";
+"add_address_postcode_placeholder" = "Postcode";
+"add_address_street_placeholder" = "Street";
+"add_address_city_placeholder" = "City";
+"add_address_country_placeholder" = "Country";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "We need access to your location so that we can search in your area";
+"chat_thread_last_bid" = "Latest bid: %@";
+"search_map_highest_bid" = "Highest bid: %@";
+"search_map_no_bid_yet" = "No bid yet!";
+"search_filters_reset_btn" = "Reset";
+"search_filters_filter_btn" = "Filter";
+"search_filters_search_saved_toast" = "Search saved";
+"search_map_bid_now" = "Bid Now!";
+"category_menu_selection_view_all_btn" = "View all";
+"home_usp_page2_title" = "Safe shopping";
+"shop_warranty_seller_item1" = "Create an ad simply and <b>free of cost</b>";
+"shop_warranty_seller_item2" = "Determine your 'sell now' price";
+"shop_warranty_seller_item3" = "<b>Whoppah curates</b> within 24 hours";
+"shop_warranty_seller_item4" = "Buyer pays, you send, we pay you";
+"shop_warranty_buyer_item1" = "Bid or buy directly with the <b>'Buy now'</b> button";
+"shop_warranty_buyer_item2" = "<b>Bid accepted?</b> Pay as soon as possible to secure your purchase";
+"shop_warranty_buyer_item3" = "Pay safely with iDeal";
+"shop_warranty_offer_item1" = "From known designers, brands or specially hand-made";
+"shop_warranty_offer_item2" = "<b>Minimum</b> in good state";
+"shop_warranty_offer_item3" = "Always of first class";
+"shop_warranty_offer_item4" = "Curated by Whoppah";
+"shop_warranty_cost_item1" = "Create an ad for free";
+"shop_warranty_cost_item2" = "Buyers pay € 1.99 transaction costs";
+"shop_warranty_cost_item3" = "Business merchants pay 15% of the selling price excluding VAT\
+Individual seller pay 12% of the selling price";
+"shop_warranty_cost_item4" = "Buy pays delivery costs";
+"shop_warranty_transport_item1" = "<b>PostNL</b> (registered) for parcel delivery";
+"shop_warranty_transport_item2" = "<b>Courier service:</b> picked up and delivered";
+"shop_warranty_transport_item3" = "Sellers will <b>share the Track & Trace</b> number in chat";
+"shop_warranty_transport" = "Transport options";
+"shop_warranty_seller_create_ad_btn" = "Create an ad";
+"shop_warranty_offer_title" = "An offer on Whoppah means";
+"auction-state-completed" = "Sold";
+"my_ads_sold_screen_title" = "My sold ads";
+"search_filters_category_select" = "Select";
+"ad_details_ar_banner_title" = "Preview live in 3D";
+"ad_details_ar_banner_subtitle" = "See how this item looks at your home";
+"my_ads_income_cell_amount_title" = "AMOUNT";
+"checkout_pay_now_btn" = "Pay now";
+"ar_default_share_text" = "I have seen a nice item on Whoppah";
+"common_no_button" = "No";
+"common_yes_button" = "Yes";
+"NSPhotoLibraryAddUsageDescription" = "We need permission to save content to your photo and video library";
+"main_my_profile_changes_saved_toast" = "Changes saved";
+"product-unavailable" = "Unavailable";
+"ar_scan_any_surfaces_tip" = "Try pointing at a wall or flat surface with some detail and good lighting";
+"ar_scan_vertical_surfaces_tip" = "Try pointing at a wall with some detail and good lighting";
+"ar_scan_horizontal_surfaces_tip" = "Try pointing at flat surfaces with some detail and good lighting";
+"item_received_button_money_received" = "Paid to seller";
+"appreview_body" = "Are you satisfied with Whoppah?\
+We appreciate your feedback!";
+"set_profile_google_search_placeholder" = "Street and house number";
+"search_places_missing_postcode" = "The address you selected does not contain a valid postcode, please try again.";
+"search_places_missing_building" = "The address you selected does not contain a valid building number, please try again";
+"search_places_missing_city" = "The address you selected does not contain a valid city, please try again";
+"search_places_missing_country" = "The address you selected does not contain a valid country, please try again";
+"member_join_1_week" = "Joined 1 week ago";
+"member_join_multiple_weeks" = "Joined %d weeks ago";
+"member_join_multiple_months" = "Joined %d months ago";
+"member_join_one_year" = "Joined 12 months ago";
+"member_join_multiple_years" = "Joined %d years ago";
+"home_usp_page1_body" = "Offering is always carefully selected by the Whoppah stylist.";
+"home_usp_page1_title" = "Always of quality";
+"home_usp_page2_body" = "Pay Whoppah with iDeal. We will pay the seller once the buyer has received the item in good order.";
+"main_looks_title" = "Shop the look";
+"main_home_more_items_title" = "And much more...";
+"shop-de-look-button" = "More inspiration";
+"main_home_trend_title" = "TREND";
+"common_btn_shop_now" = "Shop now";
+"main_home_feature_list_item" = "This is how Whoppah works";
+"search_filters_ar" = "3D";
+"main_home_highlight_see_all_btn" = "See all";
+"ar_help_camera" = "Point your camera at a wall";
+"ar_help_surface_scan" = "Move your phone around to scan the surface";
+"ar_help_tap_to_place" = "Tap the screen to place the object";
+"ar_help_drag_to_move" = "Drag the object to move it elsewhere";
+"main_permission_dialog_message" = "Whoppah would like to keep you posted on your ads and purchases. Do you give permission to do so?";
+"home_usp_page3_title" = "Delivered with the courier";
+"home_usp_page3_body" = "You decide: pick up yourself or deliver. Delivery? Our courier delivers from €69";
+"first-class-sofas-title" = "First class sofas";
+"filter_list_title_single" = "Select a %@";
+"filter_list_title_multiple" = "Select %@";
+"search_filters_designer" = "Designer";
+"search_filters_artist" = "Artist";
+"shop_warranty_cost_item5" = "Individuals pay 12% over the sale price";
+"create_ad_select_artist_input_artist" = "Artist";
+"create_ad_select_artist_screen_title" = "Choose an artist";
+"search_places_missing_coordinate" = "The address you selected does not contain a valid country, please try again";
+"create_ad_select_price_merchant_fixed_fee" = "Whoppah Fee";
+"common_netherlands" = "Netherlands";
+"common_belgium" = "Belgium";
+"add_address_line2_placeholder" = "Address line 2";
+"home_usp_whoppah_overview_body" = "Always of quality\
+Secure payment\
+Insured home delivery";
+"common_select_country" = "Select country";
+"main_my_profile_ads_curated" = "Being assessed";
+"main_my_profile_ads_rejected" = "Changes requested";
+"my_ads_rejected_screen_title" = "Adjustment requested";
+"my_ads_curated_screen_title" = "Being assessed";
+"style-hollywood-regency" = "Hollywood Regency";
+"design-title" = "Design";
+"lounge-furniture-title" = "Lounge Furniture";
+"lounge-furniture-description" = "Lounge in these armchairs";
+"lounge-furniture-button" = "See everything";
+"tables-under-500-title" = "Tables under €500";
+"tables-under-500-description" = "Coffee tables and dining tables for a great price. View these top deals.";
+"tables-under-500-button" = "See everything";
+"top-brands-title" = "Shop popular brands";
+"top-brands-description" = "Shop now 🔥 preowned top brands such as Artifort.";
+"top-brands-button" = "See everything";
+"category-tafels" = "Tables";
+"category-stoelen-en-fauteuils" = "Chairs / lounge chairs";
+"category-kunst" = "Art";
+"category-verlichting" = "Lighting";
+"category-wonen" = "Home";
+"category-woon-decoratie" = "Decoration";
+"category-werken-studeren" = "Work & Study";
+"bid-state-cancelled" = "Cancelled";
+"bid-state-processing" = "Processing";
+"bid-state-completed" = "Completed";
+"style-design" = "Design";
+"style-modern" = "Modern";
+"style-klassiek" = "Classic";
+"style-scandinavian" = "Scandinavian";
+"style-rococo" = "Rococo";
+"style-pop-art" = "Pop Art";
+"style-mid-century-modern" = "Mid Century Modern";
+"style-figuratief" = "Figurative";
+"style-vintage" = "Vintage";
+"style-rustic" = "Rustic";
+"style-minimalisme" = "Minimalism";
+"style-industrieel" = "Industrial";
+"style-impressionisme" = "Impressionism";
+"style-bohemian" = "Bohemian";
+"style-barok" = "Baroque";
+"style-aziatisch" = "Asian";
+"style-art-nouveau" = "Art Nouveau";
+"style-art-deco" = "Art Deco";
+"style-abstract" = "Abstract";
+"style-renaissance" = "Renaissance";
+"style-classicisme" = "Classicism";
+"style-realisme" = "Realism";
+"style-anders" = "Other";
+"material-crystal" = "Crystal";
+"material-wood" = "Wood";
+"material-marble" = "Marble";
+"material-bronze" = "Bronze";
+"material-mdf" = "MDF (Medium-density fibreboard)";
+"material-metal" = "Metal";
+"material-plastic" = "Plastic";
+"material-plexiglass" = "Plexiglass";
+"material-rattan" = "Rattan";
+"material-stone" = "Stone";
+"material-textile" = "Textile";
+"material-ov" = "Oil Paint";
+"material-viscose" = "Viscose";
+"material-cotton" = "Cotton";
+"material-wool" = "Wool";
+"material-paper" = "Paper";
+"material-rubber" = "Rubber";
+"material-cast-iron" = "Cast Iron";
+"material-gold-2" = "Gold";
+"material-silver" = "Silver";
+"material-porcelain" = "Porcelain";
+"material-iron" = "Iron";
+"material-velvet" = "Velvet";
+"material-glass" = "Glass";
+"material-ceramic" = "Ceramic";
+"material-plastic-2" = "Plastic";
+"material-leather" = "Leather";
+"category-beeldhouwkunst" = "Sculpture";
+"category-collage" = "Mixed media";
+"category-etsen" = "Etchings";
+"category-fotografie" = "Photography";
+"category-glaskunst" = "Glass art";
+"category-lithos-zeefdrukken" = "Lithographs & prints";
+"category-overig-10" = "Other";
+"category-prenten" = "Prints";
+"category-schilderijen" = "Paintings";
+"category-zeefdruk" = "Screen printing";
+"category-badkamerlampen" = "Bathroom lights";
+"category-hanglampen" = "Pendant lamps";
+"category-kinderlampen" = "Children's lights";
+"category-klemlampen" = "Clamp lights";
+"category-kroonluchters" = "Chandeliers";
+"category-overig-11" = "Other";
+"category-plafondlampen" = "Ceiling lights";
+"category-spotjes" = "Spot lights";
+"category-tafellampen" = "Table lamps";
+"category-vloerlampen" = "Floor lights";
+"category-wandlampen" = "Wall lights";
+"category-archiefkasten" = "Filing cabinets";
+"category-bureaulampen" = "Desk lamps";
+"category-bureaus" = "Office";
+"category-baby-en-kinderkamerdecoratie" = "Baby and children's decoration";
+"category-babykamer" = "Baby room";
+"category-kinderkamer" = "Children's room";
+"category-bankjes" = "Benches";
+"category-chaises-longue" = "Chaise longue";
+"category-design-banken" = "Designer sofas";
+"category-hoekbanken" = "Corner sofas";
+"category-overig" = "Other";
+"category-voetenbanken" = "Footstools";
+"category-bloempotten" = "Flowerpots";
+"category-hangmatten" = "Hammocks";
+"category-kussenboxen" = "Pillow boxes";
+"category-ligbedden" = "Sun loungers";
+"category-loungesets" = "Lounge sets";
+"category-overig-2" = "Other";
+"category-parasols" = "Parasols";
+"category-tuinbank" = "Garden benches";
+"category-tuindecoratie" = "Garden decoration";
+"category-tuinsets" = "Garden sets";
+"category-tuinstoelen" = "Garden chairs";
+"category-tuintafels" = "Garden tables";
+"category-tuinverlichting" = "Garden lighting";
+"category-boekenkasten" = "Bookcases";
+"category-buffetkasten" = "Cabinets";
+"category-dressoirs" = "Dressers";
+"category-babykameraccessoires" = "Baby room accessories";
+"category-babykasten" = "Baby cabinets";
+"category-commodes" = "Commodes";
+"category-complete-babykamers" = "Complete baby rooms";
+"category-ledikanten" = "Cribs";
+"category-nachtlampjes" = "Night lights";
+"category-overig-7" = "Other";
+"category-wiegen" = "Cradles";
+"category-kinderbedden" = "Children's beds";
+"category-kinderkameraccessoires" = "Children's accessories";
+"category-kinderkapstokken" = "Children's coat hangers";
+"category-kinderkasten" = "Children's cabinets";
+"category-kinderstoelen" = "Children's chairs";
+"category-kindertafels-bureaus" = "Children's tables & desks";
+"category-overig-8" = "Other";
+"category-grafiek" = "Graphics";
+"category-kabinet" = "Cabinets";
+"category-kledingkasten" = "Wardrobes";
+"category-ladekasten" = "Chest of drawers";
+"category-opbergkasten" = "Storage cupboards";
+"category-overig-3" = "Other";
+"category-tv-meubelen" = "TV furniture";
+"category-vitrinekasten" = "Display cabinets";
+"category-wandmeubelen" = "Wall furniture";
+"category-opbergen" = "Storage";
+"category-manden" = "Baskets";
+"category-overig-4" = "Other";
+"category-slapen" = "Sleeping";
+"category-eenpersoonsbedden" = "Single beds";
+"category-nachtkastjes" = "Nightstands";
+"category-overig-5" = "Other";
+"category-slaapbanken" = "Sofa beds";
+"category-barkrukken" = "(Bar)stools";
+"category-design-stoel" = "Designer chairs";
+"category-eetkamerstoel" = "Dining chairs";
+"category-fauteuils" = "Armchairs";
+"category-hockers-en-poefs" = "Footstools & poufs";
+"category-overig-6" = "Other";
+"category-schommelstoelen" = "Rocking chairs";
+"category-zitzakken" = "Bean bags";
+"category-bijzettafels" = "Side tables";
+"category-eettafels" = "Dining tables";
+"category-overig-9" = "Other";
+"category-salontafels" = "Coffee tables";
+"category-dienbladen" = "Serving trays";
+"category-fotolijsten" = "Photo frames";
+"category-kamerschermen" = "Room screens";
+"category-kandelaars-en-kaarsen" = "Candle holders";
+"category-kapstokken" = "Coat racks";
+"category-klokken" = "Clocks";
+"category-kussentjes" = "Pillows";
+"category-overig-13" = "Other";
+"category-lijsten" = "Frames";
+"category-schalen" = "Bowls";
+"category-spiegels" = "Mirrors";
+"category-textiel" = "Textile";
+"category-dekens-plaids" = "Blankets & plaids";
+"category-overig-14" = "Other";
+"category-vloerkleden-en-tapijten" = "Rugs & carpets";
+"category-vazen" = "Vases";
+"category-wanddecoratie" = "Wall decoration";
+"category-wijnrek" = "Wine racks";
+"category-bureaustoelen" = "Office chairs";
+"category-overig-12" = "Other";
+"category-secretaires" = "Secretaires (Secretary Desks)";
+"category-baby-kinderen" = "Baby and children";
+"category-banken" = "Sofas";
+"category-buiten-en-tuin" = "Garden furniture";
+"category-kasten" = "Cabinets";
+"category-tweepersoonsbedden" = "Double beds";
+"category-twijfelaars" = "French beds";
+"color-grey" = "Grey";
+"color-black" = "Black";
+"color-light-blue" = "Light Blue";
+"color-blue" = "Blue";
+"color-gold" = "Gold";
+"color-beige" = "Beige";
+"color-pink" = "Pink";
+"color-violet" = "Violet";
+"color-red" = "Red";
+"color-orange" = "Orange";
+"color-white" = "White";
+"color-brown" = "Brown";
+"color-yellow" = "Yellow";
+"color-green" = "Green";
+"my_ad_expiry_days" = "Your ad will expire in %d days";
+"my_ad_expiry_minutes" = "Your ad will expire in %d minutes";
+"my_ad_expiry_minute" = "Your ad will expire in 1 minute";
+"my_ad_expiry_hours" = "Your ad will expire in %d hours";
+"my_ad_no_expiry" = "Your ad will never expire";
+"my_ad_view_label" = "View";
+"chat_cell_ask_tracking_message" = "Received item in good order? Then click on the ''Received'' button, and then on ''Yes''. Then we will pay the seller. Let us know within 10 days if you have received the product in good order. If you do not declare anything, we will assume that you have received it in good order and, we will pay the seller.";
+"order-accepted-pickup-buyer" = "Received item in good condition? Then click on the ''Received'' button, and then on ''Yes''. Then we will pay the seller. Let us know within 10 days if you have received the product in good condition. If you do not declare anything, we will assume that you have received it in good order and, we will pay the seller.";
+"track_id_return_number_title" = "Returns code";
+"main_payment_terms_1" = "Yes, I agree with the terms and conditions";
+"main_payment_terms_2" = "Terms and conditions";
+"auction-state-reserved" = "Reserved";
+"common_email_pass_invalid" = "Invalid email or password. Please try again.";
+"set_profile_personal_delete_address_error" = "Unable to remove address, check if it is associated with an existing ad";
+"set_profile_merchant1_vat" = "VAT number";
+"bid-received-new" = "Whoppah! You have a bid. Accept or make a new proposal. The offer is valid for 48 hours. After then the bid expires.";
+"bid-sent-new-buyer-1" = "Whoppah! Your bid has been placed! The seller will respond as quickly as possible to your bid in this chat by accepting, rejecting or making a counter proposal. Deal closed? Then a 'Pay' button appears in the chat with the buyer with which the payment can be made and the transport option can be chosen.";
+"bid-sent-new-buyer-2" = "You can also ask the seller questions in this chat.";
+"bid-rejected-buyer" = "Your bid has been rejected. Do you want to make a counter proposal? Enter your (counter) bid at the bottom of this chat.";
+"bid-accepted-seller-asking" = "Whoppah! Your item has been sold for the asking price. The buyer has already paid. As soon as the buyer indicates that he has received his purchase in good condition, we will pay you. If the buyer does not state anything, we will pay you anyway after 10 days. After payment, depending on your bank, the money will be in your account after 4 to 5 days. Check if your details in My Account (Contact details and Payment details) are complete to receive the payment.";
+"bid-sent-rejected" = "Your bid has been rejected. Do you want to make a counter proposal? Enter your (counter) bid at the bottom of this chat.";
+"bid-expired" = "Unfortunately, the offer has expired. You can make a new price proposal by entering a (counter) bid at the very bottom of the chat. You then restart the negotiation.";
+"bid-sent-accepted-buyer" = "Whoppah! You have a deal. A deal is a deal at Whoppah. Pay as quickly as possible within 24 hour and securely via Whoppah. As long as you have not paid yet, someone else can be quicker and buy the item. Transport needed? In the checkout you can choose the Whoppah courier or other available options. ";
+"ad_details_artist_title" = "Artists";
+"order-state-canceled" = "Cancelled";
+"order-state-expired" = "Expired";
+"order-state-completed" = "Completed";
+"chat-error-min-bid-not-met" = "<b>The minimum bid is %@</b>";
+"order-state-disputed" = "Disputed";
+"faq-shipping-title" = "How does shipping work?";
+"faq-shipping-description" = "<h3> How do I arrange transport as a seller? </h3>\
+As a seller you determine whether an item can be picked up or gets delivered. You can indicate that it can be picked up by our courier and/ or by the buyer or that you send it. The shipping or courier costs are charged to the buyer and paid to the seller after delivery.\
+<br> <br>\
+You can check the following shipping options in the app:\
+<br> <br>\
+<ul>\
+<li> You ship with parcel post (from € 7,25). Only do this if it can go with the mail and is not more than 10 kilos. </li>\
+<li> You send by registered mail with parcel post (from € 10). The buyer must sign for receipt. Only do this if it can go with the parcel post and is no more than 10 kilos. </li>\
+<li> Let the buyer use the Whoppah courier service. The item is collected from you and delivered to the seller (throughout the Netherlands) from € 69. We will contact you to plan the day of pick up. </li>\
+<li> You arrange the shipment and enter a rate yourself. </li>\
+<li> Please note!: Include any packaging costs in the sales price if you think this is necessary. If you choose parcel post, make sure you pack an item very well. The postal company must be able to stack it. </li>\
+</ul>\
+<br>\
+<h3> What do I pay for transport as a buyer? </h3>\
+The seller indicates whether it is possible to pick up an item or that he or she chooses to only send. In the case of shipping, the costs depend on how large an item is. \
+<br>\
+<br>\
+<ul>\
+<li> Parcel post is € 7,25 </li>\
+<li> Registered parcel post is € 10 </li>\
+<li> Courier service: the item is collected from the seller and delivered to you from €69 in The Netherlands and € 129 in Belgium. We will contact you to plan the day of delivery. You arrange the shipment and enter a rate yourself. </li>\
+<li> The seller may have different selling costs. </li>\
+</ul>";
+"faq-offer-title" = "What products can I buy and sell on Whoppah?";
+"faq-offer-description" = "<h3> What can I buy and sell on Whoppah? </h3>\
+On Whoppah you will find unique second-hand design: furniture, lighting, art and decoration. From modern to vintage. All items are reviewed by our professional curation team. They determine whether an item meets our curation rules. Among other things, attention is paid to brand authenticity, age and the condition of the item. That is a big advantage, because it allows you to find the most beautiful design in one place and you are assured of quality. Below we briefly explain what a design item, vintage item or piece of art must meet:\
+<br>\
+<br>\
+design\
+An item, in our view, falls under the category of design when the item is made by a recognized designer and is usually an item that is custom or made to order. The item is of high quality and only available in a relatively limited edition. As a result, the item has a long lifespan and is often labeled as timeless. Examples of design brands on Whoppah are: Vitra, Cassina, Artifort, Leolux, Knoll, Pastoe, Minotti.\
+<br>\
+<br>\
+Vintage & Antique\
+Vintage items are designs made between 1920 and 1990. Items are antique when they are 100 years or older.\
+<br>\
+<br>\
+Art\
+Art includes items made by recognized artists: from paintings by Herman Brood to photography by Pim Westerweel.\
+<br>\
+<br>\
+<h3> What do the different conditions mean? </h3>\
+'Good' means the item is in good condition, but shows signs of use. 'Very good' means the item may show signs of use, but these are not noticeable. 'Excellent' means that you can hardly find any traces of use. Always take a close look at the photos and chat with the seller about the condition if you are unsure about anything.\
+<br>\
+<br>\
+<h3> How do I know if what I am buying is really as stated? </h3>\
+Our curators check whether an advertisement meets our standards. We also check for authenticity. Unfortunately, we cannot guarantee 100% that what you buy will always be exactly as advertised. If you use our courier service, the courier will check whether the item corresponds to the advertisement during collection from the buyer. It is always recommended to do your own research into the authenticity of an item. In any case, we promise that you will get your money back if the item is not original or differs substantially from the way it was presented upon collection or delivery.\
+<br>\
+<br>\
+<h3> What should I do if I have strong doubts as a buyer about the authenticity of an item? </h3>\
+If you doubt the authenticity of an item, you can report the ad to the Whoppah support team. We contact the seller to investigate this further and may request proof such as a purchase receipt, certificate etc.\
+<br>\
+<br>\
+<h3> What is the difference between the app and the Whoppah website? </h3>\
+Whoppah has a website and an app. The app has more options than the website. You can upload videos of items and save ads as favorites. ";
+"faq-fees-title" = "What are the fees on Whoppah?";
+"faq-fees-description" = "<h3> What are the costs on Whoppah? </h3>\
+<ul>\
+<li> Creating an account is free of charge </li>\
+<li> Creating an advertisement is free of charge </li>\
+<li> Buyers pay € 1.99 service charge with a purchase </li>\
+<li> Private sellers pay 12% of the selling price </li>\
+<li> Business sellers pay 15% of the selling price excluding VAT. </li>\
+<li> Depending on the chosen payment method (Visa and Mastercard) the buyer will be charged extra costs for paying via this payment method. This is clearly indicated at the checkout.\
+</li>\
+<li> Paying via iDeal and Bancontact is free of charge. </li>\
+</ul>\
+<br>\
+<br>\
+<h3> Why does Whoppah charge costs? </h3>\
+These costs allow us to continue to improve the app and website. In addition, we can ensure the further recognition of Whoppah in the Netherlands and Belgium.";
+"faq-buying-title" = "How does buying and payments work?";
+"faq-buying-description" = "<h3> How do I pay for my purchase? </h3>\
+In the app you can pay safely and easily with iDeal, MasterCard, Visa or in Belgium with Bancontact via the \"pay now\" button in the chat, the \"buy now\" button on the page of the product, or in the app checkout. You can choose your payment method at checkout. We will send you a confirmation of the payment and purchase by e-mail.\
+<br>\
+<br>\
+<h3> Is payment secure via Whoppah? </h3>\
+To safeguard the safety of our buyers and sellers, payments are always made through Whoppah. As soon as the buyer makes a payment, the money ends up at our payment service provider Stripe. We keep the money in an escrow account until the buyer has indicated that he has received the item in good order. If the buyer does not state anything, the seller is always paid out after 10 days.\
+<br>\
+<br>\
+<h3> Can I cancel a payment as a buyer? </h3>\
+You cannot cancel the payment until the delivery of your purchase. If you have made a purchase from a professional seller (company) you can return up to 14 days after purchase in consultation with the seller. Purchases from private individuals are not covered by the Returns Act. If there is damage or if the item is completely different from the pictures in the advertisement, you can, after examination by Whoppah, claim a return. To do this, contact us via <a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a> and let the seller know via chat.\
+<br>\
+<br>\
+<h3> How am I protected as a buyer if my purchase does not arrive in good order? </h3>\
+If the package is delivered damaged by the delivery person, we recommend that you refuse it immediately. The package will then be returned. Let us know as soon as possible via support@whoppah.com and indicate in the chat with the seller that you have not received the package in good order. You do this via the \"Receive?\" Button in the chat with the seller.\
+Was the package delivered damaged? Take clear photos of the damage and send it to us and the seller. Also indicate in chat with the seller that you have not received the package in good order. You do this via the \"Receive?\" button.";
+"faq-bidding-title" = "How does bidding work?";
+"faq-bidding-description" = "The seller indicates the minimum bid that is required. If the seller accepts your bid, there is a deal. A deal is a deal on Whoppah. Then pay as quickly as possible via the app or the website.\
+<br>\
+<br>\
+<h3> How do I accept or decline a bid? </h3>\
+Do you want to accept a bid? Then press the green check mark <br>\
+Do you want to decline a bid? Then press the red cross <br>\
+Do you want to make a counter offer? Enter the amount at the bottom of the chat under \"counter-offer\".\
+<br>\
+<br>\
+<h3> What happens if my offer is accepted? </h3>\
+If the seller accepts your bid there is a deal. A deal is deal on Whoppah. Therefore, pay as quickly as possible via the app or the website.\
+<br>\
+<br>\
+<h3> What happens if the buyer has rejected my bid? </h3>\
+You can always place a new bid. Perhaps that offer gets accepted.\
+<br>\
+<br>\
+<h3> What happens if there is a deal and the buyer does not pay? </h3>\
+A deal is a deal. That's the rule on Whoppah. This way we prevent false bids from being made and sellers don't know where they stand. Buyers are therefore asked to make the payment after a deal. If a buyer does not, he is in default. We cannot legally enforce a payment, but we do take steps towards the buyer.";
+"faq-selling-title" = "How does selling on Whoppah works?";
+"faq-selling-description" = "<h3> As a seller, how do I know what I can sell on Whoppah? </h3>\
+On Whoppah you will find first-class furniture, lighting, art and home decoration. We check all advertisements before we publish them. This is how we ensure a first-class offering. We hereby look at:\
+<br>\
+<ul>\
+<li> The condition(at least good). </li>\
+<li> The brand (design brands). </li>\
+<li> If it has no brand (for example in the case of vintage or handmade items), then we look at the design, quality, the period of manufacture, and originality. </li>\
+<li> The quality of the photos and description. </li>\
+<li> How it fits within our current range. </li>\
+<li> The (attractiveness of the) price. </li>\
+</ul>";
+"faq-safeshopping-title" = "How do you keep Whoppah a safe shopping environment?";
+"faq-safeshopping-description" = "<h3> How does Whoppah check sellers and buyers for reliability? </h3>\
+Whoppah puts great importance to the safety of buying and selling and therefore to the reliability of buyers and sellers. That is why Whoppah identifies everyone through payment service provider Stripe at the first purchase or sale by checking the bank details and contact details. This is how we work to prevent fraud. Fraudsters are immediately and permanently excluded on Whoppah. In the event of fraud, a report is always made to the police.";
+"faq-my-account-title" = "My account";
+"faq-my-account-description" = "<h3> My Account </h3>\
+In Account you will find your personal profile, account settings, and all information about your ads. Here you can change your password, change profile name, profile text and photo, and change your bank details.\
+<br>\
+<br>\
+<h3> How do I change my password? </h3>\
+You change your password in your Account under the account settings heading.\
+<br>\
+<br>\
+<h3> How do I change my username? </h3>\
+You change your password in your My Whoppah profile environment under the account settings heading.\
+<br>\
+<br>\
+<h3> How do I adjust the bank account number associated with my account? </h3>\
+You change your bank account number in the My Whoppah profile environment under the heading payment institutions.\
+<br>\
+<br>\
+<h3> How do I delete my account? </h3>\
+You can log out of your account by going to: My account> Account setting> scroll down and you will find logging out there. If you want to delete your account completely, send an email to\
+<a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>.";
+"faq-contact-title" = "How do I contact Whoppah?";
+"faq-contact-description" = "Do you have a question or can't find a solution? Send us an email: <a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a> or chat via Help and contact in My Whoppah.";
+"edit-bank-description" = "The buyer pays to Whoppah. We will pay you 4 to 5 days after the buyer has received the item in good order. \
+\
+Our payments are made by Stripe.";
+"edit-bank-verify-text" = "After the first payment, your account will be verified and your profile will receive a verification badge.";
+"edit-bank-name-placeholder" = "Name";
+"edit-bank-name-subtitle" = "Your first name and surname must match the name of your bank account.";
+"edit-bank-iban-placeholder" = "Account number (IBAN)";
+"edit-bank-iban-subtitle" = "Fill in the entire IBAN number.";
+"view-bank-bank-checked-title" = "Your account has been verified";
+"view-bank-adjust-details-title" = "My bank details";
+"view-bank-adjust-details-change-button" = "Adjust details";
+"edit-bank-screen-title" = "Payment settings";
+"chat-error-min-bid-not-met-title" = "Minimum bid not met";
+"ask-sent-item-body" = "Did you send the item or have it delivered some other way?";
+"ask-sent-item-no" = "No, not yet";
+"ask-sent-item-yes" = "Yes";
+"common-dialog-title" = "WHOPPAH!";
+"confirm-receipt-reason-placeholder" = "Let us know what went wrong";
+"chat_cell_payment_buyer_total_title" = "Total";
+"payment-method-ideal" = "iDeal";
+"payment-method-bancontact" = "Bancontact";
+"payment-method-card" = "Credit card";
+"order-accepted-package-buyer" = "The seller will send your purchase within 3 days. Received a purchase? Then click on the '' Receive '' button in the chat, and then on '' Yes ''. Then we pay the seller.";
+"order-accepted-courier-buyer-1" = "You have opted for the Whoppah courier service. We will contact you as soon as possible to plan the delivery.";
+"order-accepted-courier-buyer-2" = "For questions, please contact Whoppah support via support@whoppah.nl";
+"order-accepted-courier-seller-1" = "Whoppah! The buyer has paid.";
+"order-accepted-courier-seller-2" = "The buyer has opted for the Whoppah Courier service. We will collect the item from you and deliver it to the buyer. We will contact you as soon as possible to schedule this.";
+"order-accepted-courier-seller-3" = "We will pay you as soon as the buyer has received the item in good condition. The money is in your account within 4 to 5 days after payment, depending on your bank. Please make sure all the required details are filled in your Account. ";
+"order-accepted-courier-seller-4" = "Do you have any questions? Then contact our support team via support@whoppah.com";
+"order-accepted-package-seller-1" = "Whoppah! The buyer has paid. Send the package within 3 working days to the address in the order confirmation. Make sure the package is carefully pack. Whoppah is not reliable for any damage. ";
+"order-accepted-package-seller-2" = "Do not forget to indicate whether you have sent the item. Once you have sent the item, send the buyer the Track & Trace number!";
+"order-accepted-package-seller-3" = "We will pay you as soon as the buyer has informed you that he has received the item in good order. If the buyer does not let us know about receipt then we will pay you after 10 days.";
+"order-accepted-package-seller-4" = "Once payment is made the money will be in your account within one day, depending on your bank.";
+"order-accepted-pickup-seller" = "Whoppah! The buyer has paid. Make an appointment to hand over the purchase as quickly as possible (at least within 5 days). We will pay you as soon as the buyer has indicated in the chat via the 'Receive' button that he has received the item in good condition. After payment, depending on your bank, the money will be in your account within 4 to 5 days. Check if your information in the app in My Account (Contact Information and Payment Settings) is complete to receive the payment.";
+"order-completed-seller" = "The buyer has received the purchase in good order! We will initiate the payment and depending on your bank, it will be in your account within 4 days. Just check whether your details in My Account (Contact details and Payment details) are complete.";
+"order-disputed-delivery-seller" = "The buyer has indicated that he has not (yet) received his purchase (in good condition). The Whoppah support team will contact you as soon as possible.";
+"order-cancelled-buyer" = "Your order has been cancelled";
+"order-expired-buyer" = "You have not made the payment within 48 hours. That means the deal has expired. Remember: on Whoppah a deal is a deal!";
+"order-cancelled-seller" = "The order is cancelled";
+"order-expired-seller" = "Unfortunately, the buyer has not paid within 48 hours. The deal is no longer valid. You can always make a proposal by entering your bid at the very bottom of the chat.";
+"order-disputed-buyer" = "You have indicated that you have not (yet) received your purchase (in good condition). The Whoppah support team will contact you as soon as possible.";
+"payment-processing-title" = "The payment is being processed";
+"payment-processing-subtitle" = "This may take a little while.";
+"payment-processing-cancel-button" = "Cancel payment";
+"auction-state-canceled" = "Cancelled";
+"product-state-draft" = "Draft";
+"set_profile_merchant1_company_name" = "Company Name";
+"common-website" = "Website";
+"common-date-of-birth" = "Date of birth";
+"upgrade-app-dialog-button" = "Update the app";
+"upgrade-app-dialog-title" = "We have an important new version of the app available. Please go to the app store and update to continue.";
+"create_ad_select_allow_bids_description" = "Increase the chance of a sale with bidding. You decide from which level buyers may bid.";
+"order-disputed-pickup-seller" = "The buyer has indicated that he has not collected the item. The Whoppah support team will contact you as soon as possible.";
+"order-completed-buyer" = "Thank you for buying at Whoppah. Have fun with it and hope to see you soon on Whoppah!";
+"product-state-accepted" = "Active";
+"product-state-curation" = "Curation";
+"auction-state-draft" = "Draft";
+"auction-state-banned" = "Unavailable";
+"order-state-shipped" = "On the way";
+"order-state-new" = "Not paid";
+"checkout-select-payment-method" = "Select payment method";
+"checkout-addresses-title" = "My address";
+"checkout-order-details-title" = "Order details";
+"checkout-member-details-title" = "Personal information";
+"create-ad-delivery-button-pickup" = "Will pick up";
+"bid-accepted-seller" = "You have a deal. The buyer will now receive a payment request and must pay within 24 hours.";
+"track_id_track_courier" = "Via courier service";
+"ad_details_pay_button" = "Pay now";
+"ad_details_chat_button" = "Go to chat";
+"checkout-shipping-cost" = "Shipping cost";
+"checkout-payment-cost" = "Payment cost";
+"checkout-whoppah-fee" = "Whoppah fee";
+"checkout-total-cost" = "Total";
+"checkout-discount" = "Discount";
+"category-beeldwerk" = "Sculpture";
+"category-decoratie" = "Decoration";
+"my-account-password-reset-toast" = "Your password has been changed";
+"my-account-changes-saved-toast" = "Your changes have been saved!";
+"faq-create-ad-title" = "When will the courier pick up my item?";
+"faq-create-ad-description" = "<h3> How do I create an advertisement? </h3>\
+Placing an ad is very simple. Click on the red button at the bottom of the menu bar. Take or upload 5 photos. For a better impression of your item, make a video. Enter the advertisement details. Determine your \"sell now\" price and the delivery method. Your ad is ready to upload! Whoppah will check the ad within 48 hours and you will receive an email when it is placed.\
+<br>\
+<br>\
+<h3> What should I place in the description? </h3>\
+It is of course important that an advertisement has enough information.\
+<br> <br>\
+<ul>\
+<li> Indicate where it was purchased and possibly the purchase price </li>\
+<li> How old the item is and the history of it </li>\
+<li> Details about the state, accessories, etc. </li>\
+<li> In the case of art, explanation about the artist </li>\
+<li> Tip: make the description personal! Why did you buy it? What do you like about it? Why are you putting it away? In short, what is the story behind the item? </li>\
+</ul>\
+<br>\
+<br>\
+<h3> How many photos do I have to upload and what kind? </h3>\
+<ul>\
+<li> Have a minimum of 5 good quality photos </li>\
+<li> At least one photo of the item as a whole piece (make sure the edges / sides of the photo are not cut off) without decoration and well exposed </li>\
+<li> Photos of the details such as the brand label, traces of light wear, etc. </li>\
+<li> Create a video for an even better view for the buyer </li>\
+<li> Tip: take photos against a white background </li>\
+</ul>\
+<br>\
+<br>\
+<h3> How do I determine my asking price? </h3>\
+As a seller you determine the asking price. Buyers can buy your item directly for this asking price. In addition, buyers can negotiate via chat. As a seller you determine whether you agree to a bid. The buyer first pays the amount to us. Once the buyer indicates to have received the item in good order, we will pay you. <br> <br>\
+Need price advice? Send us a photo of your item and we'll let you know what it's worth at Whoppah.\
+<br>\
+<br>\
+<h3> Can I sell on Whoppah as a company? </h3>\
+Companies and individuals can sell on Whoppah with one condition: the products are preowned or handmade. With this we want to stimulate sustainability through the use of already produced things. The categories that fall under this category are: preowned items, antiques, showroom models, handmade items, refurbished items and returns from web stores.\
+<br>\
+<br>\
+<h3> Can I place an ad higher as a seller? </h3>\
+With every search that the shopper does on Whoppah, we ensure that there are other items at the top. It does not matter whether your advertisement has just been created or has been online for weeks. Every shopper on Whoppah receives catered and optimized advertisements in a different order. Therefore, enter as many product details as possible and ensure that the title of the item clearly describes what you are selling. The shoppers can find your advertisement easily by using the different filters.\
+<br>\
+<br>\
+<h3> Can I place an ad twice, as a seller? </h3>\
+We like to give everyone equal opportunities, so we remove any duplicate ads.\
+<br>\
+<br>\
+<h3> When will I be paid as a seller? </h3>\
+Whoppah ensures that buying and selling is as safe as possible. That is why the buyer always pays Whoppah first. The money is then placed in an escrow account of our payment provider Stripe (which is supervised by the Netherlands Authority for the Financial Markets and the Dutch Bank). The moment the buyer has indicated that he has received the item in good order, through the chat, the money is paid to the seller. The money is, depending on the bank of the seller, in the account within 4 days.\
+<br>\
+<br>\
+<h3> What if the buyer does not state anything? </h3>\
+If the buyer does not declare anything within 10 days, the money will be paid to the seller after 10 days. The money is, depending on the bank of the seller, in the account within 4 days.\
+<br>\
+<br>\
+<h3>Waarom controleert en fotografeert de koerier mijn item?</h3>\
+Als verkoper dien je de staat van het product in de advertentie aan te geven. Wanneer de koerier jouw item komt ophalen, checkt hij of de staat van het item overeenkomt met de informatie in de advertentie. Daarnaast maakt hij 5 foto’s van het item voordat het item meegaat met de Whoppah-bus. Mocht er schade worden ontdekt die niet is vastgelegd op de foto, dan dan ligt de bewijslast bij de koper.\
+<br>\
+<br>\
+<h3> What if the buyer indicates that he has not received the item in good order? </h3>\
+If the buyer indicates that he has not received the item in good order, the Whoppah support team will contact both parties to assess and resolve the situation. The money will remain (until further clarification) in the suspense account of Stripe.";
+"auth_sign_up2_terms_part5" = "or the";
+"auth_sign_up2_terms_part6" = "Stripe terms of use.";
+"stripe-terms-view-title" = "Stripe Terms of service";
+"signup-agree-stripe-terms" = "I agree with the <a href=\"https://stripe.com/legal\">terms and conditions</a> from payment service provider Stripe";
+"chat_cell_payment_complete_delivery_tip_buyer" = "The seller will send the item within the next 3 days to your given address:";
+"common-missing-address-city" = "Missing city";
+"common-missing-address-street" = "Missing street";
+"common-missing-address-postcode" = "Missing postcode";
+"common-missing-phone-number" = "Phone number is required";
+"common-missing-vat" = "VAT number is required";
+"common-missing-company-name" = "Company name is required";
+"common-invalid-phone-number" = "Incorrect phone number";
+"label-best-deal-title" = "TOP DEAL";
+"label-best-deal-color" = "#395638";
+"label-new-title" = "NEW";
+"label-new-color" = "#000000";
+"main_my_profile_ads_draft" = "Drafts";
+"my_ads_drafts_screen_title" = "Drafts";
+"label-sale-title" = "SALE";
+"label-sale-color" = "#F57864";
+"auth-reset-sent-dialog-title" = "Check your inbox";
+"auth-reset-sent-content-title" = "You will find the reset link in your e-mail";
+"auth-reset-sent-content-description" = "We have emailed you with a link to reset your password";
+"product-state-banned" = "Banned";
+"bid-confirmation-counterbid-or-separator" = "OR";
+"bid-confirmation-counter-bid-subtitle" = "Your offer will expire in 48 hours";
+"common-missing-profile-name" = "Profile name is required";
+"common-missing-email" = "Email is required";
+"common-missing-first-name" = "Enter your first name";
+"common-missing-last-name" = "Enter your surname";
+"product-state-canceled" = "Cancelled";
+"edit-ad-done-title" = "Whoppah!";
+"common-url-subtitle" = "Fill out company website, LinkedIn profile, Facebook profile, Instagram profile, or whoppah.com";
+"category-krukjes" = "Stools";
+"category-kuipstoelen" = "Side chairs";
+"category-2-zitsbanken" = "2 seaters";
+"category-3-5-zitsbanken" = "3-5 seaters";
+"bid-state-expired" = "Expired";
+"bid-state-new" = "New";
+"auth-sign-in-screen-title" = "Log in";
+"auth-forgot-password-title" = "Enter your email";
+"auth-forgot-pass-screen-title" = "Forgotten password";
+"auth-sign-up2-screen-title" = "Password";
+"auth-sign-up2-title" = "Choose a password";
+"auth-account-type-chooser-title" = "I want to register as...";
+"auth-account-type-chooser-screen-title" = "Create an account";
+"auth-account-type-chooser-person-title" = "Individual";
+"auth-account-type-chooser-person-subtitle" = "Selling and/or buying privately";
+"auth-account-type-chooser-business-title" = "Company";
+"auth-account-type-chooser-business-subtitle" = "Selling and/or buying as a business";
+"auth-sign-up1-title" = "Enter your email and profile name";
+"auth-sign-up1-screen-title" = "Account info";
+"auth-sign-up1-email-error" = "Oops! Check your email address";
+"auth-sign-up1-profile-error" = "Oops! Check your profile name";
+"on-boarding-1-title" = "Always of quality";
+"on-boarding-1-option-1" = "Unique range of preowned designer items";
+"on-boarding-1-option-2" = "Always curated by stylists and experts";
+"on-boarding-1-option-3" = "View or make videos of advertisements";
+"on-boarding-2-title" = "Buy and sell safely";
+"on-boarding-2-option-1" = "Pay securely via Whoppah";
+"on-boarding-2-option-2" = "Controlled buyers and sellers";
+"on-boarding-2-option-3" = "Deal is deal on Whoppah";
+"on-boarding-3-title" = "First class service";
+"on-boarding-3-option-1" = "Insured delivered via courier";
+"on-boarding-3-option-2" = "Create an advertisement for free";
+"on-boarding-3-option-3" = "The Support team is always ready";
+"common-skip" = "Skip";
+"common-step-progress" = "Step %d/%d";
+"auth-sign-up3-title" = "Enter details below";
+"auth-sign-up3-screen-title" = "company details";
+"auth-sign-up3-company-name" = "Company Name";
+"common-next-last-step-button" = "To the last step";
+"auth-sign-up3-phone-number-description" = "We will only call you if there is a problem with a purchase or sale";
+"auth-sign-up4-screen-title" = "Contact person";
+"auth-sign-up4-title" = "Who is the contact person?";
+"auth-sign-up4-description" = "Enter the name of the person who may legally act on behalf of the company (this is you or the owner)";
+"common-first-name" = "First Name";
+"common-last-name" = "Last name";
+"auth-sign-up5-screen-title" = "Address";
+"auth-sign-up5-title" = "Fill in your address";
+"auth-email-confirm-screen-title" = "Confirm account";
+"auth-email-confirm-title" = "Welcome 👋";
+"auth-email-confirm-description" = "Welcome at Whoppah! Enjoy our wonderfull design and art items.";
+"auth-email-confirm-open-mail-button" = "Open mail";
+"auth-email-confirm-open-whoppah-button" = "Or open Whoppah";
+"auth-email-select-client-title" = "Check your inbox";
+"auth-email-select-client-description" = "Welcome at Whoppah! Enjoy our wonderfull design and art items.";
+"common-cancel" = "Cancel";
+"auth-email-confirm-no-email-client-continue" = "Open Whoppah";
+"email-client-mail" = "Open mail (default)";
+"email-client-gmail" = "Open Gmail";
+"onboarding-page1-title" = "Always of quality";
+"onboarding-page1-bullet1" = "<b>Unique range</b> of preowned design";
+"onboarding-page1-bullet2" = "<b>Always curated</b> by stylists and experts";
+"onboarding-page1-bullet3" = "View or create <b> ads with videos </b>";
+"onboarding-page2-title" = "Buy and sell safely";
+"onboarding-page2-bullet1" = "<b>Pay securely</b> via Whoppah";
+"onboarding-page2-bullet2" = "<b>Verified buyers and sellers</b>";
+"onboarding-page2-bullet3" = "<b>A deal is a deal</b> with Whoppah";
+"onboarding-page3-title" = "First class service";
+"onboarding-page3-bullet1" = "<b>Insured delivery</b> via courier";
+"onboarding-page3-bullet2" = "Create an advertisement <b>for free</b>";
+"onboarding-page3-bullet3" = "Our <b>Support team</b> is always ready";
+"auth-reset-sent-dialog-description" = "A reset link has been sent to %@ ";
+"welcome-dialog-title" = "Welcome to Whoppah 👋";
+"welcome-dialog-description" = "Start selling and buying the best design furniture, lighting and art.";
+"welcome-dialog-create-ad-button" = "Place first advert";
+"welcome-dialog-search-button" = "Search for design";
+"common-phone-number-placeholder" = "Phone number";
+"auth-registration-failed-existing" = "We already have an account with this email. Login on or reset password. ";
+"common-button-save" = "Save";
+"create-ad-how-works-title" = "You are now creating an advertisement";
+"create-ad-how-works-description" = "Whoppah stands for quality and design, which is why all advertisements are curated based on the quality, photos and the completeness of the description. Sometimes we make advertisements even better by adding text.";
+"create-ad-common-create-ad-button" = "Start creating ad";
+"create-ad-how-works-see-tips-button" = "Read our ad creation tips!";
+"create-ad-tips-1-title" = "The best adverts have...";
+"create-ad-tips-1-bullet-1" = "<b>Good quality photos</b> showing the whole item";
+"create-ad-tips-1-bullet-2" = "<b>A minimum of 5 photos.</b> The more photos, the faster you will sell";
+"create-ad-tips-1-bullet-3" = "<b>A video</b> enhances your ad's impression";
+"create-ad-tips-2-title" = "The best adverts have...";
+"create-ad-tips-2-bullet-1" = "Fill <b>all information</b> that a buyer would like to know.";
+"create-ad-tips-2-bullet-2" = "<b>An attractive price.</b> Good deals sell quickly!";
+"create-ad-category-selection-title" = "What do you want to sell?";
+"create-ad-category-selection-screen-title" = "Create ad";
+"create-ad-description-next-button" = "Add photos";
+"create-ad-description-bullet-title" = "Recommended tips";
+"common-save" = "Save";
+"create-ad-cancel-dialog-title" = "Save advert and continue later";
+"create-ad-cancel-dialog-save" = "Save and continue later";
+"create-ad-cancel-dialog-delete" = "Delete advert";
+"create-ad-cancel-dialog-return-to-ad" = "Return to advert";
+"category-meubels" = "Furniture";
+"create-ad-common-your-ad-title" = "Your listing";
+"create-ad-select-photos-title" = "Add 5 photos";
+"create-ad-select-photos-choose-button" = "Choose existing photos";
+"create-ad-select-photos-new-button" = "Take new photos";
+"create-ad-select-photos-bullet-title" = "How to take perfect photos";
+"create-ad-select-photos-bullet1" = "Have a neutral background";
+"create-ad-select-photos-bullet2" = "Ensure good lighting";
+"create-ad-select-photos-bullet3" = "Take a picture of the front of the item";
+"create-ad-select-photos-bullet4" = "Take a picture of any extra details";
+"create-ad-video-title" = "Add a video";
+"create-ad-video-bullet-title" = "Tips for a great video";
+"create-ad-video-no-video-banner-title" = "We highlight ads with videos. Sell 3 times faster with a video of 15 seconds. ";
+"create-ad-video-replace-video-button" = "Create new video";
+"create-ad-video-new-video-button" = "Create video";
+"create-ad-video-save-next-button" = "Save and continue";
+"common-skip-button" = "Skip";
+"create-ad-video-bullet1" = "Hold the camera steady";
+"create-ad-video-bullet2" = "Capture the entire product";
+"create-ad-video-bullet3" = "Zoom in on any details";
+"create-ad-select-photos-bullet3-kunst" = "Take a picture of the front and back of the frame";
+"create-ad-description-bullet1" = "Age, purchase price and origin";
+"create-ad-description-bullet2" = "Receipt and/or certificate";
+"create-ad-description-bullet3" = "Possible damage";
+"create-ad-description-bullet1-kunst" = "Artist, material";
+"create-ad-description-bullet2-kunst" = "Age, purchase price and origin";
+"create-ad-description-bullet3-kunst" = "Receipt and/or certificate";
+"create-ad-description-bullet4-kunst" = "Possible damage";
+"create-ad-select-photos-bullet1-kunst" = "Have a neutral background";
+"create-ad-select-photos-bullet2-kunst" = "Ensure good lighting";
+"create-ad-select-photos-bullet4-kunst" = "Take a picture of any extra details";
+"create-ad-description-title" = "Describe the item";
+"create-ad-details-title" = "Add product details";
+"create-ad-details-subtitle" = "Define your advert details here.";
+"create-ad-details-change-category-button" = "Change category";
+"create-ad-details-select-common" = "Select";
+"create-ad-details-next-button" = "Go to asking price";
+"create-ad-price-title" = "Decide your asking price";
+"create-ad-price-fee-explanation-text" = "A %@ Whoppah Fee is charged so we can continue to constantly improve the app and offer the best service.";
+"create-ad-price-bidding-section-title" = "Allow bidding?";
+"create-ad-price-bidding-switch-title" = "Bidding allowed";
+"create-ad-price-min-bid-description" = "Enter the minimum bid amount";
+"create-ad-price-min-bid-placeholder" = "Bid from:";
+"create-ad-price-button-title" = "To the last step";
+"create-ad-price-tip-text" = "On Whoppah your item can always be purchased for your asking price.  %@ Whoppah Fee is charged.";
+"create-ad-price-min-bid-higher-one-percent-asking" = "Should be greater than 1% of the price";
+"create-ad-price-min-bid-lower-price" = "Minimum bid should be lower than the price";
+"create-ad-price-min-bid-invalid" = "Invalid minimum bid";
+"create-ad-shipping-title" = "Choose delivery method";
+"create-ad-summary-create-button-description" = "Press this button to submit the advert to Whoppah for curation";
+"create-ad-shipping-shipping-method-title" = "Shipping method";
+"create-ad-shipping-shipping-description" = "Only one shipping method can be selected. Take the size of your item into account.";
+"create-ad-shipping-address-title" = "Your address";
+"create-ad-summary-title" = "Advert summary";
+"create-ad-shipping-button-title" = "View ad summary";
+"create-ad-shipping-missing-address-label" = "We are missing an address";
+"create-ad-summary-edit-photos-button" = "Adjust photos";
+"create-ad-summary-edit-video-button" = "Add video";
+"create-ad-summary-description-section-title" = "Description";
+"create-ad-summary-description-edit-button" = "Adjust description";
+"common-brand-title" = "Brand";
+"common-material-title" = "Material";
+"common-condition-title" = "Condition";
+"common-dimensions-title" = "Dimensions";
+"common-colors-title" = "Colors";
+"create-ad-summary-price-title" = "Asking price";
+"create-ad-summary-receive-title" = "You receive";
+"create-ad-summary-bidding-enabled-title" = "Bidding enabled";
+"create-ad-summary-shipping-address-title" = "Address";
+"create-ad-summary-shipping-method-title" = "Delivery method";
+"create-ad-summary-productdetails-title" = "Product details";
+"create-ad-summary-edit-productdetails-button" = "Adjust product details";
+"create-ad-summary-edit-price-button" = "Edit asking price";
+"create-ad-summary-edit-shipping-button" = "Adjust delivery method";
+"create-ad-summary-shipping-pickup-only" = "Pickup only";
+"create-ad-summary-shipping-delivery-only" = "Send only";
+"create-ad-summary-shipping-delivery-or-pickup" = "Whoppah Courier, \
+package or pick up";
+"create-ad-common-save-to-summary-button" = "Check advertisement";
+"create_ad_main_error_missing_description" = "Add a description";
+"continue-ad-dialog-title" = "Continue with your ad";
+"continue-ad-dialog-description" = "Your ad has not yet been finished or is incomplete. Finish your ad and start selling on Whoppah.";
+"continue-ad-dialog-button" = "Finish ad";
+"create-ad-navbar-save-button" = "Save draft";
+"common-artist-title" = "Artists";
+"common-gb" = "Great Britain";
+"set-profile-invalid-website-url" = "Invalid website URL format";
+"checkout-payment-cost-card" = "Credit card fee Stripe";
+"create-ad-select-photos-drag-tip" = "Change order by dragging photos";
+"common_united_kingdom" = "Great Britain";
+"create-ad-shipping-custom-title" = "Do you have alternative shipping?";
+"create-ad-shipping-custom-description" = "Set your own cost here";
+"create-ad-shipping-custom-placeholder" = "Shipping price";
+"create-ad-shipping-custom-switch-label" = "No / Yes";
+"create-ad-select-attribute-search-placeholder" = "Type the name here";
+"create-ad-select-attribute-default-button" = "Confirm selection";
+"create-ad-select-brand-title" = "Search for a brand";
+"create-ad-select-brand-unknown-brand" = "I don't know the brand";
+"create-ad-select-brand-suggestion-title" = "Is your brand not listed?";
+"create-ad-select-brand-suggestion-description" = "Type in the brand name and hit save";
+"create-ad-select-brand-suggestion-placeholder" = "Brand name";
+"create-ad-select-brand-save-button" = "Save brand";
+"create-ad-select-material-title" = "Choose the material";
+"create-ad-select-artist-title" = "Search for an artist";
+"create-ad-select-artist-save-button" = "Save artist";
+"create-ad-select-artist-suggestion-placeholder" = "Artist name";
+"create-ad-select-artist-suggestion-description" = "Type in the artist name and hit save";
+"create-ad-select-artist-suggestion-title" = "Is your artist not listed?";
+"create-ad-select-artist-unknown-artist" = "I don't know the artist";
+"create-ad-select-unknown-brand-artist" = "Unknown";
+"create-ad-select-attribute-result-section-title" = "Results";
+"category-meubels-2" = "Furniture";
+"create-ad-summary-save-button" = "Save changes";
+"create-ad-record-video-tap-hold" = "Hold down the button";
+"material-canvas" = "Canvas";
+"material-anders-2" = "Other";
+"common-bid-from-price" = "Bid from %@";
+"checkout-title" = "Checkout";
+"checkout-phone-number-description" = "We may use this to contact you to plan shipping ";
+"checkout-delivery-method-title" = "Delivery method";
+"checkout-delivery-address-title" = "Delivery Address";
+"checkout-next-button-title" = "To payment";
+"checkout-pickup-title" = "Pick up yourself";
+"checkout-pickup-description" = "Schedule a collection time";
+"checkout-shipping-registered-description" = "Registered post";
+"checkout-shipping-standard-description" = "Regular parcel post";
+"checkout-shipping-courier-description" = "Insured delivery";
+"checkout-payment-method-title" = "Payment method";
+"checkout-pay-button-description" = "You will be referred to our payment provider STRIPE";
+"checkout-add-new-address-button" = "Add a new address";
+"checkout-missing-address-label" = "We are missing an address";
+"shipping-custom" = "Seller will send";
+"checkout-shipping-custom-description" = "Sellers' adjusted shipping cost";
+"draft-dialog-title" = "Your ad is being saved";
+"draft-dialog-subtitle" = "This may take a little while.";
+"ad-details-product-type" = "Product Type";
+"ad-details-pickup-title" = "Pickup only";
+"ad-details-pickup-description" = "Plan a collection time with the seller";
+"ad-details-standard-title" = "Parcel post only";
+"ad-details-standard-description" = "The item will be delivered to your home by regular post for %@";
+"ad-details-registered-title" = "Registered post";
+"ad-details-registered-description" = "The item will be delivered by registered mail for %@";
+"ad-details-courier-title" = "Let the courier deliver at home";
+"ad-details-courier-description" = "The insured Whoppah courier delivers the item from %@";
+"ad-details-custom-title" = "Seller will send";
+"ad-details-custom-description" = "Sellers' adjusted shipping cost %@";
+"ad-details-combo-title" = "Pick which suits you";
+"ad-details-pickup-standard-description" = "Pick up yourself or select parcel post for %@";
+"ad-details-pickup-registered-description" = "Pick up yourself or select registered parcel post for %@";
+"ad-details-pickup-courier-description" = "Pick up yourself or select insured delivery to your home with the Courier for %@";
+"ad-details-pickup-custom-description" = "Pick up yourself or select the seller's custom delivery for %@";
+"ad-details-buy-now-price" = "Asking price: %@";
+"ad-details-bid-confirm-description" = "A deal is a deal, if the seller accepts the bid you have to make the payment.";
+"ad-details-place-bid-placeholder" = "Place bid %@";
+"contextual-signup-create-account-button" = "Create an account";
+"contextual-signup-sign-in-button" = "Sign in";
+"contextual-signup-selling-title" = "Quickly place your advert with an account";
+"contextual-signup-selling-description" = "Sell quickly and securely with Whoppah";
+"contextual-signup-bidding-title" = "Bid on your favourite items with an account";
+"contextual-signup-bidding-description" = "Your dream items for the best price";
+"contextual-signup-favorites-title" = "All your favourites in one place with an account";
+"contextual-signup-favorites-description" = "Never miss your dream item again";
+"contextual-signup-chat-title" = "Chat with sellers needs an account";
+"contextual-signup-chat-description" = "Ask all your questions via chat";
+"contextual-signup-mywhoppah-title" = "Easily purchase an item with a Whoppah account";
+"contextual-signup-mywhoppah-description" = "Safe and worry-free shopping";
+"contextual-signup-buying-description" = "Safe and worry-free shopping";
+"contextual-signup-buying-title" = "Easily purchase an item with a Whoppah account";
+"bekijk-de-collectie-title" = "View the collection";
+"winston-renate-collectie-title" = "Winston Renate Collection";
+"winston-renate-collectie-description" = "Shop the Winston & Renate collection";
+"winston-renate-collectie-button" = "See all items";
+"thread-cell-whoppah-message" = "Message from Whoppah";
+"threads-empty-title" = "You have no chats";
+"threads-empty-description" = "Make an offer, ask a seller a question or contact Whoppah.";
+"threads-empty-whoppah-contact-button" = "Ask Whoppah a question";
+"chat-cell-outgoing-bid-new" = "My bid";
+"chat-bid-incoming-cell-new-firsttime" = "Whoppah 👋! You have a bid. Accept by clicking on the green check mark. Reject by clicking on the red cross or make a counter offer. The offer is valid for 48 hours. Afterwards, the bid will expire.";
+"chat-bid-incoming-cell-accept-button" = "Accept";
+"chat-bid-incoming-cell-counter-button" = "Counter";
+"chat-bid-incoming-cell-reject-button" = "Bid too low";
+"chat-conversation-between" = "You are in a conversation between the seller %@ and %@";
+"chat-cell-dialog-accept-bid-title" = "Accept bid";
+"chat-cell-dialog-counter-bid-title" = "Enter new bid";
+"chat-cell-dialog-counter-bid-description" = "Respond with a new (counter) bid.";
+"chat-cell-dialog-accept-bid-description" = "Do you want to accept the bid from <b>%@</b>? A deal is a deal!";
+"chat-cell-dialog-reject-title" = "Bid %@ too low";
+"chat-cell-dialog-reject-description" = "Decline this bid and make a counteroffer. ";
+"chat-cell-dialog-accept-bid-button" = "I accept the bid";
+"chat-cell-dialog-counter-bid-placeholder" = "Amount";
+"chat-cell-dialog-counter-bid-button" = "Send";
+"chat-ask-pay-cell-description" = "Whoppah! You have a deal. Pay now or within 24 hours otherwise your deal will expire.";
+"chat-ask-pay-cell-title" = "Deal! Pay now";
+"chat-ask-pay-cell-pay-now-title" = "Go to checkout";
+"chat-ask-pay-cell-pay-now-description" = "Go to the checkout and to pay with your preferred payment method. You can also select the shipping method. Note: pay within 24 hours otherwise the deal will expire!";
+"chat-ask-pay-cell-pay-now-pay-button" = "Pay now";
+"chat-cell-order-confirm-buyer-delivery-description" = "The seller will send you the item within 3 days.";
+"chat-cell-order-confirm-totals-header-title" = "You have paid";
+"chat-cell-order-confirm-seller-title" = "Sale confirmation";
+"chat-cell-order-confirm-buyer-pickup-description" = "Schedule a collection time with the seller.";
+"chat-cell-order-confirm-buyer-delivery-courier-description" = "Whoppah will contact you to schedule a delivery time for the courier.";
+"chat-cell-order-confirm-seller-delivery-courier-description" = "Whoppah will contact you to schedule a pick-up time for the courier.";
+"chat-cell-order-confirm-seller-delivery-description" = "Send the item to the buyer within 3 working days.";
+"chat-cell-order-confirm-seller-pickup-description" = "Schedule a collection time with the buyer.";
+"chat-cell-ask-tracking-sent-button" = "I've sent the item";
+"chat-cell-product-received-received-button" = "Did you receive the item?";
+"chat-cell-product-received-dialog-title" = "Item received?";
+"chat-cell-product-received-dialog-description" = "Has 10 days passed and you haven't received the item yet? Let us know.";
+"chat-cell-product-received-good-order-button" = "Received in good condition";
+"chat-cell-product-received-not-good-button" = "There is a problem";
+"chat-received-good-order-message" = "I have received the item in good condition";
+"chat_cell_payment_complete_order_confirm" = "Order Confirmation";
+"bid-received-tip-new" = "Hi 👋\
+%@ has just bid on the item:%@. How do you want to respond to the bid? Counter bidding is also possible!";
+"chat-header-product-seller" = "Conversation between potential seller %@ and the Whoppah support team.";
+"chat-header-product-buyer" = "Conversation between potential buyer %@ and the Whoppah support team.";
+"chat-header-default" = "Conversation between %@ and Whoppah.";
+"chat-cell-dialog-counter-bid-min-bid-error" = "The minimum bid is %@";
+"chat-cell-order-incomplete-order-cancelled-title" = "Order cancelled";
+"chat-cell-order-incomplete-order-expired-title" = "Deal has expired";
+"chat-cell-order-incomplete-new-bid-button" = "New bid";
+"chat-cell-order-incomplete-new-bid-dialog-title" = "Enter new bid";
+"chat-cell-order-incomplete-new-bid-dialog-description" = "Respond with a new (counter) bid.";
+"funky-vondsten-button" = "See all items";
+"funky-vondsten-description" = "Unique, unconventional and unusual. Design full of personality and innovation. That's Funky.";
+"funky-vondsten-title" = "Funky Vondsten Collection";
+"auth-sign-up-2-password-match-requirements-error" = "Password does not meet requirements";
+"chat-help-button" = "Help";
+"chat-help-screen-title" = "Chat Help";
+"chat-help-title" = "How does chat work?";
+"chat-help-section-1-title" = "From chat to deal";
+"chat-help-section-1-bullet-1" = "You can accept a bid (green button), decline a bid (red button) or do a counter offer (bottom of the chat). ";
+"chat-help-section-2-title" = "Paying";
+"chat-help-section-2-bullet-1" = "Pay via Stripe with credit card, iDeal and Bancontact payment methods";
+"chat-help-section-3-title" = "Adjust the price";
+"chat-help-section-1-bullet-2" = "When a bid is accepted a deal is made between buyer and seller. The buyer will see a button in the chat that leads him to the checkout where he can pay and finish the transaction. ";
+"chat-help-section-3-bullet-1" = "You can easily add any amount in the counter offer input field at the bottom of the chat. When the other party accepts this amount he or she will receive a payment request for this amount.";
+"chat-help-section-4-title" = "Delivery method & transport planning";
+"chat-help-section-4-bullet-1" = "The buyer can select preferred delivery method in the checkout";
+"chat-help-section-4-bullet-2" = "Are you going to pick up the item and you did not pay yet? You can also add the amount in the counter offer input field at the bottom of the chat. When this is accepted by the other party, a payment button will appear and will lead you to the checkout. ";
+"fauteuils-description" = "Shop these designer chairs to lounge and relax.";
+"fauteuils-title" = "Designer armchairs";
+"tafellampen-description" = "Shop the most beautiful design table lamps you have ever seen.";
+"tafellampen-title" = "Table lamps";
+"chat-cell-incoming-bid-new" = "New bid";
+"Eettafels-description" = "The most beautiful dining tables on Whoppah.";
+"eettafels-title" = "Dining tables";
+"transaction-feedback-back-to-chat" = "Back to chat";
+"bid-received-new-seller" = "Whoppah! You have a bid. Accept, decline or do a counter proposal. The bid is valid for 48 hours. Deal closed? Then a 'Pay' button appears in the chat with the Buyer. Want to arrange transport? In the checkout the Buyer can choose for delivery by the Whoppah courier.";
+"bid-received-new-buyer" = "Whoppah! You have a bid. Accept, decline or make a counter offer. This bid is valid for 48 hours. Deal closed? Then a 'Pay' button appears in the chat with the Buyer. Want to arrange transport? In the checkout, the Buyer can choose the Whoppah courier.";
+"bid-sent-new-seller-1" = "Whoppah! Your (counter)bid has been placed! The buyer responds as quickly as possible to your bid in this chat by accepting, rejecting or making a counter proposal. Deal closed? Then a 'Pay' button appears in the chat with the buyer.";
+"bid-sent-new-simple" = "Your bid has been placed.";
+"tafellampen-button" = "See all";
+"funky-vondsten-2-title" = "Funky Vondsten Collection";
+"funky-vondsten-2-description" = "Unique, unconventional and unusual. Design full of personality and innovation. That's Funky.";
+"funky-vondsten-2-button" = "See all items";
+"contextual-signup-search-by-photo-title" = "Search via photo needs an account";
+"contextual-signup-search-by-photo-description" = "Sign up now to find your perfect match";
+"category-acquarel" = "Watercolour";
+"category-bloemen" = "Flowers";
+"edit-bank-pay-title" = "When do I get paid?";
+"my_addresses_address_list_empty" = "We are missing an address";
+"main_my_profile_edit_title" = "Your Whoppah profile";
+"edit-bank-edit-details-title" = "Check your payment details";
+"edit-bank-enter-details-title" = "Enter your payment details";
+"my_account_new_password" = "Set new password";
+"my-profile-my-ads-active" = "Active ads (%d)";
+"my-profile-my-ads-curation" = "Wait for curation (%d)";
+"my-profile-my-ads-drafts" = "Saved ads (%d)";
+"my-profile-my-ads-rejected" = "Change requests (%d)";
+"my-profile-my-ads-sold" = "Sold (%d)";
+"my-profile-my-ads-create-ad-title" = "Sell your design";
+"my-profile-my-ads-create-ad-description" = "Create an ad";
+"my-profile-my-ads-create-ad-button" = "Create advertisement";
+"my-profile-my-ads-active-screen-title" = "My active ads";
+"my-profile-my-ads-active-screen-subtitle" = "Active ads";
+"my-profile-my-ads-curation-screen-title" = "Being assessed";
+"my-profile-my-ads-curation-screen-subtitle" = "Wait for feedback from Whoppah";
+"my-profile-my-ads-rejected-screen-title" = "Adjustment requested";
+"my-profile-my-ads-rejected-screen-subtitle" = "Adjust your ad ";
+"my-profile-my-ads-draft-screen-title" = "Drafts";
+"my-profile-my-ads-draft-screen-subtitle" = "Ads in draft";
+"bloemen-title" = "Flowers";
+"bloemen-description" = "Help the growers and order a beautiful bouquet via the website";
+"bloemen-button" = "Shop now";
+"material-zijde" = "Silk";
+"material-polished-steel" = "Polished steel";
+"material-nickel" = "Nickel";
+"material-aluminium" = "Aluminium";
+"material-bloemen" = "Flowers";
+"material-laminate" = "Laminate";
+"category-easy-chairs" = "Easy chairs";
+"style-retro" = "Retro";
+"tabbar_home_title" = "HOME";
+"tabbar_favorites_title" = "FAVORITES";
+"tabbar_sale_title" = "SELL";
+"tabbar_profile_title" = "ACCOUNT";
+"tabbar_chat_title" = "CHAT";
+"search_filters_show_results_btn" = "Show results";
+"search_filters_clear_btn" = "Clear";
+"create_ad_select_cat_screen_product_type" = "Product type";
+"create_ad_select_cat_screen_product" = "Product";
+"create_ad_select_cat_screen_category" = "Category";
+"select_all" = "Select all";
+"search_filters_distance_your_location_title" = "Your location";
+"search_filters_distance_maximum_distance_title" = "Maximum distance in KM";
+"search_filters_distance_from_you_title" = "Distance from you";
+"search_filters_colors_subtitle" = "Select the colors";
+"search_filters_price_subtitle" = "Desired price";
+"search_filters_condition_subtitle" = "Choose the minimum condition";
+"search_filters_price_only_title" = "Price";
+"ad_details_distance_with_country_to" = "%1$d km away from you in %2$s";
+"common-invalid-address-postcode" = "Incorrect postcode";
+"create-ad-crop-photo-title" = "Place photo properly";
+"create-ad-crop-photo-description" = "Drag, enlarge, or reduce the photo so that the item fits completely square.";
+"common-save-next-step-button" = "Save and next step";
+"material-chrome" = "Chrome";
+"material-rvs" = "Stainless steel";
+"progress_finishing" = "Finishing...";
+"search-result-save-search-button" = "Save search request";
+"price-suggestion-button" = "Request a suggested price";
+"price-suggestion-upload-photo" = "Upload your photo";
+"price-suggestion-button-hint" = "We will get back to you within one working day";
+"price-suggestion-description-placeholder" = "Describe the product";
+"price-suggestion-bullet-1" = "Brand (if known)";
+"price-suggestion-bullet-2" = "Damages or not";
+"price-suggestion-bullet-3" = "What is important to you";
+"price-suggestion-title" = "What is your item worth?";
+"price-suggestion-description" = "Send us one photo, and we'll put out a suggested retail price today to sell it on Whoppah!";
+"price-suggestion-navbar-title" = "Price inquiry";
+"home-price-advice-button" = "Ask price advice";
+"home-start-selling-button" = "Start selling";
+"price-suggestion-credentials-title" = "Your credentials";
+"material-reed" = "Reed";
+"material-porselein" = "Porcelain";
+"question-sent-dialog-text" = "Whoppah! Message sent\
+You will receive the answer by e-mail.";
+"read-more-here" = "Read more here";
+"pdp_view_user_ads_title" = "View all ads from this seller";
+"pdp_how_whoppah_works_description" = "Questions about buying, delivery or payment?";
+"missing_profile_fields" = "Missing: %@";
+"profile_complete" = "Profile complete";
+"onboarding-new-page1-title" = "Sell";
+"onboarding-new-page2-title" = "Buy";
+"onboarding-new-page3-title" = "The offer on Whoppah is";
+"onboarding-new-page4-title" = "Costs";
+"onboarding-new-page5-title" = "Transport options";
+"onboarding-new-page1-bullet1" = "<b> Simple and free</b> advertisement";
+"onboarding-new-page1-bullet2" = "Determine your <b>sales price now</b>";
+"onboarding-new-page1-bullet3" = "<b>Whoppah curates</b> within 24 hours";
+"onboarding-new-page1-bullet4" = "Once the Buyer completes the payment, we will pay you within 4 days after the buyer indicates that he has received the item in good order.";
+"onboarding-new-page2-bullet1" = "<b>Bid or buy directly</b> with the 'buy now' button";
+"onboarding-new-page2-bullet2" = "<b>Offer accepted?</b> Pay as soon as possible to secure your purchase";
+"onboarding-new-page2-bullet3" = "Pay securely with <b>iDeal, CreditCard of Bancontact</b>";
+"onboarding-new-page3-bullet1" = "From well-known <b>designers or brands</b>";
+"onboarding-new-page3-bullet2" = "<b>At least</b> in good condition";
+"onboarding-new-page3-bullet3" = "<b>Always</b> top-notch";
+"onboarding-new-page3-bullet4" = "<b>Curated</b> by Whoppah";
+"onboarding-new-page5-bullet1" = "<b>PostNL</b> for parcel post";
+"onboarding-new-page5-bullet2" = "<b>Courier service</b> pick up & delivery";
+"onboarding-new-page5-bullet-3" = "Sellers share <b>track & trace</b> code in the chat";
+"onboarding-new-page4-bullet1" = "Create advertisement for free";
+"onboarding-new-page4-bullet2" = "<b>Buyers</b> pay a € 1.99 transaction fee";
+"onboarding-new-page4-bullet3" = "<b>Business sellers</b> pay 15% of the asking price excl. VAT";
+"onboarding-new-page4-bullet4" = "<b>Private sellers pay</b> 12% of the asking price";
+"onboarding-new-page4-bullet5" = "<b>Shipping costs</b> are for the buyer";
+"onboarding-new-page5-button" = "Return to Whoppah";
+"type-cart-test-title" = "Start selling\
+";
+"type-how-works-test-title" = "This is how Whoppah works";
+"popular-categories-title" = "Popular categories";
+"top-sellers-title" = "Top sellers";
+"popular-styles-2-title" = "Popular styles";
+"type-1-test-title" = "New on Whoppah.";
+"type-1-test-description" = "Shop the top design items from Winston & Renate";
+"hww-selling-title" = "Selling";
+"hww-buying-title" = "Buying";
+"hww-bidding-title" = "About placing a bid ";
+"hww-transport-title" = "Transport";
+"hww-offer-title" = "Transactions on Whoppah";
+"hww-contact-label" = "Contact Whoppah";
+"hww-contact-description" = "Do you have any questions? Please email support@whoppah.com";
+"hww-about-whoppah" = "Read all about Whoppah";
+"hww-selling-section-1-title" = "Create advertisement";
+"hww-selling-section-1-description" = "<ul>\
+<li> Go to \"Sales\" at the bottom of the menu bar</li>\
+<li> Describe the item in detail: the condition, origin, age and possibly the artist</li>\
+<li> Take or upload 5 good photos: without other items in view against a neutral background. Fill in all the details as requested</li>\
+<li> Determine your asking price and indicate whether buyers are allowed to bid</li>\
+<li> Determine the delivery method. Tip: Let the buyer choose to pick up the item by the courier</li>\
+</ul>";
+"hww-selling-section-2-title" = "Fee's on Whoppah";
+"hww-selling-section-2-description" = "<ul>\
+<li> Individuals: 12% of the sales price </li>\
+<li> Business sellers: 15% of the sales price </li>\
+<li> Buyers: € 1.99 transaction fee </li>\
+<li> Any credit card costs (if paid with this) will be visible in the checkout </li>\
+<li> Transport costs are for the buyer </li>\
+</ul>";
+"hww-selling-section-3-title" = "Where do I find my ads?";
+"hww-selling-section-3-description" = "Go to My Profile in the app and then go to My Ads. There you will find your ads under active ads.";
+"hww-selling-section-4-description" = "Go to My Profile and go to the tab My Ads. Click on the pen icon to change your ad.";
+"hww-selling-section-5-description" = "You will find you bids in the Chat. Click on the Chat icon in the navigation bar and there you will find an overview of all your chats. Click on the chat to see the bids.";
+"hww-selling-section-6-description" = "<ul>\
+<li> If the buyer has paid, you will be notified in chat and receive an email as well </li>\
+<li> If the buyer has chosen the courier, the seller and the buyer will be contacted for a pick-up and delivery time. </li>\
+<li> When the item has been handed over/ delivered, the buyer must indicate that it has been received in good order. This is possible because he presses the \"receive\" button in the chat </li>\
+<li> The seller will be paid within 4 to 5 days if the buyer has indicated that he has received the item in good order </li>\
+</ul>";
+"hww-selling-section-7-description" = "<ul>\
+<li> The seller will be paid after 4 to 5 days if the buyer has indicated that he has received the item in good order </li>\
+<li> Payment to the seller is made via payment service provider Stripe and can only be made if all details are complete in the profile (including the date of birth). Therefore, always provide a fully completed profile </li>\
+</ul>";
+"hww-selling-section-4-title" = "How do I change my ad?";
+"hww-selling-section-5-title" = "Where do I find the bids I receive?";
+"hww-selling-section-6-title" = "Item sold? What is next?";
+"hww-selling-section-7-title" = "When do I receive my payment?";
+"hww-buying-section-1-description" = "<ul>\
+<li> Buy the item directly by clicking the \"Buy now\" button on the product page at the bottom and pay the asking price </li>\
+<li> Place a bid by clicking the \"Bid now\" button on the product page at the bottom. Once your bid has been accepted, a \"Pay\" button will appear in the chat leading to the checkout. </li>\
+<li> Fill in all details at checkout and choose the delivery method. The costs for this are for the buyer </li>\
+<li> Pay securely with your favorite payment method such as Credit Card, iDeal or Bancontact </li>\
+<li> Whoppah uses the licensed payment service provider Stripe </li>\
+<li> Any additional costs may be charged for the use of the credit card, this will be visible under \"purchase details\" </li>\
+<li> A transaction fee of € 1.99 will be charged </li>\
+<li> The seller will only be paid if the buyer has indicated that he has received an item in good order </li>\
+<li> Do you want to view the item first? Make an appointment with the seller and you can still pay safely on site via Whoppah. Enter the amount you have agreed at the bottom of the chat. Once the seller accepts, the buyer can pay via the Payment button </li>\
+</ul>";
+"hww-buying-section-1-title" = "This is how you shop on Whoppah";
+"hww-bidding-section-1-title" = "This is how bidding works";
+"hww-bidding-section-1-description" = "<ul>\
+<li> Place a bid by clicking the \"Make an offer\" button at the bottom of the product page. You will also see the minimum bid amount. Enter your bid by clicking on \"Bid now\" and the seller will be notified </li>\
+<li> All bids can be found in the chat about the item in question. Go to chat at the bottom of the menu bar and click on the chat conversation of the relevant item </li>\
+<li> The seller can accept an offer (green button), decline (red button) or make a counter proposal (bottom of the chat) </li>\
+<li> Both buyer and seller can always make a new price proposal at the bottom of the chat. Again three options appear: accept (green button), decline (red button) or make a counter proposal (bottom of the chat) </li>\
+<li> A (new) price proposal can always be made by both parties, even if there is already a proposal in the chat. However, once a proposal is accepted, no further new proposals can be made</li>\
+<li> If a bid is accepted, then there is a deal. A \"Payment Button\" will appear in the buyer's chat. The button leads to the checkout where the purchase can be completed. At the checkout, the buyer can also choose a delivery method </li>\
+</ul>";
+"hww-transport-section-1-description" = "<ul>\
+<li> The seller determines the shipping method and chooses whether it can be picked up by our courier and/ or by the buyer or if the seller will ship it themselves. The shipping or courier costs will be charged to the buyer </li>\
+<li> In the app you can check the following shipping options:\
+You ship with parcel post (from € 6.95). Only do this if you can take it by post and the item does not weigh more than 10 kilos.\
+You ship registered with parcel post (from € 10). The buyer must sign for receipt. Only do this if it can go with the parcel post and is not heavier than 10 kilos.\
+Let the buyer use the Whoppah courier service. The item will be collected from you and brought to the seller (all over the Netherlands) from € 59. We will contact you to plan the day of pick-up. </li>\
+<li> You arrange the shipment and enter a rate yourself </li>\
+<li> Note !: Include any packaging costs in the sales price if you deem it necessary. If you choose parcel post, make sure you pack an item very well. The postal company should be able to stack it </li>\
+</ul>";
+"hww-offer-section-1-description" = "<ul>\
+<li> On Whoppah, the offer is inspected by the Whoppah curation team. This means that all ads are reviewed, and we may decide not to place ads or ask for an adjustment (such as a better photo and or description). </li>\
+<li> The condition of the item must be at least \"good\". No gross damage or wear. </li>\
+<li> We only accept pieces from well-known and recognized designer brands and/ or designers, vintage items and art. In the case of vintage or handmade items, we look at: the design, the period of manufacture, the condition and the originality / special feature </li>\
+<li> We look for popularity and whether there is a demand for it on Whoppah </li>\
+<li> We look at the advertisement: completeness, description, proof of originality and quality of the photos </li>\
+</ul>";
+"hww-transport-section-1-title" = "How do I organise shipping";
+"hww-offer-section-1-title" = "What can I find and sell on Whoppah?";
+"common_germany" = "Germany";
+"popular-categories-2-title" = "Popular categories";
+"ad-details-seller-all-ads" = "View all ads from this seller";
+"ad-details-hww-subtitle" = "Questions about buying, delivery or payment?";
+"my_account_notification_settings_email_title" = "Email settings";
+"hww-selling-screen-title" = "Selling with Whoppah";
+"hww-buying-screen-title" = "Buying on Whoppah";
+"hww-bidding-screen-title" = "Bidding on Whoppah";
+"hww-transport-screen-title" = "Transport with Whoppah";
+"hww-offer-screen-title" = "Making offers on Whoppah";
+"winston-renate-title" = "New on Whoppah!";
+"winston-renate-description" = "Shop the design items of Winston & Renate Gerschtanowitz";
+"winston-title" = "Winston & Renate design";
+"common_france" = "France";
+"common_italy" = "Italy";
+"style-italian-design" = "Italian Design";
+"style-space-age" = "Space Age";
+"style-bauhaus" = "Bauhaus";
+"style-dutch-design-style" = "Dutch Design";
+"style-chesterfield" = "Chesterfield";
+"style-organic-modern" = "Organic Modern";
+"style-tribal" = "Tribal";
+"style-collectors-item" = "Collector's item";
+"auth_sign_up1_name" = "Profile Name";
+"ad-details-place-bid-button" = "Place bid";
+"auth-forgot-pass-success-title" = "Password reset requested";
+"auth-forgot-pass-success-description" = "We have sent you an email with a link with which you can reset your password.";
+"auth-forgot-pass-success-sign-in-button" = "Log in again";
+"category-eetkamerset" = "Dining set";
+"ad_details_shipment_section_title" = "Shipping";
+"create-ad-how-works-video-label" = "Want to know how Whoppah works? Watch the video!";
+"home_menu_btn" = "MENU";
+"payment-method-sofort" = "Sofort";
+"payment-method-giropay" = "Giropay";
+"uitgelicht-title" = "Specials!";
+"menu_option_contact" = "Contact";
+"menu_option_profile" = "My Profile";
+"menu_option_chat" = "Chats & Bidding";
+"menu_option_categories" = "Categories";
+"contact-title" = "Contact";
+"contact-description" = "Do you have a question? Contact the Whoppah support team. We are available Monday to Friday from 9 a.m. to 5.30 p.m CET. \
+\
+You can reach us on: +31 (0) 20 244 46 93 or email us at support@whoppah.com.";
+"contact-phone-button" = "Call Whoppah Now";
+"contact-email-button" = "Send Whoppah an email";
+"whoppah-phone-number-intl" = "+31 (0) 20 244 46 93";
+"email-not-setup-error" = "Email is not set up on this device";
+"contact-email-subject" = "App feedback";
+"contact-email-to" = "support@whoppah.com";
+"category-bankstel" = "Couches";
+"style-1970" = "70's design";
+"style-1980" = "80's design";
+"style-1990" = "90's design";
+"style-1960" = "60's design";
+"style-memphis" = "Memphis";
+"my_subscriptions_button_box_title" = "Set up a search";
+"my_subscriptions_button_box_description" = "We will send you an email when we have a match";
+"my_subscriptions_title" = "View and change searches";
+"toast-save-see-all" = "See all";
+"read-more" = "Read more";
+"how-can-we-help" = "How can we help you?";
+"search_filters_country" = "Country";
+"search_fb_save_search" = "Notify me";
+"chat-bottom-view-receive-button" = "Did you receive the item?";
+"chat-botton-view-transaction-complete" = "Transaction complete!";
+"save-search-confirm-title" = "Do you want to save this search?";
+"save-search-confirm-body" = "You will be emailed with matches to your search. You can manage searches from within your Whoppah profile.";
+"contextual-signup-search-results-title" = "Search alerts requires an account";
+"contextual-signup-search-results-description" = "Sign in to receive alerts whenever an item matches your search!";
+"search-alert-save-tip" = "Save searches here. We will email you if we find a matching item.";
+"faq-topic-answer-text" = "The Whoppah support team can be reached by telephone during office hours on 020 244 46 93";
+"about-whoppah" = "About Whoppah";
+"about-welcome-text-1" = "We are the safe marketplace for secondhand design furniture and art. Whoppah brings together the best design offer from consumers and professional sellers in Europe on one platform. With us you will find modern design furniture, vintage classics and a diversity of art. We check the items before publishing those, guarantee safe trading and offer convenience and our courier service that collects and delivers with the utmost care. With a unique offering of more than 1,000 professional sellers and thousands of private individuals, Whoppah is already the treasure trove of the internet for more than a million users.";
+"about-welcome-text-2" = "Whoppah was launched in 2019 by Thomas Bunnik and Evelien Bunnik-Remmelts with the aim of stimulating and facilitating people in easy online trading in secondhand design and art. We are with 45 enthusiastic design lovers and together, the Whoppah team has one mission: To make trading secondhand design across Europe as fun and as easy as possible. Do you perhaps have a nice item somewhere that you might want to get rid of? Put it on Whoppah!";
+"about-welcome-title" = "Welcome to the world of Whoppah";
+"about-contact-title" = "Contact with Whoppah Support Team";
+"about-contact-press-headline" = "Read more about Whoppah in the media";
+"about-contact-suggestion" = "Do you have a question, tip or suggestion? We are pleased to hear that! Contact us via:";
+"about-contact-office-hours" = "Whoppah is available from Monday to Friday during office hours on: +31 (0) 20 244 46 93.";
+"create-ad-photos-preview-title" = "This is your cover photo";
+"create-ad-photos-preview-description" = "Click on the pen to edit it such as zoom in and zoom out.";
+"mad-men-title" = "Mid Century Modern";
+"mad-men-products-title" = "Shop Mad Men Madness";
+"mad-men-description" = "Shop the most beautiful items from the middle of the 20th century. ";
+"auth_sign_up_quick_sign_up" = "Sign up quickly";
+"caroline-title" = "Shop design from Caroline Tensen";
+"style-opknappers" = "Fix up";
+"signup-agree-stripe-terms-part-3" = "from payment service provider Stripe";
+"signup-agree-stripe-terms-part-1" = "I agree with the";
+"signup-agree-stripe-terms-part-2" = "terms and conditions";
+"signup-agree-whoppah-terms-part-1" = "I agree to Whoppah's";
+"signup-agree-whoppah-terms-part-2" = "terms of use";
+"signup-agree-whoppah-terms-part-3" = "and";
+"signup-agree-whoppah-terms-part-4" = "privacy policy";
+"signup-agree-whoppah-terms-part-5" = ".";
+"style-modernisme" = "Modernism";
+"style-hedendaags" = "Contemporary";
+"category-relaxstoel" = "Relax chair";
+"category-illustraties" = "Illustrations";
+"category-karretjes" = "Bar carts";
+"category-tijdschriftenrek" = "Magazine rack";
+"category-console" = "Console";
+"style-graffiti-street-art" = "Graffiti & Street Art ";
+"style-geometrisch" = "Geometric";
+"material-brass" = "Brass";
+"material-murano-glas" = "Murano Glass";
+"style-parisian-style" = "Parisian style ";
+"common-buy-now-price" = "Buy now %@";
+"style-brutalist" = "Brutalist";
+"listing-no-search-results-heading" = "We don’t have results for “%@”";
+"material-messing" = "Messing";
+"style-chesterfield-2" = "Chesterfield";
+"style-brutalist-2" = "Brutalist";
+"category-opknappertjes" = "To refurbish";
+"common-sort-by" = "Sort By";
+"delivery-methods-page-method-package-title" = "Package 0 - 10 kg";
+"delivery-methods-page-method-package-dimensions" = "max. 100 × 50 × 50 cm";
+"delivery-methods-page-method-registered-title" = "Package registered 10 - 23 kg";
+"delivery-methods-page-method-registered-dimensions" = "max. 176 × 78 × 58 cm";
+"italiaans-design-title" = "Italian design ";
+"italiaans-design-description" = "Shop the most striking elegant Italian design pieces";
+"italiaans-design-button" = "See all";
+"graphic-patterns-title" = "Graphics and patterns";
+"graphic-patterns-description" = "Excentric and vibrant for a maximalist interior ";
+"graphic-title" = "Our graphic and patterns selection";
+"label-new" = "New";
+"label-best-deal" = "Best Deal";
+"label-100-authenticated" = "100% Authentic";
+"label-award-winning-design" = "Iconic chairs";
+"label-collectors-item" = "Collector's item";
+"label-expert-seller" = "Expert Seller";
+"label-gallery-piece" = "Gallery Piece";
+"label-good-deal-alert" = "Bargain!";
+"label-whoppah-loves" = "Whoppah Loves";
+"label-sale" = "Lowered in price";
+"chat-first-text-message-buyer-title" = "Whoppah explains!";
+"chat-first-text-message-buyer-body" = "- Make an offer? Simply place your offer at the bottom of the chat in the bidding input field.\
+- Always pay securely via Whoppah. Even when you pick up the item, pay in advance to be sure of your purchase or enter your offer on the spot. Item not as advertised, money back guarantee.\
+- Courier service? Our Whoppah couriers can deliver purchases and do a final check of the condition of the item on the spot. You order this delivery service at the checkout. The courier will contact the buyer and seller to schedule delivery. Make sure your phone number is added to your account.";
+"reviews-title" = "Whoppah reviews";
+"reviews-description" = "Read about the experiences of buyers and sellers with Whoppah. Do you want to leave a review? Send us an email: support@whoppah.com";
+"review-text-1" = "I came across the chair on Whoppah that I had been looking for for years. Joe Colombo's Elda Chair. The nice salesman had owned the chair, in tip-top condition, for 15 years and had now put it up for sale. When I went to have a look, I was immediately sold. Completely happy with it.";
+"review-members-year" = "Member since";
+"review-text-2" = "Whoppah! What a team. I have direct contact with several people late at night and on weekends. Very good service! Keep it up!";
+"review-text-3" = "I've been selling here since last year and love the service. Moreover, here I come into contact with people who appreciate my offer. The settlement from payment via Whoppah to delivery to the customer by Whoppah is like icing on the cake. That makes it very easy for me as a seller.";
+"review-text-4" = "Helped very well with questions and the purchase of an armchair that was delivered within 2 days by Whoppah's neat courier. Neatly arranged! I recommend it very much.";
+"review-text-5" = "Active on Whoppah from the first hour and always maintained very good contact with the founders of Whoppah Thomas and Evelien. I have sold many items quickly and successfully. For me as a seller it is a godsend! Whoppah takes all of my tips and suggestions as a salesperson to heart and the whole team works very hard to make it a great success.";
+"review-text-6" = "Seller's review: 5 stars. As is often the case with a new vintage interior platform, I was afraid of cold water. Apparently I had already uploaded some items and without knowing it a non-declining offer was made. My 1st Whoppah sale was a fact! Very fast and the bidding system in which buyers can make a binding offer apparently works well. It is exciting for buyers to have an influence on a more favorable purchase price. This bidding is not unique, but Whoppah is the 1st NL trading platform to offer this feature. Another (great) strength of Whoppah is the ease of use - and therefore speed - of uploading your products. Who knows, maybe there will be auto upload, but until then I think Whoppah beats big boys who don't have automated uploads already. Recommended to sellers!";
+"review-text-7" = "Since April 2020, I have been using the Whoppah platform with great success and enthusiasm for the sale of art that I no longer have room for myself. The entire preliminary process of creating an account and advertisements turned out to be surprisingly simple. The presentation of works on the site comes across well and appears to be very successful. After almost ten successful transactions, I can also say that the settlement from deal to payment went smoothly and quickly. I can wholeheartedly recommend Whoppah to everyone!";
+"review-text-8" = "Super helped by the Whoppah team with the sale of a number of interior items. Sold quickly and neatly picked up by the courier. Ideal :-) Keep it up!";
+"review-text-9" = "Whoppah was completely new to me. A friend recommended it. I had confidence in it from the start, because it is a beautiful site with good service in the background. The system of paying via Whoppah is also pleasant and safe.";
+"review-text-10" = "Whoppah - the name says it all! Whoowwww and hoppaaah. What a pleasure, what an offer, suddenly the coolest cool design furniture for a nice price at your fingertips! And what a relief to help our planet through this circular offer. There is a lot on offer, \"something of everything\". I have had very good experience with both buying and selling. Good practical simple app. I found a nice second-hand sofa, and immediately after purchase a very nice courier called to make an appointment for delivery. It is really special, buying second-hand does not mean something \"discarded\" but \"furniture with a story, with an emotion\". How nice is that? A bit more special than an energy-free, boring Ikea sofa. With the sale ademdito. I had moved and had several beautiful hanging lamps, something that usually dies his death. And now… A second life with a nice woman, who had to furnish her new apartment! Payment is efficient, reliable, and delivery service is top notch! I say Whoooooooow hoppaah!";
+"material-fiberglass" = "Fiberglass";
+"material-copper" = "Copper";
+"materials-brass-2" = "Brass";
+"material-bamboo" = "Bamboo";
+"material-polyester" = "Polyester";
+"glas-title" = "Glamorous Glass";
+"glas-description" = "Find the most beautiful design items made from glass";
+"glas-button" = "See all";
+"get-the-look-2-title" = "Get the new look";
+"similar-items-title" = "You may also like";
+"storage_page_title" = "Sell your item from our Showroom!";
+"storage_page_subtitle" = "We pick it up, make even better pictures and sell it for you. ";
+"storage_page_section1_title" = "How does it work?";
+"storage_page_section1_description" = "Do you want to get rid of your furniture or piece of art immediately? Whoppah has an exclusive sales service. We will collect your item(s) and help you sell it faster. We improve your advertisement and place your item online and in our showroom where buyers can view it.";
+"storage_page_action_button" = "Request now";
+"storage_page_section_1_point_1" = "We will cotant you to plan a pick it up for the item";
+"storage_page_section_1_point_2" = "We bring it to the Whoppah Showroom in Oude Meer near Schiphol";
+"storage_page_section_1_point_3" = "We take professional photos and create an advertisement for you";
+"storage_page_section_1_point_4" = "We store the item until it is sold or you book a return or pick it up yourself";
+"storage_page_cost_title" = "Costs";
+"storage_page_cost_item_label_1" = "Courier pick up";
+"storage_page_cost_item_value_1" = "€79";
+"storage_page_cost_item_label_2" = "We take professional photos, create the ad and show it in our showroom";
+"storage_page_cost_item_value_2" = "Free";
+"storage_page_cost_item_label_3" = "Commission fee";
+"storage_page_cost_item_value_3" = "25%";
+"storage_page_cost_item_label_4" = "Storage of item max 2 meters";
+"storage_page_cost_item_value_4" = "€7,50 per week";
+"storage_page_section2_question_1" = "What can I store in the Whoppah Showroom?";
+"storage_page_section2_answer_1" = "All design furniture and art that can be offered for sale on Whoppah. This means that they must comply with our <1>curation rules</1>.";
+"storage_page_section2_question_2" = "What are the costs for storage in the Showroom?";
+"storage_page_section2_answer_2" = "You do not pay any storage costs. We rely on our curation policy and expect your item to be sold quickly.";
+"storage_page_section2_question_3" = "What if my item hasn't been sold after 3 months?";
+"storage_page_section2_answer_3" = "Your asking price will be reduced by 25% after 3 months to realize a faster sale. Your item may then remain there until it is sold.";
+"storage_page_section2_question_4" = "What if someone wants to see my item?";
+"storage_page_section2_answer_4" = "At Whoppah all items can be viewed every day. The potential buyer can make an appointment with the Whoppah support team. We guide potential buyers on the spot if they want to make an offer or buy the item.";
+"storage_page_section3_question_1" = "What if my item gets damaged?";
+"storage_page_section3_answer_1" = "When we pickup the item, we take photos of the item (state and details) and describe in detail the condition in which we take the item with us. You sign off on this.  If something goes wrong during transport or storage, Whoppah is insured.";
+"storage_page_section3_question_2" = "Can I determine my own asking price?";
+"storage_page_section3_answer_2" = "You determine the asking price yourself and whether bidding is allowed and if so from how much. If this is unrealistic in our view, we may not include the item in our Showroom. After all, it has to be sold.";
+"storage_page_section3_question_3" = "What happens if I already have an advertisement?";
+"storage_page_section3_answer_3" = "We make the advertisement even more beautiful with good photos and place it back at the top of the list so that you sell even faster.";
+"storage_page_section3_question_4" = "Can I also bring my item?";
+"storage_page_section3_answer_4" = "Yes you can. ";
+"storage_page_cost_item_label_5" = "Storage of item 2 meter and larger";
+"storage_page_cost_item_value_5" = "€9 per week";
+"seo_storage_page_title" = "Whoppah storage and sales service for second-hand furniture and art";
+"storage_page_request_form_title" = "Request the storage and sale service";
+"storage_page_section2_question_5" = "Do I pay a commission fee?";
+"storage_page_section2_answer_5" = "We charge a commission of 29% of the sales price.";
+"delivery-methods-page-distance-to-2-title" = "up to 149 cm";
+"delivery-methods-page-distance-to-2-cost" = "89 euro";
+"delivery-methods-page-distance-from-2-title" = "from 150 cm";
+"delivery-methods-page-distance-from-2-cost" = "129 euro";
+"delivery-methods-page-distance-to-belgium-title" = "Netherlands-Belgium";
+"delivery-methods-page-distance-to-belgium-cost" = "129 euro";
+"chat-delivery-options-description" = "We have these delivery methods available. You will pay for delivery in the checkout.";
+"category-stoelen-fauteuils" = "Chairs and lounge chairs";
+"category-tuinmeubelen" = "Garden furniture";
+"category-bedden" = "Beds";
+"hero-usp-item-4" = "Secure payment";
+"number_of_items" = "Number of items ";
+"nav-new-in" = "New in";
+"nav-faq" = "FAQ";
+"nav-payment" = "How payments work";
+"nav-shipping" = "Shipping";
+"payment-page-title" = "Learn about payments on Whoppah";
+"buyers-pay-safely-title" = "Buyer pays safely";
+"buyers-pay-safely-description" = "Do you have a deal? The buyer will always pay safely via Whoppah. Chose you favorite payment method to do the transaction. Only after the item has been paid for, you can be sure it will be yours! ";
+"money-safe-title" = "Money safe with Whoppah";
+"money-safe-description" = "The money is temporarily placed in a custody account. This way the seller can be sure that the payment has been made and the buyer is sure that he will receive hus purchase. This is how we guarantee safe shopping on Whoppah.";
+"buyers-confirm-title" = "Buyer confirms item received";
+"buyers-confirm-description" = "The buyer informs Whoppah within 10 days that the purchase has been received in good order and we will pay out the seller. If the buyer does not indicate anything, we will still pay out after 10 days. Did something go wrong? Then we come to the rescue to mediate. Is the item not in order and does it differ from the advertisement? The buyer gets his money back. ";
+"sellers-get-paid-title" = "Seller gets paid";
+"sellers-get-paid-description" = "The seller will be paid out. Make sure that your account is complete, and we have all the necessary details. The amount will be on your account within 5 days after confirmation from the buyer.";
+"shipping-page-title" = "Shipping";
+"whoppah-courier-title" = "Whoppah Courier";
+"whoppah-courier-description" = "Did you find a nice item? Have your item delivered safely and insured to your home with the Whoppah courier service. Our couriers are experienced carriers and also very helpful. Experience the benefits of our first-class service:\
+\
+- Insured delivery to your home\
+- Courier plans the pick up at a time that suits you\
+- Courier checks if the item matches the ad\
+\
+The service is available from € 89 per item in the Netherlands, from € 129 for Belgium, and € 249 throughout the rest of Europe. Good to know: our couriers do not (dis)assemble items. This courier service can be added to your item in check out or book the service separately via the button below.";
+"book-courier-now" = "Book the courier";
+"post-package-title" = "Parcel post";
+"post-package-description" = "Shipping with parcel post is possible from €7.25 for items that are not heavier than 10 kilos. Please note: ensure your package is packed safely so that no damages can take place during shipping. The seller advances the shipping costs and is paid with the sales proceeds. Whoppah is not liable for any damage or loss incurred during postal shipment. Do you want to be sure that your item arrives safe and insured? Then we recommend using the insured Whoppah courier service.";
+"pick-up-title" = "Pick it up yourself";
+"pick-up-description" = "The buyer can also choose to collect the item. The buyer can make an appointment with the seller via chat! Always pay in advance through Whoppah. Please check the item carefully when you pick it up. Item not good at pick-up and not taking the item with you? No worries, you will get your money back from Whoppah.";
+"international-shipping-title" = "International shipping";
+"international-shipping-description" = "Whoppah ships worldwide. Intercontinental shipments are calculated individually depending on the distance, weight and dimensions of the item. Request a suitable quote from the Whoppah support team.";
+"price-request" = "Ask for a quote";
+"curation-page-title" = "Curation rules";
+"photography-title" = "High quality photography";
+"photography-description" = " Good quality photos are extremely important and contribute to a quick sale. Did you know that you sell 3 times faster with good photos? Provide sufficient daylight, do not photograph the towards the light, make sure that the item stands out in its entirety and provide a neutral background. We want buyers to get a good and complete impression of an item, that is why we curate on photos.";
+"good-condition-title" = "Minimal good condition";
+"good-condition-description" = "The condition of an item must be at least 'good'. No major damage, broken items, stains or wear items are accepted on Whoppah.";
+"design-or-unique-vintage-title" = "What we call design & art";
+"design-or-unique-vintage-description" = "Does the item have a design brand such as Vitra, Rolf Benz, B&B Italia, Artifort or Moooi? In the case of vintage, antique or handmade we look at the design, the manufacturing period, the condition in relation to the age of the item and the uniqueness.";
+"full-description-title" = "Provide a full description";
+"full-description-description" = "The more information that is provided, the faster an item is sold. Please describe the age of an item, where the item was purchased, the purchase price (if applicable) and the condition.";
+"demand-vintage-title" = "Selling opportunity";
+"demand-vintage-description" = "We check whether an item is in demand and whether there is a good chance that it will sell quickly on Whoppah. Our curation team assesses this with each advertisement. If we notice that there is less demand for certain items, we may not expand the range accordingly.";
+"appropriate-price-title" = "An appropriate price";
+"appropriate-price-description" = "Is the price in line with the market value? Keep in mind that an average of 50% - 70% of the original price will be reduced within 3 years. In the case of art, vintage or unique design items, we look at the market prices.";
+"common-create-account" = "Create account";
+"common-close" = "Close";
+"place-bid-title" = "Place your bid or purchase direct";
+"place-bid-description" = "Simply place a bid via the product page or in the chat with the seller.\
+\
+Once the bid has been placed, we will notify the seller.\
+\
+You can always find your bid in the chat with the seller.\
+\
+In some cases it is not possible to place a bid, then the seller has chosen to sell only for the Buy Now price.";
+"48-hours-valid-title" = "48 hours valid";
+"48-hours-valid-description" = "A bid is valid for 48 hours. That means the seller has 48 hours to respond and accept the offer or make a counter offer. If the offer is accepted, there is a deal.\
+\
+If the offer has expired, both the buyer and seller can always make a new offer via the chat. This is again valid for 48 hours.";
+"counterbid-title" = "Counter bid";
+"counterbid-description" = "If the seller receives an offer, he can always make a counter offer to the buyer. The buyer will be notified. The buyer can accept the counter-offer or make another counter-offer. We make it easy to negotiate via chat.\
+\
+Always enter the counter offer in the appropriate input field!";
+"deal-is-deal-title" = "Deal is deal";
+"deal-is-deal-description" = "On Whoppah a deal is deal. If an offer is accepted, there is a deal and the buyer must make the payment. The payment button appears in the chat and the buyer can pay easily and securely via Whoppah!";
+"bidding-page-title" = "This how bidding works";
+"how-whoppah-works-title" = "This is how Whoppah works";
+"nav-bidding" = "This how bidding works";
+"ad_details_member_since_short" = "Since %@";
+"ad_details_member_verified" = "Verified Merchant";
+"create-ad-intro-1-title" = "Creating an ad is easy";
+"create-ad-intro-1-subtitle" = "Shoot nice and clear photos from all angles";
+"create-ad-intro-2-title" = "Let people know what you’re selling";
+"create-ad-intro-2-subtitle" = "Fill in as much information as possible";
+"create-ad-intro-3-title" = "Set your own rules";
+"create-ad-intro-3-subtitle" = "Set your price and delivery options";
+"create-ad-intro-4-title" = "Get the best result";
+"create-ad-intro-4-subtitle" = "Whoppah curates your ad to make sure it sells fast";
+"search_sort_popularity_highest_first" = "Popularity - highest first";
+"search_sort_popularity_lowest_first" = "Popularity - lowest first";
+"category-lithos" = "Lithographs";
+"category-etsen-prenten" = "Etchings";
+"dutch-design-style-button" = "See all";
+"dutch-design-style-title" = "Dutch Design";
+"dutch-design-style-description" = "This is why Dutch Design is so famous and popular. ";
+"category-consoles" = "Consoles";
+"checkout-payment" = "Proceed to payment";
+"checkout-secure-payment" = "This is a secure payment";
+"checkout-usp-1" = "25.000+ happy customers";
+"checkout-usp-2" = "Buyer protection";
+"checkout-usp-3" = "Call us: +31 (0) 20 244 46 93";
+"checkout-personal-info" = "Personal information";
+"checkout-delivery-method" = "Delivery method";
+"checkout-pickup" = "Pickup in %s";
+"checkout-courier" = "Whoppah courier";
+"checkout-courier-description" = "Fill in your address to calculate the delivery fee.";
+"checkout-postal" = "Postal package";
+"checkout-postal-description" = "Fill in your address to calculate the delivery fee. ";
+"checkout-courier-proposal-title" = "Want worry free delivery? Choose the Whoppah courier";
+"checkout-courier-proposal" = "We will pickup the item and deliver it to you. Easy does it! After the payment you will receive an email to plan the delivery.";
+"checkout-courier-proposal-1" = "Insured delivery";
+"checkout-courier-proposal-2" = "Safely handled with care by our couriers";
+"checkout-delivery-address" = "Delivery address";
+"checkout-promo-code" = "Do you have promo code?";
+"checkout-add-promo-code" = "Add promo code";
+"checkout-pick-promo-code" = "Or choose from your promo codes";
+"checkout-subtotal" = "Subtotal";
+"checkout-delivery-fee" = "Delivery fee";
+"checkout-pickup-description-web" = "Free";
+"checkout-promo-code-question" = "Do you have a promo code?";
+"checkout-total" = "Total";
+"checkout-summary" = "Order summary";
+"checkout-payments" = "Payment options";
+"ad_details_description_section_translate" = "Translate";
+"product-shipping-from" = "To";
+"auth-sign-in-google" = "Log in with Google";
+"auth-sign-in-facebook" = "Log in with Facebook";
+"Shipping-product-pickup" = "Pickup the item in:";
+"PDP-popup-go-back-to-ad" = "Go back to the product";
+"PDP-popup-bidding-title" = "This is how bidding works";
+"PDP-popup-bidding-subtitle-1" = "A bid is valid for 48 hours";
+"PDP-popup-bidding-description-1" = "The seller can accept your offer or make a counter proposal.";
+"PDP-popup-bidding-subtitle-2" = "Negotiate via the chat";
+"PDP-popup-bidding-description-2" = "You can check your bid in the chat with the seller. Go to My Chats & Bids to view them.";
+"PDP-popup-bidding-subtitle-3" = "Counter offer";
+"PDP-popup-bidding-description-3" = "You can place a counter offer at the bottom of the chat with the seller.";
+"PDP-popup-bidding-subtitle-4" = "Deal is deal";
+"PDP-popup-bidding-description-4" = "If the seller accepts your offer, a payment button will appear in the chat that will lead you to the checkout where you can choose your transport option and make the payment.";
+"PDP-popup-payment-title" = "Safe payments";
+"PDP-popup-payment-description-1" = "You can always pay safely via Whoppah. You can pay with your trusted payment method such as iDeal, Bancontact or credit card.";
+"PDP-popup-buying-protection-title" = "Buyer protection";
+"PDP-popup-buying-protection-subtitle-1" = "Item not as described, you get your money back";
+"PDP-popup-buying-protection-description-1" = "We guarantee safe shopping, and we protect you as a buyer. In the following cases you can return the item and get your money back:\
+\
+1. The item is in reality not as presented in the advertisement. Think of a different color or damage that is not reported in the advertisement.\
+\
+2. Your item never arrived. In this case, the seller must be able to provide a track & trace code. If this is not available we will not pay out the seller.\
+\
+3. The item was damaged during transport with Whoppah courier. Please note: this only applies to transport with the Whoppah courier. We are not liable for damage caused during the collection by the buyer of shipment via parcel post. We therefore always recommend booking the Whoppah courier.";
+"PDP-popup-buying-protection-subtitle-2" = "Not happy, money back";
+"PDP-popup-buying-protection-description-2" = "If you do not like the item and you wish to return it, we make this possible.  In this case, you can return to Whoppah instead of the seller within 14 days (from the time of delivery). Please note in this case the return costs as well as the delivery costs are for the  buyer. In this case, you will receive the purchase amount minus delivery costs and return costs. You can always offer the item for sale again on Whoppah. In that case, we will not charge the commission.";
+"product-shipping-tooltip-text" = "Select your country to see the delivery price";
+"ad-details-return-title" = "Buyer protection";
+"ad-details-sustainable-shopping-title" = "Sustainable shopping";
+"ad-details-secure-payement-title" = "Pay securely via Whoppah";
+"ad-details-careful-delivery-title" = "Carefully delivered by Whoppah courier";
+"ad_details_product_details" = "Product details";
+"ad_details_style" = "Style";
+"ad_details_delivery_methods" = "Delivery methods";
+"ad_details_courier_text_title" = "How does the Whoppah courier work?";
+"ad_details_courier_text" = "You choose the shipping method at checkout. If you choose the courier, you will be contacted within 2 working days after payment to plan the transport.";
+"ad_details_contact_text_title" = "Do you have a question?";
+"pdp-contact-body-html" = "Whoppah is available from Monday to Friday during office hours on: <b><a href=\"tel:+31 (0) 20 244 46 93\"> +31 (0) 20 244 46 93 </a></b> or <a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>";
+"chat-how-bidding-works-button" = "How bidding works";
+"chat-delivery-button" = "Delivery";
+"chat-deliver-dialog-title" = "Delivery Options 🚛";
+"chat-details-delivery-courier-header" = "How does the Whoppah courier work?";
+"ad_details_shipping_tab_description" = "You choose the shipping method (enabled by the seller) at checkout. The costs are added to the total amount. If you choose the courier, you will be contacted after payment to plan the transport.";
+"how-chat-works-title" = "That is how it works! ⭐";
+"how-chat-works-negotiate-title" = "How to make a (counter)offer!";
+"how-chat-works-negotiate-text" = "You place a (counter) offer at the bottom of the chat in the bid input field. The buyer can accept the offer from the seller. Please note: only a bid via the bidding input field can be accepted.";
+"how-chat-works-offer-title" = "How do I know when I have a bid?";
+"how-chat-works-offer-text" = "If you have an offer or counter offer, you will receive an email, a text message and you will see this in your Whoppah chat messages.";
+"how-chat-works-bid-valid-title" = "How long is a bid valid for?";
+"how-chat-works-bid-valid-text" = "A bid is valid for 48 hours. If an offer is accepted within 48 hours, you have a deal, and we request the buyer to make the payment. The offer will expire after 48 hours. You can always make a new offer.";
+"how-chat-works-payment-title" = "How can payment be made?";
+"how-chat-works-payment-text" = "If the offer has been accepted, there is a deal and the 'Pay button' appears in the chat. The buyer can now safely pay to Whoppah. We pay out the seller if the buyer has received the item in good order.";
+"how-chat-works-pickup-title" = "What if I go to pick up the item?";
+"how-chat-works-pickup-text" = "If you are going to pick up or view the item, first make an offer via chat so that the buyer can already accept this and you can be sure that you have a deal. You can pay on site via the payment button in the chat.";
+"how-chat-works-cash-title" = "Can I pay cash or otherwise?";
+"how-chat-works-cash-text" = "Payment outside Whoppah is not allowed. Because we cannot guarantee the quality or safety and can not provide any form of service.";
+"photo_gallery_limited_access_message" = "To see all your Albums and Photos, please go to Settings and grant Whoppah full access to photos library.";
+"select_photos_max_exceeded" = "You cannot select more than %@ image(s). Please deselect another image before trying to select again.";
+"user_greeting_home_page" = "Hello, %@!";
+"upgrade-app-dialog-header" = "There is a new update available!";
+"menu_option_how_whoppah_works" = "How Whoppah works";
+"label-lowered-in-price" = "lowered in price";
+"chat-autoreply-title" = "Whoppah Explains!";
+"chat-autoreply-1-line-bold-text" = "Place your (counter)bid";
+"chat-autoreply-2-line-bold-text" = "Always pay securely via Whoppah.";
+"chat-autoreply-3-line-bold-text" = "Complete the transaction to secure the item.";
+"chat-autoreply-4-line-bold-text" = "The Whoppah courier";
+"chat-autoreply-1-line-normal-text" = "in the field at the bottom of this chat and press ”Place Bid”";
+"chat-autoreply-2-line-normal-text" = "If the product is not as advertised you will get your money back.";
+"chat-autoreply-3-line-normal-text" = "As long as the item is not paid for by you somebody else can still buy the item.";
+"chat-autoreply-4-line-normal-text" = "can pick-up the item and deliver it at your home. You can select this option in the checkout.";
+"chat-item-received-message-1-line" = "The item is received in good order by the buyer.";
+"chat-item-received-message-2-line" = "The payment to the seller has been transferred.";
+"translation-language-options-cancel" = "Cancel";
+"translation-language-options" = "Translate to";
+"chat-item-received-title" = "Item received in good order";
+"ad_details_seller_products" = "SELLER PRODUCTS";
+"get-the-look-title" = "Get the new look";
+"auth-new-here" = "I'm new here!";
+"auth-sign-in-btn-magic" = "Login with link";
+"auth-sign-in-magic-screen-title" = "One time code log in";
+"auth-sign-in-magic-link-screen-title" = "Please wait while we log you in";
+"auth-sign-in-magic-screen-subtitle" = "Log in via a Magic link. Fill in your email to receive an email with a one-time log in code or direct log in button.";
+"auth-sign-in-magic-email" = "Your email";
+"auth-sign-in-magic" = "Get code / link via mail";
+"auth-sign-in-email-placeholder" = "example@email.com";
+"auth-sign-in-password-placeholder" = "Your password";
+"auth-sign-in-magic-code-subtitle" = "Enter the code sent to you by email. If you haven’t received a code, please check your spam box or";
+"auth-sign-in-magic-code-subtitle-email" = "resend the email";
+"auth-sign-in-magic-code-incomplete" = "Incomplete magic code";
+"auth-sign-in-magic-btn-code" = "Send me the email";
+"condition-good" = "Good";
+"condition-great" = "Very good";
+"condition-perfect" = "Excellent";
+"filter-condition" = "Condition";
+"filter-select-brand" = "Search for a brand";
+"filter-brand" = "Brand";
+"filter-price" = "Price";
+"filter-material" = "Material";
+"filter-clear-all" = "Reset filters";
+"filter-title" = "Filter";
+"filter-style" = "Style";
+"filter-color" = "Color";
+"condition-good-description" = "In good condition with slight traces of use, appropriate to the age of the item";
+"condition-great-description" = "In a very good condition with minimal traces of use";
+"condition-perfect-description" = "Condition is as good as new without traces of use";
+"auth-sign-in-magic-the-provided-token-is-incorrect" = "Invalid or expired magic code";
+"auth-sign-up-google" = "Sign up with Google";
+"auth-sign-up-facebook" = "Sign up with Facebook";
+"common-or" = "OR";
+"common-invalid-email" = "Invalid email address";
+"category-coffeetable-books" = "Coffee table books";
+"common-missing-address-country" = "Missing country";
+"menu_option_about_whoppah" = "About Whoppah";
+"menu_option_whoppah_reviews" = "Whoppah reviews";
+"menu_option_storage" = "Store and sell";
+"chat-buy-now-button" = "Buy now %@";
+"material-skai" = "Skai";
+"material-travertin" = "Travertin";
+"material-brass-2" = "Brass";
+"color-mint" = "Mint";
+"color-purple" = "Purple";
+"color-dark-blue" = "Dark Blue";
+"color-dark-green" = "Dark Green";
+"color-silver-2" = "Silver";
+"common-country" = "Country";
+"material-rotan" = "Rotan";
+"color-taupe" = "Taupe";
+"style-1950" = "50's Design";
+"material-wicker" = "Wicker";
+"color-silver" = "Silver";
+"auth-sign-in-apple" = "Sign in with Apple";
+"auth-sign-in-screen-navigation-title" = "Log in";
+"your-account-settings-last-name" = "Last name";
+"your-account-settings-validation-invalid-phone-number" = "Invalid phone number";
+"auth-sign-up-apple" = "Sign up with Apple";
+"auth-registration-log-in-now" = "Log in now";
+"auth_sign_up2_repeat_password" = "Repeat password";
+"auth-sign-up3-business-info" = "Business information";
+"auth-sign-up3-fill-in-business-info" = "Fill in your business information";
+"auth-sign-up3-business-name" = "Business name";
+"auth-sign-up3-last-name" = "Last name";
+"auth-sign-up3-first-name" = "First name";
+"auth-sign-up-fill-in-phone-number" = "Fill in your phone number";
+"auth-sign-up-fill-in-address" = "Fill in the address";
+"auth-sign-up-postal-code" = "Postal code";
+"auth-sign-up-street-house-number" = "Street and house number";
+"auth-sign-up-address-info" = "Address information";
+"auth-sign-up-additional-address-info" = "Additional address info";
+"auth-registration-email-exists" = "This email address is already in use!";
+"all-items-from" = "All items from";
+"show-all-seller-items" = "Show all items from seller";
+"auth-sign-in-welcome" = "Welcome back";
+"checkout-shipping-free" = "Free";
+"welcome-dialog-title-existing" = "Welcome back!";
+"welcome-dialog-description-existing" = "It seems you already have an account at Whoppah. We have logged you in using %@.";
+"nav-search-placeholder" = "Search";
+"category-klapstoelen" = "Folding chairs";
+"category-drankenkasten" = "Liquor cabinets";
+"category-high-boards" = "High Boards";
+"category-prints" = "Prints";
+"category-decoratieve-objecten" = "Decorative Objects";
+"common-sale" = "Sale";
+"NSUserTrackingUsageDescription" = "Tracking is used to produce anonymised statistics on app usage.";
+"filter-category" = "Category";
+"filter-sort-and-filter" = "Sort and filter";
+"filter-show-results" = "Show {{count}} results";
+"pdp-boost-ad-title" = "Boost your ad!";
+"pdp-boost-ad-btn" = "Boost this ad!";
+"pdp-quick-bid-modal-title" = "You are about to place a bid";
+"pdp-quick-bid-modal-place-bid-btn" = "Yes, place my bid";
+"filter-country" = "Location";
+"filter-dimensions" = "Dimensions";
+"listing-bidding-possible" = "Bidding possible";
+"listing-showroom-items" = "Showroom items";
+"label-lowered-in-price-color" = "#F57864";
+"country-at" = "Austria";
+"country-be" = "Belgium";
+"country-de" = "Germany";
+"country-fr" = "France";
+"country-nl" = "The Netherlands";
+"country-uk" = "United Kingdom";
+"country-us" = "United States";
+"common-done" = "Done";
+"filter-min-placeholder" = "min";
+"filter-max-placeholder" = "max";
+"filter-show-results-with-count" = "Show %@ results";
+"pdp-sold-for" = "SOLD for";
+"pdp-sold-out-item" = "Oh no, you missed this one! It is already sold. We do have more amazing items available, but be quick!";
+"pdp-bid-info" = "There are %d bids on this item now";
+"pdp-seller-info" = "You are the seller of this item. Remember: you can’t buy or bid on your own items";
+"pdp-product-description-title" = "Product description";
+"pdp-verified-seller" = "Verified seller";
+"pdp-read-all-reviews" = "Read all reviews";
+"pdp-seller-boost-ad" = "For just %@ you can boost your ad to the top of the category and increase your chances of selling faster!";
+"pdp-label-present" = "Label present";
+"pdp-delivery-shipping" = "Delivery & Shipping";
+"pdp-benefits-curated" = "All items curated by Whoppah";
+"pdp-benefits-courier" = "Delivered by Whoppah courier";
+"pdp-benefits-guarante" = "30 days guarantee";
+"pdp-your-bid" = "Your bid";
+"pdp-quick-bid" = "Quick bid";
+"pdp-read-more" = "Read more about how bidding works";
+"pdp-seller-boost-for-just" = "For just";
+"pdp-seller-boost-complete" = "you can boost your ad to the top of the category and increase your chances of selling faster!";
+"listing-available-items" = "Show only available items";
+"label-showroom" = "showroom";
+"ad-details-view-ar" = "View item in your room";
+"search_sort_most_relevant" = "Most relevant";
+"pdp-contact-phone-number" = "+31 (0) 20 244 46 93";
+"pdp-contact-phone" = "+31 (0) 20 244 46 93";
+"pdp-contact-body" = "Whoppah is available from Monday to Friday during office hours on:";
+"country-gb" = "Great Britain";
+"pdp-quick-bid-modal-question-sure" = "Are you sure you want to place a bid for %@ on %@?";
+"language-nl" = "Dutch";
+"language-en" = "English";
+"language-fr" = "French";
+"language-de" = "German";
+"language-es" = "Spanish";
+"show-all-my-items" = "Show all my items";
+"all-items-from-merchant" = "All items from";
+"common-showroom-city" = "Utrecht";
+"ad_details_report_success" = "Thank you for reporting.";
+"your-account-settings-block-whoppah" = "whoppah isn't allowed";
+"checkout-information-block-whoppah" = "whoppah isn't allowed";
+"register-block-whoppah" = "whoppah isn't allowed";
+"buyer-protection-usp-1" = "Money back guarantee";
+"buyer-protection-usp-2" = "Return guarantee to Whoppah";
+"buyer-protection-usp-3" = "Quality control by Whoppah courier";
+"buyer-protection-usp-4" = "Mediation help";
+"buyer-protection-usp-5" = "Insurance for not arrived items by post";
+"pdp-buyer-protection-text" = "Go for safe shopping! Not happy with the purchase or different than advertised? We got you covered with the buyer protection.";
+"buyer-protection-title" = "Buyer protection";
+"pdp-buyer-protection-more-information" = "More information";
+"checkout-buyer-protection-text" = "Protect your purchase for just 3% of your order amount. [Buyer protection](buyerprotection) includes:";
+"checkout-buyer-protection-activated" = "Added";
+"checkout-buyer-protection-not-activated" = "Add";
+"contact-phone-to" = "+31 (0) 20 244 46 93";
+"contact-phone-to-html" = "<a href=\"tel:+31 (0) 20 244 46 93\"> +31 (0) 20 244 46 93 </a>";
+"contact-email-to-html" = "<a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>";

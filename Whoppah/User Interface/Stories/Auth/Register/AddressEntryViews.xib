@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressEntryViews" customModule="Whoppah" customModuleProvider="target">
+            <connections>
+                <outlet property="buildingTextField" destination="47Q-wi-zBp" id="3GD-SC-7Wb"/>
+                <outlet property="cityTextField" destination="GXR-9d-dzG" id="dXu-Ed-W7j"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="8EA-ou-jOe"/>
+                <outlet property="countryDropdown" destination="X6h-6f-qDi" id="e3o-yq-Lrf"/>
+                <outlet property="postalCodeTextField" destination="HkX-q3-QXR" id="ATh-aC-9WI"/>
+                <outlet property="streetTextField" destination="5nU-0f-jTD" id="HAG-Eq-ujn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X6h-6f-qDi" customClass="CountryDropdown" customModule="Whoppah" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lsf-LS-edn" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="k9q-Ih-dhg"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                        </textField>
+                    </subviews>
+                    <connections>
+                        <outlet property="countryTextfield" destination="Lsf-LS-edn" id="9Md-en-GwI"/>
+                    </connections>
+                </stackView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HkX-q3-QXR" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                    <rect key="frame" x="0.0" y="116" width="199" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="0Za-z8-kPe"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" textContentType="postal-code"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47Q-wi-zBp" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                    <rect key="frame" x="215" y="116" width="199" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="f2J-5e-vI4"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5nU-0f-jTD" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                    <rect key="frame" x="0.0" y="188" width="414" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="vbz-ZR-hvK"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" textContentType="street-address"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GXR-9d-dzG" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                    <rect key="frame" x="0.0" y="260" width="414" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="4tO-zi-BvW"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" textContentType="address-level2"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HkX-q3-QXR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3Gn-YI-x10"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="X6h-6f-qDi" secondAttribute="trailing" id="4Pq-cu-Gkw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GXR-9d-dzG" secondAttribute="trailing" id="4ts-EW-n9N"/>
+                <constraint firstItem="HkX-q3-QXR" firstAttribute="top" secondItem="X6h-6f-qDi" secondAttribute="bottom" constant="16" id="A1N-Uj-x9h"/>
+                <constraint firstItem="47Q-wi-zBp" firstAttribute="leading" secondItem="HkX-q3-QXR" secondAttribute="trailing" constant="16" id="A92-Xl-NOw"/>
+                <constraint firstItem="GXR-9d-dzG" firstAttribute="top" secondItem="5nU-0f-jTD" secondAttribute="bottom" constant="16" id="ANJ-Ko-LWy"/>
+                <constraint firstItem="GXR-9d-dzG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Bzk-lh-tmH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5nU-0f-jTD" secondAttribute="trailing" id="CgC-jq-HU2"/>
+                <constraint firstItem="47Q-wi-zBp" firstAttribute="bottom" secondItem="HkX-q3-QXR" secondAttribute="bottom" id="ZQ0-di-B0y"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="47Q-wi-zBp" secondAttribute="trailing" id="dda-oU-LOq"/>
+                <constraint firstItem="5nU-0f-jTD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="mpd-10-t9T"/>
+                <constraint firstItem="5nU-0f-jTD" firstAttribute="top" secondItem="HkX-q3-QXR" secondAttribute="bottom" constant="16" id="wba-Lu-QVa"/>
+                <constraint firstItem="X6h-6f-qDi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="x3b-5W-Sds"/>
+                <constraint firstItem="47Q-wi-zBp" firstAttribute="width" secondItem="HkX-q3-QXR" secondAttribute="width" id="xKS-VC-K01"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="X6h-6f-qDi" secondAttribute="top" id="xdq-kA-VZn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

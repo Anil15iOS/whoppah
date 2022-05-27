@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuestionWasSentDialog" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egK-wl-JfA">
+                    <rect key="frame" x="0.0" y="778" width="375" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pX8-ma-TzJ">
+                    <rect key="frame" x="0.0" y="540" width="375" height="238"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L43-jw-3oH">
+                            <rect key="frame" x="24" y="24" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="8wC-sb-hw4"/>
+                                <constraint firstAttribute="height" constant="40" id="gT6-ya-FUd"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="Ycq-pU-BUd"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question_sent_icon" translatesAutoresizingMaskIntoConstraints="NO" id="OMQ-OF-BeJ">
+                            <rect key="frame" x="148.66666666666666" y="56" width="78" height="78"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="78" id="DDu-1L-Rcb"/>
+                                <constraint firstAttribute="height" constant="78" id="dxb-nW-guI"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KV6-7u-2WL">
+                            <rect key="frame" x="16" y="158" width="343" height="48"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Whoppah! Bericht verzonden ">
+                                    <attributes>
+                                        <color key="NSColor" name="black"/>
+                                        <font key="NSFont" metaFont="system" size="20"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <font key="NSFont" metaFont="system" size="17"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Je ontvangt het antwoord per e-mail.">
+                                    <attributes>
+                                        <color key="NSColor" name="black"/>
+                                        <font key="NSFont" metaFont="system" size="20.050000000000001"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="question-sent-dialog-text"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="KV6-7u-2WL" firstAttribute="top" secondItem="OMQ-OF-BeJ" secondAttribute="bottom" constant="24" id="9K8-z6-EJ9"/>
+                        <constraint firstItem="L43-jw-3oH" firstAttribute="leading" secondItem="pX8-ma-TzJ" secondAttribute="leading" constant="24" id="C1U-k0-EvC"/>
+                        <constraint firstItem="KV6-7u-2WL" firstAttribute="leading" secondItem="pX8-ma-TzJ" secondAttribute="leading" constant="16" id="Cn6-Sy-bGf"/>
+                        <constraint firstItem="L43-jw-3oH" firstAttribute="top" secondItem="pX8-ma-TzJ" secondAttribute="top" constant="24" id="S2a-Uq-8XL"/>
+                        <constraint firstAttribute="bottom" secondItem="KV6-7u-2WL" secondAttribute="bottom" constant="32" id="U3l-bt-VDG"/>
+                        <constraint firstItem="OMQ-OF-BeJ" firstAttribute="top" secondItem="pX8-ma-TzJ" secondAttribute="top" constant="56" id="n04-HS-7OY"/>
+                        <constraint firstAttribute="trailing" secondItem="KV6-7u-2WL" secondAttribute="trailing" constant="16" id="sVh-vg-fm3"/>
+                        <constraint firstItem="OMQ-OF-BeJ" firstAttribute="centerX" secondItem="pX8-ma-TzJ" secondAttribute="centerX" id="tKG-77-7ul"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pX8-ma-TzJ" secondAttribute="bottom" id="3BC-Rb-AuD"/>
+                <constraint firstItem="pX8-ma-TzJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3tN-81-vHO"/>
+                <constraint firstAttribute="bottom" secondItem="egK-wl-JfA" secondAttribute="bottom" id="AC7-ka-a0Y"/>
+                <constraint firstItem="egK-wl-JfA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZBf-kD-lgG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="egK-wl-JfA" secondAttribute="trailing" id="bGs-YM-UD8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pX8-ma-TzJ" secondAttribute="trailing" id="gIN-67-3FT"/>
+                <constraint firstItem="egK-wl-JfA" firstAttribute="top" secondItem="pX8-ma-TzJ" secondAttribute="bottom" id="ghv-co-O0K"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.95566502463055"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+        <image name="question_sent_icon" width="78" height="78"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

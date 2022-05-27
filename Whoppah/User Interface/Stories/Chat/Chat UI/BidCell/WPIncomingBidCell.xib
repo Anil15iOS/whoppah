@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WPIncomingBidCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ihd-mu-Hh0">
+                        <rect key="frame" x="16" y="16" width="34" height="34"/>
+                        <color key="backgroundColor" name="smoke"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="Jy8-qh-GcY"/>
+                            <constraint firstAttribute="height" constant="34" id="sHd-gd-ATd"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrk-Q8-8QK">
+                        <rect key="frame" x="58" y="0.0" width="240" height="50"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="239-oT-uYt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loo-wK-0dN">
+                                        <rect key="frame" x="16" y="0.0" width="208" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLB-0U-wxM" customClass="WPBubble" customModule="Staging" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="46"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="YVR-yh-Evn"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lHp-dL-Y4P">
+                                        <rect key="frame" x="0.0" y="50" width="240" height="0.0"/>
+                                        <subviews>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdL-VQ-5y9">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="jsz-Oe-Hqi"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
+                                                <state key="normal" title="Accept." image="chat-cell-accepted-icon">
+                                                    <color key="titleColor" name="Green Validation"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-bid-incoming-cell-accept-button"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="acceptAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Cpf-QW-Gfj"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvZ-nO-S9o">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="amM-dc-wfN"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
+                                                <state key="normal" title="Reject.s" image="chat-cell-rejected-icon">
+                                                    <color key="titleColor" name="Red Invalid"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-bid-incoming-cell-reject-button"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="denyAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="whW-GG-DAT"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQV-wk-FQu">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="YsQ-rK-7uD"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
+                                                <state key="normal" title="Counter." image="chat-cell-new-icon">
+                                                    <color key="titleColor" name="Shiny Blue"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-bid-incoming-cell-counter-button"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="counterAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="FYq-wX-V2T"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="fdL-VQ-5y9" firstAttribute="width" secondItem="lHp-dL-Y4P" secondAttribute="width" multiplier="0.7" id="jfw-hA-Kcq"/>
+                                            <constraint firstItem="YQV-wk-FQu" firstAttribute="width" secondItem="fdL-VQ-5y9" secondAttribute="width" id="lgB-ll-pSy"/>
+                                            <constraint firstItem="GvZ-nO-S9o" firstAttribute="width" secondItem="fdL-VQ-5y9" secondAttribute="width" id="nel-uJ-UrD"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="loo-wK-0dN" firstAttribute="leading" secondItem="239-oT-uYt" secondAttribute="leading" constant="16" id="8lb-o8-Fey"/>
+                                    <constraint firstItem="lHp-dL-Y4P" firstAttribute="leading" secondItem="pLB-0U-wxM" secondAttribute="leading" id="SMf-bL-KLa"/>
+                                    <constraint firstAttribute="trailing" secondItem="loo-wK-0dN" secondAttribute="trailing" constant="16" id="YNZ-uH-gNi"/>
+                                    <constraint firstItem="pLB-0U-wxM" firstAttribute="leading" secondItem="239-oT-uYt" secondAttribute="leading" id="bNC-Sr-n4f"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="239-oT-uYt" secondAttribute="bottom" id="HCp-gX-vs6"/>
+                            <constraint firstItem="239-oT-uYt" firstAttribute="leading" secondItem="rrk-Q8-8QK" secondAttribute="leading" id="X44-cs-gMR"/>
+                            <constraint firstItem="239-oT-uYt" firstAttribute="top" secondItem="rrk-Q8-8QK" secondAttribute="top" id="pmN-2C-WIj"/>
+                            <constraint firstAttribute="trailing" secondItem="239-oT-uYt" secondAttribute="trailing" id="sGW-Em-OBC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rrk-Q8-8QK" secondAttribute="bottom" id="Dlt-vR-UBn"/>
+                <constraint firstItem="ihd-mu-Hh0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Vxh-81-LbT"/>
+                <constraint firstItem="rrk-Q8-8QK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ah3-Fy-ODq"/>
+                <constraint firstItem="rrk-Q8-8QK" firstAttribute="leading" secondItem="ihd-mu-Hh0" secondAttribute="trailing" constant="8" id="ahB-FB-nKn"/>
+                <constraint firstAttribute="bottom" secondItem="ihd-mu-Hh0" secondAttribute="bottom" id="vly-t8-vHN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="357" height="104"/>
+            <connections>
+                <outlet property="acceptButton" destination="fdL-VQ-5y9" id="sRQ-72-QEF"/>
+                <outlet property="avatarView" destination="ihd-mu-Hh0" id="bmH-1o-0Af"/>
+                <outlet property="bidStatusLabel" destination="loo-wK-0dN" id="HKh-M7-LRt"/>
+                <outlet property="bubble" destination="pLB-0U-wxM" id="dYt-UZ-Q47"/>
+                <outlet property="bubbleView" destination="rrk-Q8-8QK" id="mvR-gg-uWh"/>
+                <outlet property="bubbleWidthConstraint" destination="YVR-yh-Evn" id="zEA-hS-T7y"/>
+                <outlet property="buttonView" destination="lHp-dL-Y4P" id="ztH-HE-ioU"/>
+                <outlet property="counterButton" destination="YQV-wk-FQu" id="c92-FV-qMr"/>
+                <outlet property="rejectButton" destination="GvZ-nO-S9o" id="BPs-OT-m3c"/>
+            </connections>
+            <point key="canvasLocation" x="437.60000000000002" y="149.32533733133434"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chat-cell-accepted-icon" width="16" height="16"/>
+        <image name="chat-cell-new-icon" width="16" height="16"/>
+        <image name="chat-cell-rejected-icon" width="16" height="16"/>
+        <namedColor name="Green Validation">
+            <color red="0.12941176470588237" green="0.72156862745098038" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Red Invalid">
+            <color red="0.73725490196078436" green="0.027450980392156862" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Shiny Blue">
+            <color red="0.23529411764705882" green="0.4823529411764706" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="smoke">
+            <color red="0.91764705882352937" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

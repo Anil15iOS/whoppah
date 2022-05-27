@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MediaView" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="SLA-xw-XYi"/>
+                <outlet property="playButton" destination="ueB-6U-uPC" id="qgJ-VC-KoB"/>
+                <outlet property="progressText" destination="tra-s8-9uz" id="iDA-qT-Fwh"/>
+                <outlet property="progressView" destination="7c9-hl-RMZ" id="nuW-MH-uVs"/>
+                <outlet property="scrubberView" destination="Mwq-op-e0S" id="AeA-Gn-02m"/>
+                <outlet property="thumbnailView" destination="dyH-La-gLm" id="Qt3-VH-jEH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dyH-La-gLm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueB-6U-uPC">
+                    <rect key="frame" x="139.5" y="139.5" width="96" height="96"/>
+                    <state key="normal" image="ic_video_play"/>
+                    <state key="selected" image="ic_video_stop"/>
+                    <connections>
+                        <action selector="playAction:" destination="-1" eventType="touchUpInside" id="syo-Qp-zTl"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mwq-op-e0S">
+                    <rect key="frame" x="0.0" y="343" width="375" height="32"/>
+                    <subviews>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7c9-hl-RMZ" customClass="VideoSlider" customModule="Staging" customModuleProvider="target">
+                            <rect key="frame" x="14" y="0.0" width="256" height="9"/>
+                            <color key="tintColor" name="strawberry"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="Kco-w4-Crk"/>
+                            </constraints>
+                            <connections>
+                                <action selector="sliderValueChangedWithSlider:" destination="-1" eventType="valueChanged" id="5o2-UF-ozG"/>
+                            </connections>
+                        </slider>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:03 | 0.15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tra-s8-9uz">
+                            <rect key="frame" x="284" y="-5.5" width="75" height="19"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="7c9-hl-RMZ" firstAttribute="top" secondItem="Mwq-op-e0S" secondAttribute="top" id="5U1-VV-V0P"/>
+                        <constraint firstAttribute="height" constant="32" id="OzK-zR-kJU"/>
+                        <constraint firstItem="7c9-hl-RMZ" firstAttribute="leading" secondItem="Mwq-op-e0S" secondAttribute="leading" constant="16" id="dCJ-iM-jUn"/>
+                        <constraint firstAttribute="trailing" secondItem="tra-s8-9uz" secondAttribute="trailing" constant="16" id="gdd-Sw-Tig"/>
+                        <constraint firstItem="tra-s8-9uz" firstAttribute="centerY" secondItem="7c9-hl-RMZ" secondAttribute="centerY" id="pU5-Ck-bdd"/>
+                        <constraint firstItem="7c9-hl-RMZ" firstAttribute="trailing" secondItem="tra-s8-9uz" secondAttribute="leading" constant="-16" id="uVF-sw-Koz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dyH-La-gLm" secondAttribute="trailing" id="6Ji-Ck-Exu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="dyH-La-gLm" secondAttribute="bottom" id="6kM-A7-2BM"/>
+                <constraint firstItem="dyH-La-gLm" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Dch-Bm-O6Y"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Mwq-op-e0S" secondAttribute="trailing" id="Ffr-pG-B2j"/>
+                <constraint firstItem="ueB-6U-uPC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Fgu-KZ-Y1T"/>
+                <constraint firstItem="Mwq-op-e0S" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="XF7-N8-RzU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Mwq-op-e0S" secondAttribute="bottom" id="rbL-7O-v0f"/>
+                <constraint firstItem="dyH-La-gLm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wPF-Yw-cud"/>
+                <constraint firstItem="ueB-6U-uPC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zDi-Hx-Ajp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="8.995502248875562"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_video_play" width="48" height="48"/>
+        <image name="ic_video_stop" width="48" height="48"/>
+        <namedColor name="strawberry">
+            <color red="1" green="0.37647058823529411" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

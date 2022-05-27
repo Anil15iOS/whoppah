@@ -1,0 +1,14 @@
+//
+//  Production.xcconfig
+//  Whoppah
+//
+//  Created by Eddie Long on 05/04/2019.
+//  Copyright © 2019 Whoppah. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_NAME = Whoppah
+
+#include "Pods/Target Support Files/Pods-Whoppah/Pods-Whoppah.release.xcconfig"

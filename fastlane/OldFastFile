@@ -1,0 +1,324 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+import "./FastfileIncludes/LocalLanes"
+
+# Uncomment the line if you want fastlane to automatically update itself
+if is_ci
+  update_fastlane
+end
+
+default_platform(:ios)
+
+def branch_tag(build_number)
+  if git_branch == "master"
+    version = get_version_number(xcodeproj: "Whoppah.xcodeproj", target: "Whoppah")
+    "release/" + version + "." + build_number
+  else 
+    version = get_version_number(xcodeproj: "Whoppah.xcodeproj", target: "Whoppah-testing")
+    "fastlane-builds/" + git_branch + "/" + version + "/" + build_number
+  end
+end
+
+def get_release_notes
+  check_ancestry_path = git_branch != "master"
+  to_compare_with = last_commit_tag_to_compare
+  comments = changelog_from_git_commits(
+      between: [to_compare_with, "HEAD"],
+      pretty: "- %s",
+      date_format: "short",
+      ancestry_path: check_ancestry_path,
+      match_lightweight_tag: false, 
+      merge_commit_filtering: "exclude_merges" 
+  )
+
+  # Ensure we have some content
+  if comments.nil? || comments.length == 0
+    comments = "None"
+  end
+
+  release_notes = "\nVersion\n==========\n\n"
+  branch = git_branch
+  if branch == "develop"
+    release_notes = release_notes + "Staging/Testing (develop)"
+  elsif branch == "master"
+    release_notes = release_notes + "Release (master)"
+  else
+    release_notes = release_notes + "Other: " + branch + ""
+  end
+  commit = last_git_commit
+
+  release_notes = release_notes + "\nGit Hash: " + commit[:commit_hash]
+  release_notes = release_notes + "\nTag to compare: " + to_compare_with
+  release_notes = release_notes + "\n\nNotes\n==========\n\n"
+  release_notes = release_notes + comments
+  return release_notes
+end
+
+def last_commit_tag_to_compare
+  # Collect changes since last tag
+  build_number = get_build_number(xcodeproj: "Whoppah.xcodeproj") 
+  tag = branch_tag(build_number)
+  to_compare_with = last_git_tag
+  if git_tag_exists(tag: tag)
+    to_compare_with = tag
+    puts ("Git tag already exists: " + tag)
+  else
+    # Master ignores the fastlane builds tags
+    if git_branch == "master"
+      to_compare_with = sh("git","describe", "--abbrev=0", "--tags", "--exclude", "fastlane*").gsub(/\s+/, "")
+    else
+      to_compare_with = sh("git","describe", "--abbrev=0", "--tags", "--exclude", "release*").gsub(/\s+/, "")
+    end
+    if !git_tag_exists(tag: to_compare_with)
+      puts ("Reverting back to last_git_tag")
+      to_compare_with = last_git_tag
+    else
+      puts ("Using last git tag from current branch: " + to_compare_with)
+    end
+  end
+  return to_compare_with
+end
+
+def bump_version
+  # Ensure that your git status is not dirty
+  ensure_git_status_clean(show_uncommitted_changes: true)
+
+  # Keep bumping until we find a free tag
+  loop do 
+    # Increment the build number (not the version number)
+    # Providing the xcodeproj is optional
+    build_number = increment_build_number(xcodeproj: "Whoppah.xcodeproj")
+    tag = branch_tag(build_number)
+    puts "Checking tag - " + tag
+    if !git_tag_exists(tag: tag)
+      # Commit the version bump
+      commit_version_bump(xcodeproj: "Whoppah.xcodeproj", message: "[skip ci] Version Bump")
+      
+      # Commit the tag
+      add_git_tag(tag: tag)
+      break
+    end
+  end
+
+  # Push the new commit and tag back to your git remote
+  push_to_git_remote
+end
+
+before_all do
+  if is_ci
+    setup_circle_ci
+    
+    # testing
+    #ENV["SLACK_URL_SUCCESS"] = "https://hooks.slack.com/services/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";
+    #ENV["SLACK_URL_ERROR"] = "https://hooks.slack.com/services/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";
+
+    # 'production'
+    ENV["SLACK_URL_SUCCESS"] = "https://hooks.slack.com/services/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";
+    ENV["SLACK_URL_ERROR"] = "https://hooks.slack.com/services/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";
+  end
+end
+
+platform :ios do
+  desc "Build and run tests"
+  lane :test do
+    scan(
+      scheme: "Whoppah-testing",
+      output_types: 'junit',
+      output_files: 'junit.xml',
+      output_directory: './build/test_output/xctest',
+      include_simulator_logs: false)
+  end
+
+  desc "Uploads metadata only - no ipa file will be uploaded"
+  desc "You'll get a summary of the collected metadata before it's uploaded"
+  lane :upload_metadata do
+    deliver(metadata_only: true)
+  end
+
+  desc "Push a new release build to the App Store"
+  lane :release do
+
+    import_certificate(
+    certificate_path: "AppleWWDRCAG3.cer",
+    keychain_path: "/Users/distiller/Library/Keychains/fastlane_tmp_keychain-db",
+    keychain_password: ""
+    )
+
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    match(type: "appstore", git_branch: "master", app_identifier: "com.whoppah.app")
+    build_app(workspace: "Whoppah.xcworkspace", scheme: "Whoppah")
+
+    # Upload symbols to firebase/crashlytics
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Production/GoogleService-Info.plist")
+    
+    upload_to_app_store
+    slack(
+      slack_url: ENV["SLACK_URL_SUCCESS"],
+      default_payloads: [:git_branch, :git_author]
+    )
+  end
+
+  desc "Push a new release build to Testflight"
+  lane :testflight_release do
+
+    import_certificate(
+    certificate_path: "AppleWWDRCAG3.cer",
+    keychain_path: "/Users/distiller/Library/Keychains/fastlane_tmp_keychain-db",
+    keychain_password: ""
+    )
+
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    match(type: "appstore", git_branch: "master", app_identifier: "com.whoppah.app")
+    build_app(scheme: "Whoppah", export_method: "app-store",
+      export_options: {
+      method: "app-store",
+      provisioningProfiles: { 
+        "com.whoppah.app" => "match AppStore com.whoppah.app"
+      }
+    })
+
+    # Upload symbols to firebase/crashlytics
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Production/GoogleService-Info.plist")
+    
+    app_store_connect_api_key
+    upload_to_testflight(skip_waiting_for_build_processing: true)
+    # deliver(
+    #   submit_for_review: false,
+    #   force: true
+    # )
+
+    comments = get_release_notes
+    slack(
+      slack_url: ENV["SLACK_URL_SUCCESS"],
+      default_payloads: [:git_branch, :git_author],
+      message: "New build sent to testflight with changes:```" + comments + "```")
+  end
+
+  desc "Update lokalise"
+  lane :update_lokalise do
+    lokalise(
+        api_token: "eba5766eefeba22c1653e1e500e0b9b2a437d4e7",
+        project_identifier: "214963985d56c3942fdbd2.64093634",
+        destination: "Whoppah/Resources/Localization",
+    )
+  end
+
+  desc "View release notes text"
+  lane :test_releasenotes do
+    puts (get_release_notes)
+  end
+
+  desc "Push a new beta/staging release to Crashlytics"
+  lane :staging do 
+
+    import_certificate(
+    certificate_path: "AppleWWDRCAG3.cer",
+    keychain_path: "/Users/distiller/Library/Keychains/fastlane_tmp_keychain-db",
+    keychain_password: ""
+    )
+    
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    # Fetch the provisioning profile
+    match(type: "adhoc", app_identifier: "com.whoppah.staging")
+    build_app(scheme: "Whoppah-staging", export_method: "ad-hoc",
+      export_options: {
+      method: "ad-hoc",
+      provisioningProfiles: { 
+        "com.whoppah.staging" => "match AdHoc com.whoppah.staging"
+      }
+    })
+
+    # Collect changes since last tag
+    comments = get_release_notes
+
+    # Upload to Firebase App Distribution
+    firebase_app_distribution(
+       app: "1:893420819731:ios:51421490ed14eb804a36e6",
+       release_notes: comments,
+       groups: "ios-internal",
+       ipa_path: "#{Actions.lane_context[SharedValues::IPA_OUTPUT_PATH]}"
+    )
+    
+    # Upload symbols to firebase/crashlytics
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Staging/GoogleService-Info.plist")
+
+    # Upload to firebase/crashlytics
+    # Message all the people
+    slack(
+      slack_url: ENV["SLACK_URL_SUCCESS"],
+      default_payloads: [:git_branch, :git_author],
+      message: "New *STAGING* iOS build! Download: https://appdistribution.firebase.dev/app_distro/projects/5df1309be46fea5188e62465?ios=true```" + comments + "```"
+    )
+
+    # Bump
+    bump_version
+  end
+
+  desc "Push a new beta/testing release to Crashlytics"
+  lane :beta do 
+
+    import_certificate(
+    certificate_path: "AppleWWDRCAG3.cer",
+    keychain_path: "/Users/distiller/Library/Keychains/fastlane_tmp_keychain-db",
+    keychain_password: ""
+    )
+    
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    # Fetch the provisioning profile
+    match(type: "adhoc", app_identifier: "com.whoppah.testing")
+    build_app(scheme: "Whoppah-testing", export_method: "ad-hoc", 
+      export_options: {
+        compileBitcode: false
+      })
+
+    # Collect changes since last tag
+    comments = get_release_notes
+
+    # Upload to Firebase App Distribution
+    firebase_app_distribution(
+      app: "1:893420819731:ios:c4bf927359ca63634a36e6",
+      release_notes: comments,
+      groups: "ios-internal",
+      ipa_path: "#{Actions.lane_context[SharedValues::IPA_OUTPUT_PATH]}"
+    )
+    
+    # Upload symbols to firebase/crashlytics
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Testing/GoogleService-Info.plist")
+
+    # Upload to firebase/crashlytics
+    # Message all the people
+    slack(
+      slack_url: ENV["SLACK_URL_SUCCESS"],
+      default_payloads: [:git_branch, :git_author],
+      message: "New *TESTING* iOS build! Download: https://appdistribution.firebase.dev/app_distro/projects/5d949298e499b5483a778dda?ios=true```" + comments + "```"
+    )
+
+    # Bump
+    bump_version
+  end
+end
+
+after_all do |lane|
+  # clean_build_artifacts
+end
+
+error do |lane, exception|
+  if ENV["SLACK_URL_ERROR"]
+    slack(
+      slack_url: ENV["SLACK_URL_ERROR"],
+      default_payloads: [:git_branch, :git_author],
+      message: "iOS build failed with error: ```" + exception.to_s + "```",
+      success: false
+    )
+  end
+end

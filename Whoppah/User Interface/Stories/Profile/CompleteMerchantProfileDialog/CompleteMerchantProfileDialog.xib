@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompleteMerchantProfileDialog" customModule="Whoppah" customModuleProvider="target">
+            <connections>
+                <outlet property="okButton" destination="7u5-Pf-q2F" id="78x-qh-ty9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myj-bR-MPr">
+                    <rect key="frame" x="0.0" y="862" width="414" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hs2-XA-1vv">
+                    <rect key="frame" x="0.0" y="656" width="414" height="206"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHOPPAH!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Nv-s9-Kym">
+                            <rect key="frame" x="175.5" y="24" width="63.5" height="14"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="12"/>
+                            <color key="textColor" name="black"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="merchant_profile_incomplete_dialog_title"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZq-UK-IRX">
+                            <rect key="frame" x="24" y="24" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="BoK-jV-eIL"/>
+                                <constraint firstAttribute="width" constant="40" id="apr-iB-3dS"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="Xpm-wD-Ric"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nog een paar gegevens nodig" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVA-v2-gIJ">
+                            <rect key="frame" x="16" y="58" width="382" height="19"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="16"/>
+                            <color key="textColor" name="black"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="merchant_profile_incomplete_dialog_subtitle"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voordat je verder kan, hebben we eerst jouw contactgegevens nodig. Vul ze nu in. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bD-sl-emN">
+                            <rect key="frame" x="16" y="93" width="382" height="33"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                            <color key="textColor" name="space"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="merchant_profile_incomplete_dialog_body"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7u5-Pf-q2F" customClass="PrimaryLargeButton" customModule="Whoppah" customModuleProvider="target">
+                            <rect key="frame" x="16" y="142" width="382" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="DMZ-si-KHa"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Okee"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="merchant_profile_incomplete_dialog_ok_button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="okAction:" destination="-1" eventType="touchUpInside" id="rIA-0D-e1Y"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4bD-sl-emN" firstAttribute="top" secondItem="TVA-v2-gIJ" secondAttribute="bottom" constant="16" id="1XN-ku-7gt"/>
+                        <constraint firstItem="7u5-Pf-q2F" firstAttribute="leading" secondItem="hs2-XA-1vv" secondAttribute="leading" constant="16" id="7Af-E1-5Fo"/>
+                        <constraint firstItem="7u5-Pf-q2F" firstAttribute="top" secondItem="4bD-sl-emN" secondAttribute="bottom" constant="16" id="7Vc-vY-pfd"/>
+                        <constraint firstAttribute="trailing" secondItem="TVA-v2-gIJ" secondAttribute="trailing" constant="16" id="CBA-nM-gKR"/>
+                        <constraint firstAttribute="trailing" secondItem="7u5-Pf-q2F" secondAttribute="trailing" constant="16" id="CSO-CU-aDr"/>
+                        <constraint firstItem="MZq-UK-IRX" firstAttribute="leading" secondItem="hs2-XA-1vv" secondAttribute="leading" constant="24" id="HOu-PD-FYM"/>
+                        <constraint firstItem="3Nv-s9-Kym" firstAttribute="centerX" secondItem="hs2-XA-1vv" secondAttribute="centerX" id="KB7-ww-eV5"/>
+                        <constraint firstItem="TVA-v2-gIJ" firstAttribute="leading" secondItem="hs2-XA-1vv" secondAttribute="leading" constant="16" id="UiG-fT-dee"/>
+                        <constraint firstItem="3Nv-s9-Kym" firstAttribute="top" secondItem="hs2-XA-1vv" secondAttribute="top" constant="24" id="ase-0M-DrP"/>
+                        <constraint firstItem="TVA-v2-gIJ" firstAttribute="top" secondItem="3Nv-s9-Kym" secondAttribute="bottom" constant="20" id="cnQ-gr-MXu"/>
+                        <constraint firstAttribute="bottom" secondItem="7u5-Pf-q2F" secondAttribute="bottom" constant="16" id="dCr-K6-E7o"/>
+                        <constraint firstAttribute="trailing" secondItem="4bD-sl-emN" secondAttribute="trailing" constant="16" id="dbm-wK-vIw"/>
+                        <constraint firstItem="MZq-UK-IRX" firstAttribute="top" secondItem="hs2-XA-1vv" secondAttribute="top" constant="24" id="vls-5J-dzN"/>
+                        <constraint firstItem="4bD-sl-emN" firstAttribute="leading" secondItem="hs2-XA-1vv" secondAttribute="leading" constant="16" id="xTo-iB-fvW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="myj-bR-MPr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6sI-QC-C2r"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hs2-XA-1vv" secondAttribute="trailing" id="JQm-ZF-Xlq"/>
+                <constraint firstItem="hs2-XA-1vv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PBz-Ba-9WA"/>
+                <constraint firstItem="myj-bR-MPr" firstAttribute="top" secondItem="hs2-XA-1vv" secondAttribute="bottom" id="PfA-Dr-WPa"/>
+                <constraint firstAttribute="trailing" secondItem="myj-bR-MPr" secondAttribute="trailing" id="e7K-wr-Lfa"/>
+                <constraint firstAttribute="bottom" secondItem="myj-bR-MPr" secondAttribute="bottom" id="e8c-0s-AN4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hs2-XA-1vv" secondAttribute="bottom" id="kvn-wh-brV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="space">
+            <color red="0.27843137254901962" green="0.29411764705882354" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

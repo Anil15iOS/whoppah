@@ -1,0 +1,2208 @@
+"auth_intro_btn_sign_up" = "Account aanmaken";
+"auth_intro_btn_sign_in" = "Ik heb al een account";
+"auth_intro_btn_guest" = "Verder als gast";
+"auth_sign_in_quick_sign_in" = "Snel inloggen";
+"auth_sign_in_email" = "Je e-mailadres";
+"auth_sign_in_forgot_pass" = "Wachtwoord vergeten?";
+"auth_sign_in_btn_sign_up" = "Of account aanmaken";
+"auth_sign_in_btn_sign_in" = "Inloggen";
+"error_invalid_email" = "Ongeldig e-mail";
+"auth_forgot_pass_email" = "Vul je e-mailadres in";
+"auth-forgot-pass-description" = "Wachtwoord vergeten? Geen probleem! Wij sturen je een link waarmee je gemakkelijk een nieuw wachtwoord kunt instellen.";
+"auth_forgot_pass_btn_proceed" = "Verstuur";
+"auth_new_pass_title" = "Maak nieuw wachtwoord aan";
+"auth_new_pass_password" = "Kies je wachtwoord";
+"auth_new_pass_password_repeat" = "Herhaal je wachtwoord";
+"auth_new_pass_rule1" = "Minimaal 8 karakters";
+"auth_new_pass_rule2" = "Minimaal één cijfer";
+"auth_new_pass_rule3" = "Minimaal één kleine letter";
+"auth_new_pass_rule4" = "Minimaal één hoofdletter";
+"auth_new_pass_btn_proceed" = "Verstuur";
+"error_invalid_pass" = "Onjuist wachtwoord";
+"error_invalid_pass_repeat" = "Wachtwoorden komen niet overeen";
+"auth_new_pass_confirm_title" = "Whoppah!";
+"auth_new_pass_confirm_subtitle" = "Wachtwoord gewijzigd";
+"auth_new_pass_confirm_description" = "Je wachtwoord is succesvol gewijzigd.";
+"auth_new_pass_confirm_btn_sign_in" = "Log in";
+"common-next-step-button" = "Naar volgende stap";
+"auth_sign_up2_password" = "Kies je wachtwoord";
+"signup-agree-whoppah-terms" = "Ik ga akkoord met de <a href=\"https://www.whoppah.com/terms.pdf\">gebruiksvoorwaarden</a> en het <a href=\"https://www.whoppah.com/privacy-policy.pdf\">privacy policy</a> van Whoppah.";
+"auth_sign_up2_terms_part1" = "Lees de";
+"auth_sign_up2_terms_part2" = "gebruiksvoorwaarden";
+"auth_sign_up2_terms_part3" = "en het";
+"auth_sign_up2_terms_part4" = "privacybeleid";
+"auth_sign_up2_btn_sign_up" = "Bevestig account";
+"set_profile_personal_username" = "Kies je profielnaam";
+"set_profile_merchant1_kvk" = "KVK nummer";
+"set_profile_merchant1_contact_info" = "Gegevens contactpersoon";
+"set_profile_merchant1_contact_first_name" = "Voornaam";
+"set_profile_merchant1_contact_last_name" = "Achternaam";
+"set_profiel_merchant1_address_country" = "Land";
+"new-specials-title" = "Nieuwe Specials";
+"shop-de-look-title" = "Shop de look";
+"main_home_shop_warranty_line1" = "Kopen of verkopen?";
+"main_home_shop_warranty_line2" = "Zo werkt Whoppah";
+"shop_warranty_screen_title" = "Kopen en verkopen op Whoppah.";
+"shop_warranty_to_sell" = "Verkopen";
+"shop_warranty_to_buy" = "Kopen";
+"shop_warranty_cost" = "Kosten";
+"main_favs_title" = "Mijn favorieten";
+"main_favs_empty_title" = "Je hebt nog geen favorieten";
+"main_favs_empty_description" = "Bewaar advertenties die je leuk vindt door op het hartje te klikken en je vindt ze terug in je favorietenlijst.";
+"main_favs_empty_top_favs" = "Top favorieten";
+"main_my_profile_my_ads" = "Mijn advertenties";
+"main_my_profile_my_account" = "Mijn account";
+"main_my_profile_my_ads_empty_title" = "Aan de slag!";
+"main_my_profile_my_ads_empty_description" = "Plaats een advertentie en start met verkopen.";
+"main_my_profile_my_asd_btn_create_ad" = "Plaats een advertentie";
+"main_my_profile_contacts" = "Contactgegevens";
+"main_my_profile_account_settings" = "Account instellingen";
+"main_my_profile_payment" = "Betaalinstellingen";
+"main_my_profile_my_searches" = "Mijn zoekopdrachten";
+"main_my_profile_faq" = "Help en contact";
+"main_chats_title" = "Berichten";
+"create_ad_camera_btn_save" = "Opslaan";
+"create_ad_camera_tip_0" = "👋 Whoppah! Houd je item binnen het kader en zorg voor een witte achtergrond.";
+"create_ad_camera_tip_1" = "Top! Nog 4 foto’s graag. Maak foto’s van alle kanten.";
+"create_ad_camera_tip_2" = "Maak ook een foto van het merk(label).";
+"create_ad_camera_tip_3" = "Hoe meer foto’s, hoe sneller je verkoopt! 5 minimaal en 15 is de max.";
+"create_ad_camera_tip_4" = "Gebruikssporen? Maak er een foto van.";
+"create_ad_camera_tip_5" = "👉 Maak ook een video!";
+"create_ad_camera_tip_5_video" = "Goed bezig";
+"create_ad_camera_tip_6" = "Maak ook foto’s van de details.";
+"create_ad_camera_tip_7" = "Goed bezig.";
+"create_ad_camera_tip_8" = "Whoppah!";
+"create_ad_camera_tip_9" = "Ga ervoor!";
+"create_ad_camera_tip_10" = "Is de belichting goed?";
+"create_ad_camera_tip_11" = "Je kan nog 5 foto’s uploaden.";
+"create_ad_camera_tip_12" = "Hoe meer foto’s hoe beter.";
+"create_ad_camera_tip_13" = "Dit wordt een top advertentie.";
+"create_ad_camera_tip_14" = "Fantastisch. Jij gaat er vol voor. Je kan nog één foto uploaden.";
+"create_ad_camera_tip_15" = "Whoppah! 15 foto’s upgeload.";
+"create_ad_main_title" = "Titel";
+"create_ad_main_description" = "Beschrijving: omschrijf het item, de staat, de herkomst en of de prijs per stuk is indien het gaat om meerdere items. ";
+"create_ad_main_condition_title" = "Conditie";
+"create_ad_main_condition_value_1" = "Goed";
+"create_ad_main_condition_value_2" = "Heel goed";
+"create_ad_main_condition_value_3" = "Uitstekend";
+"create_ad_main_condition_value_d1" = "In goede staat met lichte gebruikssporen passend bij de leeftijd van het item";
+"create_ad_main_material_title" = "Materiaal";
+"create_ad_main_color_title" = "Kleuren";
+"create_ad_main_dimensions_title" = "Afmeting in hele cm";
+"create_ad_main_dim_width" = "Breed";
+"create_ad_main_dim_height" = "Hoog";
+"create_ad_main_dim_depth" = "Diep";
+"create_ad_main_btn_save" = "Whoppah! Plaats advertentie";
+"create_ad_main_condition_value_d2" = "In heel goede staat met minimale gebruikssporen";
+"create_ad_main_condition_value_d3" = "Zo goed als nieuw zonder gebruikssporen";
+"create_ad_main_warning_min_5_photos" = "Zorg dat je minimaal 5 foto's hebt";
+"create_ad_select_cat_screen_title_category" = "Kies een categorie";
+"create_ad_select_cat_screen_title_product" = "Kies een product";
+"create_ad_select_cat_screen_title_product_type" = "Kies een producttype";
+"create_ad_select_brand_screen_title" = "Kies een merk";
+"create_ad_select_brand_input_brand" = "Merk";
+"create_ad_select_brand_btn_save" = "Opslaan";
+"create_ad_select_style_screen_title" = "Kies een stijl";
+"create_ad_select_style_btn_save" = "Opslaan";
+"create_ad_select_price_input_title" = "Mijn vraagprijs:";
+"create_ad_select_price_merchant_ask_price" = "Jouw vraagprijs";
+"create_ad_select_price_merchant_fee" = "Whoppah Fee (%d%%)";
+"create_ad_select_price_merchant_vat_fee" = "BTW (%d%% van Fee)";
+"create_ad_select_price_merchant_receive" = "Jij ontvangt";
+"create_ad_select_delivery_method_title" = "Bezorgmethode";
+"create_ad_select_delivery_method_pickup" = "Alleen ophalen door koper";
+"create_ad_select_delivery_method_delivery" = "Alleen verzenden";
+"create_ad_select_delivery_method_both" = "De koper mag kiezen";
+"shipping-mailbox" = "Brievenbus";
+"shipping-mailbox-description" = "Max. 38 x 26.5 x 3.2 cm (2 kg)";
+"shipping-standard" = "Standaard pakket";
+"shipping-standard-description" = "Max. 100 x 50 x 50 cm (10 kg)";
+"shipping-registered" = "Aangetekend";
+"shipping-registered-description" = "Max. 100 x 50 x 50 cm (10 kg)";
+"shipping-courier" = "Whoppah Koerier";
+"shipping-courier-description" = "Koerier haalt op en brengt verzekerd naar koper";
+"create_ad_select_delivery_warning" = "De <b>verzendkosten</b> zijn voor de koper en niet voor jou.";
+"create_ad_done_processing_title" = "Advertentie aangemaakt  🎉";
+"create_ad_done_processing_subtitle" = "Wij gaan nu je advertentie cureren! Binnen 1 werkdag ontvang je van ons bericht.";
+"create_ad_done_processing_btn_create_ad" = "Maak nog een advertentie aan";
+"create_ad_done_success_title" = "Advertentie bijgewerkt  🎉";
+"create_ad_done_success_subtitle" = "Jouw aanpassingen zijn opgeslagen. Bekijk de advertentie in Mijn Account.";
+"create_ad_done_success_btn_view_ad" = "Ga naar mijn account";
+"common_btn_show_all" = "Toon alles";
+"ad_details_btn_buy_now" = "Koop nu %@";
+"ad_details_max_bid" = "Hoogste bod: %@";
+"ad_details_member_since" = "Lid sinds %@";
+"ad_details_distance_to" = "%d km bij jou vandaan";
+"ad_details_delivery_pickup_price" = "Gratis";
+"ad_details_delivery_other_title" = "Haal op of thuisbezorgd vanaf";
+"ad_details_delivery_other_description" = "Jij besluit wat jou het beste uitkomt";
+"ad_details_delivery_title" = "Ophalen of bezorgen";
+"ad_details_location_title" = "Locatie";
+"ad_details_color_title" = "Kleuren";
+"ad_details_attr_title" = "Afmeting in cm";
+"ad_details_material_title" = "Materiaal";
+"ad_details_brand_title" = "Merk / Ontwerper";
+"ad_details_condition_title" = "CONDITIE";
+"ad_details_chat_title" = "Verkoper";
+"ad_details_chat_hint" = "Stuur de verkoper een chatbericht";
+"ad_details_bid_now" = "Bieden";
+"ad_details_buynow_btn_buy" = "Ja! Koop nu %@";
+"search_btn_map" = "Kaart";
+"search_btn_sort" = "Sorteer";
+"search_input_hint" = "Waar ben je naar op zoek?";
+"search_map_btn_refresh" = "Zoek in deze buurt: %@";
+"search_results_empty_title" = "Whoops!";
+"search_results_empty_subtitle" = "We hebben dit product nog niet.";
+"search_results_empty_description" = "Stel een zoekfilter in en wij laten het je weten zodra het beschikbaar is.";
+"search_results_empty_btn_save" = "Bewaar als zoekopdracht";
+"search_filters_title_empty" = "Filter";
+"search_filters_title" = "Filter: %@";
+"search_filters_distance_km" = "%dkm";
+"search_filters_price_title" = "Prijs In Euros";
+"search_filters_price_from" = "Vanaf";
+"search_filters_price_to" = "Tot";
+"search_filters_distance_title" = "Afstand";
+"search_filters_condition_title" = "Minimale conditie";
+"search_filters_material_title" = "Materiaal";
+"search_filters_color_title" = "Kleuren";
+"search_filters_save_title" = "Wij helpen je vinden!";
+"search_filters_save_description" = "Stel deze filter in als zoekopdracht en wij laten het je weten als er een passend product beschikbaar is.";
+"search_filters_btn_save" = "Bewaar als zoekopdracht";
+"search_sort_default" = "Nieuwste eerst";
+"search_sort_price_lowest_first" = "Prijs - laagste eerst";
+"search_sort_price_highest_first" = "Prijs - hoogste eerst";
+"search_sort_distance_close_first" = "Afstand - dichtbij eerst";
+"search_sort_distance_far_first" = "Afstand - ver weg eerst";
+"search_sort_date_newest_first" = "Datum - nieuwste eerst";
+"search_sort_date_oldest_first" = "Datum - oudste eerst";
+"search_sort_title" = "Sorteer";
+"search_ask_postcode_title" = "Waar wil je zoeken?";
+"common_search" = "Zoeken";
+"delete_button_title" = "Verwijder";
+"save_button_title" = "Opslaan";
+"auth_sign_in_invalid_email" = "Ongeldig e-mailadres";
+"auth_sign_up_activate_dialog_title" = "Account klaar om te activeren";
+"auth_sign_up_activate_dialog_message" = "Je bent er bijna. Ga naar je e-mail om je account the activeren.";
+"home_main_map_discover_your_area" = "Ontdek bij jou in de buurt";
+"ad_details_attr_width_title" = "Breed";
+"ad_details_attr_height_title" = "Hoog";
+"ad_details_attr_depth_title" = "Lang";
+"ad_details_attr_measurement_centimetres" = "%.0f cm";
+"ad_details_ad_created_days_active" = "%d dagen";
+"ad_details_similar_items_title" = "Vergelijkbare items";
+"category_menu_selection_navigation_title" = "Categorieën";
+"main_my_profile_my_ads_seller_title" = "Advertenties van %@";
+"main_my_profile_edit_username_title" = "Je kan je profielnaam altijd aanpassen.";
+"main_my_profile_submit_button" = "Opslaan";
+"main_my_profile_about_description_title" = "Een korte omschrijving over jou";
+"main_my_profile_username_placeholder" = "Profielnaam";
+"main_my_profile_navigation_title" = "Mijn profiel";
+"main_my_profile_no_adverts_title" = "Nog geen advertenties";
+"main_my_profile_user_no_active_ads_title" = "Deze gebruiker heeft op dit moment geen actieve advertenties.";
+"main_my_profile_current_user_no_adverts_title" = "Aan de slag!";
+"main_my_profile_current_user_place_ad_title" = "Plaats een advertentie en start met verkopen.";
+"merchant_profile_incomplete_dialog_title" = "WHOPPAH!";
+"merchant_profile_incomplete_dialog_subtitle" = "Nog een paar gegevens nodig";
+"merchant_profile_incomplete_dialog_body" = "Voordat je verder kan, hebben we eerst jouw contactgegevens nodig. Vul ze nu in. ";
+"merchant_profile_incomplete_dialog_ok_button" = "Okee";
+"main_favs_count_title" = "%d gevonden";
+"order-state-accepted" = "Betaald";
+"repost_ad_dialog_body" = "Weet je zeker dat je de advertentie wil vernieuwen?";
+"repost_ad_dialog_title" = "Plaats Opnieuw";
+"my_ads_ad_load_failure" = "Unable to load ad";
+"auction-state-expired" = "Verlopen";
+"product-state-rejected" = "Pas aan";
+"auction-state-published" = "Actief";
+"set_profile_merchant1_contact_email" = "E-mail";
+"set_profile_personal_contact_email" = "E-mail";
+"set_profile_personal_contact_phone" = "Telefoonnummer";
+"question_form_navigation_title" = "Stel je vraag";
+"question_form_text_field_placeholder" = "Stel je vraag";
+"question_form_character_count_label" = "%d / %d tekens";
+"whoppah_terms_view_title" = "Gebruiksvoorwaarden";
+"whoppah_privacy_policy_view_title" = "Privacybeleid";
+"whoppah_privacy_policy_last_updated_date" = "Last updated %@";
+"whoppah_terms_last_updated_date" = "Last updated %@";
+"my_account_notification_settings_push_updates_notif_title" = "Whoppah updates";
+"my_account_notification_settings_push_updates_notif_body" = "Stuur mij push notificaties over acties, nieuwe toepassingen en diensten op Whoppah.";
+"my_account_notification_settings_push_chat_notif_body" = "Stuur mij een push notificatie als ik een nieuw chat bericht heb ontvangen.";
+"my_account_notification_settings_push_my_activities_notif_body" = "Stuur mij een push notificatie over Mijn Whoppah activiteiten zoals mijn advertenties, verkopen en aankopen.";
+"my_account_notification_settings_email_my_activities_body" = "Stuur mij een email over acties, nieuwe toepassingen en diensten op Whoppah.";
+"my_account_notification_settings_push_my_activities_notif_title" = "Mijn Whoppah";
+"my_account_notification_settings_push_chat_notif_title" = "Berichten";
+"my_account_notification_settings_email_my_activities_title" = "Whoppah updates";
+"my_account_terms_title" = "Gebruiksvoorwaarden";
+"my_account_privacy_policy_title" = "Privacybeleid";
+"my_account_logout_title" = "Uitloggen";
+"my_account_current_password_placeholder" = "Jouw huidige wachtwoord";
+"my_account_new_password_placeholder" = "Stel nieuw wachtwoord in";
+"my_account_reenter_new_password_placeholder" = "Herhaal nieuw wachtwoord";
+"my_account_username_placeholder" = "Profielnaam";
+"my_subscriptions_search_field_placeholder" = "Ik zoek een:";
+"set_profile_merchant1_company_info" = "Bedrijfsinformatie";
+"set_profile_merchant1_save_button" = "Opslaan";
+"set_profile_merchant2_addresses_title" = "Mijn adres";
+"set_profile_merchant2_add_address_title" = "Voeg adres toe";
+"view-bank-screen-title" = "Betaalinstellingen";
+"ar_welcome" = "👋 Hi! De ruimte wordt gescand. Richt 2 seconden op waar je mij wilt plaatsen et voìla.";
+"ar_surface_detected" = "Raak het scherm aan om het object te plaatsen";
+"ar_object_placed" = "Zodra ik hang of sta, kan je mij ook verplaatsen door te slepen. 👏";
+"ar_session_start_failure" = "De AR sessie is verlopen";
+"ar_session_continue_scanning" = "Blijf het oppervlak scannen totdat er een stabiel vierkant ontstaat";
+"ar_restart_session" = "Herstart sessie";
+"ar_exit" = "Uit";
+"ar_tracking_unavailable" = "❗VOLGEN NIET BESCHIKBAAR";
+"ar_tracking_limited_excessive_motion" = "⚠️ VOLGEN GELIMITEERD vanwege overmatig bewegen";
+"ar_tracking_limited_excessive_motion_recommendation" = "Probeer je camera langzamer te bewegen";
+"ar_tracking_limited_low_detail" = "⚠️ VOLGEN GELIMITEERD vanwege te weinig detail";
+"ar_tracking_limited_low_detail_recommendation" = "Probeer de camera op vlakke opvlakten te richten";
+"ar_tracking_limited_relocalizing" = "⚠️ Herstellen van de onderbreking";
+"ar_tracking_limited_relocalizing_recommendation" = "Ga terug naar je laatste locatie.";
+"ar_tracking_limited" = "⚠️ Gelimiteerd";
+"ar_tracking_initializing" = "Initialiseren";
+"create_ad_camera_invalidreview_photo_nav_title" = "Beeldkwaliteit";
+"create_ad_camera_invalidreview_video_nav_title" = "Video te kort";
+"create_ad_camera_invalidreview_photo_subtitle" = "De kwaliteit is te laag. Selecteer een foto van minimaal 0,72 MB of maak een nieuwe foto.";
+"create_ad_camera_invalidreview_video_subtitle" = "Je video duurt te kort. Upload een langere video om aan de advertentie toe te voegen.";
+"create_ad_camera_invalidreview_upload_new_photo_button" = "Upoad een nieuw foto";
+"create_ad_camera_invalidreview_upload_new_video_button" = "Upoad een nieuw video";
+"create_ad_camera_invalidreview_title" = "Oh nee!";
+"create_ad_camera_video_instruction_label" = "Houd de knop ingedrukt om een video te maken";
+"create_ad_main_error_missing_title" = "Voeg een titel toe";
+"create_ad_main_error_missing_style" = "Voeg een stijl toe";
+"create_ad_main_error_missing_price" = "Voeg een prijs toe aan uw product";
+"create_ad_main_error_missing_delivery" = "Voeg de locatie en verzendmethode toe.";
+"create_ad_select_style_screen_max_styles_title" = "(Selecteer maximaal %d)";
+"create_ad_select_price_screen_title_merchant" = "Je verkoopprijs";
+"create_ad_select_delivery_ad_public_address_info" = "Wij plaatsen geen straatnaam in de advertentie.";
+"create_ad_select_delivery_method_nav_title" = "Ophalen, versturen of bezorgen";
+"create_ad_select_delivery_unable_find_location" = "We kunnen je locatie niet vinden";
+"create_ad_select_delivery_add_product_location" = "Voeg uw productlocatie toe";
+"create_ad_camera_mediareview_unable_load_video" = "Kan video niet laden door error %@";
+"create_ad_camera_tip_video_framing" = "Hou je item binnen het kader 👇";
+"my_account_forgot_password" = "Wachtwoord vergeten?";
+"common_password_rule1" = "Minimaal 8 karakters";
+"common_password_rule2" = "Minimaal één cijfer";
+"common_password_rule3" = "Minimaal één hoofdletter";
+"common_password_rule4" = "Minimaal één kleine letter";
+"my_addresses_address_list_title" = "Mijn adres";
+"my_addresses_address_list_add" = "Voeg adres toe";
+"help_missing_question_title" = "Staat je vraag er niet bij? Je kunt je vraag stellen door een mail te sturen naar support@whoppah.com vermeld wel even je emailadres. ";
+"help_give_feedback_title" = "Geef Whoppah feedback";
+"help_give_feedback_description" = "Whoppah is er voor jou, daarom horen we graag wat er volgens jou beter kan. ";
+"help_give_feedback_button" = "Stuur een bericht";
+"help_send_message_button" = "Stuur een bericht";
+"question_form_description1" = "Zoek je iets speciaals? Vraag het ons! We hebben een groot netwerk aan verkopers met kunst en interieur in allerlei stijlen. ";
+"question_form_description2" = "Deze vragen gaan naar onze stylist. Vragen over Whoppah of het gebruik van Whoppah neem contact op met ons support team. ";
+"question_form_send" = "Stuur";
+"my_subscriptions_description1" = "Op zoek naar een specifiek product? Stel een zoekopdracht in en wij laten het je weten als het te koop is. ";
+"my_subscriptions_add_button" = "Voeg zoekopdracht toe";
+"my_ad_repost_button" = "Plaats opnieuw";
+"my_ad_edit_button" = "Wijzig";
+"my_ad_status_label" = "Status";
+"my_ad_edit_label" = "Wijzig";
+"my_ad_deleted_label" = "Verwijder";
+"checkout_first_name_text_placeholder" = "Voornaam";
+"checkout_last_name_text_placeholder" = "Achternaam";
+"chat_thread_type_message_placeholder" = "Stuur een chatbericht";
+"chat_thread_place_bid_placeholder" = "Plaats een (tegen) bod...";
+"chat_thread_bid_button" = "Bieden";
+"bid-state-accepted" = "Deal!";
+"bid-state-rejected" = "Afgewezen";
+"chat_cell_buyer_will_pick_up" = "Wordt opgehaald";
+"chat_cell_payment_complete_merchant_fee" = "Whoppah Fee";
+"chat_cell_payment_complete_merchant_vat_fee" = "BTW (%d%% van de commissie)";
+"chat-cell-order-confirm-buyer-title" = "Aankoopbevestiging";
+"chat_cell_payment_complete_delivery_address" = "Bezorgadres";
+"chat_cell_payment_complete_delivery_tip_seller" = "Afleveradres";
+"chat_cell_payment_complete_ad_price" = "Overeengekomen prijs";
+"chat_cell_payment_complete_transaction_fee" = "Servicekosten";
+"chat_cell_payment_delivery_cost" = "Verzendkosten";
+"chat_cell_payment_total" = "Te ontvangen";
+"track_id_track_number_title" = "TRACK & TRACE";
+"track_in_on_the_way_label" = "ONDERWEG";
+"track_id_title" = "Verzending";
+"item_received_button" = "Ontvangen?";
+"payment_failed_title" = "Whoops!";
+"payment_failed_subtitle" = "Betaling niet gelukt";
+"payment_failed_body" = "De betaling is niet gelukt. Probeer het nog een keer of neem contact op met je bank.";
+"payment_failed_check_button" = "Bekijk details";
+"bid_confirmation_accept_title" = "Weet je zeker dat je het bod van %@ accepteert? Deal is deal!";
+"bid_confirmation_no_button" = "Nee";
+"bid_confirmation_accept_yes_button" = "Ja";
+"payment_confirmed_title" = "Whoppah!";
+"payment_confirmed_subtitle" = "Je betaling is geslaagd";
+"payment_confirmed_body" = "De betaling is geslaagd.\
+Laat het ons weten zodra jij je aankoop in goede orde hebt ontvangen of hebt opgehaald dan kunnen wij de verkoper uitbetalen.";
+"payment_confirmed_check_details_button" = "Bekijk details";
+"track-code-tracking-number-placeholder" = "Vul de Track & Trace-code hier in";
+"track_code_provider_dpd" = "DPD";
+"track_code_provider_dhl" = "DHL";
+"track_code_provider_ups" = "UPS";
+"track_code_postnl_info" = "PostNL informatie";
+"track_code_postnl_trackcode_description" = "De Post NL Track & Trace-code begint altijd met 3S.";
+"track_code_send_button" = "Verzenden";
+"confirm_receipt_pickup_question_title" = "Heb jij je aankoop (in goede orde) kunnen ophalen?";
+"confirm_receipt_delivery_question_title" = "Heb jij je aankoop (in goede orde) ontvangen?";
+"confirm_receipt_pickup_yes_button" = "Ja";
+"confirm_receipt_delivery_yes_button" = "Ja, goed ontvangen";
+"confirm_receipt_pickup_no_button" = "Nee, ik kon het niet binnen 7 dagen ophalen";
+"confirm_receipt_delivery_no_button" = "Nee, niet ontvangen";
+"confirm_receipt_pickup_bad_quality" = "Nee, aankoop komt niet overeen.";
+"confirm_receipt_delivery_bad_quality" = "Nee, niet in goede orde ontvangen";
+"track_code_navigation_title" = "Statusaanvraag";
+"transaction_feedback_title" = "Ontvangen?";
+"transaction_feedback_positive_title" = "Whoppah! Gefeliciteerd met je aankoop";
+"transaction_feedback_negative_title" = "Goed dat je ons bericht.";
+"transaction_feedback_positive_body" = "Houd Whoppah altijd in de gaten voor nieuwe pareltjes.";
+"transaction_feedback_negative_body" = "Wij vinden het vervelend dat je jouw aankoop niet (in goede orde) hebt ontvangen. Het Whoppah support team neemt zo snel mogelijk contact met je op.";
+"search_filters_width" = "Breed";
+"search_filters_height" = "Hoog";
+"search_filters_depth" = "Lang";
+"search_filters_width_placeholder" = "Breed (cm)";
+"search_filters_height_placeholder" = "Hoog (cm)";
+"search_filters_depth_placeholder" = "Lang/Diep (cm)";
+"search_filters_category" = "Categorie";
+"search_filters_brand" = "Merk";
+"search_filters_style" = "Stijl";
+"search_map_btn_refresh_empty" = "Zoek in deze buurt";
+"search_no_results_title" = "Whoops!";
+"search_no_results_subtitle" = "We hebben dit product nog niet.";
+"search_no_results_reset_filters_button" = "Stel filters opnieuw in";
+"search_intro_title" = "Fotozoeken";
+"search_intro_body" = "Op zoek naar een specifieke bank, tafel of kunstwerk? Upload of maak een foto en wij laten je zien of dit item of iets vergelijkbaars te koop is op Whoppah.";
+"search_intro_bullet_1" = "• Maak of upload een duidelijke foto van het hele item.";
+"search_intro_bullet_2" = "• Hebben we het niet? Stel een zoekopdracht in en wij laten het je weten als het te koop is op Whoppah.";
+"search_info_upload_photo_button" = "Upload een foto";
+"missing_permission_location_title" = "Oops, we hebben toestemming nodig om jouw locatie te gebruiken";
+"missing_permission_location_subtitle" = "Geef Whoppah hier toestemming voor in instellingen.";
+"missing_permission_camera_title" = "Wij hebben toegang nodig tot je camera om foto's en video's te kunnen maken.";
+"missing_permission_camera_subtitle" = "Om toegang te geven tot je camera, ga naar Instellingen > Whoppah > Selecteer de knop om camera toegang te geven";
+"profile_complete_title" = "Whoppah! Account aangemaakt";
+"profile_complete_merchant_subtitle" = "Je kan nu beginnen met kopen en verkopen.";
+"profile_complete_personal_subtitle" = "Je kan nu aan de slag met kopen en verkopen.";
+"profile_complete_go_to_mywhoppah" = "Ga naar Mijn Whoppah!";
+"my_ad_deleted_title" = "Je advertentie is verwijderd";
+"my_ad_deleted_place_ad_button" = "Plaats een advertentie";
+"ad_details_report_user" = "Rapporteer gedrag";
+"ad_details_report_product" = "Rapporteer het product";
+"ad_details_default_share_text" = "Ik heb een mooi item gezien op Whoppah";
+"report_product_inappropriate_content" = "Inhoud is ongepast";
+"report_product_spam" = "Spam";
+"report_product_incorrectly_classified" = "Onjuist geclassificeerd";
+"report_product_poor_photo_quality" = "Slechte foto kwaliteit";
+"report_product_reason" = "Reden";
+"report_product_description" = "Omschrijving";
+"report_product_title" = "RAPPORTAGEPRODUCT";
+"report_product_subtitle" = "Wij duiken zo snel mogelijk in jouw rapportage";
+"report_product_send" = "Verstuur";
+"report_user_inappropriate_content" = "Inhoud is ongepast";
+"report_user_unauthorized_advertising" = "Ongeoorloofde reclame";
+"report_user_incorrectly_classified" = "Onjuist geclassificeerd";
+"report_user_poor_photo_quality" = "Slechte foto kwaliteit";
+"report_user_reason" = "Reden";
+"report_user_description" = "Omschrijving";
+"report_user_title" = "RAPPORTEER GEDRAG";
+"report_user_subtitle" = "Wij duiken zo snel mogelijk in jouw rapportage";
+"report_user_send" = "Verstuur";
+"my_ad_delete_title" = "VERKOCHT VIA WHOPPAH?";
+"my_ads_delete_sold_with_whoppah" = "Verkocht via Whoppah";
+"my_ads_delete_not_sold_with_whoppah" = "Niet verkocht via Whoppah";
+"my_ads_delete_ad_cancel" = "Annuleren";
+"my_ads_delete_ad_remove_button" = "Verwijderen";
+"search_field_default_text" = "Search";
+"NSCameraUsageDescription" = "We hebben toegang tot jouw camera nodig zodat je foto's kan uploaden";
+"NSLocationWhenInUseUsageDescription" = "We hebben toegang tot jouw locatie nodig zodat we in jouw buurt kunnen zoeken";
+"NSPhotoLibraryUsageDescription" = "We hebben toegang tot jouw foto's en afbeeldingen nodig zodat je deze kan uploaden";
+"common_generic_error_message" = "Er ging iets mis, probeer het nog een keer.";
+"add_address_button_title" = "Vul je adres in";
+"add_address_postcode_placeholder" = "Postcode";
+"add_address_street_placeholder" = "Straat";
+"add_address_city_placeholder" = "Stad";
+"add_address_country_placeholder" = "Land";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "We hebben toegang tot jouw locatie nodig zodat we in jouw buurt kunnen zoeken";
+"chat_thread_last_bid" = "Laatste bod: %@";
+"search_map_highest_bid" = "Hoogste bod: %@";
+"search_map_no_bid_yet" = "Nog geen biedingen!";
+"search_filters_reset_btn" = "Reset";
+"search_filters_filter_btn" = "Filter";
+"search_filters_search_saved_toast" = "Zoekopdracht opgeslagen";
+"search_map_bid_now" = "Bied Nu!";
+"category_menu_selection_view_all_btn" = "Bekijk alles";
+"home_usp_page2_title" = "Veilig shoppen";
+"shop_warranty_seller_item1" = "Maak eenvoudig en <b>kosteloos</b> een advertentie aan";
+"shop_warranty_seller_item2" = "Bepaal je <b>‘verkoop nu’</b> prijs";
+"shop_warranty_seller_item3" = "<b>Whoppah cureert</b> binnen 24 uur";
+"shop_warranty_seller_item4" = "Koper betaalt aan Whoppah en wij betalen jou over 4 a 5 werkdagen nadat de koper aangeeft het item in goede orde te hebben ontvangen. Dit doet de koper in de chat via de button 'Ontvangen'?";
+"shop_warranty_buyer_item1" = "Bied of koop direct met <b>‘Koop nu’</b> knop";
+"shop_warranty_buyer_item2" = "<b>Bod geaccepteerd?</b> Betaal zo snel mogelijk om je aankoop veilig te stellen. In de chat vind je de 'betaal' button die je leidt naar de kassa waar je eveneens de bezorgmethode afrekent ";
+"shop_warranty_buyer_item3" = "Betaal veilig met <b>iDeal, CreditCard of Bancontact</b>";
+"shop_warranty_offer_item1" = "Van bekende designers, merken of bijzonder handgemaakt";
+"shop_warranty_offer_item2" = "<b>Minimaal</b> in goede staat";
+"shop_warranty_offer_item3" = "<b>Altijd</b> eersteklas";
+"shop_warranty_offer_item4" = "Gecureerd op kwaliteit";
+"shop_warranty_cost_item1" = "<b>Kosteloos advertentie</b> aanmaken";
+"shop_warranty_cost_item2" = "Kopers betalen € 1,99 transactiekosten.";
+"shop_warranty_cost_item3" = "Zakelijke verkopers betalen 15% van de verkoopprijs excl. BTW\
+Particuliere verkopers betalen 12% van de verkoopprijs";
+"shop_warranty_cost_item4" = "Verzendkosten zijn voor de koper";
+"shop_warranty_transport_item1" = "<b>PostNL</b> (aangetekend) voor pakketpost";
+"shop_warranty_transport_item2" = "<b>Koerierservice</b>: opgehaald en gebracht";
+"shop_warranty_transport_item3" = "Verkopers <b>delen track & trace</b> code in chat";
+"shop_warranty_transport" = "Transport opties";
+"shop_warranty_seller_create_ad_btn" = "Maak advertentie aan";
+"shop_warranty_offer_title" = "Het aanbod op Whoppah is";
+"auction-state-completed" = "Verkocht";
+"my_ads_sold_screen_title" = "Mijn verkocht advertenties";
+"search_filters_category_select" = "Selecteer";
+"ad_details_ar_banner_title" = "Probeer het live in 3D";
+"ad_details_ar_banner_subtitle" = "Bekijk hoe dit item bij jou thuis staat";
+"my_ads_income_cell_amount_title" = "BEDRAG";
+"checkout_pay_now_btn" = "Nu betalen";
+"ar_default_share_text" = "Ik heb een mooi item gezien op Whoppah";
+"common_no_button" = "Nee";
+"common_yes_button" = "Ja";
+"NSPhotoLibraryAddUsageDescription" = "We hebben toegang nodig tot jouw foto's en video's om deze op te slaan in jouw afbeeldingen.";
+"main_my_profile_changes_saved_toast" = "Aanpassing opgeslagen";
+"product-unavailable" = "Gereserveerd";
+"ar_scan_any_surfaces_tip" = "Richt de camera op een muur of vlakke oppervlakte waar enig detail en goed licht aanwezig is";
+"ar_scan_vertical_surfaces_tip" = "Richt de camera op een muur waar enig detail en goed licht aanwezig is";
+"ar_scan_horizontal_surfaces_tip" = "Richt de camera op vlakke oppervlakten waar enig detail en goed licht aanwezig is";
+"item_received_button_money_received" = "Uitbetaald aan verkoper";
+"appreview_body" = "Ben je tevreden over Whoppah?\
+Wij waarderen jouw feedback!";
+"set_profile_google_search_placeholder" = "Straat en huisnummer";
+"search_places_missing_postcode" = "Het gekozen adres bevat geen geldige postcode. Probeer het opnieuw. Vergeet geen huisnummer toe te voegen.";
+"search_places_missing_building" = "Het gekozen adres bevat geen geldig huisnummer. Probeer het opnieuw.";
+"search_places_missing_city" = "Het gekozen adres bevat geen geldige stad. Probeer het opnieuw.";
+"search_places_missing_country" = "Het gekozen adres bevat geen geldig land. Probeer het opnieuw.";
+"member_join_1_week" = "Lid sinds 1 week";
+"member_join_multiple_weeks" = "Lid sinds %d weken";
+"member_join_multiple_months" = "Lid sinds %d maanden";
+"member_join_one_year" = "Lid sinds 12 maanden";
+"member_join_multiple_years" = "Lid sinds %d jaar";
+"home_usp_page1_body" = "Aanbod nauwkeurig geselecteerd door de Whoppah stylist.";
+"home_usp_page1_title" = "Altijd kwaliteit";
+"home_usp_page2_body" = "Betaal met iDeal aan Whoppah. Wij betalen de verkoper als de koper het goed heeft ontvangen.";
+"main_looks_title" = "Shop de look";
+"main_home_more_items_title" = "En nog véél meer";
+"shop-de-look-button" = "Meer inspiratie";
+"main_home_trend_title" = "TREND";
+"common_btn_shop_now" = "Shop nu";
+"main_home_feature_list_item" = "Zo werkt Whoppah";
+"search_filters_ar" = "3D";
+"main_home_highlight_see_all_btn" = "Zie alles";
+"ar_help_camera" = "Richt je camera op de muur";
+"ar_help_surface_scan" = "Beweeg je telefoon en scan de oppervlakte";
+"ar_help_tap_to_place" = "Klik op het scherm en plaats het object";
+"ar_help_drag_to_move" = "Sleep het object om ergens anders te plaatsen";
+"main_permission_dialog_message" = "Whoppah houdt je graag op de hoogte van jouw advertenties en aankopen. Geef je hiervoor toestemming?";
+"home_usp_page3_title" = "Bezorgd met de koerier";
+"home_usp_page3_body" = "Contactloos opgehaald en gebracht met onze koerier vanaf €69.";
+"first-class-sofas-title" = "Eersteklas banken";
+"filter_list_title_single" = "Kies een %@";
+"filter_list_title_multiple" = "Kiers %@";
+"search_filters_designer" = "Ontwerper";
+"search_filters_artist" = "Kunstenaar";
+"shop_warranty_cost_item5" = "Particulieren betalen 12% over de verkoopprijs";
+"create_ad_select_artist_input_artist" = "Kunstenaar";
+"create_ad_select_artist_screen_title" = "Kies een kunstenaar";
+"search_places_missing_coordinate" = "Het gekozen adres bevat geen geldig coördinaten. Probeer het opnieuw";
+"create_ad_select_price_merchant_fixed_fee" = "BTW";
+"common_netherlands" = "Nederland";
+"common_belgium" = "België";
+"add_address_line2_placeholder" = "Adresregel 2";
+"home_usp_whoppah_overview_body" = "Altijd kwaliteit\
+Veilig betalen\
+Contactloos ophalen en brengen";
+"common_select_country" = "Selecteer land";
+"main_my_profile_ads_curated" = "Wordt beoordeeld";
+"main_my_profile_ads_rejected" = "Wijzigingsverzoek";
+"my_ads_rejected_screen_title" = "Aanpassing verzocht";
+"my_ads_curated_screen_title" = "Wordt beoordeeld";
+"style-hollywood-regency" = "Hollywood Regency";
+"design-title" = "Design";
+"lounge-furniture-title" = "Lounge Fauteuils";
+"lounge-furniture-description" = "Bekijk de collectie design fauteuils waar je heerlijk in kunt loungen. ";
+"lounge-furniture-button" = "Zie alles";
+"tables-under-500-title" = "Tafels onder de €500";
+"tables-under-500-description" = "Koffietafels en eettafels voor een goede prijs. Bekijk deze top deals";
+"tables-under-500-button" = "Zie alles";
+"top-brands-title" = "Bekijk items van populaire merken";
+"top-brands-description" = "Shop nu 🔥 tweedehands top merken zoals Artifort.";
+"top-brands-button" = "Zie alles";
+"category-tafels" = "Tafels";
+"category-stoelen-en-fauteuils" = "Stoelen / fauteuils";
+"category-kunst" = "Kunst";
+"category-verlichting" = "Verlichting";
+"category-wonen" = "Wonen";
+"category-woon-decoratie" = "Decoratie";
+"category-werken-studeren" = "Werken & Studeren";
+"bid-state-cancelled" = "Geannuleerd";
+"bid-state-processing" = "Verwerken";
+"bid-state-completed" = "Voltooid";
+"style-design" = "Design";
+"style-modern" = "Modern";
+"style-klassiek" = "Klassiek";
+"style-scandinavian" = "Scandinavian";
+"style-rococo" = "Rococo";
+"style-pop-art" = "Pop Art";
+"style-mid-century-modern" = "Mid Century Modern";
+"style-figuratief" = "Figuratief";
+"style-vintage" = "Vintage";
+"style-rustic" = "Rustic";
+"style-minimalisme" = "Minimalisme";
+"style-industrieel" = "Industrieel";
+"style-impressionisme" = "Impressionisme";
+"style-bohemian" = "Bohemian";
+"style-barok" = "Barok";
+"style-aziatisch" = "Aziatisch";
+"style-art-nouveau" = "Art Nouveau";
+"style-art-deco" = "Art Deco";
+"style-abstract" = "Abstract";
+"style-renaissance" = "Renaissance";
+"style-classicisme" = "Classicisme";
+"style-realisme" = "Realisme";
+"style-anders" = "Anders";
+"material-crystal" = "Kristal";
+"material-wood" = "Hout";
+"material-marble" = "Marmer";
+"material-bronze" = "Brons";
+"material-mdf" = "Mdf";
+"material-metal" = "Metaal";
+"material-plastic" = "Kunststof";
+"material-plexiglass" = "Plexiglass";
+"material-rattan" = "Rotan";
+"material-stone" = "Steen";
+"material-textile" = "Textiel";
+"material-ov" = "Olieverf";
+"material-viscose" = "Viscose";
+"material-cotton" = "Katoen";
+"material-wool" = "Wol";
+"material-paper" = "Papier";
+"material-rubber" = "Rubber";
+"material-cast-iron" = "Gietijzer";
+"material-gold-2" = "Goud";
+"material-silver" = "Zilver";
+"material-porcelain" = "Porselein";
+"material-iron" = "IJzer";
+"material-velvet" = "Fluweel";
+"material-glass" = "Glas";
+"material-ceramic" = "Keramiek";
+"material-plastic-2" = "Kunststof";
+"material-leather" = "Leer";
+"category-beeldhouwkunst" = "Beeldhouwkunst";
+"category-collage" = "Mixed media";
+"category-etsen" = "Etsen";
+"category-fotografie" = "Fotografie";
+"category-glaskunst" = "Glaskunst";
+"category-lithos-zeefdrukken" = "Litho's & zeefdrukken";
+"category-overig-10" = "Overig";
+"category-prenten" = "Prenten";
+"category-schilderijen" = "Schilderijen";
+"category-zeefdruk" = "Zeefdruk";
+"category-badkamerlampen" = "Badkamerlampen";
+"category-hanglampen" = "Hanglampen";
+"category-kinderlampen" = "Kinderlampen";
+"category-klemlampen" = "Klemlampen";
+"category-kroonluchters" = "Kroonluchters";
+"category-overig-11" = "Overig";
+"category-plafondlampen" = "Plafondlampen";
+"category-spotjes" = "Spotjes";
+"category-tafellampen" = "Tafellampen";
+"category-vloerlampen" = "Vloerlampen";
+"category-wandlampen" = "Wandlampen";
+"category-archiefkasten" = "Archiefkasten";
+"category-bureaulampen" = "Bureaulampen";
+"category-bureaus" = "Bureaus";
+"category-baby-en-kinderkamerdecoratie" = "Baby en kinderkamerdecoratie";
+"category-babykamer" = "Babykamer";
+"category-kinderkamer" = "Kinderkamer";
+"category-bankjes" = "Bankjes";
+"category-chaises-longue" = "Chaise longue";
+"category-design-banken" = "Design banken";
+"category-hoekbanken" = "Hoekbanken";
+"category-overig" = "Overig";
+"category-voetenbanken" = "Voetenbanken";
+"category-bloempotten" = "Bloempotten";
+"category-hangmatten" = "Hangmatten";
+"category-kussenboxen" = "Kussenboxen";
+"category-ligbedden" = "Ligbedden";
+"category-loungesets" = "Loungesets";
+"category-overig-2" = "Overig";
+"category-parasols" = "Parasols";
+"category-tuinbank" = "Tuinbank";
+"category-tuindecoratie" = "Tuindecoratie";
+"category-tuinsets" = "Tuinsets";
+"category-tuinstoelen" = "Tuinstoelen";
+"category-tuintafels" = "Tuintafels";
+"category-tuinverlichting" = "Tuinverlichting";
+"category-boekenkasten" = "Boekenkasten";
+"category-buffetkasten" = "Buffetkasten";
+"category-dressoirs" = "Dressoirs";
+"category-babykameraccessoires" = "Babykamer accessoires";
+"category-babykasten" = "Babykasten";
+"category-commodes" = "Commodes";
+"category-complete-babykamers" = "Complete babykamers";
+"category-ledikanten" = "Ledikanten";
+"category-nachtlampjes" = "Nachtlampjes";
+"category-overig-7" = "Overig";
+"category-wiegen" = "Wiegen";
+"category-kinderbedden" = "Kinderbedden";
+"category-kinderkameraccessoires" = "Kinderkameraccessoires";
+"category-kinderkapstokken" = "Kinderkapstokken";
+"category-kinderkasten" = "Kinderkasten";
+"category-kinderstoelen" = "Kinderstoelen";
+"category-kindertafels-bureaus" = "Kindertafels & bureaus";
+"category-overig-8" = "Overig";
+"category-grafiek" = "Grafiek";
+"category-kabinet" = "Kabinet";
+"category-kledingkasten" = "Kledingkasten";
+"category-ladekasten" = "Ladekasten";
+"category-opbergkasten" = "Opbergkasten";
+"category-overig-3" = "Overig";
+"category-tv-meubelen" = "TV-meubelen";
+"category-vitrinekasten" = "Vitrinekasten";
+"category-wandmeubelen" = "Wandmeubelen";
+"category-opbergen" = "Opbergen";
+"category-manden" = "Manden";
+"category-overig-4" = "Overig";
+"category-slapen" = "Slapen";
+"category-eenpersoonsbedden" = "Eenpersoonsbedden";
+"category-nachtkastjes" = "Nachtkastjes";
+"category-overig-5" = "Overig";
+"category-slaapbanken" = "Slaapbanken";
+"category-barkrukken" = "(Bar)krukken";
+"category-design-stoel" = "Design stoel";
+"category-eetkamerstoel" = "Eetkamerstoelen";
+"category-fauteuils" = "Fauteuils";
+"category-hockers-en-poefs" = "Hockers en poefs";
+"category-overig-6" = "Overig";
+"category-schommelstoelen" = "Schommelstoelen";
+"category-zitzakken" = "Zitzakken";
+"category-bijzettafels" = "Bijzettafels";
+"category-eettafels" = "Eettafels";
+"category-overig-9" = "Overig";
+"category-salontafels" = "Salontafels";
+"category-dienbladen" = "Dienbladen";
+"category-fotolijsten" = "Fotolijsten";
+"category-kamerschermen" = "Kamerschermen";
+"category-kandelaars-en-kaarsen" = "Kandelaars";
+"category-kapstokken" = "Kapstokken";
+"category-klokken" = "Klokken";
+"category-kussentjes" = "Kussentjes";
+"category-overig-13" = "Overig";
+"category-lijsten" = "Lijsten";
+"category-schalen" = "Schalen";
+"category-spiegels" = "Spiegels";
+"category-textiel" = "Textiel";
+"category-dekens-plaids" = "Dekens & plaids";
+"category-overig-14" = "Overig";
+"category-vloerkleden-en-tapijten" = "Vloerkleden en tapijten";
+"category-vazen" = "Vazen";
+"category-wanddecoratie" = "Wanddecoratie";
+"category-wijnrek" = "Wijnrek";
+"category-bureaustoelen" = "Bureaustoelen";
+"category-overig-12" = "Overig";
+"category-secretaires" = "Secretaires";
+"category-baby-kinderen" = "Baby & Kinderen";
+"category-banken" = "Banken";
+"category-buiten-en-tuin" = "Tuinmeubelen";
+"category-kasten" = "Kasten";
+"category-tweepersoonsbedden" = "Tweepersoonsbedden";
+"category-twijfelaars" = "Twijfelaars";
+"color-grey" = "Grijs";
+"color-black" = "Zwart";
+"color-light-blue" = "Licht blauw";
+"color-blue" = "Blauw";
+"color-gold" = "Gold";
+"color-beige" = "Beige";
+"color-pink" = "Roze";
+"color-violet" = "Paars";
+"color-red" = "Rood";
+"color-orange" = "Oranje";
+"color-white" = "Wit";
+"color-brown" = "Bruin";
+"color-yellow" = "Geel";
+"color-green" = "Groen";
+"my_ad_expiry_days" = "Je advertentie verloopt over %d dagen";
+"my_ad_expiry_minutes" = "Je advertentie verloopt over %d minuten";
+"my_ad_expiry_minute" = "Je advertentie verloopt over 1 minuut";
+"my_ad_expiry_hours" = "Je advertentie verloopt over %d uur";
+"my_ad_no_expiry" = "Je advertentie verloopt nooit";
+"my_ad_view_label" = "Bekijk";
+"chat_cell_ask_tracking_message" = "Item in goede orde ontvangen? Klik dan op de knop ''Ontvangen'', en dan op ''Ja''. Dan betalen wij de verkoper uit. Laat ons binnen 10 werkdagen weten of je het product in goede orde hebt ontvangen. Geef je niets aan, dan gaan we ervan uit dat je het in goede orde hebt ontvangen en betalen wij de verkoper uit.";
+"order-accepted-pickup-buyer" = "Item in goede orde ontvangen? Klik dan op de knop ''Ontvangen'', en dan op ''Ja''. Dan betalen wij de verkoper uit. Laat ons binnen 10 werkdagen weten of je het product in goede orde hebt ontvangen. Geef je niets aan, dan gaan we ervan uit dat je het in goede orde hebt ontvangen en betalen wij de verkoper uit.";
+"track_id_return_number_title" = "Track & trace code";
+"main_payment_terms_1" = "Ja, ik ga akkoord met de gebruiksvoorwaarden";
+"main_payment_terms_2" = "Gebruiksvoorwaarden";
+"auction-state-reserved" = "Verkocht";
+"common_email_pass_invalid" = "Inloggegevens niet correct";
+"set_profile_personal_delete_address_error" = "Kan het adres niet verwijderen, controleer of het is gekoppeld aan een bestaande advertentie";
+"set_profile_merchant1_vat" = "BTW nummer";
+"bid-received-new" = "Whoppah! Je hebt een bod. Accepteer het bod of doe een tegenvoorstel. Deal gesloten? Dan verschijnt er een 'Betalen' knop in de chat bij de Koper en kan de betaling worden voldaan in de checkout. ";
+"bid-sent-new-buyer-1" = "Whoppah! Je bod is geplaatst! De verkoper reageert zo snel mogelijk op jouw bod in deze chat door te accepteren, af te wijzen of een tegenvoorstel te doen. Deal gesloten? Dan verschijnt er een 'Betalen' knop in de chat bij de koper waarmee de betaling kan worden voldaan en de transportoptie kan worden gekozen. ";
+"bid-sent-new-buyer-2" = "Je kan via deze chat ook vragen stellen aan de verkoper.";
+"bid-rejected-buyer" = "Je bod is afgewezen. Wil je een tegenvoorstel doen? Vul dan helemaal onderaan in deze chat jouw (tegen)bod in. ";
+"bid-accepted-seller-asking" = "Whoppah! Je item is verkocht voor de vraagprijs. De koper heeft inmiddels betaald. Zodra de koper aangeeft zijn aankoop in goede orde te hebben ontvangen betalen wij jou uit. Geeft de koper niets aan, dan betalen wij jou sowieso na 10 dagen uit. Het geld staat na uitbetaling, afhankelijk van jouw bank, op de 4e werkdag op jouw rekening. Controleer wel even of jouw gegevens in Mijn Account (Contactgegevens en Betaalinstellingen) compleet zijn om de betaling te kunnen ontvangen.";
+"bid-sent-rejected" = "Je bod is afgewezen. Wil je een tegenvoorstel doen? Vul dan helemaal onderaan in deze chat jouw (tegen)bod in. ";
+"bid-expired" = "Helaas, het bod is verlopen. Je kan een nieuw prijsvoorstel doen door helemaal onderaan in de chat een (tegen)bod in te voeren. Je start dan opnieuw de onderhandeling.";
+"bid-sent-accepted-buyer" = "Whoppah! Je hebt een deal. Een deal is deal bij Whoppah. Betaal zo snel mogelijk binnen 24 uur  veilig via Whoppah. Ook als je het item ophaalt. Zolang je nog niet hebt betaald, kan iemand anders je nog voor zijn en het item kopen. Transport regelen? In de checkout kun je kiezen voor de Whoppah koerier of andere beschikbare opties. ";
+"ad_details_artist_title" = "Kunstenaar";
+"order-state-canceled" = "Geannuleerd";
+"order-state-expired" = "Verlopen";
+"order-state-completed" = "Voltooid";
+"chat-error-min-bid-not-met" = "<b>Het minimum bod is %@</b>";
+"order-state-disputed" = "Dispuut";
+"faq-shipping-title" = "Hoe werkt transport?";
+"faq-shipping-description" = "<h3>Hoe regel ik als verkoper transport?</h3>\
+Als verkoper bepaal jij of een item opgehaald wordt of verzonden. Je kunt aangeven dat het door onze koerier mag worden opgehaald en/of door de koper of dat je het verzendt. De verzend- of koerierskosten worden aan de koper doorberekend en aan de verkoper uitgekeerd na levering.\
+<br><br>\
+Je kan de volgende verzendopties aanvinken:\
+<br><br>\
+<ul>\
+<li>Jij verzendt met pakketpost (vanaf € 7,25). Doe dit alleen als het met de post mee kan en niet zwaarder is dan 10 kilo. </li>\
+<li>Jij verzendt aangetekend met pakketpost (vanaf € 10). De koper moet tekenen voor ontvangst. Doe dit alleen als het met de pakketpost mee kan en niet zwaarder is dan 10 kilo.</li>\
+<li>Laat de koper gebruik maken van de Whoppah koeriersservice. Het item wordt bij jou opgehaald en bij de verkoper (in heel Nederland) gebracht vanaf € 69. Wij nemen contact met je op om de dag van pick up te plannen.</li>\
+<li>Jij regelt de verzending en vult zelf een tarief in.</li>\
+<li>Let op!: Neem eventuele verpakkingskosten mee in de verkoopprijs indien je dat nodig acht. Als je kiest voor pakketpost, zorg dat je een item zeer goed inpakt. Het postbedrijf moet het kunnen stapelen.</li>\
+</ul>\
+<br>\
+<h3>Wat betaal ik als koper voor transport?</h3>\
+De verkoper geeft aan of het mogelijk is een item op te halen of dat hij of zij kiest voor alleen verzenden. In het geval van verzenden zijn de kosten afhankelijk van hoe groot een item is. Je ziet de kosten op de productpagina en bij de kassa. \
+<br>\
+<br>\
+<ul>\
+<li>Pakketpost is € 7,25</li>\
+<li>Aangetekende pakketpost is € 10</li>\
+<li>Koeriersservice: het item wordt bij de verkoper opgehaald en bij jou afgeleverd vanaf € 69 in Nederland en € 129 in België. Wij nemen contact met je op om de dag van levering te plannen. Jij regelt de verzending en vult zelf een tarief in.</li>\
+<li>Het kan zijn dat de verkoper andere verkoopkosten hanteert.</li>\
+</ul>";
+"faq-offer-title" = "Wat koop en verkoop ik op Whoppah?";
+"faq-offer-description" = "<h3> Wat kan ik kopen en verkopen op Whoppah? </h3>\
+<br>\
+Op Whoppah vind je unieke tweedehands design: meubels, verlichting, kunst en decoratie. Van modern tot vintage. Alle items worden beoordeeld door ons professionele curatieteam. Ze bepalen of een item voldoet aan onze curatieregels. Er wordt onder andere gelet op merkechtheid, leeftijd en de staat van het item. Dat is een groot voordeel, want zo vind je het mooiste design op één plek en ben je verzekerd van kwaliteit. We leggen hieronder kort uit waar een design item, vintage item of kunststuk aan moet voldoen:\
+<br>\
+<br>\
+Design\
+Een item valt volgens ons onder de categorie design wanneer het item gemaakt is door een erkende ontwerper en meestal een item is dat op maat of bestelling is geproduceerd. Het item is van hoge kwaliteit en alleen beschikbaar in een relatief beperkte oplage. Het item heeft daardoor een lange levensduur en wordt vaak bestempeld als tijdloos. Voorbeelden van designmerken op Whoppah zijn: Vitra, Cassina, Artifort, Leolux, Knoll, Pastoe, Minotti.\
+<br>\
+<br>\
+Vintage & antiek\
+Vintage items zijn designs die gemaakt zijn tussen 1920 en 1990. Items zijn antiek wanneer ze 100 jaar of ouder zijn. \
+<br>\
+<br>\
+Kunst\
+Onder kunst vallen items die gemaakt zijn door erkende kunstenaars: van schilderwerken van Herman Brood tot fotografie van Pim Westerweel.\
+<br>\
+<br>\
+<h3> Wat betekenen de verschillende condities? </h3>\
+'Goed' betekent dat het item in goede staat is, maar gebruikssporen bevat. 'Heel goed' betekent dat het item gebruikssporen kan bevatten, maar deze zijn niet opvallend. 'Uitstekend' betekent dat je nauwelijks tot geen gebruikssporen kunt ontdekken. Bekijk de foto’s altijd nauwkeurig en chat met de verkoper over de staat als je ergens over twijfelt.\
+<br>\
+<br>\
+<h3> Hoe weet ik of wat ik koop echt is zoals aangegeven? </h3>\
+Onze curators controleren of een advertentie voldoet aan onze standaarden. We controleren daarbij ook op echtheid. We kunnen jammer genoeg niet 100% garanderen dat wat je koopt altijd precies is zoals aangeboden. Als je gebruik maakt van onze koeriersservice controleert de koerier tijdens het ophalen bij de koper of het item overeenkomt met de advertentie. Het is altijd aan te bevelen om ook zelf onderzoek te doen naar de echtheid van een item. We beloven sowieso dat je je geld terug krijgt als het item bij ophalen of levering niet origineel is of wezenlijk afwijkt van zoals het is aangeboden. \
+<br>\
+<br>\
+<h3> Wat moet ik doen als ik als koper sterke twijfels heb over de echtheid van een item? </h3>\
+Als je twijfelt aan de echtheid van een item kun je de advertentie rapporteren bij het Whoppah support team. Wij nemen contact op met de verkoper om dit nader te onderzoeken en kunnen eventueel bewijs opvragen zoals de aankoopbon, certificaat etc. In beginsel geldt wel dat wij streng cureren en het als het goed is niet voorkomt dat items waarover twijfel zou kunnen ontstaan gepubliceerd zijn door ons zonder dat wij zelf deze informatie reeds hebben ingewonnen. Bij Whoppah vind je altijd kwaliteit en authentieke items. Niet goed, geld terug. \
+ <br>\
+ <br>\
+<h3>Wat is het verschil tussen de app en de website van Whoppah?</h3>\
+Via de app kan je ook video's uploaden van items en je favorieten opslaan. Verder kun je via de chat in de app ook foto's delen. Je kunt er binnenkort ook gebruik maken van Augmented Reality om schilderijen te previewen aan de muur. Verder krijg je via de app notificaties op je smartphone bij berichten of biedingen. Je kunt er ook zoekopdrachten opslaan waarvoor je een alert krijgt als een dergelijk item is toegevoegd aan Whoppah. Ook kun je via de app direct vragen sturen naar het Whoppah support team.";
+"faq-fees-title" = "Wat zijn de kosten op Whoppah?";
+"faq-fees-description" = "<h3>Wat zijn de kosten op Whoppah?</h3>\
+<ul>\
+<li>Een account aanmaken is kosteloos</li>\
+<li>Een advertentie aanmaken is kosteloos</li>\
+<li>Kopers betalen € 1,99 servicekosten bij een aankoop</li>\
+<li>Particuliere verkopers betalen 12% van de verkoopprijs</li>\
+<li>Zakelijke verkopers betalen 15% van de verkoopprijs excl. BTW.</li>\
+<li>Afhankelijk van de gekozen betaalmethode (Visa en Mastercard) worden er aan de koper extra kosten in rekening gebracht voor het betalen via deze betaalmethode. Dit wordt duidelijk aangegeven bij de kassa. \
+</li>\
+<li>Betalen via iDeal en Bancontact is kosteloos.</li>\
+</ul>\
+<br>\
+<br>\
+<h3>Waarom rekent Whoppah kosten?</h3>\
+Met deze opbrengsten kunnen wij de app en website blijven verbeteren. Daarnaast kunnen wij zorgen voor de verdere bekendheid van Whoppah in Nederland en België.";
+"faq-buying-title" = "Hoe werkt kopen en betalen?";
+"faq-buying-description" = "<h3>Hoe voldoe ik een betaling?</h3>\
+Bij Whoppah kan je veilig en eenvoudig betalen met iDeal, MasterCard, Visa of in België met Bancontact. Via de ‘Betaal nu’- knop in de chat of de ‘Koop nu’-knop op de pagina van het product ga je naar de kassa. Bij de kassa kies je jouw betaalmethode en reken je eenvoudig af. Wij sturen je vervolgens een bevestiging van de betaling en aankoop per e-mail.\
+<br>\
+<br>\
+<h3>Is betalen veilig via Whoppah?</h3>\
+Om de veiligheid van onze kopers en verkopers te bewaken lopen de betalingen altijd via Whoppah. Zodra de koper een betaling voldoet, komt het geld terecht bij de onze betaalserviceprovider Stripe. Stripe is een gelicenceerd om deze betaalstromingen te beheren en staat onder toezicht van de Nederlandse financiele autoriteiten. Wij houden het geld gestald op de tussenrekening van Stripe totdat de koper heeft aangegeven het item in goede orde te hebben ontvangen. Als de koper niets aangeeft wordt altijd na 10 werkdagen uitbetaald aan de verkoper.\
+<br>\
+<br>\
+<h3>Kan ik een betaling ongedaan maken als koper?</h3>\
+Heb jij een aankoop gedaan bij een professionele verkoper (bedrijf) dan kan je tot 14 dagen na aankoop retourneren in overleg met de verkoper. Aankopen van particulieren vallen niet onder de retourenwet. Mocht er schade zijn of is het item compleet anders dan op de foto's in de advertentie, neem dan altijd eerst contact op met de verkoper (via de chat) om samen tot een gepaste oplossing te komen. Kom je er samen niet uit, dan kan Whoppah bemiddelen. Neem hiervoor contact op met ons via <a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>. \
+<br>\
+<br>\
+<h3>Hoe ben ik als koper beschermd als mijn aankoop niet in goede orde aankomt?</h3>\
+Als de verpakking beschadigd wordt aangeboden door de bezorger raden we je aan deze direct te weigeren. Het pakket gaat dan retour. Laat ons dit zo snel mogelijk weten via support@whoppah.nl en geef in de chat met de verkoper aan dat je het pakket niet in goede orde hebt ontvangen. Dit doe je via de knop ‘Ontvangen?’ in de chat met de verkoper.\
+Was het pakket beschadigd afgeleverd? Maak duidelijke foto’s van de schade en stuur deze naar ons en de verkoper op. Geef ook in de chat met de verkoper aan dat je het pakket niet in goede orde hebt ontvangen. Dit doe je via de knop ‘Ontvangen?’. Maak je gebruik van de Whoppah koerier, dan zorgen wij ervoor dat jouw aankoop goed aankomt. \
+";
+"faq-bidding-title" = "Hoe werkt bieden?";
+"faq-bidding-description" = "De verkoper stelt het minimumbod in. Als de verkoper je bod accepteert, is er een deal. Deal is deal op Whoppah. Betaal vervolgens zo snel mogelijk via de app of de site.\
+<br>\
+<br>\
+<h3>Hoe accepteer of wijs ik een bod af?</h3>\
+Wil je een bod accepteren? Druk dan op het groene vinkje<br>\
+Wil je een bod afwijzen? Druk dan op het rode kruisje<br>\
+Wil je een tegenbod doen? Vul dan helemaal onderaan de chat bij ‘tegenbod’ het bedrag in. \
+<br>\
+<br>\
+<h3>Wat gebeurt er als mijn bod wordt geaccepteerd?</h3>\
+Als de verkoper je bod accepteert is er een deal. Deal is deal op Whoppah. Betaal daarom vervolgens zo snel mogelijk via de app of de site. \
+ <br>\
+ <br>\
+<h3>Wat gebeurt er als de koper mijn bod heeft afgewezen?</h3>\
+Je kunt altijd een nieuw bod plaatsen. Misschien wordt dat bod wel geaccepteerd. \
+<br>\
+<br>\
+<h3>Wat gebeurt er als er een deal is en de koper niet betaald?</h3>\
+Op Whoppah is een deal een deal. Dat is de regel op Whoppah. Zo voorkomen we dat er onzin biedingen worden gedaan en verkopers niet weten waar ze aan toe zijn. Kopers worden daarom na een deal gevraagd de betaling te voldoen. Indien een koper dat niet doet, is hij in gebreke. Wij kunnen een betaling niet juridisch afdwingen, maar ondernemen wel stappen in de richting van de koper.";
+"faq-selling-title" = "Hoe werkt verkopen?";
+"faq-selling-description" = "<h3>Goed om te weten als verkoper op Whoppah</h3>\
+<br>\
+<ul>\
+<li>Geef jouw design of kunst een tweede leven. Krijg een goede prijs en verkoop aan een andere liefhebber die jouw item op waarde schat. Een advertentie aanmaken is gratis. Wij rekenen alleen een commissie bij een succesvolle verkoop. Whoppah rekent een commissie van 12% over de verkoopprijs bij particuliere verkopers en 15% over de verkoopprijs bij professionele verkopers.</li>\
+<li>Maak in 2 stappen een advertentie aan. Wij controleren en plaatsen de advertentie online. Heb je een bod of een vraag van een koper? Wij sturen jou een email en sms. Jij antwoordt. Is er een deal? De koper betaalt aan Whoppah en wij betalen jou nadat de koper aangeeft het in goede orde te hebben ontvangen.</li>\
+<br>\
+<ul>\
+<h3> Wanneer word ik uitbetaald?</h3>\
+<li>Veilig handelen voor verkoper én koper staat bij ons voorop. Is er een deal? Dan betaalt de koper altijd eerst via iDeal of Credit Card aan Whoppah. Zo weet jij zeker dat de koper heeft betaald en dat het item verkocht is. De koper komt het item ophalen, jij stuurt het op of onze koerier haalt het op. De koper geeft aan het in goede orde te hebben ontvangen en wij betalen jou uit. Het bedrag staat vanaf dat moment na 5 werkdagen op jouw rekening. Zorg wel voor een compleet account met alle bendodige informatie ingevuld. Alleen dan kan de serviceprovider Stripe de uitbetaling doen.</li>\
+<br>\
+<br>\
+<h3> Mag ik buiten Whoppah om een betaling ontvangen?</h3>\
+<li>Door de betaling alvast te ontvangen zorgen we ervoor dat kopers en verkopers zorgeloos kunnen handelen! Het is daarom niet toegestaan op Whoppah om betalingen buiten het platform om te laten lopen.</li></li>\
+<br>\
+<br>\
+<h3> Waarom verloopt de betaling via Stripe en duurt het een aantal dagen?</h3>\
+<li>Whoppah werkt met betaalservice provider Stripe om de geldstromen op Whoppah te beheren. Als marktplaats zijn wij verplicht om de betaalstromen, oftewel het ontvangen van de betaling door de koper, het vasthouden van deze betaling en het vervolgens uitbetalen aan verkoper, via een daartoe gemachtigde financiële instelling te laten verlopen. Stripe is hiertoe gemachtigd en staat onder toezicht van de Autoriteit Financiële Markten en de Nederlandse Bank. Om betalingen te verrichten heeft Stripe persoonsgegevens nodig waaronder een geboortedatum. Hiermee voldoen zij aan de regelgeving. Zij kunnen dus pas uitbetalen als alle gegevens compleet zijn. Dit betekent óók dat de uitbetaling gebonden is aan een bepaald door hen gesteld termijn. Stripe hanteert 5 dagen voor een uitbetaling. Dit termijn gaat in zodra de koper heeft aangegeven het item in goede orde te hebben ontvangen, of automatisch na 10 dagen als de koper niets aangeeft.</li>";
+"faq-safeshopping-title" = "Hoe houden jullie Whoppah veilig?";
+"faq-safeshopping-description" = "<h3>Hoe controleert Whoppah verkopers en kopers op betrouwbaarheid?</h3>\
+Whoppah hecht zeer veel waarde aan veilig handelen voor kopers en verkopers. Daarom identificeert Whoppah iedereen via betaalserviceprovider Stripe bij de eerste aan- of verkoop door de bankgegevens en contactgegevens te controleren. Zo werken wij aan het voorkomen van fraude. Fraudeurs worden direct en permanent uitgesloten op Whoppah. Indien sprake is van fraude wordt er altijd aangifte gedaan bij de politie.";
+"faq-my-account-title" = "Mijn account";
+"faq-my-account-description" = "<h3>Mijn Account</h3>\
+In jouw Account vind je een persoonlijk profiel, accountinstellingen en alle informatie over jouw advertenties. Hier kun je je wachtwoord wijzigen, profielnaam en profielfoto aanpassen en je bankgegevens wijzigen.\
+<br>\
+<br>\
+<h3>Hoe wijzig ik mijn wachtwoord?</h3>\
+Je wijzigt je wachtwoord in jouw Account onder het kopje accountinstellingen.\
+<br>\
+<br>\
+<h3>Hoe wijzig ik mijn gebruikersnaam?</h3>\
+Je wijzigt je wachtwoord in jouw Account onder het kopje accountinstellingen.\
+<br>\
+<br>\
+<h3>Hoe pas ik het bankrekeningnummer aan dat is gekoppeld aan mijn account?</h3>\
+Je wijzigt je bankrekeningnummer in jouw Account onder het kopje betaalinstellingen.\
+<br>\
+<br>\
+<h3>Hoe verwijder ik mijn account?</h3>\
+ Indien jij je account volledig wil verwijderen, stuur een email naar \
+<a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>.";
+"faq-contact-title" = "Hoe neem ik contact op met Whoppah?";
+"faq-contact-description" = "Heb je een vraag of kom je er niet uit? Stuur ons een e-mail: <a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a> of chat via Help en contact via Mijn Whoppah.";
+"edit-bank-description" = "De koper betaalt via Whoppah. Wij betalen jou 4 a 5 werkdagen nadat de koper het item in goede orde heeft ontvangen. \
+\
+Onze betalingen worden uitgevoerd door Stripe.";
+"edit-bank-verify-text" = "Na de eerste betaling wordt je account geverifieerd en krijgt jouw profiel een verificatie badge.";
+"edit-bank-name-placeholder" = "Naam";
+"edit-bank-name-subtitle" = "Je voornaam en achternaam moeten overeenkomen met de tenaamstelling van jouw bankrekening.";
+"edit-bank-iban-placeholder" = "Rekeningnummer (IBAN)";
+"edit-bank-iban-subtitle" = "Vul je volledige IBAN nummer in.";
+"view-bank-bank-checked-title" = "Je account is gecontroleerd";
+"view-bank-adjust-details-title" = "Pas mijn betaalinstellingen aan";
+"view-bank-adjust-details-change-button" = "Pas mijn betaalgegevens aan";
+"edit-bank-screen-title" = "Betaalinstellingen";
+"chat-error-min-bid-not-met-title" = "Minimumbod niet bereikt";
+"ask-sent-item-body" = "Heb je het item verstuurd of op een andere wijze laten bezorgen?";
+"ask-sent-item-no" = "Nee, nog niet";
+"ask-sent-item-yes" = "Ja";
+"common-dialog-title" = "WHOPPAH!";
+"confirm-receipt-reason-placeholder" = "Laat ons weten wat er mis is gegaan";
+"chat_cell_payment_buyer_total_title" = "Totaal";
+"payment-method-ideal" = "iDeal";
+"payment-method-bancontact" = "Bancontact";
+"payment-method-card" = "Creditcard";
+"order-accepted-package-buyer" = "De verkoper stuurt je aankoop binnen 3 dagen op. Aankoop ontvangen? Klik dan in de chat op de knop ''Ontvangen'', en dan op ''In goede orde ontvangen''. Dan betalen wij de verkoper uit.";
+"order-accepted-courier-buyer-1" = "Je hebt gekozen voor de Whoppah koerierservice. Wij nemen zo snel mogelijk contact met je op om de bezorging te plannen.";
+"order-accepted-courier-buyer-2" = "Voor vragen neem contact op met Whoppah support via support@whoppah.nl";
+"order-accepted-courier-seller-1" = "Whoppah! De koper heeft betaald.";
+"order-accepted-courier-seller-2" = "De koper heeft gekozen voor de Whoppah Koeriersservice. Wij komen het item bij jou ophalen en brengen het naar de koper toe. Wij nemen zo snel mogelijk contact met je op om dit in te plannen.";
+"order-accepted-courier-seller-3" = "Het geld staat na uitbetaling, afhankelijk van jouw bank, op de 4e werkdag op jouw rekening. Controleer wel even of jouw gegevens in jouw Account (contactgegevens en betaalinstellingen) compleet zijn om de betaling te kunnen ontvangen. ";
+"order-accepted-courier-seller-4" = "Vragen? Neem dan contact met ons support team via support@whoppah.com";
+"order-accepted-package-seller-1" = "Whoppah! De koper heeft betaald. Stuur het pakket binnen 3 werkdagen op naar het adres in de orderbevestiging. Pak het pakket goed in. Whoppah is niet aansprakelijk voor schade.\"";
+"order-accepted-package-seller-2" = "Heb je het item verzonden? Laat het de koper even weten!";
+"order-accepted-package-seller-3" = "Wij betalen je uit zodra de koper heeft laten weten het item in goede orde te hebben ontvangen. Laat de koper niets weten, dan betalen wij jou altijd na 10 werkdagen uit. Het geld staat dan afhankelijk van jouw bank, op de 5e werkdag op jouw rekening. ";
+"order-accepted-package-seller-4" = "Het geld staat na uitbetaling, afhankelijk van jouw bank, op de 4e werkdag op jouw rekening. Controleer wel even of alle gegevens in Mijn Account (Contactgegevens en Betaalinstellingen) compleet zijn om de betaling te kunnen ontvangen. ";
+"order-accepted-pickup-seller" = "Whoppah! De koper heeft betaald. Maak een afspraak om de aankoop zo snel mogelijk (ten minste binnen 5 dagen) te overhandigen. Wij betalen jou uit zodra de koper in de chat via de button 'Ontvangen' heeft laten weten het item in goede orde te hebben ontvangen. Het geld staat na uitbetaling, afhankelijk van jouw bank, op de 4 werkdag op jouw rekening. Controleer wel even of alle gegevens in Mijn Account (Contactgegevens en Betaalinstellingen) compleet zijn om de betaling te kunnen ontvangen. ";
+"order-completed-seller" = "De koper heeft aangegeven zijn aankoop in goede orde te hebben ontvangen. Wij zetten de betaling in gang. Afhankelijk van je bank staat het bedrag binnen 5 dagen op je rekening. Controleer wel even of jouw gegevens in Mijn Account (zoals geboortedatum en bankrekeningnummer) ingevuld zijn. ";
+"order-disputed-delivery-seller" = "De koper heeft aangegeven zijn aankoop (nog) niet (in goede orde) te hebben ontvangen. Het Whoppah support team neemt zo spoedig mogelijk contact met je op.";
+"order-cancelled-buyer" = "Je order is geannuleerd";
+"order-expired-buyer" = "Je hebt de betaling niet binnen 48 uur voldaan. Dat betekent dat de deal is vervallen. Vergeet niet: op Whoppah is een deal een deal!";
+"order-cancelled-seller" = "De order is geannuleerd";
+"order-expired-seller" = "Helaas, de koper heeft niet binnen 24 uur betaald. De deal is niet meer geldig. Je kunt altijd een voorstel doen door onderaan in de chat opnieuw een bod in te vullen. ";
+"order-disputed-buyer" = "Je hebt aangegeven je aankoop (nog) niet (in goede orde) te hebben ontvangen. Het Whoppah support team neemt zo snel mogelijk contact met je op.  ";
+"payment-processing-title" = "De betaling wordt nu verwerkt";
+"payment-processing-subtitle" = "Dit kan even duren.";
+"payment-processing-cancel-button" = "Annuleer de betaling";
+"auction-state-canceled" = "Geannuleerd";
+"product-state-draft" = "Concept/opzet";
+"set_profile_merchant1_company_name" = "Bedrijfsnaam";
+"common-website" = "Website";
+"common-date-of-birth" = "Geboortedatum";
+"upgrade-app-dialog-button" = "Update de app";
+"upgrade-app-dialog-title" = "We hebben de app verbeterd. Ga naar de app store om de laatste versie te downloaden en de app goed te kunnen blijven gebruiken.";
+"create_ad_select_allow_bids_description" = "Vergroot de kans op een verkoop met bieden. Jij bepaalt vanaf welk niveau er mag worden geboden.";
+"order-disputed-pickup-seller" = "De koper heeft aangegeven het item niet in goede orde te hebben ontvangen. Het Whoppah support team neemt zo spoedig mogelijk contact met je op. ";
+"order-completed-buyer" = "Fijn dat jij je aankoop binnen hebt. Veel plezier ermee en hopelijk tot snel op Whoppah!";
+"product-state-accepted" = "Actief";
+"product-state-curation" = "In curatie";
+"auction-state-draft" = "Concept/opzet";
+"auction-state-banned" = "Gereserveerd";
+"order-state-shipped" = "Onderweg";
+"order-state-new" = "Niet voldaan";
+"checkout-select-payment-method" = "Selecteer betaalmethode";
+"checkout-addresses-title" = "Mijn adres";
+"checkout-order-details-title" = "Aankoopdetails";
+"checkout-member-details-title" = "Persoonlijke gegevens";
+"create-ad-delivery-button-pickup" = "Wordt opgehaald";
+"bid-accepted-seller" = "Je hebt een deal. De koper ontvangt nu een betaalverzoek en betaalt binnen 24 uur. Wij sturen jou een bericht als de koper heeft betaald. ";
+"track_id_track_courier" = "Koeriersdienst";
+"ad_details_pay_button" = "Nu betalen";
+"ad_details_chat_button" = "Ga naar chat";
+"checkout-shipping-cost" = "Bezorgkosten";
+"checkout-payment-cost" = "Servicekosten";
+"checkout-whoppah-fee" = "Whoppah transactiekosten";
+"checkout-total-cost" = "Totaal";
+"checkout-discount" = "Korting";
+"category-beeldwerk" = "Beeldwerk";
+"category-decoratie" = "Decoratie";
+"my-account-password-reset-toast" = "Je wachtwoord is gewijzigd";
+"my-account-changes-saved-toast" = "Uw wijzigingen zijn opgeslagen!";
+"faq-create-ad-title" = "Wanneer komt de koerier mijn item ophalen?";
+"faq-create-ad-description" = "<h3>Hoe maak ik een advertentie aan?</h3>\
+Op de website ga je naar VERKOOP NU in de menubalk. In de app klik je op de rode plus onderin de menubalk. Upload 5 foto’s. Geef een zo goed mogelijke impressie van je item en upload eenvoudig een korte video. Vul de productdetails in en voeg een omschrijving toe. Voer de vraagprijs en de bieden vanaf prijs in en selecteer hoe je voorstelt dat het item kan worden bemachtigd: per pakketpost, zelf ophalen of laten bezorgen door onze geweldige Whoppah koeriers. De koper betaalt hier apart voor bij. Dit gaat niet van je verkoopopbrengst af. Je advertentie is nu klaar om te uploaden. Whoppah controleert de advertentie binnen 2 werkdagen en je krijgt bericht als deze geplaatst is en als hij niet kan worden goedgekeurd. Hebben we meer informatie nodig of betere foto's? Dan sturen we een wijzigingsverzoek. \
+<br>\
+<br>\
+<h3>Waarom controleert en fotografeert de koerier mijn item?</h3>\
+Als verkoper dien je de staat van het product in de advertentie aan te geven. Wanneer de koerier jouw item komt ophalen, checkt hij of de staat van het item overeenkomt met de informatie in de advertentie. Daarnaast maakt hij 5 foto’s van het item voordat het item meegaat met de Whoppah-bus. Mocht er schade worden ontdekt die niet is vastgelegd op de foto, dan dan ligt de bewijslast bij de koper.\
+<br>\
+<br>\
+<h3>Wat moet ik in de omschrijving plaatsen?</h3>\
+Het is natuurlijk belangrijk dat een advertentie genoeg informatie bevat.\
+<br><br>\
+<ul>\
+<li>Geef aan waar het is gekocht en eventueel de aanschafprijs;</li>\
+<li>Geef aan hoe oud het is en wat de geschiedenis van het item is;</li>\
+<li>Bijzonderheden over de staat, toebehoren;</li>\
+<li>In het geval van kunst, toelichting over de kunstenaar;</li>\
+<li>Tip: maak de omschrijving persoonlijk! Waarom heb je het gekocht? Wat vind je er mooi aan? Waarom doe je het weg? Kortom, wat is het verhaal achter het item.</li>\
+</ul>\
+<br>\
+<br>\
+<h3>Hoeveel foto’s moet ik uploaden en waarvan?</h3>\
+<ul>\
+<li>Zorg voor minimaal 5 foto’s van goede kwaliteit;</li>\
+<li>Minimaal één foto van het item als geheel (zorg ervoor dat de randen/zijkanten niet van de foto afvallen) en dat het item heel goed belicht is. Maak geen foto's tegen een raam of lamp in;</li>\
+<li>Maak foto’s van de details zoals het merklabel, sporen van slijtage etc;</li>\
+<li>Maak een video voor een nog beter beeld voor de koper;</li>\
+<li>Tip: maak foto’s tegen een witte of neutrale achtergrond;</li>\
+</ul>\
+<br>\
+<br>\
+<h3>Hoe bepaal ik mijn vraagprijs?</h3>\
+Als verkoper bepaal jij de vraagprijs. Let op! Op Whoppah kan een koper jouw item direct afrekenen en kopen voor de vraagprijs. Als verkoper ontvang je dan een e-mail van ons dat jouw item is verkocht. Daarnaast kan er onderhandeld worden. Als verkoper bepaal jij of je akkoord gaat met een bod lager dan de vraagprijs. De koper betaalt het bedrag eerst aan ons. Nadat de koper aangeeft het item in goede orde te hebben ontvangen betalen wij jou uit.<br><br>\
+Prijsadvies nodig? Stuur ons een foto van je item en wij laten je weten wat het waard is op Whoppah. \
+<br>\
+<br>\
+<h3>Kan ik als bedrijf verkopen op Whoppah?</h3>\
+Bedrijven en particulieren kunnen verkopen op Whoppah. Met één voorwaarde: de producten zijn gebruikt. Whoppah wil staan voor duurzaam leven en is gericht op hergebruik van reeds geproduceerde items. De categorieën die hieronder vallen zijn: tweedehands items, showroommodellen, handgemaakte items, refurbished items en eventueel retouren van webwinkels.\
+<br>\
+<br>\
+<h3>Kan ik als verkoper een advertentie twee keer plaatsen?</h3>\
+We geven graag iedereen gelijke kansen, daarom verwijderen we advertenties die dubbel zijn geplaatst.\
+<br>\
+<br>\
+<h3>Wanneer word ik uitbetaald als verkoper?</h3>\
+Whoppah zorgt ervoor dat kopen en verkopen zo veilig mogelijk verloopt. Daarom betaalt de koper altijd eerst aan Whoppah. Het geld komt vervolgens op een tussenrekening te staan van betaalserviceprovider Stripe, die onder toezicht staat van de Autoriteit Financiële Markten en de Nederlandse Bank en gemachtigd is deze geldstromen te beheren. Op het moment dat de koper heeft aangegeven het item in goede orde te hebben ontvangen wordt de verkoopopbrengst na 5 werkdagen uitbetaald aan de verkoper. \
+<br>\
+<br>\
+<h3>Wat als de koper niets aangeeft?</h3>\
+Geeft de koper binnen 10 werkdagen niets aan? Dan wordt het geld na 10 dagen uitbetaald aan de verkoper. Zorg er voor dat alle benodigde gegevens in je account zijn ingevuld. Alleen dan kan de betaalserviceprovider de uitbetaling doen. \
+<br>\
+<br>\
+<h3>Wat als de koper aangeeft het item niet in goede orde te hebben ontvangen?</h3>\
+Dan neemt het Whoppah support team contact op met beide partijen om te achterhalen waar het mis is gegaan en blijft het geld staan op de tussenrekening van betaalserviceprovider Stripe totdat er is afgesproken tussen koper en verkoper, eventueel met tussenkomst van Whoppah, hoe het wordt opgelost.";
+"auth_sign_up2_terms_part5" = "of de";
+"auth_sign_up2_terms_part6" = "Stripe gebruiksvoorwaarden.";
+"stripe-terms-view-title" = "Stripe gebruiksvoorwaarden";
+"signup-agree-stripe-terms" = "Ik ga akkoord met de <a href=\"https://stripe.com/legal\">algemene voorwaarden</a> van payment service provider Stripe";
+"chat_cell_payment_complete_delivery_tip_buyer" = "De koper stuurt het artikel binnen 3 dagen op naar uw opgegeven adres:";
+"common-missing-address-city" = "Stad ontbreekt";
+"common-missing-address-street" = "Straat ontbreekt";
+"common-missing-address-postcode" = "Postcode ontbreekt";
+"common-missing-phone-number" = "Telefoonnummer is verplicht";
+"common-missing-vat" = "BTW nummer is verplicht";
+"common-missing-company-name" = "Bedrijfsnaam is verplicht";
+"common-invalid-phone-number" = "Onjuist telefoonnummer";
+"label-best-deal-title" = "BEST DEAL";
+"label-best-deal-color" = "#395638";
+"label-new-title" = "NIEUW";
+"label-new-color" = "#000000";
+"main_my_profile_ads_draft" = "Concepten";
+"my_ads_drafts_screen_title" = "Concepten";
+"label-sale-title" = "SALE";
+"label-sale-color" = "#F57864";
+"auth-reset-sent-dialog-title" = "Controleer je inbox";
+"auth-reset-sent-content-title" = "De reset link vind je in je e-mail";
+"auth-reset-sent-content-description" = "We hebben je een e-mail gestuurd met de daarin een link om je wachtwoord te resetten";
+"product-state-banned" = "Afgewezen";
+"bid-confirmation-counterbid-or-separator" = "OF";
+"bid-confirmation-counter-bid-subtitle" = "Je bod is 48 uur geldig";
+"common-missing-profile-name" = "Profielnaam is verplicht";
+"common-missing-email" = "Email is verplicht";
+"common-missing-first-name" = "Vul je voornaam in";
+"common-missing-last-name" = "Vul je achternaam in";
+"product-state-canceled" = "Geannuleerd";
+"edit-ad-done-title" = "Whoppah!";
+"common-url-subtitle" = "Vul hier de bedrijfswebsite, linkedin profiel, facebook profiel of whoppah.com in.";
+"category-krukjes" = "Krukjes";
+"category-kuipstoelen" = "Kuipstoelen";
+"category-2-zitsbanken" = "2-zitsbanken";
+"category-3-5-zitsbanken" = "3-5 zitsbanken";
+"bid-state-expired" = "Verlopen";
+"bid-state-new" = "Nieuw";
+"auth-sign-in-screen-title" = "Inloggen";
+"auth-forgot-password-title" = "Vul je email in";
+"auth-forgot-pass-screen-title" = "Wachtwoord resetten";
+"auth-sign-up2-screen-title" = "Wachtwoord";
+"auth-sign-up2-title" = "Kies een wachtwoord";
+"auth-account-type-chooser-title" = "Ik meld mij aan als…";
+"auth-account-type-chooser-screen-title" = "Account aanmaken";
+"auth-account-type-chooser-person-title" = "Persoon";
+"auth-account-type-chooser-person-subtitle" = "Verkopen en/of kopen als particulier";
+"auth-account-type-chooser-business-title" = "Bedrijf";
+"auth-account-type-chooser-business-subtitle" = "Zakelijk verkopen en/of kopen";
+"auth-sign-up1-title" = "Vul profielnaam en email in";
+"auth-sign-up1-screen-title" = "Accountgegevens";
+"auth-sign-up1-email-error" = "Oeps! Controleer het emailadres";
+"auth-sign-up1-profile-error" = "Oeps! Controleer je profielnaam";
+"on-boarding-1-title" = "Altijd kwaliteit";
+"on-boarding-1-option-1" = "Uniek aanbod van tweedehands design";
+"on-boarding-1-option-2" = "Altijd gecureerd door stylisten en experts";
+"on-boarding-1-option-3" = "Bekijk of maak videos van advertenties";
+"on-boarding-2-title" = "Veilig kopen en verkopen";
+"on-boarding-2-option-1" = "Betaal veilig via Whoppah";
+"on-boarding-2-option-2" = "Gecontroleerde kopers en verkopers";
+"on-boarding-2-option-3" = "Deal is deal op Whoppah";
+"on-boarding-3-title" = "Eersteklas service";
+"on-boarding-3-option-1" = "Verzekerd bezorgd via een koerier";
+"on-boarding-3-option-2" = "Kosteloos een advertentie aanmaken";
+"on-boarding-3-option-3" = "Het Support team staat altijd klaar";
+"common-skip" = "Overslaan";
+"common-step-progress" = "Stap %d/%d";
+"auth-sign-up3-title" = "Vul de gegevens in";
+"auth-sign-up3-screen-title" = "bedrijfsgegevens";
+"auth-sign-up3-company-name" = "Bedrijfsnaam";
+"common-next-last-step-button" = "Naar laatste stap";
+"auth-sign-up3-phone-number-description" = "We gaan je niet zomaar bellen, alleen als er iets aan de hand is met je aan- of verkoop";
+"auth-sign-up4-screen-title" = "Contactpersoon";
+"auth-sign-up4-title" = "Wie is het contactpersoon? ";
+"auth-sign-up4-description" = "Vul de naam in van degene die namens het bedrijf juridisch mag optreden, dit ben jij zelf of de eigenaar";
+"common-first-name" = "Voornaam";
+"common-last-name" = "Achternaam";
+"auth-sign-up5-screen-title" = "Adresgegevens";
+"auth-sign-up5-title" = "Vul het adres in";
+"auth-email-confirm-screen-title" = "Account bevestigen";
+"auth-email-confirm-title" = "Welkom 👋";
+"auth-email-confirm-description" = "Welkom bij Whoppah. Veel koop en verkoopplezier!";
+"auth-email-confirm-open-mail-button" = "Open mail";
+"auth-email-confirm-open-whoppah-button" = "Of open Whoppah";
+"auth-email-select-client-title" = "Controleer je inbox";
+"auth-email-select-client-description" = "Welkom bij Whoppah. Veel koop en verkoopplezier!";
+"common-cancel" = "Annuleren";
+"auth-email-confirm-no-email-client-continue" = "Open Whoppah";
+"email-client-mail" = "Open mail (default)";
+"email-client-gmail" = "Open Gmail";
+"onboarding-page1-title" = "Altijd kwaliteit";
+"onboarding-page1-bullet1" = "<b>Uniek aanbod</b> van tweedehands design";
+"onboarding-page1-bullet2" = "<b>Altijd gecureerd</b> door stylisten en experts";
+"onboarding-page1-bullet3" = "Bekijk of maak <b>videos van advertenties</b>";
+"onboarding-page2-title" = "Veilig kopen en verkopen";
+"onboarding-page2-bullet1" = "<b>Betaal veilig</b> via Whoppah";
+"onboarding-page2-bullet2" = "<b>Gecontroleerde kopers en verkopers</b>";
+"onboarding-page2-bullet3" = "<b>Deal is deal</b> op Whoppah";
+"onboarding-page3-title" = "Eersteklas service";
+"onboarding-page3-bullet1" = "<b>Verzekerd bezorgd</b> via een koerier ";
+"onboarding-page3-bullet2" = "<b>Kosteloos</b> een advertentie aanmaken";
+"onboarding-page3-bullet3" = "Het <b>Support team</b> staat altijd klaar";
+"auth-reset-sent-dialog-description" = "Er is een reset link naar %@ verstuurd";
+"welcome-dialog-title" = "Welkom bij Whoppah 👋";
+"welcome-dialog-description" = "Start nu met het verkopen en kopen van de mooiste design meubels, verlichting en kunst.";
+"welcome-dialog-create-ad-button" = "Plaats eerste advertentie";
+"welcome-dialog-search-button" = "Design zoeken";
+"common-phone-number-placeholder" = "Telefoonnummer";
+"auth-registration-failed-existing" = "Op dit e-mailadres is al een account aangemaakt. Ga naar inloggen of wachtwoord vergeten. ";
+"common-button-save" = "Opslaan";
+"create-ad-how-works-title" = "Je gaat nu een advertentie aanmaken";
+"create-ad-how-works-description" = "Whoppah staat voor design en kwaliteit, daarom cureren wij alle advertenties op het (design)merk/ontwerper, de staat van het item (minimaal goed), de kwaliteit van de foto’s én de volledigheid van de omschrijving. Soms maken wij advertenties nóg beter door tekst toe te voegen.\
+\
+Ultiem gemak: laat je item ophalen met de Whoppah transportservice. Dit betaalt de koper. Kies hiervoor bij de stap 'Bezorgmethode'. ";
+"create-ad-common-create-ad-button" = "Start met advertentie aanmaken";
+"create-ad-how-works-see-tips-button" = "Lees onze advertentietips!";
+"create-ad-tips-1-title" = "De beste advertentie heeft …";
+"create-ad-tips-1-bullet-1" = "<b>Goede kwaliteit foto’s</b> waar het item in zijn geheel op staat.";
+"create-ad-tips-1-bullet-2" = "<b>Minimaal 5 foto’s.</b> Hoe meer foto’s, hoe sneller je verkoopt.";
+"create-ad-tips-1-bullet-3" = "<b>Een video</b> voor een nóg betere impressie.";
+"create-ad-tips-2-title" = "De beste advertentie heeft …";
+"create-ad-tips-2-bullet-1" = "<b>Alle informatie</b> die de koper moet of zou willen weten.";
+"create-ad-tips-2-bullet-2" = "<b>Een aantrekkelijke prijs.</b> Goede deal is snelle verkoop!";
+"create-ad-category-selection-title" = "Wat wil je verkopen?";
+"create-ad-category-selection-screen-title" = "Advertentie maken";
+"create-ad-description-next-button" = "Naar foto’s toevoegen";
+"create-ad-description-bullet-title" = "Benoem de volgende details";
+"common-save" = "Opslaan";
+"create-ad-cancel-dialog-title" = "Advertentie opslaan en later verder gaan";
+"create-ad-cancel-dialog-save" = "Opslaan en later verder";
+"create-ad-cancel-dialog-delete" = "Advertentie verwijderen";
+"create-ad-cancel-dialog-return-to-ad" = "Terug naar advertentie";
+"category-meubels" = "Meubels";
+"create-ad-common-your-ad-title" = "Jouw advertentie";
+"create-ad-select-photos-title" = "Voeg 5 foto’s toe";
+"create-ad-select-photos-choose-button" = "Kies bestaande foto’s";
+"create-ad-select-photos-new-button" = "Nieuwe foto’s maken";
+"create-ad-select-photos-bullet-title" = "Zo maak je de beste foto:";
+"create-ad-select-photos-bullet1" = "Zorg voor een neutrale achtergrond";
+"create-ad-select-photos-bullet2" = "Zorg voor goede belichting";
+"create-ad-select-photos-bullet3" = "Maak een foto van het vooraanzicht";
+"create-ad-select-photos-bullet4" = "Maak een foto van de details";
+"create-ad-video-title" = "Voeg een video toe";
+"create-ad-video-bullet-title" = "Zo maak jij de beste video";
+"create-ad-video-no-video-banner-title" = "Wij lichten advertenties met een video uit! Vergroot je verkoopkans met een video van 15 seconden";
+"create-ad-video-replace-video-button" = "Nieuwe video maken";
+"create-ad-video-new-video-button" = "Video maken";
+"create-ad-video-save-next-button" = "Opslaan en volgende";
+"common-skip-button" = "Sla over";
+"create-ad-video-bullet1" = "Houd de camera stabiel";
+"create-ad-video-bullet2" = "Film het gehele product";
+"create-ad-video-bullet3" = "Zoom in op de details";
+"create-ad-select-photos-bullet3-kunst" = "Maak een foto van de lijst/achterkant";
+"create-ad-description-bullet1" = "Leeftijd, aankoopprijs en herkomst";
+"create-ad-description-bullet2" = "Bon en/of ceritificaat in bezit";
+"create-ad-description-bullet3" = "Eventuele beschadigingen ";
+"create-ad-description-bullet1-kunst" = "Kunstenaar, materiaal ";
+"create-ad-description-bullet2-kunst" = "Leeftijd, aankoopprijs en herkomst";
+"create-ad-description-bullet3-kunst" = "Bon en/of ceritificaat in bezit";
+"create-ad-description-bullet4-kunst" = "Eventuele beschadigingen ";
+"create-ad-select-photos-bullet1-kunst" = "Zorg voor een neutrale achtergrond";
+"create-ad-select-photos-bullet2-kunst" = "Zorg voor goede belichting";
+"create-ad-select-photos-bullet4-kunst" = "Maak een foto van de details";
+"create-ad-description-title" = "Omschrijf het item";
+"create-ad-details-title" = "Voeg productdetails toe";
+"create-ad-details-subtitle" = "Specificeer hier je advertentie.";
+"create-ad-details-change-category-button" = "Wijzig de categorie";
+"create-ad-details-select-common" = "Selecteer";
+"create-ad-details-next-button" = "Ga naar vraagprijs";
+"create-ad-price-title" = "Bepaal de vraagprijs";
+"create-ad-price-fee-explanation-text" = "Er wordt een %@ Whoppah Fee in rekening gebracht, zodat wij de app  en website constant kunnen verbeteren en de beste service kunnen bieden.";
+"create-ad-price-bidding-section-title" = "Mag er geboden worden?";
+"create-ad-price-bidding-switch-title" = "Bieden mag";
+"create-ad-price-min-bid-description" = "Vul het bedrag in vanaf hoeveel geboden mag worden";
+"create-ad-price-min-bid-placeholder" = "Bied vanaf:";
+"create-ad-price-button-title" = "Naar de laatste stap";
+"create-ad-price-tip-text" = "Let op! Op Whoppah kan jouw item direct voor de vraagprijs worden gekocht en afgerekend. Whoppah rekent een %@ fee over de daadwerkelijke verkoopprijs.";
+"create-ad-price-min-bid-higher-one-percent-asking" = "Moet minimaal 1% van de vraagprijs zijn";
+"create-ad-price-min-bid-lower-price" = "Minimumbod moet lager zijn dan de vraagprijs";
+"create-ad-price-min-bid-invalid" = "Ongeldig minimumbod";
+"create-ad-shipping-title" = "Kies bezorgmethode";
+"create-ad-summary-create-button-description" = "Door op deze knop te drukken verstuur je de advertentie naar Whoppah voor curatie";
+"create-ad-shipping-shipping-method-title" = "Verzendmethode";
+"create-ad-shipping-shipping-description" = "Er kan maar één verzendmethode aangeboden worden. Houd rekening met het formaat van je item.";
+"create-ad-shipping-address-title" = "Jouw adres";
+"create-ad-summary-title" = "Advertentie samenvatting";
+"create-ad-shipping-button-title" = "Bekijk je advertentie samenvatting";
+"create-ad-shipping-missing-address-label" = "We missen nog een adres";
+"create-ad-summary-edit-photos-button" = "Aanpassen foto’s";
+"create-ad-summary-edit-video-button" = "Voeg video toe";
+"create-ad-summary-description-section-title" = "Omschrijving";
+"create-ad-summary-description-edit-button" = "Aanpassen omschrijving";
+"common-brand-title" = "Merk";
+"common-material-title" = "Materiaal";
+"common-condition-title" = "Conditie";
+"common-dimensions-title" = "Afmeting";
+"common-colors-title" = "Kleuren";
+"create-ad-summary-price-title" = "Vraagprijs";
+"create-ad-summary-receive-title" = "Jij ontvangt";
+"create-ad-summary-bidding-enabled-title" = "Bieden mogelijk";
+"create-ad-summary-shipping-address-title" = "Adres";
+"create-ad-summary-shipping-method-title" = "Bezorgmethode";
+"create-ad-summary-productdetails-title" = "Productdetails";
+"create-ad-summary-edit-productdetails-button" = "Aanpassen productdetails";
+"create-ad-summary-edit-price-button" = "Aanpassen vraagprijs";
+"create-ad-summary-edit-shipping-button" = "Aanpassen bezorgmethode";
+"create-ad-summary-shipping-pickup-only" = "Alleen ophalen door koper";
+"create-ad-summary-shipping-delivery-only" = "Alleen Whoppah transportservice of pakketpost";
+"create-ad-summary-shipping-delivery-or-pickup" = "Whoppah Koerier, \
+pakket of ophalen";
+"create-ad-common-save-to-summary-button" = "Controleer advertentie";
+"create_ad_main_error_missing_description" = "Voeg een omschrijving toe";
+"continue-ad-dialog-title" = "Ga verder met je advertentie";
+"continue-ad-dialog-description" = "Je advertentie is nog niet ingevuld of niet compleet. Maak je advertentie af en start met verkopen op Whoppah.";
+"continue-ad-dialog-button" = "Advertentie afmaken";
+"create-ad-navbar-save-button" = "Bewaar draft";
+"common-artist-title" = "Kunstenaar";
+"common-gb" = "Groot-Brittannië";
+"set-profile-invalid-website-url" = "Ongeldige URL invoer";
+"checkout-payment-cost-card" = "Creditcard kosten Stripe";
+"create-ad-select-photos-drag-tip" = "Wijzig volgorde door te slepen";
+"common_united_kingdom" = "Groot-Brittannië";
+"create-ad-shipping-custom-title" = "Zijn de verzendkosten anders?";
+"create-ad-shipping-custom-description" = "Stel zelf de verzendprijs in als de kosten anders zijn ";
+"create-ad-shipping-custom-placeholder" = "Verzendprijs";
+"create-ad-shipping-custom-switch-label" = "Nee / Ja";
+"create-ad-select-attribute-search-placeholder" = "Type hier de naam";
+"create-ad-select-attribute-default-button" = "Bevestig keuze";
+"create-ad-select-brand-title" = "Zoek het merk";
+"create-ad-select-brand-unknown-brand" = "Ik weet het merk niet";
+"create-ad-select-brand-suggestion-title" = "Staat je merk er niet tussen?";
+"create-ad-select-brand-suggestion-description" = "Type hier de merknaam en druk op opslaan";
+"create-ad-select-brand-suggestion-placeholder" = "Merknaam";
+"create-ad-select-brand-save-button" = "Merk opslaan";
+"create-ad-select-material-title" = "Kies het materiaal";
+"create-ad-select-artist-title" = "Zoek de kunstenaar";
+"create-ad-select-artist-save-button" = "Kunstenaar opslaan";
+"create-ad-select-artist-suggestion-placeholder" = "Kunstenaar";
+"create-ad-select-artist-suggestion-description" = "Type hier de kunstenaar en druk op opslaan";
+"create-ad-select-artist-suggestion-title" = "Staat je kunstenaar er niet tussen?";
+"create-ad-select-artist-unknown-artist" = "Ik weet de kunstenaar niet";
+"create-ad-select-unknown-brand-artist" = "Onbekend";
+"create-ad-select-attribute-result-section-title" = "Resultaten";
+"category-meubels-2" = "Meubels";
+"create-ad-summary-save-button" = "Wijzigingen opslaan";
+"create-ad-record-video-tap-hold" = "Houd de knop ingedrukt";
+"material-canvas" = "Canvas";
+"material-anders-2" = "Anders";
+"common-bid-from-price" = "Bieden vanaf %@";
+"checkout-title" = "Kassa";
+"checkout-phone-number-description" = "Zo kunnen we je bellen voor het plannen van transport";
+"checkout-delivery-method-title" = "Bezorgmethode";
+"checkout-delivery-address-title" = "Bezorgadres";
+"checkout-next-button-title" = "Naar betalen";
+"checkout-pickup-title" = "Zelf ophalen";
+"checkout-pickup-description" = "Ik haal het item zelf op en plan dit met de verkoper";
+"checkout-shipping-registered-description" = "Aangetekend";
+"checkout-shipping-standard-description" = "Reguliere pakketpost";
+"checkout-shipping-courier-description" = "Verzekerd bezorgd";
+"checkout-payment-method-title" = "Betaalwijze";
+"checkout-pay-button-description" = "Je wordt hierna doorverwezen naar onze betaalpartner STRIPE";
+"checkout-add-new-address-button" = "Kies een ander adres";
+"checkout-missing-address-label" = "We missen nog een adres";
+"shipping-custom" = "Verkoper verstuurd";
+"checkout-shipping-custom-description" = "Verkoper verstuurt voor";
+"draft-dialog-title" = "Je advertentie wordt opgeslagen";
+"draft-dialog-subtitle" = "Dit kan even duren.";
+"ad-details-product-type" = "Producttype";
+"ad-details-pickup-title" = "Alleen ophalen door koper";
+"ad-details-pickup-description" = "Plan samen met verkoper een ophaalmoment";
+"ad-details-standard-title" = "Alleen pakketpost";
+"ad-details-standard-description" = "Het item wordt met de reguliere post thuisbezorgd voor %@";
+"ad-details-registered-title" = "Alleen pakketpost";
+"ad-details-registered-description" = "Het item wordt met aangetekende post thuisbezorgd voor %@";
+"ad-details-courier-title" = "Laat bezorgen door de koerier";
+"ad-details-courier-description" = "Whoppah koerier bezorgt het item thuis vanaf %@";
+"ad-details-custom-title" = "Verkoper verstuurd";
+"ad-details-custom-description" = "Verkoper verzorgt de verzending voor %@";
+"ad-details-combo-title" = "Wat jou uitkomt";
+"ad-details-pickup-standard-description" = "Zelf ophalen of met pakketpost voor %@";
+"ad-details-pickup-registered-description" = "Zelf ophalen of met aangetekende pakketpost voor %@";
+"ad-details-pickup-courier-description" = "Zelf ophalen of thuisbezorgd met de Koerier vanaf %@";
+"ad-details-pickup-custom-description" = "Zelf ophalen of met pakketpost voor %@";
+"ad-details-buy-now-price" = "Vraagprijs: %@";
+"ad-details-bid-confirm-description" = "Deal is deal, als de verkoper het bod accepteert dien je de betaling te voldoen.";
+"ad-details-place-bid-placeholder" = "Plaats bod %@";
+"contextual-signup-create-account-button" = "Account aanmaken";
+"contextual-signup-sign-in-button" = "Ik heb al een account";
+"contextual-signup-selling-title" = "Snel jouw advertentie online met een account";
+"contextual-signup-selling-description" = "Snel en veilig verkocht via Whoppah";
+"contextual-signup-bidding-title" = "Bieden op jouw favorieten item met een account";
+"contextual-signup-bidding-description" = "Jouw droom item voor de beste prijs";
+"contextual-signup-favorites-title" = "Al jouw favorieten op één plek met een account ";
+"contextual-signup-favorites-description" = "Nooit meer je droom item mislopen";
+"contextual-signup-chat-title" = "Chatten met de verkoper doe je met een account";
+"contextual-signup-chat-description" = "Stel al jouw vragen via de chat";
+"contextual-signup-mywhoppah-title" = "Makkelijk een item kopen met een Whoppah account";
+"contextual-signup-mywhoppah-description" = "Veilig en zorgeloos shoppen";
+"contextual-signup-buying-description" = "Veilig en zorgeloos shoppen";
+"contextual-signup-buying-title" = "Makkelijk een item kopen met een Whoppah account";
+"bekijk-de-collectie-title" = "View the collection";
+"winston-renate-collectie-title" = "De Winston & Renate Collectie";
+"winston-renate-collectie-description" = "Shop de design en kunst items van Winston & Renate";
+"winston-renate-collectie-button" = "Bekijk alles";
+"thread-cell-whoppah-message" = "Bericht van Whoppah";
+"threads-empty-title" = "Je hebt geen chats";
+"threads-empty-description" = "Heb je een vraag voor Whoppah? Stel deze hieronder. ";
+"threads-empty-whoppah-contact-button" = "Stel Whoppah een vraag";
+"chat-cell-outgoing-bid-new" = "Ik bied";
+"chat-bid-incoming-cell-new-firsttime" = "Whoppah 👋! Je hebt een bod. Accepteer door op het groene vinkje te klikken. Wijs af door op het rode kruisje te klikken of doe een tegenbod. Het bod is 48 uur is geldig. Hierna verloopt het bod. ";
+"chat-bid-incoming-cell-accept-button" = "Aannemen";
+"chat-bid-incoming-cell-counter-button" = "Tegenbod";
+"chat-bid-incoming-cell-reject-button" = "Bod te laag";
+"chat-conversation-between" = "Je hebt een gesprek met potentiële koper%@ en %@";
+"chat-cell-dialog-accept-bid-title" = "Accepteren bod";
+"chat-cell-dialog-counter-bid-title" = "Een nieuw bod";
+"chat-cell-dialog-counter-bid-description" = "Reageer met een nieuw (tegen)bod.";
+"chat-cell-dialog-accept-bid-description" = "Wil je het bod van <b>%@</b> accepteren? Deal is deal!";
+"chat-cell-dialog-reject-title" = "Bod te laag %@";
+"chat-cell-dialog-reject-description" = "Wijs een te laag bod af en doen een tegenvoorstel.";
+"chat-cell-dialog-accept-bid-button" = "Ik accepteer het bod";
+"chat-cell-dialog-counter-bid-placeholder" = "Bedrag";
+"chat-cell-dialog-counter-bid-button" = "Verstuur";
+"chat-ask-pay-cell-description" = "Whoppah! Je hebt een deal. Voldoe nu of straks de betaling, doe het wel binnen 24 uur anders verloopt je deal.";
+"chat-ask-pay-cell-title" = "Deal! Betaal nu";
+"chat-ask-pay-cell-pay-now-title" = "Ga naar de kassa";
+"chat-ask-pay-cell-pay-now-description" = "Ga naar de kassa om te betalen en kies de bezorgmethode. Afhankelijk van het item kan je het laten bezorgen door de Whoppah koerier, zelf ophalen of met pakketpost laten verzenden. Let op: betaal binnen 24 uur anders verloopt de deal! ";
+"chat-ask-pay-cell-pay-now-pay-button" = "Nu betalen";
+"chat-cell-order-confirm-buyer-delivery-description" = "De verkoper verstuurt het item binnen 3 dagen naar jou op.";
+"chat-cell-order-confirm-totals-header-title" = "Jij hebt betaald";
+"chat-cell-order-confirm-seller-title" = "Verkoopbevestiging";
+"chat-cell-order-confirm-buyer-pickup-description" = "Plan samen met de verkoper een ophaalmoment in. ";
+"chat-cell-order-confirm-buyer-delivery-courier-description" = "Whoppah neemt contact met jou op om een bezorgmoment voor de koerier te plannen. ";
+"chat-cell-order-confirm-seller-delivery-courier-description" = "Whoppah neemt contact met jou op om een ophaalmoment voor de koerier in te plannen. ";
+"chat-cell-order-confirm-seller-delivery-description" = "Verstuur het item binnen 3 werkdagen naar de koper.";
+"chat-cell-order-confirm-seller-pickup-description" = "Plan samen met de koper een ophaalmoment in.";
+"chat-cell-ask-tracking-sent-button" = "Ik heb het item verstuurd";
+"chat-cell-product-received-received-button" = "Heb je het item ontvangen?";
+"chat-cell-product-received-dialog-title" = "Item ontvangen?";
+"chat-cell-product-received-dialog-description" = "Zijn er bijna 10 dagen voorbij en heb je het item nog niet ontvangen? Laat het ons dan weten. ";
+"chat-cell-product-received-good-order-button" = "In goede orde ontvangen";
+"chat-cell-product-received-not-good-button" = "Niet in goede orde ontvangen";
+"chat-received-good-order-message" = "Ik heb het item in goede orde ontvangen";
+"chat_cell_payment_complete_order_confirm" = "Aankoopbevestiging";
+"bid-received-tip-new" = "Hi 👋\
+%@ heeft net geboden op %@. Wat wil je met het bod doen? Tegen bieden kan ook!";
+"chat-header-product-seller" = "Je hebt een gesprek met potentiële verkoper %@ en het Whoppah support team.";
+"chat-header-product-buyer" = "Je hebt een gesprek met potentiële koper %@ en het Whoppah support team.";
+"chat-header-default" = "Dit is een chat met %@ en Whoppah.";
+"chat-cell-dialog-counter-bid-min-bid-error" = "Het minimum bod is %@";
+"chat-cell-order-incomplete-order-cancelled-title" = "Order geannuleerd";
+"chat-cell-order-incomplete-order-expired-title" = "Deal is verlopen";
+"chat-cell-order-incomplete-new-bid-button" = "Nieuw bod";
+"chat-cell-order-incomplete-new-bid-dialog-title" = "Een nieuw bod";
+"chat-cell-order-incomplete-new-bid-dialog-description" = "Reageer met een nieuw (tegen)bod.";
+"funky-vondsten-button" = "Bekijk alles";
+"funky-vondsten-description" = "Uniek, onconventioneel en ongewoon. Design vol persoonlijkheid en innovatie. Dat is Funky.";
+"funky-vondsten-title" = "Funky vondsten";
+"auth-sign-up-2-password-match-requirements-error" = "Wachtwoord voldoet niet aan veiligheidseisen";
+"chat-help-button" = "Help";
+"chat-help-screen-title" = "Chat Hulp";
+"chat-help-title" = "Hoe werkt de chat?";
+"chat-help-section-1-title" = "Van chat naar deal";
+"chat-help-section-1-bullet-1" = "Je kan een bod accepteren (groene knop), afwijzen (rode knop) of een tegenvoorstel doen (onderaan de chat). ";
+"chat-help-section-2-title" = "Betalen";
+"chat-help-section-2-bullet-1" = "Zodra er een deal is verschijnt er een ‘Betaalbutton’ in de chat van de koper. De button leidt naar de kassa waar de aankoop afgerond kan worden. Daar kan de koper ook de bezorgmethode selecteren. Betalen kan via iDeal, Creditcard of Bancontact. ";
+"chat-help-section-3-title" = "Prijs aanpassen";
+"chat-help-section-1-bullet-2" = "Is een bod geaccepteerd dan is er een deal. Er verschijnt dan een ‘Betaalbutton’ in de chat van de koper. De button leidt naar de kassa waar de aankoop afgerond kan worden. Bij de kassa kan de koper ook kiezen voor een bezorgmethode. ";
+"chat-help-section-3-bullet-1" = "Ben je in onderhandeling en wil je de prijs aanpassen? Je kan altijd in het invulveld 'tegenbod' een bedrag plaatsen. Zodra de andere partij dit bedrag accepteert, verschijnt er een betaalbutton en kan je naar de kassa. Maak hier gebruik van als je een extra bedrag wil rekenen voor het inpakken van het item of bijvoorbeeld omdat je er twee verkoopt en de prijs in de advertentie voor één item was.";
+"chat-help-section-4-title" = "Bezorgmethode & transport regelen";
+"chat-help-section-4-bullet-1" = "In de checkout kan de koper kiezen voor de Whoppah koerier of andere opties die de verkoper heeft aangevinkt.";
+"chat-help-section-4-bullet-2" = "Haal je het item op en is er nog niet betaald? Voer dan ter plekke het bedrag in dat je afspreekt in het 'tegenbod' veld en klik als koper op de Betalen knop. Je betaalt dan veilig via Whoppah. ";
+"fauteuils-description" = "Vind hier de mooiste design fauteuils om heerlijk in te ontspannen. ";
+"fauteuils-title" = "Design fauteuils";
+"tafellampen-description" = "Tafellampen in alle soorten en maten in de mooiste designs vind je hier.";
+"tafellampen-title" = "Tafellampen";
+"chat-cell-incoming-bid-new" = "Nieuw bod";
+"Eettafels-description" = "Bekijk onze unieke collectie design eettafels.  ";
+"eettafels-title" = "Dining tables";
+"transaction-feedback-back-to-chat" = "Terug naar de chat";
+"bid-received-new-seller" = "Whoppah! Je hebt een bod. Accepteer, wijs af of doe een tegenbod. Dit bod is 48 uur is geldig. Deal gesloten? Dan verschijnt er een 'Betalen' knop in de chat bij de Koper. Transport regelen? In de checkout kan de Koper kiezen voor de Whoppah koerier. ";
+"bid-received-new-buyer" = "Whoppah! Je hebt een bod.🙌  Accepteer, wijs af of doe een tegenbod. Dit bod is 48 uur is geldig. Deal gesloten? Dan verschijnt er een 'Betalen' knop in de chat bij de Koper. Transport regelen? In de checkout kan de Koper kiezen voor de Whoppah koerier.";
+"bid-sent-new-seller-1" = "Whoppah! Je (tegen)bod is geplaatst! De koper reageert zo snel mogelijk op jouw bod in deze chat door te accepteren, af te wijzen of een tegenvoorstel te doen. Deal gesloten? Dan verschijnt er een 'Betalen' knop in de chat bij de koper.  ";
+"bid-sent-new-simple" = "Je bod is geplaatst.";
+"tafellampen-button" = "Zie alles";
+"funky-vondsten-2-title" = "Funky vondsten";
+"funky-vondsten-2-description" = "Uniek, onconventioneel en ongewoon. Design vol persoonlijkheid en innovatie. Dat is Funky.";
+"funky-vondsten-2-button" = "Bekijk alles";
+"contextual-signup-search-by-photo-title" = "Zoeken aan de hand van een foto? ";
+"contextual-signup-search-by-photo-description" = "Maak een account aan en zoek op basis van foto's";
+"category-acquarel" = "Aquarel";
+"category-bloemen" = "Bloemen";
+"edit-bank-pay-title" = "Wanneer word ik uitbetaald?";
+"my_addresses_address_list_empty" = "We missen nog een adres";
+"main_my_profile_edit_title" = "Jouw Whoppah profiel";
+"edit-bank-edit-details-title" = "Controleer je betaalgegevens";
+"edit-bank-enter-details-title" = "Vul je betaalgegevens in";
+"my_account_new_password" = "Nieuw wachtwoord instellen";
+"my-profile-my-ads-active" = "Actieve advertenties (%d)";
+"my-profile-my-ads-curation" = "Wacht op curatie (%d)";
+"my-profile-my-ads-drafts" = "Opgeslagen advertenties (%d)";
+"my-profile-my-ads-rejected" = "Aanpassingensverzoeken (%d)";
+"my-profile-my-ads-sold" = "Verkocht (%d)";
+"my-profile-my-ads-create-ad-title" = "Verkoop jouw design";
+"my-profile-my-ads-create-ad-description" = "Maak een advertentie aan";
+"my-profile-my-ads-create-ad-button" = "Advertentie aanmaken";
+"my-profile-my-ads-active-screen-title" = "Mijn actieve advertenties";
+"my-profile-my-ads-active-screen-subtitle" = "Deze advertenties staan online";
+"my-profile-my-ads-curation-screen-title" = "Wordt beoordeeld";
+"my-profile-my-ads-curation-screen-subtitle" = "Wacht op feedback van Whoppah curatieteam ";
+"my-profile-my-ads-rejected-screen-title" = "Aanpassing verzocht";
+"my-profile-my-ads-rejected-screen-subtitle" = "Advertenties met aanpassingsverzoek";
+"my-profile-my-ads-draft-screen-title" = "Concepten";
+"my-profile-my-ads-draft-screen-subtitle" = "Opgeslagen advertenties";
+"bloemen-title" = "Bloemen";
+"bloemen-description" = "Help de kwekers en bestel een mooi boeket via de website";
+"bloemen-button" = "Shop nu";
+"material-zijde" = "Zijde";
+"material-polished-steel" = "Gepolijst staal";
+"material-nickel" = "Nikkel";
+"material-aluminium" = "Aluminium";
+"material-bloemen" = "Bloemen";
+"material-laminate" = "Laminaat";
+"category-easy-chairs" = "Gemakkelijke stoelen";
+"style-retro" = "Retro";
+"tabbar_home_title" = "HOME";
+"tabbar_favorites_title" = "FAVORIET";
+"tabbar_sale_title" = "VERKOOP";
+"tabbar_profile_title" = "ACCOUNT";
+"tabbar_chat_title" = "CHAT";
+"search_filters_show_results_btn" = "Toon resultaten";
+"search_filters_clear_btn" = "Wissen";
+"create_ad_select_cat_screen_product_type" = "Producttype";
+"create_ad_select_cat_screen_product" = "Product";
+"create_ad_select_cat_screen_category" = "Categorie";
+"select_all" = "Alles selecteren";
+"search_filters_distance_your_location_title" = "Jouw locatie";
+"search_filters_distance_maximum_distance_title" = "Maximale afstand in KM";
+"search_filters_distance_from_you_title" = "Afstand van jou";
+"search_filters_colors_subtitle" = "Kies de kleuren";
+"search_filters_price_subtitle" = "Gewenste prijs";
+"search_filters_condition_subtitle" = "Kies de minimale conditie";
+"search_filters_price_only_title" = "Prijs";
+"ad_details_distance_with_country_to" = "%1$d km bij jou vandaan in %2$s";
+"common-invalid-address-postcode" = "Onjuiste postcode";
+"create-ad-crop-photo-title" = "Plaats de foto goed";
+"create-ad-crop-photo-description" = "Sleep, vergroot of verklein de foto zodat het item volledig in het vierkant past.";
+"common-save-next-step-button" = "Opslaan en volgende stap";
+"material-chrome" = "Chroom";
+"material-rvs" = "Roestvrij staal";
+"progress_finishing" = "Afwerking...";
+"search-result-save-search-button" = "Sla zoekopdracht op";
+"price-suggestion-button" = "Vraag adviesprijs aan";
+"price-suggestion-upload-photo" = "Upload jouw foto";
+"price-suggestion-button-hint" = "Binnen één werkdag komen we bij je terug";
+"price-suggestion-description-placeholder" = "Omschrijf het product";
+"price-suggestion-bullet-1" = "Merk (indien bekend)";
+"price-suggestion-bullet-2" = "Beschadigingen of niet";
+"price-suggestion-bullet-3" = "Wat belangrijk is volgens u";
+"price-suggestion-title" = "Wat is jouw item waard?";
+"price-suggestion-description" = "Stuur ons één foto en wij brengen vandaag nog een adviesprijs uit om het op Whoppah te verkopen!";
+"price-suggestion-navbar-title" = "Prijsaanvraag";
+"home-price-advice-button" = "Vraag prijsadvies";
+"home-start-selling-button" = "Start met verkopen";
+"price-suggestion-credentials-title" = "Jouw gegevens";
+"material-reed" = "Riet";
+"material-porselein" = "Porselein";
+"question-sent-dialog-text" = "Whoppah! Bericht verzonden \
+Je ontvangt het antwoord per e-mail.";
+"read-more-here" = "Lees hier meer";
+"pdp_view_user_ads_title" = "Bekijk alle advertenties van deze verkoper";
+"pdp_how_whoppah_works_description" = "Vragen over kopen, bezorging of de betaling?";
+"missing_profile_fields" = "Ontbrekend: %@";
+"profile_complete" = "Account compleet";
+"onboarding-new-page1-title" = "Verkopen";
+"onboarding-new-page2-title" = "Kopen";
+"onboarding-new-page3-title" = "Het aanbod op Whoppah is";
+"onboarding-new-page4-title" = "Kosten";
+"onboarding-new-page5-title" = "Transport opties";
+"onboarding-new-page1-bullet1" = "<b>Eenvoudig en gratis</b> een advertentie";
+"onboarding-new-page1-bullet2" = "Bepaal je <b>'verkoop nu' prijs</b> en kies of de koerier het item mag ophalen";
+"onboarding-new-page1-bullet3" = "<b>Whoppah cureert</b> binnen 24 uur";
+"onboarding-new-page1-bullet4" = "Koper betaalt en wij betalen jou binnen 4 a 5 werkdagen NADAT de koper aangeeft het item in goede orde te hebben ontvangen. Dit doet de koper in de chat via de button 'Ontvangen'?";
+"onboarding-new-page2-bullet1" = "<b>Bied conform het minimum aangegeven bedrag of koop direct voor de vraagprijs</b> met de ‘koop nu’ knop. Dit doe je onderaan de product pagina van het item dat je wil kopen ";
+"onboarding-new-page2-bullet2" = "<b>Bod geaccepteerd?</b> Betaal zo snel mogelijk om je aankoop veilig te stellen. In de chat vind je de 'betaal' button die je leidt naar de kassa waar je eveneens de bezorgmethode afrekent ";
+"onboarding-new-page2-bullet3" = "Betaal veilig met <b>iDeal, CreditCard of Bancontact</b>";
+"onboarding-new-page3-bullet1" = "Van bekende <b>designers of merken</b>";
+"onboarding-new-page3-bullet2" = "<b>Minimaal</b> in goede staat";
+"onboarding-new-page3-bullet3" = "<b>Altijd</b> eersteklas";
+"onboarding-new-page3-bullet4" = "<b>Gecureerd</b> door Whoppah";
+"onboarding-new-page5-bullet1" = "<b>PostNL</b> voor pakketpost";
+"onboarding-new-page5-bullet2" = "<b> Koerierservice</b> ophalen & brengen";
+"onboarding-new-page5-bullet-3" = "Verkopers delen <b>track & trace</b> code in de chat";
+"onboarding-new-page4-bullet1" = "Kosteloos een advertentie aanmaken";
+"onboarding-new-page4-bullet2" = "<b>Kopers</b> betalen € 1,99 transactiekosten";
+"onboarding-new-page4-bullet3" = "<b>Zakelijke verkopers</b>  betalen 15% van de vraagprijs excl. BTW";
+"onboarding-new-page4-bullet4" = "<b>Particuliere verkopers betalen</b> 12% van de verkoopprijs";
+"onboarding-new-page4-bullet5" = "<b>Verzendkosten</b> zijn voor de koper";
+"onboarding-new-page5-button" = "Terug naar Whoppah";
+"type-cart-test-title" = "Verkoop nu";
+"type-how-works-test-title" = "Zo werkt Whoppah";
+"popular-categories-title" = "Populaire design categorieën";
+"top-sellers-title" = "Top verkopers";
+"popular-styles-2-title" = "Zoek op stijl";
+"type-1-test-title" = "Nieuwe verkopers op Whoppah.";
+"type-1-test-description" = "Nu te koop: deze design items van Winston & Renate ";
+"hww-selling-title" = "Alles over Verkopen";
+"hww-buying-title" = "Alles over Kopen";
+"hww-bidding-title" = "Alles over Bieden";
+"hww-transport-title" = "Alles over Transport";
+"hww-offer-title" = "Alles over het aanbod op Whoppah";
+"hww-contact-label" = "Contact Whoppah";
+"hww-contact-description" = "Heb je nog vragen? Stuur dan een mail naar support@whoppah.com";
+"hww-about-whoppah" = "Lees alles over Whoppah";
+"hww-selling-section-1-title" = "Advertentie aanmaken";
+"hww-selling-section-1-description" = "<ul>\
+<li> Ga naar ‘Verkoop’ onder in de menubalk </li>\
+<li> Omschrijf het item uitvoerig: de staat, de herkomst, leeftijd en eventueel de kunstenaar</li>\
+<li> Maak of upload 5 goede foto’s: zonder andere items in het zicht tegen een neutrale achtergrond. Vul alle details in zoals gevraagd</li>\
+<li> Bepaal je vraagprijs en geef aan of er geboden mag worden en vanaf welk niveau </li>\
+<li> Bepaal de bezorgmetode. Tip: laat de koper ervoor kiezen om het item op te halen door de koerier </li>\
+<li> Upload je advertentie! Het curatieteam komt er binnen 2 werkdagen op terug!</li>\
+</ul>";
+"hww-selling-section-2-title" = "Kosten";
+"hww-selling-section-2-description" = "<ul>\
+<li> Particulieren: 12% van de verkoopprijs </li>\
+<li> Zakelijke verkopers: 15% van de verkoopprijs </li>\
+<li> Kopers: €1,99 transactiekosten</li>\
+<li> Eventuele creditcardkosten (indien hiermee betaald wordt) worden zichtbaar in de checkout </li>\
+<li> Transportkosten zijn voor de koper </li>\
+</ul>";
+"hww-selling-section-3-title" = "Waar vind ik mijn advertentie?";
+"hww-selling-section-3-description" = "<ul>\
+<li> Ga naar ‘Account’ en vervolgens naar ‘Mijn advertenties’ </li>\
+<li> Advertenties die online staan vind je onder ‘Actieve advertenties’ </li>\
+<li>  Advertenties die jij hebt geupload en door het curatieteam nog beoordeeld worden vind je onder ‘Wacht op curatie’</li>\
+<li> Indien het curatieteam de advertentie heeft beoordeeld en heeft gevraagd om een aanpassing en of toevoeging vind je deze onder ‘Aanpassingsverzoeken’ </li>\
+<li> Advertenties die nog niet zijn ingediend vind je onder ‘opgeslagen advertenties’ </li>\
+</ul>";
+"hww-selling-section-4-description" = "<ul>\
+<li> Ga naar Mijn Account en vervolgens naar Mijn advertenties, ga naar de advertentie en klik vervolgens op het pen icoon om op de advertentie samenvatting te komen. Nu kan je aanpassen wat je wenst. Vergeet niet om de wijzigingen op te slaan. \
+</ul>";
+"hww-selling-section-5-description" = "<ul>\
+<li> Alle biedingen vind je in de ‘Chat’. Klik op het ‘Chat’ icoon onder in de menubalk en klik vervolgens op de binnenkomende chat, daar zie je de biedingen en kan je deze accepteren, afwijzen of een tegenvoorstel doen. Kom je er niet uit? Klik bovenin op HELP en lees alles over de chat.</li>\
+</ul>";
+"hww-selling-section-6-description" = "<ul>\
+<li> Als de koper heeft betaald zie je dit in de chat en ontvang je hierover een mail en zie je dit in de chat</li>\
+<li> Heeft de koper gekozen voor de koerier, dan wordt er contact opgenomen met de verkoper en de koper voor een ophaal- en aflever moment</li>\
+<li> Als het item is overhandigd / afgeleverd dient de koper aan te geven dat deze in goede orde is ontvangen. Dit kan doordat hij op de knop ‘ontvangen’ drukt in de chat</li>\
+<li> De verkoper wordt 4 a 5 werkdagen uitbetaald NADAT de koper heeft aangegeven het item in goede orde te hebben ontvangen</li>\
+</ul>";
+"hww-selling-section-7-description" = "<ul>\
+<li> De verkoper wordt over 4 a 5 werkdagen uitbetaald nadat de koper heeft aangegeven het item in goede orde te hebben ontvangen</li>\
+<li> De betaling aan de verkoper verloopt via Payment service provider Stripe en kan alleen gedaan worden als alle gegevens compleet zijn in jouw account (ook de geboortedatum). Zorg daarom altijd voor een volledig ingevuld accoun.</li>\
+</ul>";
+"hww-selling-section-4-title" = "Hoe wijzig ik mijn advertentie?";
+"hww-selling-section-5-title" = "Waar vind ik mijn biedingen?";
+"hww-selling-section-6-title" = "Item verkocht, wat nu?";
+"hww-selling-section-7-title" = "Wanneer word ik uitbetaald?";
+"hww-buying-section-1-description" = "<ul>\
+<li> Koop het item direct door op de productpagina onderaan op de ‘Koop nu’ knop te klikken en de vraagprijs te betalen </li>\
+<li> Plaats een bod en door op de productpagina onderaan op de ‘Bied nu’ knop te klikken. Is je bod geaccepteerd dan verschijnt er een ‘Betalen’ knop in de chat die leidt naar de kassa’</li>\
+<li> Vul alle gegevens in bij de kassa en kies de bezorgmethode. De kosten hiervoor zijn voor de koper</li>\
+<li> Betaal veilig met jouw favorieten betaalmethode zoals Creditcard, iDeal of Bancontact</li>\
+<li> Whoppah maakt gebruik van de gelicenseerde betaalservice provider Stripe</li>\
+<li> Er kunnen eventuele extra kosten worden gerekend voor het gebruik van de creditcard, dit wordt zichtbaar onder ‘aankoop details’</li>\
+<li> Er wordt €1.99 transactiekosten in rekening gebracht</li>\
+<li> De verkoper wordt pas uitbetaald als de koper heeft aangegeven een item in goede orde te hebben ontvangen</li>\
+<li>Wil je het item eerst bezichtigen? Dat kan! Maak een afspraak met de verkoper en je kan alsnog ter plekke veilig betalen via Whoppah. Voer het bedrag dat jullie zijn overeengekomen onderaan de chat in. De verkoper accepteert en de koper kan betalen via de Betaal button</li>\
+</ul>";
+"hww-buying-section-1-title" = "Zo koop je op Whoppah";
+"hww-bidding-section-1-title" = "Zo werkt bieden";
+"hww-bidding-section-1-description" = "<ul>\
+<li> Plaats een bod door op de ‘Doe een bod’ knop te klikken onderaan de productpagina. Je ziet dan ook vanaf welk bedrag geboden mag worden. Vul jouw bod in het klik op ‘Bied nu’. De verkoper ziet jouw bod binnenkomen</li>\
+<li>Biedingen (gedaan en nieuw) zijn te vinden in de chat over het desbetreffende item. Ga naar chat onderaan de menubalk en klik om de chatconversatie van het desbetreffende item</li>\
+<li>De verkoper kan een bod accepteren (groene knop), afwijzen (rode knop) of een tegenvoorstel doen (onderaan de chat) </li>\
+<li>Zowel koper als verkoper kunnen altijd onderin de chat een nieuw prijsvoorstel doen. Wederom verschijnen er drie opties: accepteren (groene knop), afwijzen (rode knop) of een tegenvoorstel doen (onderaan de chat)</li>\
+<li> Is een bod geaccepteerd dan is er een deal. Er verschijnt dan een ‘Betaalbutton’ in de chat van de koper. De button leidt naar de kassa waar de aankoop afgerond kan worden. Bij de kassa kan de koper ook kiezen voor een bezorgmethode</li>\
+<li>Een (nieuw) prijsvoorstel kan altijd gedaan worden door beide partijen, ook als er al een voorstel in de chat staat. Pas als er op geaccepteerd is geklikt, verschijnt de ‘Betaal button’ en kan er geen nieuw prijsvoorstel meer gedaan worden</li>\
+</ul>";
+"hww-transport-section-1-description" = "<ul>\
+<li> De verkoper bepaalt de verzendmethode en kiest of het door onze koerier mag worden opgehaald en/of door de koper of dat hij het verzendt. De verzend- of koerierskosten worden aan de koper doorberekend</li>\
+<li>Je kan de volgende verzendopties aanvinken: \
+Jij verzendt met pakketpost (vanaf € 6,95). Doe dit alleen als het met de post mee kan en niet zwaarder is dan 10 kilo. \
+Jij verzendt aangetekend met pakketpost (vanaf € 10). De koper moet tekenen voor ontvangst. Doe dit alleen als het met de pakketpost mee kan en niet zwaarder is dan 10 kilo. \
+Laat de koper gebruik maken van de Whoppah koeriersservice. Het item wordt bij jou opgehaald en bij de verkoper (in heel Nederland) gebracht vanaf € 69. Wij nemen contact met je op om de dag van pick up te plannen</li>\
+<li>Jij regelt de verzending en vult zelf een tarief in</li>\
+<li>Let op!: Neem eventuele verpakkingskosten mee in de verkoopprijs indien je dat nodig acht. Als je kiest voor pakketpost, zorg dat je een item zeer goed inpakt. Het postbedrijf moet het kunnen stapelen</li>\
+</ul>";
+"hww-offer-section-1-description" = "<ul>\
+<li> Op Whoppah wordt het aanbod gekeurd door het Whoppah curatieteam. Dat betekent dat alle advertenties worden beoordeeld en wij kunnen besluiten advertenties niet te plaatsen of vragen om een aanpassing (zoals een een betere foto en of omschrijving)</li>\
+<li>Op Whoppah moet de staat minimaal goed zijn. Daar moeten kopers van op aan kunnen. We accepteren geen grove beschadigingen of kapotte items</li>\
+<li>Wij accepteren alleen design items van bekende en erkende designmerken en/of ontwerpers, vintage items en kunst. In het geval van vintage of handgemaakte items kijken wij naar: het ontwerp, de periode van fabricage, de staat en de originaliteit/bijzonderheid</li>\
+<li>Wij kijken naar populariteit en of er vraag naar is op ons Whoppah</li>\
+<li>Wij kijken naar de advertentie: volledigheid, omschrijving, bewijs van originaliteit en kwaliteit van de foto’s</li>\
+</ul>";
+"hww-transport-section-1-title" = "Hoe plan ik transport?";
+"hww-offer-section-1-title" = "Wat kan ik vinden en verkopen op Whoppah?";
+"common_germany" = "Duitsland";
+"popular-categories-2-title" = "Populaire categorieën ";
+"ad-details-seller-all-ads" = "Bekijk alle advertenties van deze verkoper";
+"ad-details-hww-subtitle" = "Vragen over kopen, bezorging of de betaling?";
+"my_account_notification_settings_email_title" = "Email instellingen";
+"hww-selling-screen-title" = "Lees alles over verkopen";
+"hww-buying-screen-title" = "Lees alles over Kopen";
+"hww-bidding-screen-title" = "Lees alles over Bieden";
+"hww-transport-screen-title" = "Lees alles over Transport";
+"hww-offer-screen-title" = "Lees alles over het aanbod op Whoppah";
+"winston-renate-title" = "Nieuwe verkopers op Whoppah";
+"winston-renate-description" = "Shop nu deze design items van Winston & Renate Gerschtanowitz";
+"winston-title" = "Winston & Renate Gerschtanowitz";
+"common_france" = "Frankrijk";
+"common_italy" = "Italië";
+"style-italian-design" = "Italiaans Design";
+"style-space-age" = "Space Age";
+"style-bauhaus" = "Bauhaus";
+"style-dutch-design-style" = "Dutch Design";
+"style-chesterfield" = "Chesterfield";
+"style-organic-modern" = "Organic Modern";
+"style-tribal" = "Tribal";
+"style-collectors-item" = "Collector's item";
+"auth_sign_up1_name" = "Profielnaam";
+"ad-details-place-bid-button" = "Plaats bod";
+"auth-forgot-pass-success-title" = "Wachtwoord reset aangevraagd";
+"auth-forgot-pass-success-description" = "We hebben je een email gestuurd met een link waarmee jij je wachtwoord kan resetten.";
+"auth-forgot-pass-success-sign-in-button" = "Opnieuw inloggen";
+"category-eetkamerset" = "Eetkamerset";
+"ad_details_shipment_section_title" = "Verzending";
+"create-ad-how-works-video-label" = "Weten hoe het werkt? Bekijk de video!";
+"home_menu_btn" = "MENU";
+"payment-method-sofort" = "Sofort";
+"payment-method-giropay" = "Giropay";
+"uitgelicht-title" = "Uitgelicht!";
+"menu_option_contact" = "Contact";
+"menu_option_profile" = "Mijn Profiel ";
+"menu_option_chat" = "Chats & Biedingen";
+"menu_option_categories" = "Categories";
+"contact-title" = "Contact";
+"contact-description" = "Heb je een vraag? Neem contact op met het Whoppah support team. Wij zijn bereikbaar van maandag tot en met vrijdag van 09.00 uur tot en met 17.30 uur. \
+\
+U kunt ons bereiken op: 020 244 46 93 of mail naar support@whoppah.com.";
+"contact-phone-button" = "Bel nu met Whoppah";
+"contact-email-button" = "Stuur Whoppah een mail";
+"whoppah-phone-number-intl" = "020 244 46 93";
+"email-not-setup-error" = "E-mail is niet ingesteld op dit apparaat";
+"contact-email-subject" = "App feedback";
+"contact-email-to" = "support@whoppah.com";
+"category-bankstel" = "Bankstel";
+"style-1970" = "70's design";
+"style-1980" = "80's design";
+"style-1990" = "90's design";
+"style-1960" = "60's design";
+"style-memphis" = "Memphis";
+"my_subscriptions_button_box_title" = "Stel een zoekopdracht in";
+"my_subscriptions_button_box_description" = "Wij sturen een mail als we een match hebben";
+"my_subscriptions_title" = "Bekijk en wijzig zoekopdrachten";
+"toast-save-see-all" = "Zie alles";
+"read-more" = "Lees verder";
+"how-can-we-help" = "Hoe kunnen we u helpen?";
+"search_filters_country" = "Land";
+"search_fb_save_search" = "Informeer mij";
+"chat-bottom-view-receive-button" = "Heb je het item ontvangen?";
+"chat-botton-view-transaction-complete" = "Transactie afgerond!";
+"save-search-confirm-title" = "Do you want to save this search?";
+"save-search-confirm-body" = "You will be emailed with matches to your search. You can manage searches from within your Whoppah profile.";
+"contextual-signup-search-results-title" = "Search alerts requires an account";
+"contextual-signup-search-results-description" = "Sign in to receive alerts whenever an item matches your search!";
+"search-alert-save-tip" = "Sla hier deze zoekopdacht op. Wij sturen je een mail als we een vergelijkbaar item hebben.";
+"faq-topic-answer-text" = "Het Whoppah support team is tijdens kantooruren telefonisch bereikbaar via 020 244 46 93";
+"about-whoppah" = "Over Whoppah";
+"about-welcome-text-1" = "Wij zijn dé veilige marktplaats voor tweedehands design meubels en kunst. Whoppah brengt het mooiste design aanbod van consumenten en professionele verkopers in Europa samen op één platform. Bij ons vind je moderne design meubels, vintage klassiekers en een diversiteit aan kunst. Wij  controleren het aanbod, waarborgen veilig handelen en bieden gemak en met koerier service die verkopen ophaalt en brengt. Met een uniek aanbod van meer dan 1.000 professionele verkopers en duizenden particulieren is Whoppah al voor meer dan een miljoen gebruikers de schatkamer van het internet.";
+"about-welcome-text-2" = "Whoppah is in 2019 gelanceerd door Thomas Bunnik en Evelien Bunnik-Remmelts met het doel om mensen te stimuleren en te faciliteren in het eenvoudig online handelen in tweedehands design en kunst. Het Whoppah team bestaat uit 45 enthousiaste design liefhebbers en samen hebben we één missie: het verhandelen van tweedehands design in heel Europa zo leuk en zo gemakkelijk mogelijk maken. Heb jij misschien ergens nog een mooi item staan waar je misschien wel vanaf wilt? Zet het op Whoppah!";
+"about-welcome-title" = "Welkom in de wereld van Whoppah";
+"about-contact-title" = "Contact met Whoppah Support Team";
+"about-contact-press-headline" = "Whoppah in de media";
+"about-contact-suggestion" = "Heb je een vraag, tip of een suggestie? Dan horen wij dat graag! Neem contact met ons op via:";
+"about-contact-office-hours" = "Whoppah is van maandag tot en met vrijdag bereikbaar tijdens kantooruren op: 020 244 46 93.";
+"create-ad-photos-preview-title" = "Dit is jouw cover foto";
+"create-ad-photos-preview-description" = "Klik op de pen om deze te bewerken zoals inzoomen en uitzoomen.";
+"mad-men-title" = "Mid Century Modern";
+"mad-men-products-title" = "Shop Mad Men Madness";
+"mad-men-description" = "Shop het mooiste design uit het midden van 20e eeuw. ";
+"auth_sign_up_quick_sign_up" = "Snel inloggen";
+"caroline-title" = "Shop design van Caroline Tensen";
+"style-opknappers" = "Opknappers";
+"signup-agree-stripe-terms-part-3" = "van payment service provider Stripe";
+"signup-agree-stripe-terms-part-1" = "Ik ga akkoord met de";
+"signup-agree-stripe-terms-part-2" = "algemene voorwaarden";
+"signup-agree-whoppah-terms-part-1" = "Ik ga akkoord met de";
+"signup-agree-whoppah-terms-part-2" = "gebruiksvoorwaarden";
+"signup-agree-whoppah-terms-part-3" = "en het";
+"signup-agree-whoppah-terms-part-4" = "privacy policy";
+"signup-agree-whoppah-terms-part-5" = "van Whoppah.";
+"style-modernisme" = "Modernisme";
+"style-hedendaags" = "Hedendaags";
+"category-relaxstoel" = "Relaxstoel";
+"category-illustraties" = "Illustraties";
+"category-karretjes" = "Serveerwagens ";
+"category-tijdschriftenrek" = "Tijdschriftenrek";
+"category-console" = "Console";
+"style-graffiti-street-art" = "Graffiti & Street Art";
+"style-geometrisch" = "Geometrisch";
+"material-brass" = "Brass";
+"material-murano-glas" = "Murano Glas";
+"style-parisian-style" = "Parisian style";
+"common-buy-now-price" = "Koop nu %@";
+"style-brutalist" = "Brutalist";
+"listing-no-search-results-heading" = "We hebben geen resultaten voor \"%@\"";
+"material-messing" = "Messing";
+"style-chesterfield-2" = "Chesterfield";
+"style-brutalist-2" = "Brutalist";
+"category-opknappertjes" = "Opknappertjes";
+"common-sort-by" = "Sorteer op";
+"delivery-methods-page-method-package-title" = "Pakket 0 - 10 kg";
+"delivery-methods-page-method-package-dimensions" = "max. 100 × 50 × 50 cm";
+"delivery-methods-page-method-registered-title" = "Pakket aangetekend 10 - 23 kg";
+"delivery-methods-page-method-registered-dimensions" = "max. 176 × 78 × 58 cm";
+"italiaans-design-title" = "Italiaans design";
+"italiaans-design-description" = "Elegant, stijlvol en tijdloos";
+"italiaans-design-button" = "Bekijk het hier";
+"graphic-patterns-title" = "Graphics & patterns";
+"graphic-patterns-description" = "Excentriek en uniek voor een wow-effect";
+"graphic-title" = "Onze graphic & patterns selectie";
+"label-new" = "Nieuw";
+"label-best-deal" = "Beste deal";
+"label-100-authenticated" = "100% Authentiek";
+"label-award-winning-design" = "Iconische stoelen";
+"label-collectors-item" = "Collector's item";
+"label-expert-seller" = "Expert seller";
+"label-gallery-piece" = "Gallery piece";
+"label-good-deal-alert" = "Koopje!";
+"label-whoppah-loves" = "Whoppah Loves";
+"label-sale" = "In prijs verlaagd";
+"chat-first-text-message-buyer-title" = "Whoppah legt uit!";
+"chat-first-text-message-buyer-body" = "- Een bod doen? Plaats deze eenvoudig onderaan de chat in het invoerveld voor bieden.\
+- Betaal altijd veilig via Whoppah. Ook als je het item ophaalt, betaal dan vooraf om zeker te zijn van jouw aankoop of voer ter plekke jouw bod in. Niet in orde, geld terug.  \
+- Koerierservice? Onze Whoppah koeriers kunnen aankopen verzekerd bezorgen én controleren ter plekke nog even de staat. De bezorging bestel je in de checkout. De koerier neemt daarna contact op met koper en verkoper om levering te plannen. Zorg dat je telefoonnummer in jouw account staat.";
+"reviews-title" = "Whoppah reviews";
+"reviews-description" = "Lees hier over de ervaringen van verkopers én kopers met Whoppah. Wil jij ook een review achterlaten? Stuur deze naar support@whoppah.com";
+"review-text-1" = "Ik kwam op Whoppah dé stoel tegen die ik al jaren zocht. De Elda Chair van Joe Colombo. De aardige verkoper had de stoel, in tiptop staat,  al 15 jaar in zijn bezit en had hem nu te koop gezet. Toen ik ben gaan kijken, was ik gelijk verkocht. En super bezorging met de Whoppah koerier. Helemaal blij mee. ";
+"review-members-year" = "Lid sinds";
+"review-text-2" = "Whoppah! Wat een team. Ik heb 's avonds laat en in het weekend direct contact met verschillende mensen. Erg goede service! Ga zo door!";
+"review-text-3" = "Ik verkoop hier al sinds vorig jaar en vind de service geweldig. Bovendien kom ik hier in contact met mensen die mijn aanbod op waarde schatten. De afwikkeling van betaling via Whoppah tot levering bij de klant door Whoppah is als een kers op de taart. Dat maakt het voor mij als verkoper erg eenvoudig.";
+"review-text-4" = "Zeer goed geholpen met vragen en de aankoop van een fauteuil die binnen 2 dagen werd afgeleverd door de nette koerier van Whoppah. Keurig geregeld! Ik raad het zeer aan.";
+"review-text-5" = "Vanaf het eerste uur actief op Whoppah en altijd zeer goed contact onderhouden met de founders van WhoppahThomas en Evelien.  Ik heb veel items snel en succesvol verkocht. Voor mij als verkoper is het een uitkomst! Whoppah neemt alle tips en suggesties van mij als verkoper ter harte en het hele team werkt heel hard om erg een groot succes van te maken. ";
+"review-text-6" = "Recensie van een verkoper (Vintrieur): 5 sterren. Zoals vaker bij een nieuw vintage interior platform had ik even hinder van koud water vrees. Blijkbaar had ik al enkele items geupload en zonder het te weten werd er een niet-te-weigeren bod gedaan. Mijn 1e Whoppah verkoop was een feit! Erg snel en het bied-systeem waarin kopers een bindend bod kunnen doen, werkt blijkbaar goed. Voor kopers is het spannend om invloed te hebben in een gunstigere koopprijs. Dit bieden is niet uniek (1stDibs, Selency ea), maar Whoppah is het 1e NL'se handelsplatform die deze functie biedt. Een andere (grote) kracht van Whoppah is het gebruikersgemak -en dus snelheid- van het uploaden van jouw producten. Wie weet komt er nog auto-upload, maar tot die tijd vind ik dat Whoppah dit wint van grote jongens die geen auto upload hebben, zoals Pamono, Selency ea bekende platformen. Aanrader verkopers!";
+"review-text-7" = "Sinds april 2020 maak ik met veel succes en enthousiasme gebruik van het Whoppah platform voor de verkoop van kunst waar ik zelf geen plek meer voor heb. Het hele voortraject van aanmaken account en advertenties bleek verrassend eenvoudig. De presentatie van werken op de site komt goed over en blijkt heel succesvol. Na nu bijna tien geslaagde transacties kan ik ook zeggen dat de afwikkeling van deal tot en met uitbetaling probleemloos en snel is verlopen. Ik kan Whoppah met overtuiging van harte aan iedereen aanbevelen!";
+"review-text-8" = "Super geholpen door het team van Whoppah bij de verkoop van een aantal interieur items.  Snel verkocht én netjes opgehaald door de koerier. Ideaal :-) Ga zo door!";
+"review-text-9" = "Whoppah was helemaal nieuw voor mij. Een vriend raadde het aan. Ik had er van meet af aan vertrouwen in, omdat het een mooie site is met een goede service op de achtergrond. Het systeem van betalen via Whoppah is ook plezierig en veilig.";
+"review-text-10" = "Whoppah - de naam zegt het al! Whoowwww en hoppaaah. Wat een genot, wat een aanbod, opeens de coolste gave design meubels voor een leuke prijs binnen handbereik! En wat een opluchting om onze aarde te helpen door dit circulaire aanbod. Er is veel aanbod, ‘van alles wat wils’. Ik heb hele goede ervaring gehad met zowel aankoop als verkoop. Goede praktische simpele app. Ik vond een mooie tweedehands bank, en meteen na aankoop belde er een hele aardige koerier, om een afspraak te maken voor bezorging. Het is echt bijzonder, tweedehands kopen betekent niet iets ‘afgedankt’ maar een ‘meubel met een verhaal, met een emotie’. Hoe leuk is dat? Wel wat bijzonderder dan een energieloze, saaie Ikea bank. Met de verkoop ademdito. Ik was verhuisd en had meerdere mooie hanglampen, iets wat normaal dan zijn dood sterft. En nu… Een tweede leven bij een leuke vrouw, die haar nieuwe appartement moest inrichten! Betalen gaat efficient, is betrouwbaar, en service van levering is top! Ik zeg Whoooooooow hoppaah!";
+"material-fiberglass" = "Glasvezel";
+"material-copper" = "Koper";
+"materials-brass-2" = "Messing";
+"material-bamboo" = "Bamboe";
+"material-polyester" = "Polyester";
+"glas-title" = "Grandioos Glas";
+"glas-description" = "Bekijk de mooiste items van glas";
+"glas-button" = "Bekijk alles";
+"get-the-look-2-title" = "Get the look";
+"similar-items-title" = "Vind je dit ook mooi?";
+"storage_page_title" = "Verkoop je item vanuit onze showroom!";
+"storage_page_subtitle" = "We halen het op, maken top foto's en verkopen jouw item. ";
+"storage_page_section1_title" = "Wat houdt het in?";
+"storage_page_section1_description" = "Wil je direct van jouw meubel of kunststuk af? Whoppah heeft een exclusieve verkoopservice. Wij halen jouw item(s) op en helpen je om het sneller te verkopen. We verbeteren je advertentie en plaatsen je item online én in onze showroom waar kopers het kunnen bezichtigen.";
+"storage_page_action_button" = "Vraag nu aan";
+"storage_page_section_1_point_1" = "We nemen contact met je op om de pick up te plannen";
+"storage_page_section_1_point_2" = "Wij brengen het naar de Whoppah Showroom in Oude Meer nabij Schiphol";
+"storage_page_section_1_point_3" = "Wij maken professionele foto’s en maken voor jou een advertentie aan of verbeteren je advertentie op Whoppah";
+"storage_page_section_1_point_4" = "Wij slaan het item op totdat het verkocht is of jij het weer laat retourneren of het zelf ophaalt";
+"storage_page_cost_title" = "Kosten";
+"storage_page_cost_item_label_1" = "Koerier haalt op";
+"storage_page_cost_item_value_1" = "€79";
+"storage_page_cost_item_label_2" = "Wij maken professionele foto’s, maken een mooie advertentie aan én stallen het in de showroom. ";
+"storage_page_cost_item_value_2" = "Gratis";
+"storage_page_cost_item_label_3" = "Commissie bij succesvolle verkoop";
+"storage_page_cost_item_value_3" = "25%";
+"storage_page_cost_item_label_4" = "Opslaan item tot 2 meter";
+"storage_page_cost_item_value_4" = "€7,50 per week";
+"storage_page_section2_question_1" = "Wat mag er in de Whoppah Showroom?";
+"storage_page_section2_answer_1" = "Alle design meubelen en kunst die op Whoppah te koop aangeboden kunnen worden. Dat betekent dat ze moeten voldoen aan onze <1>curatieregels</1>.";
+"storage_page_section2_question_2" = "Wat zijn de kosten voor plaatsing in de Showroom?";
+"storage_page_section2_answer_2" = "Je betaalt geen plaatsingskosten. Wij vertrouwen op ons curatiebeleid en verwachten dat je item snel wordt verkocht.";
+"storage_page_section2_question_3" = "Wat als mijn item na 3 maanden nog niet is verkocht?";
+"storage_page_section2_answer_3" = "Je vraagprijs wordt na 3 maanden met 25% verlaagd om een snellere verkoop te realiseren. Je item mag vervolgens net zo lang blijven staan tot het is verkocht.";
+"storage_page_section2_question_4" = "Wat als iemand naar mijn item wil komen kijken?";
+"storage_page_section2_answer_4" = "Bij Whoppah kunnen alle items dagelijks worden bezichtigd. De potentiële koper kan hiervoor een afspraak maken met het Whoppah support team. Wij begeleiden potentiële kopers ter plekke als zij een bod willen doen of het item willen aanschaffen. ";
+"storage_page_section3_question_1" = "Wat als mijn item beschadigd raakt?";
+"storage_page_section3_answer_1" = "Om het moment van ophalen, maken wij foto’s van het item en omschrijven wij uitvoerig de staat waarin wij het item meenemen. U tekent daar ook voor. Mocht er tijdens het transport of in de opslag iets misgaan dan is Whoppah daarvoor verzekerd. ";
+"storage_page_section3_question_2" = "Mag ik zelf de vraagprijs bepalen?";
+"storage_page_section3_answer_2" = "Jij bepaalt zelf de vraagprijs en of er mag worden geboden en zo ja vanaf hoeveel. Mocht deze onrealistisch zijn in onze optiek dan kan het zijn dat we het item niet in onze Showroom opnemen. Het moet tenslotte wel worden verkocht.";
+"storage_page_section3_question_3" = "Wat als ik al een advertentie heb staan?";
+"storage_page_section3_answer_3" = "Wij maken de advertentie nog mooier met goede foto’s en plaatsen deze weer bovenaan de lijst zodat je nog sneller verkoopt.";
+"storage_page_section3_question_4" = "Mag ik mijn item ook brengen?";
+"storage_page_section3_answer_4" = "Je mag het item ook altijd zelf komen afleveren.";
+"storage_page_cost_item_label_5" = "Opslaan item 2 meter en langer";
+"storage_page_cost_item_value_5" = "€9 per week";
+"seo_storage_page_title" = "Whoppah opslag en verkoopservice voor tweedehands meubels en kunst";
+"storage_page_request_form_title" = "Vraag de opslag en verkoopservice aan";
+"storage_page_section2_question_5" = "Betaal ik een commissie als mijn item is verkocht?";
+"storage_page_section2_answer_5" = "Bij verkoop rekenen we een commissie van 29% van de verkoopprijs.";
+"delivery-methods-page-distance-to-2-title" = "tot 149 cm";
+"delivery-methods-page-distance-to-2-cost" = "89 euro";
+"delivery-methods-page-distance-from-2-title" = "vanaf 150 cm";
+"delivery-methods-page-distance-from-2-cost" = "129 euro";
+"delivery-methods-page-distance-to-belgium-title" = "Nederland-België";
+"delivery-methods-page-distance-to-belgium-cost" = "129 euro";
+"chat-delivery-options-description" = "De volgende bezorgmethoden zijn beschikbaar. Afrekenen doe je bij de kassa. ";
+"category-stoelen-fauteuils" = "Stoelen / fauteuils";
+"category-tuinmeubelen" = "Tuinmeubelen";
+"category-bedden" = "Bedden";
+"hero-usp-item-4" = "Veilig betalen";
+"number_of_items" = "Aantal stuks";
+"nav-new-in" = "Nieuw binnen";
+"nav-faq" = "Veel gestelde vragen";
+"nav-payment" = "Zo werkt betalen";
+"nav-shipping" = "Bezorgmethoden";
+"payment-page-title" = "Alles over betalen op Whoppah";
+"buyers-pay-safely-title" = "Koper betaalt veilig";
+"buyers-pay-safely-description" = "Is er een deal? Dan betaalt de koper altijd veilig via Whoppah. Dit kan met jouw vertrouwde betaalmethode naar keuze. Pas als je hebt betaald, kan je er zeker van zijn dat het voor jou is. Betalingen buiten Whoppah om zijn niet toegestaan. ";
+"money-safe-title" = "Geld veilig bij Whoppah";
+"money-safe-description" = "Het geld komt tijdelijk op een tussenrekening te staan. De verkoper weet zeker dat er is betaald en de koper weet zeker dat er geleverd wordt. Zo waarborgen we veilig handelen.";
+"buyers-confirm-title" = "Koper bevestigt ontvangst";
+"buyers-confirm-description" = "De koper geeft binnen 10 dagen (in de chat) aan Whoppah aan dat de aankoop in goede orde is ontvangen en wij betalen de verkoper uit. Geeft de koper niets aan, dan betalen wij alsnog na 10 dagen uit. Is er iets mis gegaan? Dan schieten wij te hulp om te bemiddelen. Is het item niet in orde en wijkt het af van de advertentie? Dan krijgt de koper zijn geld terug. \
+";
+"sellers-get-paid-title" = "Verkoper uitbetaald";
+"sellers-get-paid-description" = "De verkoper wordt uitbetaald. Let op: zorg ervoor als verkoper dat alle gegevens in jouw account compleet zijn. Alleen dan kan de uitbetaling in goede orde plaatsvinden. Het bedrag staat, na bevestiging van de koper, binnen 5 dagen op jouw rekening. ";
+"shipping-page-title" = "Bezorgmethoden op Whoppah";
+"whoppah-courier-title" = "Whoppah koerier";
+"whoppah-courier-description" = "Mooi item gescoord? Laat je item veilig en verzekerd thuisbezorgen met de Whoppah koerierservice. Onze koeriers zijn ervaren transporteurs en erg behulpzaam. Profiteer van onze eersteklas service:\
+\
+- Verzekerd geleverd\
+- Koerier komt langs op een moment dat jou uitkomt\
+- Koerier checkt of het item overeenkomt met de advertentie\
+- Geleverd tot in huis\
+\
+De service is beschikbaar vanaf € 89 per item in Nederland en vanaf € 129 voor België, afhankelijk van de grootte van het item. Goed om te weten: onze koeriers (de)monteren geen items. De koerierservice kan worden toegevoegd aan je item in de check out, of boek de service los via de onderstaande knop.";
+"book-courier-now" = "Boek nu de koerier";
+"post-package-title" = "Pakketpost";
+"post-package-description" = "Verzenden met pakketpost kan vanaf €7,25 voor items die niet zwaarder zijn dan 10 kilo. Let op: pak een item altijd heel goed in zodat het niet beschadigd tijdens het verzenden. De verkoper schiet de verzendkosten voor en krijgt deze uitbetaald met de verkoopopbrengst. Whoppah is niet aansprakelijk voor eventuele schade of verlies dat ontstaat tijdens verzending per post. Wil je zeker zijn dat je item goed aankomt? Dan adviseren wij gebruik te maken van de verzekerde Whoppah koerierservice.";
+"pick-up-title" = "Zelf ophalen";
+"pick-up-description" = "De koper kan er ook voor kiezen om het item zelf op te halen. Maak een afspraak met de verkoper via de chat! Betaal altijd van de te voren via Whoppah. Controleer het item goed bij het ophalen. Niet goed bij pick up en neem je het item niet mee? Dan krijg jij je geld terug van Whoppah.";
+"international-shipping-title" = "Internationale verzending";
+"international-shipping-description" = "Whoppah verzendt wereldwijd. Intercontinentale transporten worden individueel berekend afhankelijk van de afstand, gewicht en afmetingen van het item. Vraag een passende quote op bij het Whoppah support team.";
+"price-request" = "Vraag offerte aan";
+"curation-page-title" = "Curatieregels";
+"photography-title" = "Goede kwaliteit foto's";
+"photography-description" = "Foto's zijn het visitekaartje van een advertentie. Goede kwaliteit foto's zijn enorm belangrijk en dragen bij aan een snelle verkoop. Wist je dat je met goede foto's 3 keer zo snel verkoopt? Zorg voor voldoende daglicht, fotografeer niet tegen het licht in, zorg dat het item er in zijn geheel goed opstaat en zorg voor een neutrale achtergrond. Wij willen dat kopers een goede én volledige indruk krijgen van een item en daarom cureren wij op foto's. ";
+"good-condition-title" = "Minimaal goede staat";
+"good-condition-description" = "Dit moet minimaal ‘goed’ zijn. Geen grove beschadigingen, kapotte items, onoverkomelijke vlekken of slijtage.";
+"design-or-unique-vintage-title" = "Dit is design en kunst op Whoppah";
+"design-or-unique-vintage-description" = "Is het een designmerk zoals Vitra, Rolf Benz, B&B Italia, Artifort of Moooi? In het geval van vintage, antiek of handgemaakt kijken wij naar het ontwerp, de periode van fabricage, de staat in verhouding tot de leeftijd van het item en de bijzonderheid. In het geval van kunst kijken we naar de achtergrond van de kunstenaar en de kwaliteit. Daarbij geven we de voorkeur aan tweedehands kunst. ";
+"full-description-title" = "Geef een volledige omschrijving";
+"full-description-description" = "Hoe meer informatie, hoe sneller verkocht. Geef het volgende aan: de leeftijd, waar het item is gekocht, de aanschafprijs, de staat en eventuele bijzonderheden.";
+"demand-vintage-title" = "Verkoopkans";
+"demand-vintage-description" = "We kijken of een item gewild is en daarmee ook de kans groot is dat het snel wordt verkocht op Whoppah. Dit beoordeelt ons curatieteam. Merken wij dat er minder vraag is naar bepaalde items, dan kan het zijn dat wij het aanbod daar niet mee uitbreiden.";
+"appropriate-price-title" = "Passende vraagprijs";
+"appropriate-price-description" = "Is de prijs marktconform? Houd rekening met dat van de originele prijs gemiddeld 50% - 70% afgaat binnen 3 jaar. In het geval van kunst, vintage of unieke design items kijken we naar de marktprijzen.";
+"common-create-account" = "Maak account aan";
+"common-close" = "Sluit";
+"place-bid-title" = "Plaats een bod of koop direct";
+"place-bid-description" = "Plaats eenvoudig een bod via de productpagina of in de chat met de verkoper. \
+\
+Is het bod geplaatst, dan sturen wij de verkoper hierover een bericht.\
+\
+Je kunt een bod altijd terugvinden in de chat met de verkoper.   \
+\
+In sommige gevallen is het niet mogelijk om een bod te plaatsen, dan heeft de verkoper ervoor gekozen alleen te verkopen voor de Koop Nu prijs.";
+"48-hours-valid-title" = "48 uur geldig";
+"48-hours-valid-description" = "Een bod is 48 uur geldig. Dat betekent dat de verkoper 48 uur de tijd heeft om te reageren en het bod kan accepteren of een tegenvoorstel kan doen. Is het bod geaccepteerd dan is er een deal. \
+\
+Is het bod verlopen, dan kan zowel de koper als verkoper via de chat altijd opnieuw een bod uitbrengen. Deze is opnieuw 48 uur geldig.";
+"counterbid-title" = "Tegenbod";
+"counterbid-description" = "Als de verkoper een bod ontvangt kan hij altijd een tegenbod doen aan de koper. De koper krijgt hiervan bericht via ons. De koper kan het tegenbod accepteren of weer een tegenbod doen. Zo kan er eenvoudig via de chat worden onderhandeld.\
+\
+Voer het tegenbod altijd in het daarvoor bestemde invoerveld! ";
+"deal-is-deal-title" = "Deal is deal";
+"deal-is-deal-description" = "Op Whoppah geldt: deal is deal. Is een bod geaccepteerd dan is er een deal en dient de koper de betaling te voldoen. De koper ziet de betaalknop in de chat en kan eenvoudig en veilig betalen via Whoppah! ";
+"bidding-page-title" = "Zo werkt bieden";
+"how-whoppah-works-title" = "Zo werkt Whoppah";
+"nav-bidding" = "Zo werkt bieden";
+"ad_details_member_since_short" = "Sinds %@";
+"ad_details_member_verified" = "Erkende professionele verkoper";
+"create-ad-intro-1-title" = "Maak eenvoudig een advertentie aan.";
+"create-ad-intro-1-subtitle" = "Maak goede foto's";
+"create-ad-intro-2-title" = "Omschrijf wat je wilt verkopen";
+"create-ad-intro-2-subtitle" = "Vul zo veel mogelijk gegevens in";
+"create-ad-intro-3-title" = "";
+"create-ad-intro-3-subtitle" = "";
+"create-ad-intro-4-title" = "";
+"create-ad-intro-4-subtitle" = "";
+"search_sort_popularity_highest_first" = "Populariteit - hoogste eerst";
+"search_sort_popularity_lowest_first" = "Populariteit - laagste eerst";
+"category-lithos" = "Litho's";
+"category-etsen-prenten" = "Etsen & prenten";
+"dutch-design-style-button" = "Bekijk alles";
+"dutch-design-style-title" = "Dutch Design";
+"dutch-design-style-description" = "Waar wij wereld beroemd om zijn: Dutch Design. Bekijk het mooiste design van Nederlandse bodem. ";
+"category-consoles" = "Consoles";
+"checkout-payment" = "Ga naar betalen";
+"checkout-secure-payment" = "Dit is een beveiligde betaalomgeving";
+"checkout-usp-1" = "Meer dan 25.000 tevreden klanten";
+"checkout-usp-2" = "Niet in orde, geld terug";
+"checkout-usp-3" = "Bel ons: 020 244 46 93";
+"checkout-personal-info" = "Mijn gegevens";
+"checkout-delivery-method" = "Ophalen of bezorgen";
+"checkout-pickup" = "Haal op in %s";
+"checkout-courier" = "Whoppah koerier";
+"checkout-courier-description" = "Vul hieronder jouw adres in om de bezorgkosten te berekenen. ";
+"checkout-postal" = "Pakketpost";
+"checkout-postal-description" = "Vul hieronder jouw adres in om de bezorgkosten te berekenen. ";
+"checkout-courier-proposal-title" = "Zorgeloze bezorging? Kies de Whoppah koerier";
+"checkout-courier-proposal" = "Wij halen het item op bij de verkoper en brengen het naar jou! Wel zo makkelijk. Na betaling krijg je een e-mail om het bezorgmoment in te plannen. ";
+"checkout-courier-proposal-1" = "Verzekerd transport";
+"checkout-courier-proposal-2" = "Zorgvuldig bezorgd door onze ervaren couriers";
+"checkout-delivery-address" = "Bezorgadres";
+"checkout-promo-code" = "Heb je een kortingscode?";
+"checkout-add-promo-code" = "Voeg kortingscode toe";
+"checkout-pick-promo-code" = "Kies uit je beschikbare kortingscodes";
+"checkout-subtotal" = "Subtotaal";
+"checkout-delivery-fee" = "Bezorgkosten";
+"checkout-pickup-description-web" = "Gratis";
+"checkout-promo-code-question" = "Heb je een kortingscode?";
+"checkout-total" = "Totaal";
+"checkout-summary" = "Bestelling overzicht";
+"checkout-payments" = "Betaalmethoden";
+"ad_details_description_section_translate" = "Vertaal";
+"product-shipping-from" = "Naar";
+"auth-sign-in-google" = "Inloggen met Google";
+"auth-sign-in-facebook" = "Inloggen met Facebook";
+"Shipping-product-pickup" = "Haal het zelf op in:";
+"PDP-popup-go-back-to-ad" = "Terug naar advertentie";
+"PDP-popup-bidding-title" = "Zo werkt bieden";
+"PDP-popup-bidding-subtitle-1" = "Een bod is 48 uur geldig";
+"PDP-popup-bidding-description-1" = "De verkoper kan jouw bod accepteren, afwijzen of een tegenvoorstel doen.";
+"PDP-popup-bidding-subtitle-2" = "Onderhandel in de chat";
+"PDP-popup-bidding-description-2" = "Biedingen zijn zichtbaar in de chat met de verkoper. Ga naar Mijn Chats & Biedingen om deze in te zien.";
+"PDP-popup-bidding-subtitle-3" = "Tegenbod";
+"PDP-popup-bidding-description-3" = "Een tegenbod plaats je onderin de chat met de verkoper. Let op: doe dit in het invoerveld voor het bod!";
+"PDP-popup-bidding-subtitle-4" = "Deal is deal";
+"PDP-popup-bidding-description-4" = "Als de verkoper jouw bod accepteert, is er een deal en dien je de betaling via Whoppah te voldoen. Dit doe je via de betaalknop in de chat. Bij de kassa kies je de bezorgmethode.";
+"PDP-popup-payment-title" = "Veilig betalen & zeker van je aankoop";
+"PDP-popup-payment-description-1" = "Op Whoppah kan je onbezorgd betalen en kan je er zeker van zijn dat je altijd je aankoop ontvangt. Reken je af via Whoppah dan ben je namelijk beschermd. Jij betaalt met jouw voorkeurs betaalmethode zoals creditcard of iDeal eerst aan Whoppah en wij betalen de verkoper uit als jij jouw item hebt ontvangen.";
+"PDP-popup-buying-protection-title" = "Niet in orde, geld terug";
+"PDP-popup-buying-protection-subtitle-1" = "Niet in orde, geld terug";
+"PDP-popup-buying-protection-description-1" = "Iedereen wil veilig online winkelen. Daarom beschermen wij jou als koper. In de volgende gevallen kan jij je aankoop retourneren en krijg jij je geld terug: \
+\
+1. Het item is in werkelijkheid niet zoals gepresenteerd in de advertentie. Denk aan een andere kleur of beschadigingen die niet zijn gemeld in de advertentie. \
+\
+2. Jouw item is nooit aangekomen. In dit geval moet de verkoper een track & trace code kunnen overleggen. \
+\
+3. Het item is tijdens transport met Whoppah koerier beschadigd. De koerier maakt altijd 5 foto’s van het item voordat het meegaat met de Whoppah-bus. Mocht er schade worden ontdekt die niet is vastgelegd op de foto, dan dan ligt de bewijslast bij de koper.";
+"PDP-popup-buying-protection-subtitle-2" = "Niet tevreden, geld terug";
+"PDP-popup-buying-protection-description-2" = "Bevalt het item toch niet en wil je retourneren? Dat kan. In dit geval kan je binnen 14 dagen (vanaf het moment van levering) retourneren aan Whoppah in plaats van aan de verkoper. Let op in dit geval zijn de retourkosten evenals de bezorgkosten voor rekening van de koper. Jij krijgt in dit geval het aankoopbedrag minus bezorgkosten en retourkosten terug. Je mag ook altijd het item weer te koop aan bieden op Whoppah. Wij laten in dat geval de commissie achterwege. ";
+"product-shipping-tooltip-text" = "Selecteer het land om de bezorgprijs te zien";
+"ad-details-return-title" = "Niet in orde, geld terug";
+"ad-details-sustainable-shopping-title" = "Duurzaam shoppen";
+"ad-details-secure-payement-title" = "Veilig betalen via Whoppah";
+"ad-details-careful-delivery-title" = "Zorgvuldig bezorgd door Whoppah koerier";
+"ad_details_product_details" = "Productdetails";
+"ad_details_style" = "Stijl";
+"ad_details_delivery_methods" = "Leveringsmethoden";
+"ad_details_courier_text_title" = "Hoe werkt de Whoppah koerier?";
+"ad_details_courier_text" = "Jij kiest de verzendmethode bij de kassa. Kies je voor de koerier, dan wordt na de betaling eerst contact opgenomen met de verkoper om het ophaalmoment in te plannen. Vervolgens ontvang jij een e-mail van ons om het aflevermoment in te plannen. ";
+"ad_details_contact_text_title" = "Heb je een vraag?";
+"pdp-contact-body-html" = "Whoppah is van maandag tot en met vrijdag bereikbaar tijdens kantooruren op: <b><a href=\"tel:020 244 46 93\"> 020 244 46 93 </a></b> or <a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>";
+"chat-how-bidding-works-button" = "Zo werkt bieden";
+"chat-delivery-button" = "Bezorgopties";
+"chat-deliver-dialog-title" = "Bezorgmethodes 🚛";
+"chat-details-delivery-courier-header" = "Hoe werkt de Whoppah koerier?";
+"ad_details_shipping_tab_description" = "De koper kiest de verzendmethode bij de kassa. Daar betaal je jouw aankoop én de koerierskosten. Na de betaling nemen we eerst contact op met de verkoper om het ophaalmoment in te plannen. Vervolgens ontvang jij een e-mail van ons om het aflevermoment in te plannen. ";
+"how-chat-works-title" = "Zo werkt het! ⭐";
+"how-chat-works-negotiate-title" = "Hoe plaats ik een (tegen)bod?";
+"how-chat-works-negotiate-text" = "Een (tegen)bod plaats je onderin de chat in het daarvoor bestemde invoerveld. Daarna kan de koper of verkoper het bod accepeteren. Let op: alleen een bod via het invoerveld voor bieden kan geaccepteerd worden.";
+"how-chat-works-offer-title" = "Hoe weet ik wanneer ik een bod heb?";
+"how-chat-works-offer-text" = "Als je bod of tegenbod hebt, ontvang je een email, een sms bericht en zie je dit in jouw Whoppah chatberichten.";
+"how-chat-works-bid-valid-title" = "Hoe lang is een bod geldig?";
+"how-chat-works-bid-valid-text" = "Een bod is 48 uur geldig. Wordt een bod geaccepteerd binnen de 48 uur dan is er een deal en verzoeken we de koper de betaling te voldoen. Na 48 uur vervalt het bod. Je kunt altijd opnieuw een nieuw bod doen.";
+"how-chat-works-payment-title" = "Hoe kan er betaald worden?";
+"how-chat-works-payment-text" = "Is het bod geaccepteerd dan is er een deal en verschijnt de ‘Betalen knop’. De koper kan nu veilig betalen Whoppah. Het geld komt op een derdenrekening en de verkoper wordt uitbetaald als de koper het item in goede orde heeft ontvangen.";
+"how-chat-works-pickup-title" = "Wat als ik het item ga ophalen?";
+"how-chat-works-pickup-text" = "Ga je het item ophalen of eerst bekijken, doe dan eerst een bod via de chat zodat de koper dit alvast kan accepteren en jij zeker weet dat je een deal hebt. Ter plekke kan je dan via de betaalknop in de chat betalen.";
+"how-chat-works-cash-title" = "Mag ik cash of anders betalen?";
+"how-chat-works-cash-text" = "Betalen buiten Whoppah om is niet toegestaan. Wij kunnen dan de kwaliteit en veiligheid niet waarborgen noch enige vorm van service verlenen.";
+"photo_gallery_limited_access_message" = "Om al je albums en foto's te zien, ga naar Instellingen en geef Whoppah volledige toegang tot de fotobibliotheek.";
+"select_photos_max_exceeded" = "U kunt niet meer dan %@ afbeelding(en) selecteren. Maak de selectie van een andere afbeelding ongedaan voordat u opnieuw probeert te selecteren.";
+"user_greeting_home_page" = "Hallo, %@!";
+"upgrade-app-dialog-header" = "Er is een nieuwe update beschikbaar!";
+"menu_option_how_whoppah_works" = "Zo werkt Whoppah";
+"label-lowered-in-price" = "in prijs verlaagd";
+"chat-autoreply-title" = "Whoppah legt uit!";
+"chat-autoreply-1-line-bold-text" = "Een (tegen)bod";
+"chat-autoreply-2-line-bold-text" = "Betaal altijd veilig via Whoppah.";
+"chat-autoreply-3-line-bold-text" = "Zeker van je aankoop, betaal dan direct.";
+"chat-autoreply-4-line-bold-text" = "De Whoppah koerier";
+"chat-autoreply-1-line-normal-text" = "plaats je onderaan in het invoerveld ”Plaats een bod“";
+"chat-autoreply-2-line-normal-text" = "Ook als je het item ophaalt. Betaal vooraf om zeker te zijn van jouw aankoop. Niet in orde, geld terug.";
+"chat-autoreply-3-line-normal-text" = "Alleen als is betaald, is het item voor jou. Zolang niet is betaald, kan iemand anders het item nog kopen.";
+"chat-autoreply-4-line-normal-text" = "kan jouw aankoop verzekerd bezorgen én controleert de staat ter plekke bij de koper.";
+"chat-item-received-message-1-line" = "Het item is in goede orde ontvangen door de koper.";
+"chat-item-received-message-2-line" = "De uitbetaling aan de verkoper wordt in gang gezet.";
+"translation-language-options-cancel" = "Annuleren";
+"translation-language-options" = "Naar welke taal wil je vertalen?";
+"chat-item-received-title" = "Artikel in goede staat ontvangen";
+"ad_details_seller_products" = "Zie verkoper";
+"get-the-look-title" = "Get the look";
+"auth-new-here" = "Ik ben nieuw hier!";
+"auth-sign-in-btn-magic" = "Log mij in met een link";
+"auth-sign-in-magic-screen-title" = "Eenmalige code inloggen";
+"auth-sign-in-magic-link-screen-title" = "Even geduld, terwijl we je inloggen";
+"auth-sign-in-magic-screen-subtitle" = "Log in via een Magic link. Vul je e-mailadres in om een mail te ontvangen met een eenmalige inlogcode en directe inlogknop.";
+"auth-sign-in-magic-email" = "Je e-mail";
+"auth-sign-in-magic" = "Ontvang code / link via e-mail";
+"auth-sign-in-email-placeholder" = "voorbeeld@email.com";
+"auth-sign-in-password-placeholder" = "Jouw wachtwoord";
+"auth-sign-in-magic-code-subtitle" = "Voer de code in die u per e-mail hebt ontvangen. Als je geen code hebt ontvangen, controleer dan je spambox of";
+"auth-sign-in-magic-code-subtitle-email" = "stuur mij de email nogmaals";
+"auth-sign-in-magic-code-incomplete" = "Onvolledige magic code";
+"auth-sign-in-magic-btn-code" = "Stuur mij de email";
+"condition-good" = "Goed";
+"condition-great" = "Heel goed";
+"condition-perfect" = "Uitstekend";
+"filter-condition" = "Conditie";
+"filter-select-brand" = "Zoek het merk";
+"filter-brand" = "Merk / Ontwerper";
+"filter-price" = "Prijs";
+"filter-material" = "Materiaal";
+"filter-clear-all" = "Wis filters";
+"filter-title" = "Filter";
+"filter-style" = "Stijl";
+"filter-color" = "Kleur";
+"condition-good-description" = "In goede staat met lichte gebruikssporen passend bij de leeftijd van het item";
+"condition-great-description" = "In heel goede staat met minimale gebruikssporen";
+"condition-perfect-description" = "Zo goed als nieuw zonder gebruikssporen";
+"auth-sign-in-magic-the-provided-token-is-incorrect" = "Ongeldige of verlopen code";
+"auth-sign-up-google" = "Sign up with Google";
+"auth-sign-up-facebook" = "Sign up with Facebook";
+"common-or" = "OF";
+"common-invalid-email" = "Ongeldig e-mailadres";
+"category-coffeetable-books" = "Koffietafelboeken";
+"common-missing-address-country" = "Land ontbreekt";
+"menu_option_about_whoppah" = "Over Whoppah";
+"menu_option_whoppah_reviews" = "Whoppah reviews";
+"menu_option_storage" = "Showroom verkoopservice";
+"chat-buy-now-button" = "Koop nu %@";
+"material-skai" = "Skai";
+"material-travertin" = "Travertine";
+"material-brass-2" = "Messing";
+"color-mint" = "Mint groen";
+"color-purple" = "Paars";
+"color-dark-blue" = "Donkerblauw";
+"color-dark-green" = "Donkergroen";
+"color-silver-2" = "Zilver";
+"common-country" = "Land";
+"material-rotan" = "Rotan";
+"color-taupe" = "Taupe";
+"style-1950" = "50's Design";
+"material-wicker" = "Rieten";
+"color-silver" = "Zilver";
+"auth-sign-in-apple" = "Inloggen met Apple";
+"auth-sign-in-screen-navigation-title" = "Inloggen";
+"your-account-settings-last-name" = "Achternaam";
+"your-account-settings-validation-invalid-phone-number" = "Ongeldig telefoonnummer";
+"auth-sign-up-apple" = "Sign up with Apple";
+"auth-registration-log-in-now" = "Nu inloggen";
+"auth_sign_up2_repeat_password" = "Herhaal nieuw wachtwoord";
+"auth-sign-up3-business-info" = "Bedrijfsgegevens";
+"auth-sign-up3-fill-in-business-info" = "Vul je bedrijfsgegevens in";
+"auth-sign-up3-business-name" = "Bedrijfsnaam";
+"auth-sign-up3-last-name" = "Achternaam";
+"auth-sign-up3-first-name" = "Voornaam";
+"auth-sign-up-fill-in-phone-number" = "Vul je telefoonnummer in";
+"auth-sign-up-fill-in-address" = "Vul het adres in";
+"auth-sign-up-postal-code" = "Postcode";
+"auth-sign-up-street-house-number" = "Straat en huisnummer";
+"auth-sign-up-address-info" = "Adresgegevens";
+"auth-sign-up-additional-address-info" = "Aanvullende adresgegevens";
+"auth-registration-email-exists" = "Er is al een account met hetzelfde e-mailadres!";
+"all-items-from" = "Alle items vanaf";
+"show-all-seller-items" = "Alle advertenties van deze verkoper";
+"auth-sign-in-welcome" = "Welkom terug";
+"checkout-shipping-free" = "Gratis";
+"welcome-dialog-title-existing" = "Welkom terug!";
+"welcome-dialog-description-existing" = "Er bestaat al een account met deze email. We hebben je ingelogd met %@.";
+"nav-search-placeholder" = "Zoeken";
+"category-klapstoelen" = "Klapstoelen";
+"category-drankenkasten" = "Drankenkasten";
+"category-high-boards" = "High Boards";
+"category-prints" = "Prints";
+"category-decoratieve-objecten" = "Decoratieve objecten";
+"common-sale" = "Sale";
+"NSUserTrackingUsageDescription" = "Tracking wordt gebruikt om geanonimiseerde statistieken over app gebruik te verzamelen.";
+"filter-category" = "Categorie";
+"filter-sort-and-filter" = "Sorteren en filteren";
+"filter-show-results" = "Laat {{count}} resultaten zien";
+"pdp-boost-ad-title" = "Boost je advertentie!";
+"pdp-boost-ad-btn" = "Boost deze advertentie!";
+"pdp-quick-bid-modal-title" = "Je plaatst nu een bod";
+"pdp-quick-bid-modal-place-bid-btn" = "Ja, plaats bod";
+"filter-country" = "Locatie";
+"filter-dimensions" = "Dimensies";
+"listing-bidding-possible" = "Bieden mogelijk";
+"listing-showroom-items" = "Items in showroom";
+"label-lowered-in-price-color" = "#F57864";
+"country-at" = "Oostenrijk";
+"country-be" = "België";
+"country-de" = "Duitsland";
+"country-fr" = "Frankrijk";
+"country-nl" = "Nederland";
+"country-uk" = "Verenigd Koninkrijk";
+"country-us" = "Verenigde Staten";
+"common-done" = "Klaar";
+"filter-min-placeholder" = "min";
+"filter-max-placeholder" = "max";
+"filter-show-results-with-count" = "Laat %@ resultaten zien";
+"pdp-sold-for" = "VERKOCHT voor";
+"pdp-sold-out-item" = "Oops, dit item is helaas al verkocht. Goed nieuws: we hebben nog veel meer unieke items. Wees er snel bij!";
+"pdp-bid-info" = "Er is %d keer geboden op dit item";
+"pdp-seller-info" = "Je bent de verkoper van dit item. Let op: je kan niet bieden op je eigen items.";
+"pdp-product-description-title" = "Productomschrijving";
+"pdp-verified-seller" = "Geverifieerde verkoper";
+"pdp-read-all-reviews" = "Bekijk alle reviews";
+"pdp-seller-boost-ad" = "Voor slechts %@ wordt je advertentie bovenaan de categorie geplaatst, dit vergroot je verkoopkansen!";
+"pdp-label-present" = "Merk";
+"pdp-delivery-shipping" = "Verzenden & Ontvangen";
+"pdp-benefits-curated" = "Alle items zijn gecureerd door Whoppah";
+"pdp-benefits-courier" = "Bezorging door Whoppah koerier";
+"pdp-benefits-guarante" = "30 dagen garantie";
+"pdp-your-bid" = "Jouw bod";
+"pdp-quick-bid" = "Snel bieden";
+"pdp-read-more" = "Lees meer over hoe bieden werkt";
+"pdp-seller-boost-for-just" = "Voor slechts";
+"pdp-seller-boost-complete" = "Boost je advertentie, deze wordt dan bovenaan de categorie geplaatst, dit vergroot je verkoopkansen!";
+"listing-available-items" = "Toon alleen beschikbare items";
+"label-showroom" = "showroom";
+"ad-details-view-ar" = "Plaats het design in jouw kamer";
+"search_sort_most_relevant" = "Meest relevant";
+"pdp-contact-phone-number" = "020 244 46 93";
+"pdp-contact-phone" = "020 244 46 93";
+"pdp-contact-body" = "Whoppah is van maandag tot en met vrijdag bereikbaar tijdens kantooruren op:";
+"country-gb" = "Groot Brittanië";
+"pdp-quick-bid-modal-question-sure" = "Bevestig dat je %@ biedt op %@?";
+"language-nl" = "Nederlands";
+"language-en" = "Engels";
+"language-fr" = "Frans";
+"language-de" = "Duits";
+"language-es" = "Spaans";
+"show-all-my-items" = "Toon mijn advertenties";
+"all-items-from-merchant" = "Alle items van";
+"common-showroom-city" = "Utrecht";
+"ad_details_report_success" = "Bedankt voor het rapporteren.";
+"your-account-settings-block-whoppah" = "Whoppah is niet toegestaan";
+"checkout-information-block-whoppah" = "Whoppah is niet toegestaan";
+"register-block-whoppah" = "Whoppah is niet toegestaan";
+"buyer-protection-usp-1" = "Niet-goed-geld-terug-garantie";
+"buyer-protection-usp-2" = "Retourgarantie aan Whoppah";
+"buyer-protection-usp-3" = "Kwaliteitscheck door Whoppah-koerier";
+"buyer-protection-usp-4" = "Bemiddelingshulp";
+"buyer-protection-usp-5" = "Verzekering bij niet aangekomen items per post";
+"pdp-buyer-protection-text" = "Ga voor veilig winkelen! Niet tevreden met de aankoop of anders dan geadverteerd? We hebben u gedekt met de kopersbescherming.";
+"buyer-protection-title" = "Kopersbescherming";
+"pdp-buyer-protection-more-information" = "Meer informatie";
+"checkout-buyer-protection-text" = "Bescherm je aankoop met de Whoppah kopersbescherming voor 3% van het verkoopbedrag. De Whoppah [kopersbescherming](buyerprotection) bestaat uit:";
+"checkout-buyer-protection-activated" = "Toegevoegd";
+"checkout-buyer-protection-not-activated" = "Voeg toe";
+"contact-phone-to" = "020 244 46 93";
+"contact-phone-to-html" = "<a href=\"tel:020 244 46 93\"> 020 244 46 93 </a>";
+"contact-email-to-html" = "<a href=\"mailto:support@whoppah.com\"> support@whoppah.com </a>";

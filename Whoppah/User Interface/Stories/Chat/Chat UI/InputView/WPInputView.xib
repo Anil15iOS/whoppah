@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WPInputView" customModule="Staging" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WPInputView" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="713" height="110"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TnZ-um-84w">
+                    <rect key="frame" x="0.0" y="0.0" width="713" height="32"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AI-xC-fAw">
+                            <rect key="frame" x="0.0" y="5" width="356" height="22"/>
+                            <color key="backgroundColor" name="AcceptDialogColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="Mm0-Tz-pO3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="How it works" image="ic_help_chat"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-how-bidding-works-button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="howItWorkAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="xOA-Be-aPK"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nE2-rS-xkk">
+                            <rect key="frame" x="356" y="4" width="1" height="24"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="RWb-8z-5c7"/>
+                                <constraint firstAttribute="width" constant="1" id="bqo-4f-e4k"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5W-Iu-GQY">
+                            <rect key="frame" x="357" y="5" width="356" height="22"/>
+                            <color key="backgroundColor" name="AcceptDialogColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="Zte-la-lyz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Delivery" image="ic_chat_delivery"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-delivery-button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="deliveryAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Upn-q5-jHb"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="AcceptDialogColor"/>
+                    <constraints>
+                        <constraint firstItem="nE2-rS-xkk" firstAttribute="centerY" secondItem="TnZ-um-84w" secondAttribute="centerY" id="1CZ-me-utO"/>
+                        <constraint firstItem="nE2-rS-xkk" firstAttribute="centerX" secondItem="TnZ-um-84w" secondAttribute="centerX" id="FXT-8b-vmk"/>
+                        <constraint firstAttribute="height" constant="32" id="WL5-pW-woz"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RD9-Nr-sBJ">
+                    <rect key="frame" x="16" y="48" width="681" height="54"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="PrW-Nk-TFo">
+                            <rect key="frame" x="0.0" y="0.0" width="681" height="54"/>
+                            <subviews>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rzD-bj-UGI" userLabel="UNUSED TEXTVIEW FOR MessengerKit" customClass="MSGPlaceholderTextView" customModule="MessengerKit">
+                                    <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="9pj-pJ-08X"/>
+                                        <constraint firstAttribute="width" constant="10" id="fqe-8S-X3B"/>
+                                    </constraints>
+                                </view>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eh8-tW-6en">
+                                    <rect key="frame" x="0.0" y="0.0" width="569" height="54"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juH-um-sTM" customClass="MSGImessageSendButton" customModule="MessengerKit">
+                                    <rect key="frame" x="533" y="13" width="28" height="28"/>
+                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="28" id="6Xt-jr-k70"/>
+                                        <constraint firstAttribute="height" constant="28" id="R5m-Tt-CD5"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="ic_message_arrow"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ky-E3-dCZ" customClass="MSGImessageSendButton" customModule="MessengerKit">
+                                    <rect key="frame" x="533" y="13" width="28" height="28"/>
+                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="28" id="aPJ-DV-E7c"/>
+                                        <constraint firstAttribute="width" constant="28" id="duk-UF-jpY"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="2" maxX="2" maxY="0.0"/>
+                                    <state key="normal" image="question-send-icon"/>
+                                    <connections>
+                                        <action selector="customSendAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="704-27-oqz"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Typ een bericht..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXz-pj-hHA">
+                                    <rect key="frame" x="16" y="18.5" width="112.5" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" name="silver"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat_thread_type_message_placeholder"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="749" distribution="equalSpacing" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="P3M-ju-5u4">
+                                    <rect key="frame" x="569" y="-37" width="112" height="128"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nV7-kC-Rgb">
+                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="128"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" id="r14-F8-1bc"/>
+                                            </constraints>
+                                        </view>
+                                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="es8-s5-dnt">
+                                            <rect key="frame" x="16" y="51" width="40" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="8kH-3C-fkI"/>
+                                                <constraint firstAttribute="height" constant="26" id="v2N-Z8-yd8"/>
+                                            </constraints>
+                                            <state key="normal" image="chat-cell-input-camera"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-Ey-0O2">
+                                            <rect key="frame" x="72" y="51" width="40" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="26" id="5Am-4f-kal"/>
+                                                <constraint firstAttribute="width" constant="40" id="8Ki-Zw-KKi"/>
+                                            </constraints>
+                                            <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                            <state key="normal" image="chat-cell-input-gallery"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="nV7-kC-Rgb" secondAttribute="bottom" id="K59-Cm-deQ"/>
+                                        <constraint firstItem="AeW-Ey-0O2" firstAttribute="centerY" secondItem="P3M-ju-5u4" secondAttribute="centerY" id="OW2-I7-buK"/>
+                                        <constraint firstItem="es8-s5-dnt" firstAttribute="centerY" secondItem="P3M-ju-5u4" secondAttribute="centerY" id="RAu-M9-hc3"/>
+                                        <constraint firstItem="nV7-kC-Rgb" firstAttribute="top" secondItem="P3M-ju-5u4" secondAttribute="top" id="e5f-VA-ffn"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="juH-um-sTM" firstAttribute="centerY" secondItem="PrW-Nk-TFo" secondAttribute="centerY" id="26i-zx-4Na"/>
+                                <constraint firstAttribute="trailing" secondItem="P3M-ju-5u4" secondAttribute="trailing" id="CvG-bN-TUy"/>
+                                <constraint firstAttribute="bottom" secondItem="eh8-tW-6en" secondAttribute="bottom" id="E7N-d2-S1O"/>
+                                <constraint firstItem="rzD-bj-UGI" firstAttribute="top" secondItem="PrW-Nk-TFo" secondAttribute="top" id="FOF-Sf-npd"/>
+                                <constraint firstItem="rzD-bj-UGI" firstAttribute="leading" secondItem="PrW-Nk-TFo" secondAttribute="leading" id="O6R-DE-SZA"/>
+                                <constraint firstItem="P3M-ju-5u4" firstAttribute="leading" secondItem="juH-um-sTM" secondAttribute="trailing" constant="8" id="PMl-Sg-CbG"/>
+                                <constraint firstItem="TXz-pj-hHA" firstAttribute="centerY" secondItem="PrW-Nk-TFo" secondAttribute="centerY" id="Xba-Y1-vLj"/>
+                                <constraint firstItem="TXz-pj-hHA" firstAttribute="leading" secondItem="eh8-tW-6en" secondAttribute="leading" constant="16" id="ZhJ-tJ-8Db"/>
+                                <constraint firstItem="7ky-E3-dCZ" firstAttribute="trailing" secondItem="juH-um-sTM" secondAttribute="trailing" id="hgm-Ow-0P9"/>
+                                <constraint firstItem="eh8-tW-6en" firstAttribute="top" secondItem="PrW-Nk-TFo" secondAttribute="top" id="paa-UD-SyP"/>
+                                <constraint firstItem="eh8-tW-6en" firstAttribute="trailing" secondItem="P3M-ju-5u4" secondAttribute="leading" id="sRf-xS-lOW"/>
+                                <constraint firstItem="eh8-tW-6en" firstAttribute="leading" secondItem="PrW-Nk-TFo" secondAttribute="leading" id="vHJ-ev-vbx"/>
+                                <constraint firstItem="7ky-E3-dCZ" firstAttribute="centerY" secondItem="PrW-Nk-TFo" secondAttribute="centerY" id="xjj-z2-H3U"/>
+                                <constraint firstItem="P3M-ju-5u4" firstAttribute="centerY" secondItem="eh8-tW-6en" secondAttribute="centerY" id="zY7-A7-osj"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="PrW-Nk-TFo" secondAttribute="bottom" id="ZFI-0C-kdx"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="TnZ-um-84w" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="K5m-1n-cb2"/>
+                <constraint firstItem="RD9-Nr-sBJ" firstAttribute="top" secondItem="TnZ-um-84w" secondAttribute="top" constant="48" id="KyB-OY-whO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RD9-Nr-sBJ" secondAttribute="trailing" constant="16" id="NWr-hz-K2Z"/>
+                <constraint firstAttribute="bottom" secondItem="RD9-Nr-sBJ" secondAttribute="bottom" constant="8" id="cRl-xV-FtZ"/>
+                <constraint firstItem="TnZ-um-84w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ep1-cQ-egT"/>
+                <constraint firstItem="RD9-Nr-sBJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="hcs-EZ-VUZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TnZ-um-84w" secondAttribute="trailing" id="nk0-ki-qyt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonStackView" destination="P3M-ju-5u4" id="hsy-Di-cLd"/>
+                <outlet property="cameraButton" destination="es8-s5-dnt" id="xH4-H4-Akl"/>
+                <outlet property="customSendButton" destination="7ky-E3-dCZ" id="Tz6-ZD-N3r"/>
+                <outlet property="galleryButton" destination="AeW-Ey-0O2" id="0eV-D7-oSS"/>
+                <outlet property="messagePlaceholderLabel" destination="TXz-pj-hHA" id="Wn7-tq-lX7"/>
+                <outlet property="messageTextView" destination="eh8-tW-6en" id="ERw-oV-YMm"/>
+                <outlet property="sendButton" destination="juH-um-sTM" id="0pC-or-wdu"/>
+                <outlet property="textView" destination="rzD-bj-UGI" id="KA4-Uh-CqT"/>
+            </connections>
+            <point key="canvasLocation" x="-58.399999999999999" y="158.77061469265368"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="7ky-E3-dCZ">
+            <size key="intrinsicContentSize" width="16" height="22"/>
+        </designable>
+        <designable name="juH-um-sTM">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="chat-cell-input-camera" width="24.5" height="20"/>
+        <image name="chat-cell-input-gallery" width="25.5" height="20"/>
+        <image name="ic_chat_delivery" width="16" height="15.5"/>
+        <image name="ic_help_chat" width="16" height="16"/>
+        <image name="ic_message_arrow" width="24" height="24"/>
+        <image name="question-send-icon" width="16" height="16"/>
+        <namedColor name="AcceptDialogColor">
+            <color red="0.1289999932050705" green="0.72200000286102295" blue="0.50599998235702515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="silver">
+            <color red="0.80784313725490198" green="0.82745098039215681" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

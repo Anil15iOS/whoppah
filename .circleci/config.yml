@@ -1,0 +1,134 @@
+# .circleci/config.yml
+version: 2
+jobs:
+  build-and-test:
+    macos:
+      xcode: "13.2.1"
+    working_directory: /Users/distiller/project
+    environment:
+      FL_OUTPUT_DIR: build
+      FASTLANE_LANE: test
+    shell: /bin/bash --login -eo pipefail
+    steps:
+      - checkout
+      - run:
+          name: Install firebase tools
+          command: curl -sL firebase.tools | bash
+      - run:
+          name: Set Ruby Version
+          command: echo "ruby-2.7.2" > ~/.ruby-version
+      - run: bundle check || bundle install --path vendor/bundle
+      - run:
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
+          no_output_timeout: 15m # Link times can be quite long for archives
+          environment:
+            SCAN_DEVICE: iPhone 8
+            SCAN_SCHEME: Whoppah-testing
+      - store_artifacts:
+          path: build/test_output
+          destination: scan-test-output
+      - store_test_results:
+          path: build/test_output
+
+  beta:
+    macos:
+      xcode: "13.2.1"
+    working_directory: /Users/distiller/project
+    environment:
+      FL_OUTPUT_DIR: build
+      FASTLANE_LANE: beta
+    shell: /bin/bash --login -eo pipefail
+    steps:
+      - checkout
+      - run:
+          name: Install firebase tools
+          command: curl -sL firebase.tools | bash  
+      - run: bundle check || bundle install --path vendor/bundle
+      - run: curl https://www.apple.com/certificateauthority/AppleWWDRCAG3.cer -o AppleWWDRCAG3.cer
+      - run:
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
+          no_output_timeout: 15m # Link times can be quite long for archives
+      - store_artifacts:
+          path: build/gym
+
+  store:
+    macos:
+      xcode: "13.2.1"
+    working_directory: /Users/distiller/project
+    environment:
+      FL_OUTPUT_DIR: build
+      FASTLANE_LANE: testflight_release
+    shell: /bin/bash --login -eo pipefail
+    steps:
+      - checkout
+      - run:
+          name: Install firebase tools
+          command: curl -sL firebase.tools | bash
+      - run:
+          name: Set Ruby Version
+          command: echo "ruby-2.7.2" > ~/.ruby-version
+      - run: bundle check || bundle install --path vendor/bundle
+      - run: curl https://www.apple.com/certificateauthority/AppleWWDRCAG3.cer -o AppleWWDRCAG3.cer
+      - run:
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
+          no_output_timeout: 15m # Link times can be quite long for archives
+      - store_artifacts:
+          path: build/gym
+
+  staging:
+    macos:
+      xcode: "13.2.1"
+    working_directory: /Users/distiller/project
+    environment:
+      FL_OUTPUT_DIR: build
+      FASTLANE_LANE: staging
+    shell: /bin/bash --login -eo pipefail
+    steps:
+      - checkout  
+      - run:
+          name: Install firebase tools
+          command: curl -sL firebase.tools | bash
+      - run:
+          name: Set Ruby Version
+          command: echo "ruby-2.7.2" > ~/.ruby-version
+      - run: bundle check || bundle install --path vendor/bundle
+      - run: curl https://www.apple.com/certificateauthority/AppleWWDRCAG3.cer -o AppleWWDRCAG3.cer
+      - run: sudo security import AppleWWDRCAG3.cer -k /Library/Keychains/System.keychain
+      - run:
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
+          no_output_timeout: 15m # Link times can be quite long for archives
+      - store_artifacts:
+          path: build/gym
+
+workflows:
+  version: 2
+  build-test-beta-or-store:
+    jobs:
+      - build-and-test:
+          filters:
+            branches:
+              only: 
+              - /feature\/.+/
+              - /release\/.+/
+              - /hotfix\/.+/
+      - beta:
+          filters:
+            branches:
+              only: 
+              - develop
+              - /feature\/.+/
+              - /hotfix\/.+/
+          requires:
+            - build-and-test
+      - store:
+          filters:
+            branches:
+              only: 
+              - master
+              - /release\/.+/
+          requires:
+            - build-and-test

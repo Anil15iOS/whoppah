@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wtB-Vh-LIA" customClass="MyAdOverviewCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="248"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KKW-dw-v4D">
+                <rect key="frame" x="0.0" y="0.0" width="178" height="248"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ude-D9-AsZ">
+                        <rect key="frame" x="0.0" y="0.0" width="178" height="178"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uSV-31-H2G">
+                                <rect key="frame" x="0.0" y="0.0" width="178" height="178"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uSV-31-H2G" secondAttribute="trailing" id="BDe-gX-Gma"/>
+                            <constraint firstItem="uSV-31-H2G" firstAttribute="top" secondItem="Ude-D9-AsZ" secondAttribute="top" id="JZd-my-4GA"/>
+                            <constraint firstItem="uSV-31-H2G" firstAttribute="leading" secondItem="Ude-D9-AsZ" secondAttribute="leading" id="Xl3-cG-vln"/>
+                            <constraint firstAttribute="width" secondItem="Ude-D9-AsZ" secondAttribute="height" multiplier="1:1" id="qRU-PS-J8v"/>
+                            <constraint firstAttribute="bottom" secondItem="uSV-31-H2G" secondAttribute="bottom" id="vR7-Dv-2jE"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Item Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izt-bs-ENu" userLabel="Item Title">
+                        <rect key="frame" x="0.0" y="182" width="178" height="14.5"/>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€10.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USB-Fi-gmf" userLabel="Item Money">
+                        <rect key="frame" x="0.0" y="200.5" width="92" height="47.5"/>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AKb-Xt-6U1">
+                        <rect key="frame" x="92" y="213.5" width="86" height="22"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WJ-BY-EZD" userLabel="Edit Button">
+                                <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="ZyH-Np-Yl8"/>
+                                    <constraint firstAttribute="height" constant="22" id="ovj-Cf-inq"/>
+                                </constraints>
+                                <state key="normal" image="edit_button"/>
+                                <connections>
+                                    <action selector="editPressed:" destination="wtB-Vh-LIA" eventType="touchUpInside" id="KOd-gD-3gQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbE-je-EHL" userLabel="Delete Button">
+                                <rect key="frame" x="32" y="0.0" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="PAq-Lw-2nW"/>
+                                    <constraint firstAttribute="width" constant="22" id="eHb-c7-9AO"/>
+                                </constraints>
+                                <state key="normal" image="delete_button"/>
+                                <connections>
+                                    <action selector="deletePressed:" destination="wtB-Vh-LIA" eventType="touchUpInside" id="NXM-VJ-Rop"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNN-yV-1iB" userLabel="Repost Button">
+                                <rect key="frame" x="64" y="0.0" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="npC-Su-33c"/>
+                                    <constraint firstAttribute="height" constant="22" id="z5O-MS-kO0"/>
+                                </constraints>
+                                <state key="normal" image="repost_button"/>
+                                <connections>
+                                    <action selector="repostPressed:" destination="wtB-Vh-LIA" eventType="touchUpInside" id="3Rd-SB-F39"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AKb-Xt-6U1" firstAttribute="centerY" secondItem="USB-Fi-gmf" secondAttribute="centerY" id="7a6-R3-rQt"/>
+                    <constraint firstItem="USB-Fi-gmf" firstAttribute="top" secondItem="izt-bs-ENu" secondAttribute="bottom" constant="4" id="CFn-B0-WRL"/>
+                    <constraint firstAttribute="trailing" secondItem="Ude-D9-AsZ" secondAttribute="trailing" id="Cla-rV-nu1"/>
+                    <constraint firstItem="AKb-Xt-6U1" firstAttribute="leading" secondItem="USB-Fi-gmf" secondAttribute="trailing" id="D86-tt-P2B"/>
+                    <constraint firstAttribute="bottom" secondItem="USB-Fi-gmf" secondAttribute="bottom" id="Kll-1R-WRR"/>
+                    <constraint firstItem="Ude-D9-AsZ" firstAttribute="leading" secondItem="KKW-dw-v4D" secondAttribute="leading" id="Ojm-Ak-YPO"/>
+                    <constraint firstAttribute="trailing" secondItem="izt-bs-ENu" secondAttribute="trailing" id="UaM-pZ-p5g"/>
+                    <constraint firstItem="izt-bs-ENu" firstAttribute="leading" secondItem="KKW-dw-v4D" secondAttribute="leading" id="fxu-lv-4QJ"/>
+                    <constraint firstItem="izt-bs-ENu" firstAttribute="top" secondItem="Ude-D9-AsZ" secondAttribute="bottom" constant="4" id="kRH-Qx-mf5"/>
+                    <constraint firstItem="Ude-D9-AsZ" firstAttribute="top" secondItem="KKW-dw-v4D" secondAttribute="top" id="qDN-FB-MVi"/>
+                    <constraint firstItem="USB-Fi-gmf" firstAttribute="leading" secondItem="KKW-dw-v4D" secondAttribute="leading" id="urI-22-zJ1"/>
+                    <constraint firstAttribute="trailing" secondItem="AKb-Xt-6U1" secondAttribute="trailing" id="vgg-3r-xHw"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="178" height="248"/>
+            <connections>
+                <outlet property="deleteButton" destination="NbE-je-EHL" id="7ba-nN-pYj"/>
+                <outlet property="editButton" destination="3WJ-BY-EZD" id="KZQ-mZ-ehQ"/>
+                <outlet property="imageview" destination="uSV-31-H2G" id="sfd-R8-YHD"/>
+                <outlet property="itemPrice" destination="USB-Fi-gmf" id="viX-tP-gDE"/>
+                <outlet property="itemTitle" destination="izt-bs-ENu" id="wAA-Y2-Wqf"/>
+                <outlet property="repostButton" destination="MNN-yV-1iB" id="ViO-2T-3mD"/>
+            </connections>
+            <point key="canvasLocation" x="-49.275362318840585" y="-23.4375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="delete_button" width="16" height="16"/>
+        <image name="edit_button" width="16.5" height="16"/>
+        <image name="repost_button" width="16" height="16.5"/>
+    </resources>
+</document>

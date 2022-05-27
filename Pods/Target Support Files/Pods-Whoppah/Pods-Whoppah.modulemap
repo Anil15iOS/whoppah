@@ -1,0 +1,6 @@
+framework module Pods_Whoppah {
+  umbrella header "Pods-Whoppah-umbrella.h"
+
+  export *
+  module * { export * }
+}

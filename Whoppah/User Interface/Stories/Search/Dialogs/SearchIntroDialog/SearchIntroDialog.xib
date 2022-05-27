@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchIntroDialog" customModule="Whoppah" customModuleProvider="target">
+            <connections>
+                <outlet property="uploadPhotoButton" destination="xJh-ay-H0H" id="hXb-u2-NZH"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Vc7-Dp-G58"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrT-uJ-5UQ" customClass="RoundedView" customModule="Whoppah" customModuleProvider="target">
+                    <rect key="frame" x="16" y="237" width="382" height="432.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKy-Z6-AGt">
+                            <rect key="frame" x="24" y="24" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="eAR-9s-o4L"/>
+                                <constraint firstAttribute="height" constant="40" id="lWj-Nh-Yvg"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="9Jh-f1-Ig4"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_upload_search_circle" translatesAutoresizingMaskIntoConstraints="NO" id="fL4-Wj-69r">
+                            <rect key="frame" x="152" y="64" width="78" height="78"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="78" id="N2M-ii-qMy"/>
+                                <constraint firstAttribute="height" constant="78" id="lkv-L1-o25"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fotozoeken" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYC-BR-5bp">
+                            <rect key="frame" x="16" y="158" width="350" height="24.5"/>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="18"/>
+                            <color key="textColor" name="black"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="search_intro_title"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpE-fl-ZAd">
+                            <rect key="frame" x="16" y="190.5" width="350" height="67"/>
+                            <string key="text">Op zoek naar een specifieke bank, tafel of kunstwerk? Upload of maak er een foto van en wij laten je zien of het te koop of Whoppah of iets dat er op lijkt.</string>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                            <color key="textColor" name="space"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="search_intro_body"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Maak of upload een duidelijke foto van het hele item." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12N-K7-cMA">
+                            <rect key="frame" x="16" y="273.5" width="350" height="33.5"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                            <color key="textColor" name="space"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="search_intro_bullet_1"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Hebben we het niet? Stel een zoekopdracht in en wij laten het je weten als het te koop is op Whoppah." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR3-Ap-7gf">
+                            <rect key="frame" x="16" y="311" width="350" height="33.5"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                            <color key="textColor" name="space"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="search_intro_bullet_2"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJh-ay-H0H" customClass="PrimaryLargeButton" customModule="Whoppah" customModuleProvider="target">
+                            <rect key="frame" x="16" y="368.5" width="350" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="xkq-no-ccD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="10" maxX="24" maxY="10"/>
+                            <state key="normal" title="Upload een foto" image="camera_icon_white"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="search_info_upload_photo_button"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="akm-Z2-lnu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fL4-Wj-69r" firstAttribute="top" secondItem="qKy-Z6-AGt" secondAttribute="bottom" id="CcP-a9-KCW"/>
+                        <constraint firstItem="CpE-fl-ZAd" firstAttribute="leading" secondItem="rrT-uJ-5UQ" secondAttribute="leading" constant="16" id="FIx-AE-n5o"/>
+                        <constraint firstAttribute="trailing" secondItem="tYC-BR-5bp" secondAttribute="trailing" constant="16" id="Flk-hY-i8F"/>
+                        <constraint firstItem="tYC-BR-5bp" firstAttribute="leading" secondItem="rrT-uJ-5UQ" secondAttribute="leading" constant="16" id="FtL-oM-lx5"/>
+                        <constraint firstItem="qKy-Z6-AGt" firstAttribute="top" secondItem="rrT-uJ-5UQ" secondAttribute="top" constant="24" id="Kry-6G-Vdh"/>
+                        <constraint firstAttribute="trailing" secondItem="12N-K7-cMA" secondAttribute="trailing" constant="16" id="LBk-I6-K1S"/>
+                        <constraint firstAttribute="trailing" secondItem="HR3-Ap-7gf" secondAttribute="trailing" constant="16" id="O6u-2o-U5e"/>
+                        <constraint firstItem="tYC-BR-5bp" firstAttribute="top" secondItem="fL4-Wj-69r" secondAttribute="bottom" constant="16" id="OHI-Ez-PVm"/>
+                        <constraint firstAttribute="trailing" secondItem="CpE-fl-ZAd" secondAttribute="trailing" constant="16" id="Q87-Kd-Fco"/>
+                        <constraint firstItem="xJh-ay-H0H" firstAttribute="leading" secondItem="rrT-uJ-5UQ" secondAttribute="leading" constant="16" id="T6r-Rv-ENF"/>
+                        <constraint firstItem="CpE-fl-ZAd" firstAttribute="centerX" secondItem="rrT-uJ-5UQ" secondAttribute="centerX" id="cpA-gD-yCU"/>
+                        <constraint firstItem="xJh-ay-H0H" firstAttribute="centerX" secondItem="rrT-uJ-5UQ" secondAttribute="centerX" id="hGt-7o-KBl"/>
+                        <constraint firstItem="qKy-Z6-AGt" firstAttribute="leading" secondItem="rrT-uJ-5UQ" secondAttribute="leading" constant="24" id="iQt-uQ-5iN"/>
+                        <constraint firstItem="12N-K7-cMA" firstAttribute="bottom" secondItem="HR3-Ap-7gf" secondAttribute="top" constant="-4" id="r9z-Hm-Dfk"/>
+                        <constraint firstItem="tYC-BR-5bp" firstAttribute="centerX" secondItem="fL4-Wj-69r" secondAttribute="centerX" id="rDS-uI-wmV"/>
+                        <constraint firstItem="CpE-fl-ZAd" firstAttribute="top" secondItem="tYC-BR-5bp" secondAttribute="bottom" constant="8" id="rV6-R0-H7l"/>
+                        <constraint firstItem="HR3-Ap-7gf" firstAttribute="leading" secondItem="rrT-uJ-5UQ" secondAttribute="leading" constant="16" id="riq-fS-bfE"/>
+                        <constraint firstAttribute="bottom" secondItem="xJh-ay-H0H" secondAttribute="bottom" constant="16" id="rp4-bK-uUZ"/>
+                        <constraint firstItem="fL4-Wj-69r" firstAttribute="centerX" secondItem="rrT-uJ-5UQ" secondAttribute="centerX" id="t2l-AZ-8GM"/>
+                        <constraint firstAttribute="trailing" secondItem="xJh-ay-H0H" secondAttribute="trailing" constant="16" id="tRv-UY-lUh"/>
+                        <constraint firstItem="12N-K7-cMA" firstAttribute="leading" secondItem="rrT-uJ-5UQ" secondAttribute="leading" constant="16" id="uCm-AN-dSW"/>
+                        <constraint firstItem="xJh-ay-H0H" firstAttribute="top" secondItem="HR3-Ap-7gf" secondAttribute="bottom" constant="24" id="uuY-oc-eex"/>
+                        <constraint firstItem="CpE-fl-ZAd" firstAttribute="bottom" secondItem="12N-K7-cMA" secondAttribute="top" constant="-16" id="xjF-Rv-s4d"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="radiusPercentage">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="rrT-uJ-5UQ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="93n-Jc-Nfm"/>
+                <constraint firstItem="rrT-uJ-5UQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-16" id="Vey-1o-UZl"/>
+                <constraint firstItem="rrT-uJ-5UQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="x8d-Ic-InX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_icon_white" width="16" height="14.5"/>
+        <image name="ic_close" width="16" height="16"/>
+        <image name="photo_upload_search_circle" width="78" height="78"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="space">
+            <color red="0.27843137254901962" green="0.29411764705882354" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

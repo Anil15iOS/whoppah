@@ -1,0 +1,21 @@
+git_url("git@github.com:whoppah/ios-fastlane-certificates.git")
+
+storage_mode("git")
+username("ios-dev@whoppah.com")
+team_id("5HB6ZNH53D")
+#readonly(true)
+
+type("appstore")
+app_identifier([
+    "com.whoppah.app"
+])
+
+#type("adhoc")
+#app_identifier([
+#    "com.whoppah.staging"
+#])
+
+type("adhoc")
+app_identifier([
+    "com.whoppah.testing"
+])

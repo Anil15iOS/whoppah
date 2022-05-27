@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano-Grotesque-SemiBold.ttf">
+            <string>GalanoGrotesque-SemiBold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResultConfirmationReceiptDialog" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="gun-A4-Cns" id="sCB-JA-6mC"/>
+                <outlet property="messageLabel" destination="SNf-uv-sNG" id="y0l-Ie-ikK"/>
+                <outlet property="navigationBar" destination="HfO-wp-2co" id="eha-7j-6Ng"/>
+                <outlet property="titleLabel" destination="mAE-pd-9Mn" id="bnT-oZ-6eO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="asy-UZ-L8G">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <color key="backgroundColor" name="flash"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HfO-wp-2co" customClass="NavigationBar" customModule="Staging" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="375" height="76"/>
+                    <color key="backgroundColor" name="flash"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="ZeW-2I-5du"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gih-34-rBL">
+                    <rect key="frame" x="0.0" y="120" width="375" height="658"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igc-PP-kZs">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="658"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars_bg" translatesAutoresizingMaskIntoConstraints="NO" id="gun-A4-Cns">
+                                    <rect key="frame" x="115.66666666666669" y="49" width="144" height="144"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="144" id="Otk-cs-Smk"/>
+                                        <constraint firstAttribute="height" constant="144" id="X8g-Z5-nbb"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whoppah! Gefeliciteerd met je aankoop" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAE-pd-9Mn">
+                                    <rect key="frame" x="16" y="225" width="343" height="46.666666666666686"/>
+                                    <fontDescription key="fontDescription" name="GalanoGrotesque-SemiBold" family="Galano Grotesque" pointSize="20"/>
+                                    <color key="textColor" name="black"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="transaction_feedback_positive_title"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Houd Whoppah altijd in de gaten voor nieuwe pareltjes. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNf-uv-sNG">
+                                    <rect key="frame" x="16" y="279.66666666666669" width="343" height="32.666666666666686"/>
+                                    <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                    <color key="textColor" name="space"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="transaction_feedback_positive_body"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuN-cU-2N9">
+                                    <rect key="frame" x="16" y="578" width="343" height="48"/>
+                                    <color key="backgroundColor" name="orange"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="48" id="W7i-QU-bES"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <state key="normal" title="Back to chat">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="transaction-feedback-back-to-chat"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="backToChatAction:" destination="-1" eventType="touchUpInside" id="h6F-zF-hyt"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="SNf-uv-sNG" secondAttribute="trailing" constant="16" id="0Cv-q3-oPh"/>
+                                <constraint firstAttribute="bottom" secondItem="KuN-cU-2N9" secondAttribute="bottom" constant="32" id="9Zs-ot-EZ0"/>
+                                <constraint firstItem="KuN-cU-2N9" firstAttribute="leading" secondItem="Igc-PP-kZs" secondAttribute="leading" constant="16" id="CKi-Y4-bze"/>
+                                <constraint firstAttribute="trailing" secondItem="KuN-cU-2N9" secondAttribute="trailing" constant="16" id="Q1e-EK-vst"/>
+                                <constraint firstItem="gun-A4-Cns" firstAttribute="centerX" secondItem="Igc-PP-kZs" secondAttribute="centerX" id="bl6-P8-SeO"/>
+                                <constraint firstItem="mAE-pd-9Mn" firstAttribute="leading" secondItem="Igc-PP-kZs" secondAttribute="leading" constant="16" id="gai-7g-OFr"/>
+                                <constraint firstAttribute="trailing" secondItem="mAE-pd-9Mn" secondAttribute="trailing" constant="16" id="pBH-a4-QhK"/>
+                                <constraint firstItem="gun-A4-Cns" firstAttribute="top" secondItem="Igc-PP-kZs" secondAttribute="top" constant="49" id="r0I-ev-PzR"/>
+                                <constraint firstItem="SNf-uv-sNG" firstAttribute="top" secondItem="mAE-pd-9Mn" secondAttribute="bottom" constant="8" id="tdT-Ch-6D2"/>
+                                <constraint firstItem="mAE-pd-9Mn" firstAttribute="top" secondItem="gun-A4-Cns" secondAttribute="bottom" constant="32" id="u2y-ln-hFZ"/>
+                                <constraint firstItem="SNf-uv-sNG" firstAttribute="leading" secondItem="Igc-PP-kZs" secondAttribute="leading" constant="16" id="vb7-c8-KR0"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Igc-PP-kZs" secondAttribute="trailing" id="6Lr-iP-D66"/>
+                        <constraint firstItem="Igc-PP-kZs" firstAttribute="centerX" secondItem="gih-34-rBL" secondAttribute="centerX" id="Aw7-lG-tIf"/>
+                        <constraint firstItem="Igc-PP-kZs" firstAttribute="centerY" secondItem="gih-34-rBL" secondAttribute="centerY" id="XGG-H7-k1n"/>
+                        <constraint firstItem="Igc-PP-kZs" firstAttribute="top" secondItem="gih-34-rBL" secondAttribute="top" id="oMV-Jd-1Vi"/>
+                        <constraint firstAttribute="bottom" secondItem="Igc-PP-kZs" secondAttribute="bottom" id="pxi-SQ-8Ia"/>
+                        <constraint firstItem="Igc-PP-kZs" firstAttribute="leading" secondItem="gih-34-rBL" secondAttribute="leading" id="zbC-ct-uKx"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gih-34-rBL" secondAttribute="bottom" id="2eX-KZ-joe"/>
+                <constraint firstItem="gih-34-rBL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="CKY-Cl-sKW"/>
+                <constraint firstItem="HfO-wp-2co" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="DOC-0r-0Vr"/>
+                <constraint firstAttribute="trailing" secondItem="HfO-wp-2co" secondAttribute="trailing" id="EfT-y1-DHz"/>
+                <constraint firstItem="HfO-wp-2co" firstAttribute="top" secondItem="asy-UZ-L8G" secondAttribute="bottom" id="Ipj-ge-ggO"/>
+                <constraint firstItem="asy-UZ-L8G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Sjw-eT-17O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gih-34-rBL" secondAttribute="trailing" id="T62-R5-2B6"/>
+                <constraint firstItem="HfO-wp-2co" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UXF-iO-ZCD"/>
+                <constraint firstItem="asy-UZ-L8G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="WMF-Lm-Lpb"/>
+                <constraint firstItem="gih-34-rBL" firstAttribute="top" secondItem="HfO-wp-2co" secondAttribute="bottom" id="bc9-pa-ZTM"/>
+                <constraint firstAttribute="trailing" secondItem="asy-UZ-L8G" secondAttribute="trailing" id="ods-lA-KzH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="136.69950738916256"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="stars_bg" width="150" height="150"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="flash">
+            <color red="0.95294117647058818" green="0.95686274509803926" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="orange">
+            <color red="0.88627450980392153" green="0.43529411764705883" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="space">
+            <color red="0.27843137254901962" green="0.29411764705882354" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

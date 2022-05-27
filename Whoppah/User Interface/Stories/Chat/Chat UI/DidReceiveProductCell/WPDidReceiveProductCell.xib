@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WPDidReceiveProductCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="234"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="234"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5g0-J5-g5T">
+                        <rect key="frame" x="16" y="200" width="34" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="7Nd-Df-yBN"/>
+                            <constraint firstAttribute="height" constant="34" id="9b6-9Y-ddQ"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUT-dY-1KZ" customClass="PrimaryLargeButtonShinyBlue" customModule="Staging" customModuleProvider="target">
+                        <rect key="frame" x="58" y="194" width="264" height="40"/>
+                        <color key="backgroundColor" name="Shiny Blue"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="OYm-ze-H6U"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="16" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="-16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Did you receive the item?" image="ask-tracking-icon"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-cell-product-received-received-button"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="showDialogButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="r32-NN-h3p"/>
+                        </connections>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="WeD-0A-ejk">
+                        <rect key="frame" x="58" y="38.5" width="427" height="195.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4QI-or-XMW">
+                                <rect key="frame" x="0.0" y="0.0" width="411" height="195.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChK-rc-VH2">
+                                        <rect key="frame" x="8" y="8" width="16" height="22"/>
+                                        <state key="normal" image="ic_close"/>
+                                        <connections>
+                                            <action selector="closeDialogButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="VD9-W6-m5f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qf-tH-KRN">
+                                        <rect key="frame" x="138.5" y="16" width="134" height="34"/>
+                                        <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Item received?" image="chat-cell-received-icon">
+                                            <color key="titleColor" name="Shiny Blue"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-cell-product-received-dialog-title"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Has 10 days passed and you haven't received the item yet? Let us know." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yut-RM-A0Y">
+                                        <rect key="frame" x="16" y="54" width="379" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-cell-product-received-dialog-description"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Z7-Dr-nM7" customClass="PrimaryLargeButton" customModule="Staging" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="75.5" width="379" height="48"/>
+                                        <color key="backgroundColor" name="orange"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="WsK-ZM-JSE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Received in good order">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-cell-product-received-good-order-button"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="receivedAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="d4Q-rz-G4n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gey-1a-1CV" customClass="SecondaryLargeButton" customModule="Staging" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="131.5" width="379" height="48"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="UBf-n9-oE1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Not received in good order">
+                                            <color key="titleColor" name="orange"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                <color key="value" name="orange"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-cell-product-received-not-good-button"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="notReceivedAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Fik-CU-e6e"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="0qf-tH-KRN" firstAttribute="top" secondItem="4QI-or-XMW" secondAttribute="top" constant="16" id="0eT-50-LlR"/>
+                                    <constraint firstItem="4Z7-Dr-nM7" firstAttribute="top" secondItem="Yut-RM-A0Y" secondAttribute="bottom" constant="8" id="2yz-yt-FXm"/>
+                                    <constraint firstItem="ChK-rc-VH2" firstAttribute="leading" secondItem="4QI-or-XMW" secondAttribute="leading" constant="8" id="5eq-OI-qH9"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yut-RM-A0Y" secondAttribute="trailing" constant="16" id="CHw-Qj-2xc"/>
+                                    <constraint firstAttribute="bottom" secondItem="gey-1a-1CV" secondAttribute="bottom" constant="16" id="EqL-VT-Jlc"/>
+                                    <constraint firstItem="ChK-rc-VH2" firstAttribute="top" secondItem="4QI-or-XMW" secondAttribute="top" constant="8" id="GQG-ep-gib"/>
+                                    <constraint firstItem="0qf-tH-KRN" firstAttribute="centerX" secondItem="4QI-or-XMW" secondAttribute="centerX" id="Jal-7w-Slp"/>
+                                    <constraint firstItem="Yut-RM-A0Y" firstAttribute="leading" secondItem="4QI-or-XMW" secondAttribute="leading" constant="16" id="MZV-bV-EzT"/>
+                                    <constraint firstItem="Yut-RM-A0Y" firstAttribute="top" secondItem="0qf-tH-KRN" secondAttribute="bottom" constant="4" id="NGH-Sj-pWB"/>
+                                    <constraint firstItem="gey-1a-1CV" firstAttribute="leading" secondItem="4QI-or-XMW" secondAttribute="leading" constant="16" id="Tu6-my-jPe"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Z7-Dr-nM7" secondAttribute="trailing" constant="16" id="VUd-3e-dv5"/>
+                                    <constraint firstItem="4Z7-Dr-nM7" firstAttribute="leading" secondItem="4QI-or-XMW" secondAttribute="leading" constant="16" id="ayQ-Em-ZlJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="gey-1a-1CV" secondAttribute="trailing" constant="16" id="dDY-G3-vk1"/>
+                                    <constraint firstItem="gey-1a-1CV" firstAttribute="top" secondItem="4Z7-Dr-nM7" secondAttribute="bottom" constant="8" id="fS9-ax-cvA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4QI-or-XMW" secondAttribute="trailing" constant="16" id="O66-jD-9Fh"/>
+                            <constraint firstItem="4QI-or-XMW" firstAttribute="leading" secondItem="WeD-0A-ejk" secondAttribute="leading" id="h3A-MN-1Yo"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="5g0-J5-g5T" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Ekb-wq-rhA"/>
+                <constraint firstAttribute="bottom" secondItem="fUT-dY-1KZ" secondAttribute="bottom" id="Iaa-XZ-vVJ"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="WeD-0A-ejk" secondAttribute="trailing" id="M2y-Rh-2dK"/>
+                <constraint firstItem="WeD-0A-ejk" firstAttribute="bottom" secondItem="fUT-dY-1KZ" secondAttribute="bottom" id="Ros-b6-Vnn"/>
+                <constraint firstItem="fUT-dY-1KZ" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="58" id="T81-je-zIA"/>
+                <constraint firstItem="WeD-0A-ejk" firstAttribute="leading" secondItem="5g0-J5-g5T" secondAttribute="trailing" constant="8" id="VPF-gy-LJb"/>
+                <constraint firstItem="5g0-J5-g5T" firstAttribute="bottom" secondItem="fUT-dY-1KZ" secondAttribute="bottom" id="azC-Gr-i0E"/>
+            </constraints>
+            <size key="customSize" width="485" height="241"/>
+            <connections>
+                <outlet property="avatarView" destination="5g0-J5-g5T" id="Bjb-EP-jYM"/>
+                <outlet property="buttonDialogView" destination="4QI-or-XMW" id="CAe-Pa-Afz"/>
+                <outlet property="receivedButton" destination="fUT-dY-1KZ" id="gya-rd-zql"/>
+            </connections>
+            <point key="canvasLocation" x="452.89855072463774" y="253.79464285714283"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="4Z7-Dr-nM7">
+            <size key="intrinsicContentSize" width="183" height="33"/>
+        </designable>
+        <designable name="fUT-dY-1KZ">
+            <size key="intrinsicContentSize" width="264" height="21"/>
+        </designable>
+        <designable name="gey-1a-1CV">
+            <size key="intrinsicContentSize" width="211" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="ask-tracking-icon" width="24" height="21"/>
+        <image name="chat-cell-received-icon" width="16" height="17"/>
+        <image name="ic_close" width="16" height="16"/>
+        <namedColor name="Shiny Blue">
+            <color red="0.23529411764705882" green="0.4823529411764706" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="orange">
+            <color red="0.88627450980392153" green="0.43529411764705883" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

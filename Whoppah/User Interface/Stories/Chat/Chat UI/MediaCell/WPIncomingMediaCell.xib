@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WPMediaCell" customModule="Staging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="295"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="295"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gqv-Fp-xKL" customClass="MediaView" customModule="Staging" customModuleProvider="target">
+                        <rect key="frame" x="58" y="0.0" width="295" height="295"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" secondItem="Gqv-Fp-xKL" secondAttribute="width" multiplier="1:1" id="Uoh-EX-pjb"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9O4-gk-vyz" customClass="RoundedImageView" customModule="Staging" customModuleProvider="target">
+                        <rect key="frame" x="16" y="261" width="34" height="34"/>
+                        <color key="backgroundColor" name="smoke"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="K4A-pC-alO"/>
+                            <constraint firstAttribute="width" constant="34" id="gvD-Wt-GhY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Gqv-Fp-xKL" firstAttribute="leading" secondItem="9O4-gk-vyz" secondAttribute="trailing" constant="8" id="5QR-X1-hbV"/>
+                <constraint firstItem="9O4-gk-vyz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="5as-tQ-lvz"/>
+                <constraint firstItem="Gqv-Fp-xKL" firstAttribute="bottom" secondItem="9O4-gk-vyz" secondAttribute="bottom" id="ONg-4q-t4f"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="Gqv-Fp-xKL" secondAttribute="trailing" constant="72" id="Tte-uq-gmw"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="Gqv-Fp-xKL" secondAttribute="top" id="shx-dk-mii"/>
+                <constraint firstAttribute="bottom" secondItem="9O4-gk-vyz" secondAttribute="bottom" id="xQF-Pr-tlM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="402" height="295"/>
+            <connections>
+                <outlet property="avatarView" destination="9O4-gk-vyz" id="BhI-jL-1Xx"/>
+                <outlet property="mediaView" destination="Gqv-Fp-xKL" id="7bu-8B-qru"/>
+            </connections>
+            <point key="canvasLocation" x="334.39999999999998" y="158.77061469265368"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="smoke">
+            <color red="0.91764705882352937" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

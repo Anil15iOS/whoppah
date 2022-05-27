@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchField" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraButton" destination="Y69-fQ-qrZ" id="BBg-Di-Gh9"/>
+                <outlet property="clearButton" destination="jgv-yH-V5W" id="Ouw-Yf-l3o"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="ZpX-uo-sID"/>
+                <outlet property="iconView" destination="BM0-RX-Xrn" id="xaB-5H-FXu"/>
+                <outlet property="textField" destination="YtE-8A-33V" id="b8G-F4-PFB"/>
+                <outlet property="textFieldBackgroundView" destination="6OF-qJ-89R" id="5de-Kb-ONj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6OF-qJ-89R">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_search" translatesAutoresizingMaskIntoConstraints="NO" id="BM0-RX-Xrn">
+                            <rect key="frame" x="12" y="12" width="16" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="16" id="H87-ZM-JLZ"/>
+                                <constraint firstAttribute="height" constant="16" id="cbh-ZT-4OC"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgv-yH-V5W">
+                            <rect key="frame" x="335" y="0.0" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="8fU-6q-ua4"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="clearAction:" destination="-1" eventType="touchUpInside" id="bqz-T4-1JT"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YtE-8A-33V">
+                            <rect key="frame" x="40" y="0.0" width="295" height="40"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="11"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            <connections>
+                                <action selector="textFieldDidChange:" destination="-1" eventType="editingChanged" id="zd1-bf-VDE"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" name="smoke"/>
+                    <constraints>
+                        <constraint firstItem="BM0-RX-Xrn" firstAttribute="centerY" secondItem="6OF-qJ-89R" secondAttribute="centerY" id="10f-U9-ywB"/>
+                        <constraint firstAttribute="bottom" secondItem="YtE-8A-33V" secondAttribute="bottom" id="9TS-ls-6Sc"/>
+                        <constraint firstItem="YtE-8A-33V" firstAttribute="top" secondItem="6OF-qJ-89R" secondAttribute="top" id="9n1-1E-R5L"/>
+                        <constraint firstItem="YtE-8A-33V" firstAttribute="leading" secondItem="BM0-RX-Xrn" secondAttribute="trailing" constant="12" id="AVV-aA-aXx"/>
+                        <constraint firstAttribute="trailing" secondItem="jgv-yH-V5W" secondAttribute="trailing" id="CM2-iG-ed9"/>
+                        <constraint firstItem="jgv-yH-V5W" firstAttribute="leading" secondItem="YtE-8A-33V" secondAttribute="trailing" id="JOL-Cv-jfc"/>
+                        <constraint firstItem="jgv-yH-V5W" firstAttribute="top" secondItem="6OF-qJ-89R" secondAttribute="top" id="KhS-Td-sz5"/>
+                        <constraint firstItem="BM0-RX-Xrn" firstAttribute="leading" secondItem="6OF-qJ-89R" secondAttribute="leading" constant="12" id="OZe-pa-CYG"/>
+                        <constraint firstAttribute="bottom" secondItem="jgv-yH-V5W" secondAttribute="bottom" id="Vmw-HN-kpU"/>
+                    </constraints>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Zoeken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etR-ue-7sL">
+                    <rect key="frame" x="336" y="25.5" width="39" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="common_search"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y69-fQ-qrZ">
+                    <rect key="frame" x="335" y="0.0" width="40" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="jgt-6L-JvT"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="-14" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="ic_search_camera"/>
+                    <connections>
+                        <action selector="cameraAction:" destination="-1" eventType="touchUpInside" id="1FY-j2-AqX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="6OF-qJ-89R" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="8Z5-jD-RjS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Y69-fQ-qrZ" secondAttribute="bottom" id="9v6-CJ-mLH"/>
+                <constraint firstItem="Y69-fQ-qrZ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="CL8-72-YSW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Y69-fQ-qrZ" secondAttribute="trailing" id="PJK-j6-w42"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="etR-ue-7sL" secondAttribute="bottom" constant="1" id="Uak-hs-7TO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="6OF-qJ-89R" secondAttribute="bottom" id="ZAZ-R8-5cy"/>
+                <constraint firstItem="Y69-fQ-qrZ" firstAttribute="leading" secondItem="6OF-qJ-89R" secondAttribute="trailing" priority="750" constant="14" id="dOY-8v-pYs"/>
+                <constraint firstItem="etR-ue-7sL" firstAttribute="leading" secondItem="6OF-qJ-89R" secondAttribute="trailing" priority="750" constant="14" id="f4F-Bc-YnF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="etR-ue-7sL" secondAttribute="trailing" id="feI-7q-8Hf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6OF-qJ-89R" secondAttribute="trailing" id="hpY-c2-rUb"/>
+                <constraint firstItem="6OF-qJ-89R" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zrP-Jg-uNt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="-34.182908545727138"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+        <image name="ic_search" width="16" height="16"/>
+        <image name="ic_search_camera" width="24" height="20"/>
+        <namedColor name="smoke">
+            <color red="0.91764705882352937" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,234 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Cache (5.3.0)
+  - EasyTipView (2.0.4)
+  - ExpandableCell (1.3.0)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - GoogleMaps/Base (3.10.0)
+  - GooglePlaces (3.10.0):
+    - GoogleMaps/Base (= 3.10.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.1.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher (~> 1.4)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - HGCircularSlider (2.2.0)
+  - Imaginary (4.3.1):
+    - Cache (~> 5.3.0)
+  - KafkaRefresh (1.4.8):
+    - KafkaRefresh/Category (= 1.4.8)
+    - KafkaRefresh/Configuration (= 1.4.8)
+    - KafkaRefresh/Core (= 1.4.8)
+    - KafkaRefresh/Default (= 1.4.8)
+    - KafkaRefresh/Style (= 1.4.8)
+    - KafkaRefresh/UIKit (= 1.4.8)
+  - KafkaRefresh/Category (1.4.8)
+  - KafkaRefresh/Configuration (1.4.8):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.4.8):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.4.8):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.4.8)
+  - KafkaRefresh/UIKit (1.4.8):
+    - KafkaRefresh/UIKit/FootKit (= 1.4.8)
+    - KafkaRefresh/UIKit/HeadKit (= 1.4.8)
+    - KafkaRefresh/UIKit/LayerKit (= 1.4.8)
+  - KafkaRefresh/UIKit/FootKit (1.4.8):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.4.8):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.4.8):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - Lightbox (2.4.2):
+    - Imaginary (~> 4.3.1)
+  - MaterialComponents/AnimationTiming (117.0.0)
+  - MaterialComponents/Availability (117.0.0)
+  - MaterialComponents/Buttons (117.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (117.0.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (117.0.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (117.0.0)
+  - MaterialComponents/private/Color (117.0.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (117.0.0)
+  - MaterialComponents/Ripple (117.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (117.0.0)
+  - MaterialComponents/ShadowLayer (117.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (117.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (117.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (117.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - MessengerKit (1.0.5)
+  - OpalImagePicker (2.1.2)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - RxAnimated (0.7.0):
+    - RxAnimated/Core (= 0.7.0)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxAnimated/Core (0.7.0):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SquareMosaicLayout (4.1.2)
+  - TLPhotoPicker (2.1.7)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Cache (~> 5.2)
+  - EasyTipView (~> 2.0)
+  - ExpandableCell (~> 1.3)
+  - FlagPhoneNumber (~> 0.8)
+  - GooglePlaces (~> 3.8)
+  - GoogleSignIn (~> 5.0)
+  - HGCircularSlider (~> 2.2.0)
+  - KafkaRefresh (~> 1.4)
+  - Lightbox (~> 2.3)
+  - MaterialComponents/Buttons
+  - MessengerKit (from `https://github.com/steve228uk/MessengerKit.git`, tag `1.0.5`)
+  - OpalImagePicker (~> 2.1)
+  - R.swift (~> 5.1)
+  - RxAnimated (~> 0.7)
+  - RxCocoa (~> 5.1)
+  - RxSwift (~> 5.1)
+  - SquareMosaicLayout (~> 4.1)
+  - TLPhotoPicker
+  - UICollectionViewLeftAlignedLayout (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ActiveLabel
+    - AppAuth
+    - Cache
+    - EasyTipView
+    - ExpandableCell
+    - FlagPhoneNumber
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - HGCircularSlider
+    - Imaginary
+    - KafkaRefresh
+    - Lightbox
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - OpalImagePicker
+    - R.swift
+    - R.swift.Library
+    - RxAnimated
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SquareMosaicLayout
+    - TLPhotoPicker
+    - UICollectionViewLeftAlignedLayout
+
+EXTERNAL SOURCES:
+  MessengerKit:
+    :git: https://github.com/steve228uk/MessengerKit.git
+    :tag: 1.0.5
+
+CHECKOUT OPTIONS:
+  MessengerKit:
+    :git: https://github.com/steve228uk/MessengerKit.git
+    :tag: 1.0.5
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Cache: 48762993ec44e1d93483c4d4a13edd18452326f4
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  ExpandableCell: 69ca7d71971c171473a7a30964d2127f4c6ceaf6
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 197a8dabfea5d665224aa00d17f164fc2248dab9
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  HGCircularSlider: afb1942743a2df156dcc7a3500216e523e14266b
+  Imaginary: 18c5bba364229eef383b925199db442e71d175e1
+  KafkaRefresh: aaae4ff23197f2ef38b6b22ca320740beac4bbb4
+  Lightbox: 8837c35c1150fa0410d94296e369b432d37f18c7
+  MaterialComponents: 29320b6a89c4c90e41c7a41fc70e91127ac34161
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  MessengerKit: 26dbfa81b76b22b7891028fb9a2cefdf4e86236f
+  OpalImagePicker: 51cbf714f337a93c2631219f1a90389ba936077f
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  RxAnimated: 8540892468e906e7404595bc51ed4b36b3737ab5
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SquareMosaicLayout: 3275ad9168cdffc92e405d2af59c89b44f219530
+  TLPhotoPicker: ffddcfc335e1475e769b2cdd37af5bbe42ddf0cb
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+
+PODFILE CHECKSUM: fd435acc71250a47e045c8cce2ddd29276cff705
+
+COCOAPODS: 1.11.2

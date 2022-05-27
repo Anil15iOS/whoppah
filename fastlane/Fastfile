@@ -1,0 +1,151 @@
+if is_ci
+  update_fastlane
+end
+
+default_platform(:ios)
+
+def branch_tag(build_number)
+  if git_branch == "master"
+    version = get_version_number(xcodeproj: "Whoppah.xcodeproj", target: "Whoppah")
+    "release/" + version + "." + build_number
+  else 
+    version = get_version_number(xcodeproj: "Whoppah.xcodeproj", target: "Whoppah-testing")
+    "fastlane-builds/" + git_branch + "/" + version + "/" + build_number
+  end
+end
+
+def bump_version
+  # Ensure that your git status is not dirty
+  ensure_git_status_clean(show_uncommitted_changes: true)
+
+  # Keep bumping until we find a free tag
+  loop do 
+    # Increment the build number (not the version number)
+    # Providing the xcodeproj is optional
+    build_number = increment_build_number(xcodeproj: "Whoppah.xcodeproj")
+    tag = branch_tag(build_number)
+    puts "Checking tag - " + tag
+    if !git_tag_exists(tag: tag)
+      # Commit the version bump
+      commit_version_bump(xcodeproj: "Whoppah.xcodeproj", message: "[skip ci] Version Bump")
+      
+      # Commit the tag
+      add_git_tag(tag: tag)
+      break
+    end
+  end
+
+  # Push the new commit and tag back to your git remote
+  push_to_git_remote
+end
+
+def import_apple_certificate
+  import_certificate(
+  certificate_path: "AppleWWDRCAG3.cer",
+  keychain_path: "/Users/distiller/Library/Keychains/fastlane_tmp_keychain-db",
+  keychain_password: ""
+  )
+end
+
+before_all do
+  if is_ci
+    setup_circle_ci
+  end
+end
+
+platform :ios do
+  desc "Build and run tests"
+  lane :test do
+    scan(
+      scheme: "Whoppah-testing",
+      output_types: 'junit',
+      output_files: 'junit.xml',
+      output_directory: './build/test_output/xctest',
+      include_simulator_logs: false)
+  end
+
+  desc "Uploads metadata only - no ipa file will be uploaded"
+  desc "You'll get a summary of the collected metadata before it's uploaded"
+  lane :upload_metadata do
+    deliver(metadata_only: true)
+  end
+
+  desc "Push a new release build to the App Store"
+  lane :release do
+
+    import_apple_certificate
+
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    match(type: "appstore", git_branch: "master", app_identifier: "com.whoppah.app")
+    build_app(workspace: "Whoppah.xcworkspace", scheme: "Whoppah")
+
+    # Upload symbols to firebase/crashlytics
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Production/GoogleService-Info.plist")
+    
+    upload_to_app_store
+  end
+
+  desc "Push a new release build to Testflight"
+  lane :testflight_release do
+
+    import_apple_certificate
+
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    match(type: "appstore", git_branch: "master", app_identifier: "com.whoppah.app")
+    build_app(scheme: "Whoppah", export_method: "app-store",
+      export_options: {
+      method: "app-store",
+      provisioningProfiles: { 
+        "com.whoppah.app" => "match AppStore com.whoppah.app"
+      }
+    })
+
+    # Upload symbols to firebase/crashlytics
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Production/GoogleService-Info.plist")
+    
+    app_store_connect_api_key
+    upload_to_testflight(skip_waiting_for_build_processing: true)
+  end
+
+  desc "Update lokalise"
+  lane :update_lokalise do
+    lokalise(
+        api_token: "eba5766eefeba22c1653e1e500e0b9b2a437d4e7",
+        project_identifier: "214963985d56c3942fdbd2.64093634",
+        destination: "Whoppah/Resources/Localization",
+    )
+  end
+
+  desc "Push a new beta/testing release to Crashlytics"
+  lane :beta do 
+
+    import_apple_certificate
+    
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    # Fetch the provisioning profile
+    match(type: "adhoc", app_identifier: "com.whoppah.testing")
+    build_app(scheme: "Whoppah-testing", export_method: "ad-hoc", 
+      export_options: {
+        compileBitcode: false
+      })
+
+    # Collect changes since last tag
+    comments = ""
+
+    # Upload to Firebase App Distribution
+    firebase_app_distribution(
+      app: "1:893420819731:ios:c4bf927359ca63634a36e6",
+      release_notes: comments,
+      groups: "ios-internal",
+      ipa_path: "#{Actions.lane_context[SharedValues::IPA_OUTPUT_PATH]}"
+    )
+    
+    upload_symbols_to_crashlytics(dsym_path: "#{Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]}", gsp_path: "Whoppah/Resources/Config/Testing/GoogleService-Info.plist")
+
+    bump_version
+  end
+end
+
+after_all do |lane|
+  # clean_build_artifacts
+end

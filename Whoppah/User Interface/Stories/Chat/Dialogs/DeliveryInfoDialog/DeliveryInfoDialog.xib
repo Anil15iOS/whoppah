@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeliveryInfoDialog" customModule="Staging" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="Bse-0K-qpm" id="dd9-Ew-9J5"/>
+                <outlet property="deliveryContainerView" destination="4OX-4y-8f5" id="g5A-pd-nFo"/>
+                <outlet property="deliveryMethodLabel" destination="CcP-Bj-Hys" id="utL-BE-kDk"/>
+                <outlet property="deliveryPriceLabel" destination="rm3-oA-JM2" id="wfd-8k-S2D"/>
+                <outlet property="pickupContainerView" destination="30Y-TO-18x" id="A5W-j8-OIW"/>
+                <outlet property="pickupLabel" destination="RQN-cM-6wg" id="vtd-Qt-p6b"/>
+                <outlet property="pickupPrice" destination="qwC-lx-dA7" id="pri-cH-hGU"/>
+                <outlet property="view" destination="7tm-J2-e9Q" id="jyL-W7-qd1"/>
+                <outlet property="wholeView" destination="fOw-OD-fs4" id="rjd-h9-Sup"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7tm-J2-e9Q" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOw-OD-fs4">
+                    <rect key="frame" x="23" y="102" width="274" height="364.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bse-0K-qpm">
+                            <rect key="frame" x="24" y="24" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="5cq-xI-dPR"/>
+                                <constraint firstAttribute="width" constant="40" id="dEg-pk-HbS"/>
+                            </constraints>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="O13-9g-crz"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hkb-Rh-aaU">
+                            <rect key="frame" x="17" y="40" width="240" height="302.5"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FHV-8C-fQr">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="137.5"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="umc-v6-3jd">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="54.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0O-ph-eof">
+                                                    <rect key="frame" x="93" y="0.0" width="54" height="26"/>
+                                                    <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <color key="highlightedColor" name="black"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-deliver-dialog-title"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sX5-t8-13J">
+                                                    <rect key="frame" x="103" y="38" width="34.5" height="16.5"/>
+                                                    <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-delivery-options-description"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="2tM-jv-mcl">
+                                            <rect key="frame" x="0.0" y="74.5" width="240" height="63"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4OX-4y-8f5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="236" height="19"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="CcP-Bj-Hys">
+                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="19"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <color key="highlightedColor" name="black"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rm3-oA-JM2">
+                                                            <rect key="frame" x="118" y="0.0" width="118" height="19"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fL9-Pc-Htv" userLabel="Divider">
+                                                    <rect key="frame" x="0.0" y="31" width="240" height="1"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="1Ov-IH-Xvr" customClass="HairlineConstraint" customModule="Staging" customModuleProvider="target"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="30Y-TO-18x">
+                                                    <rect key="frame" x="0.0" y="44" width="236" height="19"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="RQN-cM-6wg">
+                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="19"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwC-lx-dA7">
+                                                            <rect key="frame" x="118" y="0.0" width="118" height="19"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fL9-Pc-Htv" firstAttribute="leading" secondItem="2tM-jv-mcl" secondAttribute="leading" id="N4b-mJ-7e4"/>
+                                                <constraint firstAttribute="trailing" secondItem="4OX-4y-8f5" secondAttribute="trailing" constant="4" id="WGU-EN-gxv"/>
+                                                <constraint firstAttribute="trailing" secondItem="fL9-Pc-Htv" secondAttribute="trailing" id="dSO-rF-wf6"/>
+                                                <constraint firstAttribute="trailing" secondItem="30Y-TO-18x" secondAttribute="trailing" constant="4" id="vVY-Mp-KAr"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="umc-v6-3jd" firstAttribute="leading" secondItem="FHV-8C-fQr" secondAttribute="leading" id="0BJ-gA-srf"/>
+                                        <constraint firstItem="2tM-jv-mcl" firstAttribute="leading" secondItem="FHV-8C-fQr" secondAttribute="leading" id="4Mv-Ch-yt1"/>
+                                        <constraint firstAttribute="trailing" secondItem="umc-v6-3jd" secondAttribute="trailing" id="XrZ-hb-ecn"/>
+                                        <constraint firstAttribute="trailing" secondItem="2tM-jv-mcl" secondAttribute="trailing" id="YJ5-Jj-HKd"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="j0k-FP-LWa" userLabel="Whoppah Courier">
+                                    <rect key="frame" x="0.0" y="165.5" width="240" height="137"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How does the Whoppah courier work?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHl-X8-hYb">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="47"/>
+                                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="chat-details-delivery-courier-header"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bS2-0J-e33">
+                                            <rect key="frame" x="0.0" y="55" width="240" height="82"/>
+                                            <string key="text">You choose the shipping method at checkout. If you choose the courier, you will be contacted within 2 working days after payment to plan the transport.</string>
+                                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="l8nKey" value="ad_details_shipping_tab_description"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="PHl-X8-hYb" firstAttribute="leading" secondItem="j0k-FP-LWa" secondAttribute="leading" id="bSl-Tl-Zpz"/>
+                                        <constraint firstAttribute="trailing" secondItem="PHl-X8-hYb" secondAttribute="trailing" id="nY1-iF-J6d"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="j0k-FP-LWa" firstAttribute="leading" secondItem="Hkb-Rh-aaU" secondAttribute="leading" id="Bjb-1R-mi1"/>
+                                <constraint firstAttribute="trailing" secondItem="j0k-FP-LWa" secondAttribute="trailing" id="Nfv-Ad-NkE"/>
+                                <constraint firstAttribute="trailing" secondItem="FHV-8C-fQr" secondAttribute="trailing" id="ZKT-3I-eXC"/>
+                                <constraint firstItem="FHV-8C-fQr" firstAttribute="leading" secondItem="Hkb-Rh-aaU" secondAttribute="leading" id="lHV-GU-NaK"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="quM-rZ-Ues"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Hkb-Rh-aaU" firstAttribute="top" secondItem="quM-rZ-Ues" secondAttribute="top" constant="40" id="4hO-kO-d2K"/>
+                        <constraint firstItem="Bse-0K-qpm" firstAttribute="leading" secondItem="fOw-OD-fs4" secondAttribute="leading" constant="24" id="Bkn-ZF-dlW"/>
+                        <constraint firstAttribute="bottom" secondItem="Hkb-Rh-aaU" secondAttribute="bottom" constant="22" id="Dsz-gi-VnK"/>
+                        <constraint firstItem="quM-rZ-Ues" firstAttribute="trailing" secondItem="Hkb-Rh-aaU" secondAttribute="trailing" constant="17" id="Oqr-q7-3D8"/>
+                        <constraint firstItem="Hkb-Rh-aaU" firstAttribute="leading" secondItem="quM-rZ-Ues" secondAttribute="leading" constant="17" id="gkG-Wb-gLh"/>
+                        <constraint firstItem="Bse-0K-qpm" firstAttribute="top" secondItem="fOw-OD-fs4" secondAttribute="top" constant="24" id="rD1-y7-eEs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="O3M-NT-qBO"/>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fOw-OD-fs4" firstAttribute="centerX" secondItem="7tm-J2-e9Q" secondAttribute="centerX" id="2Ij-Pq-oHo"/>
+                <constraint firstItem="fOw-OD-fs4" firstAttribute="leading" secondItem="O3M-NT-qBO" secondAttribute="leading" constant="23" id="EiR-nN-R1w"/>
+                <constraint firstItem="fOw-OD-fs4" firstAttribute="trailing" secondItem="O3M-NT-qBO" secondAttribute="trailing" constant="-23" id="cBX-xb-9XX"/>
+                <constraint firstItem="fOw-OD-fs4" firstAttribute="centerY" secondItem="7tm-J2-e9Q" secondAttribute="centerY" id="lgE-8f-gIx"/>
+            </constraints>
+            <point key="canvasLocation" x="836" y="83"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="16" height="16"/>
+        <namedColor name="black">
+            <color red="0.094117647058823528" green="0.10588235294117647" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

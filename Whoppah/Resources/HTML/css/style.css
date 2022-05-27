@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: "GalanoGrostesque";
+    src: url("galano_grotesque.otf");
+}
+
+@font-face {
+    font-family: "GalanoGrostesque";
+    src: url("Galano-Grotesque-SemiBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SFProText";
+    src: url("SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+    font-family: "SFProText";
+    src: url("SF-Pro-Text-Semibold.otf");
+    font-weight: bold;
+}
+
+body {
+    color: #474B51;
+    font-family: 'SFProText', Arial, Helvetica, sans-serif;
+    margin-left: 16pt;
+    margin-right: 16pt;
+}
+
+h3 {
+    font-family: 'GalanoGrostesque', Arial, Helvetica, sans-serif;
+    color: #181B1E;
+}
+
+.mainList
+{
+    padding-left: 0px;
+    counter-reset:section;
+    list-style-type: none;
+}
+
+.mainList > li > ol
+{
+    counter-reset:sub1;
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.mainList > li > ol > li > ol
+{
+    list-style-type: lower-roman;
+    font-family: 'SFProText', Arial, Helvetica, sans-serif;
+}
+
+.mainList > li:before {
+    counter-increment:section;
+    content: counter(section) ". ";
+    list-style-type: none;
+    font-family: 'GalanoGrostesque', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #181B1E;
+}
+
+.mainList > li {
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.list_title {
+    font-family: 'GalanoGrostesque', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #181B1E;
+}
+
+.mainList > li > ol > li:before 
+{
+    content:counter(section) "." counter(sub1) " ";
+    font-family: 'SFProText', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #474B51;
+}
+
+.mainList > li > ol > li + li {
+    counter-increment:sub1; 
+}
+
+#body ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
